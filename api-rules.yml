@@ -1,0 +1,2942 @@
+rules:
+  openapi-components-headers-error:
+    description: Require components header.
+    message: Components MUST have a headers property.
+    severity: error
+    given: $.components
+    then:
+      field: headers
+      function: truthy
+  openapi-components-headers-info:
+    description: Require components header.
+    message: Components has a headers property.
+    severity: info
+    given: $.components
+    then:
+      field: headers
+      function: falsy
+  openapi-components-headers-rate-limit-error:
+    description: Require components rate limit header.
+    message: Components MUST have a rate limit headers.
+    severity: error
+    given: $.components.headers
+    then:
+      field: RateLimit
+      function: truthy
+  openapi-components-headers-rate-limit-info:
+    description: Require components rate limit header.
+    message: Components has a rate limit header.
+    severity: info
+    given: $.components.headers
+    then:
+      field: RateLimit
+      function: falsy
+  openapi-components-headers-retry-after-error:
+    description: Require components retry after header.
+    message: Components MUST have a retry after headers.
+    severity: error
+    given: $.components.headers
+    then:
+      field: Retry-After
+      function: truthy
+  openapi-components-headers-retry-after-info:
+    description: Require components retry after header.
+    message: Components has a retry after header.
+    severity: info
+    given: $.components.headers
+    then:
+      field: Retry-After
+      function: falsy
+  openapi-components-responses-bad-request-error:
+    description: Require components bad request response.
+    message: Components MUST have a bad request response.
+    severity: error
+    given: $.components.responses
+    then:
+      field: BadRequest
+      function: truthy
+  openapi-components-responses-bad-request-info:
+    description: Require components bad request response.
+    message: Components has a bad request response.
+    severity: info
+    given: $.components.responses
+    then:
+      field: BadRequest
+      function: falsy
+  openapi-components-responses-conflict-error:
+    description: Require components conflict response.
+    message: Components MUST have a conflict response.
+    severity: error
+    given: $.components.responses
+    then:
+      field: Conflict
+      function: truthy
+  openapi-components-responses-conflict-info:
+    description: Require components conflict response.
+    message: Components has a conflict response.
+    severity: info
+    given: $.components.responses
+    then:
+      field: Conflict
+      function: falsy
+  openapi-components-responses-error:
+    description: Require components responses.
+    message: Components MUST have a responses property.
+    severity: error
+    given: $.components
+    then:
+      field: responses
+      function: truthy
+  openapi-components-responses-forbidden-error:
+    description: Require components forbidden response.
+    message: Components MUST have a forbidden response.
+    severity: error
+    given: $.components.responses
+    then:
+      field: Forbidden
+      function: truthy
+  openapi-components-responses-forbidden-info:
+    description: Require components forbidden response.
+    message: Components has a forbidden response.
+    severity: info
+    given: $.components.responses
+    then:
+      field: Forbidden
+      function: falsy
+  openapi-components-responses-info:
+    description: Require components responses.
+    message: Components has a responses property.
+    severity: info
+    given: $.components
+    then:
+      field: responses
+      function: falsy
+  openapi-components-responses-internal-server-error-error:
+    description: Require components internal server error response.
+    message: Components MUST have a internal server error response.
+    severity: error
+    given: $.components.responses
+    then:
+      field: InternalServerError
+      function: truthy
+  openapi-components-responses-internal-server-error-info:
+    description: Require components internal server error response.
+    message: Components has a internal server error response.
+    severity: info
+    given: $.components.responses
+    then:
+      field: InternalServerError
+      function: falsy
+  openapi-components-responses-not-found-error:
+    description: Require components not found response.
+    message: Components MUST have a not found response.
+    severity: error
+    given: $.components.responses
+    then:
+      field: NotFound
+      function: truthy
+  openapi-components-responses-not-found-info:
+    description: Require components not found response.
+    message: Components has a not found response.
+    severity: info
+    given: $.components.responses
+    then:
+      field: NotFound
+      function: falsy
+  openapi-components-responses-too-many-requests-error:
+    description: Require components too many requests response.
+    message: Components MUST have a too many requests response.
+    severity: error
+    given: $.components.responses
+    then:
+      field: TooManyRequests
+      function: truthy
+  openapi-components-responses-too-many-requests-info:
+    description: Require components too many requests response.
+    message: Components has a too many requests response.
+    severity: info
+    given: $.components.responses
+    then:
+      field: TooManyRequests
+      function: falsy
+  openapi-components-responses-unauthorized-error:
+    description: Require components unauthorized response.
+    message: Components MUST have a unauthorized response.
+    severity: error
+    given: $.components.responses
+    then:
+      field: Unauthorized
+      function: truthy
+  openapi-components-responses-unauthorized-info:
+    description: Require components unauthorized response.
+    message: Components has a unauthorized response.
+    severity: info
+    given: $.components.responses
+    then:
+      field: Unauthorized
+      function: falsy
+  openapi-external-docs-error:
+    description: Warn external docs.
+    message: External Docs
+    severity: warn
+    given: $
+    then:
+      field: externalDocs
+      function: truthy
+  openapi-external-docs-info:
+    description: Warn external docs.
+    message: External Docs
+    severity: info
+    given: $
+    then:
+      field: externalDocs
+      function: truthy
+  openapi-info-contact-email-error:
+    description: Requires contact email.
+    message: Contact Email
+    given: $.info.contact
+    severity: error
+    then:
+      field: email
+      function: truthy
+  openapi-info-contact-email-info:
+    description: Has contact email.
+    message: Contact Email
+    given: $.info.contact
+    severity: info
+    then:
+      field: email
+      function: falsy
+  openapi-info-contact-error:
+    description: Requires contact object.
+    message: Contact Object
+    severity: error
+    given: $.info
+    then:
+      field: contact
+      function: truthy
+  openapi-info-contact-info:
+    description: Has contact object.
+    message: Contact Object
+    severity: info
+    given: $.info
+    then:
+      field: contact
+      function: falsy
+  openapi-info-contact-name-error:
+    description: Requires contact email.
+    message: Contact Name
+    given: $.info.contact
+    severity: error
+    then:
+      field: name
+      function: truthy
+  openapi-info-contact-name-info:
+    description: Has contact name.
+    message: Contact Name
+    given: $.info.contact
+    severity: info
+    then:
+      field: name
+      function: falsy
+  openapi-info-contact-url-error:
+    description: Requires contact url.
+    message: Contact URL
+    given: $.info.contact
+    severity: error
+    then:
+      field: url
+      function: truthy
+  openapi-info-contact-url-info:
+    description: Has contact url.
+    message: Contact URL
+    given: $.info.contact
+    severity: info
+    then:
+      field: url
+      function: falsy
+  openapi-info-description-error:
+    description: Requires info description.
+    message: Info Description
+    severity: error
+    given: $.info
+    then:
+      field: description
+      function: truthy
+  openapi-info-description-info:
+    description: Has info description.
+    message: Info Description
+    severity: info
+    given: $.info
+    then:
+      field: description
+      function: falsy
+  openapi-info-description-length-error:
+    description: Info description length.
+    message: Info Description Length
+    severity: error
+    given: $.info
+    then:
+      field: description
+      function: length
+      functionOptions:
+        max: 500
+  openapi-info-error:
+    description: Require info object.
+    message: Info
+    severity: error
+    given: $
+    then:
+      field: info
+      function: truthy
+  openapi-info-info:
+    description: Has info object.
+    message: Info
+    severity: info
+    given: $
+    then:
+      field: info
+      function: truthy
+  openapi-info-license-error:
+    description: Requires license object.
+    message: License Object
+    severity: error
+    given: $.info
+    then:
+      field: license
+      function: truthy
+  openapi-info-license-identifier-cc-by-nc-sa-error:
+    description: Require info license identifier.
+    message: Info License identifier
+    given: $.info.license
+    severity: error
+    then:
+      field: identifier
+      function: pattern
+      functionOptions:
+        match: ^\b(CC-BY-NC-SA-4.0)\b
+  openapi-info-license-identifier-cc-by-nc-sa-info:
+    description: Has info license identifier.
+    message: Info License identifier
+    given: $.info.license
+    severity: info
+    then:
+      field: identifier
+      function: pattern
+      functionOptions:
+        match: ^\b(CC-BY-NC-SA-4.0)\b
+  openapi-info-license-identifier-error:
+    description: Require info license identifier.
+    message: Info License identifier
+    given: $.info.license
+    severity: error
+    then:
+      field: identifier
+      function: truthy
+  openapi-info-license-identifier-info:
+    description: Has info license identifier.
+    message: Info License identifier
+    given: $.info.license
+    severity: info
+    then:
+      field: identifier
+      function: falsy
+  openapi-info-license-info:
+    description: Has license object.
+    message: License Object
+    severity: info
+    given: $.info
+    then:
+      field: license
+      function: falsy
+  openapi-info-license-name-error:
+    description: Requires info license name.
+    message: Info License Name
+    given: $.info.license
+    severity: error
+    then:
+      field: name
+      function: truthy
+  openapi-info-license-name-info:
+    description: Has info license name.
+    message: Info License Name
+    given: $.info.license
+    severity: info
+    then:
+      field: name
+      function: falsy
+  openapi-info-license-url-error:
+    description: Require info license URL.
+    message: Info License URL
+    given: $.info.license
+    severity: error
+    then:
+      field: url
+      function: truthy
+  openapi-info-license-url-info:
+    description: Has info license URL.
+    message: Info License URL
+    given: $.info.license
+    severity: info
+    then:
+      field: url
+      function: falsy
+  openapi-info-terms-of-service-error:
+    description: Require terms of service.
+    message: Terms of Service
+    severity: error
+    given: $.info
+    then:
+      field: termsOfService
+      function: truthy
+  openapi-info-terms-of-service-info:
+    description: Has terms of service.
+    message: Terms of Service
+    severity: info
+    given: $.info
+    then:
+      field: termsOfService
+      function: falsy
+  openapi-info-title-error:
+    description: Require info title.
+    message: Info Title
+    severity: error
+    given: $.info
+    then:
+      field: title
+      function: truthy
+  openapi-info-title-info:
+    description: Has info title.
+    message: Info Title
+    severity: info
+    given: $.info
+    then:
+      field: title
+      function: falsy
+  openapi-info-title-length-error:
+    description: Info title length is 50.
+    message: Info Title Length
+    severity: error
+    given: $.info
+    then:
+      field: title
+      function: length
+      functionOptions:
+        max: 50
+  openapi-info-title-upper-case-info:
+    description: Has info title upper case.
+    message: Info Title Upper Case
+    severity: info
+    given: $.info.title
+    then:
+      function: pattern
+      functionOptions:
+        notMatch: '[A-Z]\w*'
+  openapi-info-title-upper-case-warn:
+    description: Warn info title upper case.
+    message: Info Title Upper Case
+    severity: warn
+    given: $.info.title
+    then:
+      function: pattern
+      functionOptions:
+        match: '[A-Z]\w*'
+  openapi-info-version-error:
+    description: Requires info version.
+    message: Info Version
+    given: $.info
+    severity: error
+    then:
+      field: version
+      function: truthy
+  openapi-info-version-info:
+    description: Has info version.
+    message: Info Version
+    given: $.info
+    severity: info
+    then:
+      field: version
+      function: falsy
+  openapi-no-api-in-path-error:
+    description: Require no api in path.
+    message: No API in Path
+    severity: error
+    given: $.paths.*~
+    then:
+      function: pattern
+      functionOptions:
+        match: ^\b(API|api)\b
+  openapi-no-api-in-path-info:
+    description: Has no api in path.
+    message: No API in Path
+    severity: info
+    given: $.paths.*~
+    then:
+      function: pattern
+      functionOptions:
+        notMatch: \b(API|api)\b
+  openapi-no-path-trailing-slash-error:
+    description: Warn trailing slash on path.
+    message: Path Trailing Slash
+    severity: error
+    given: $.paths.*~
+    then:
+      function: pattern
+      functionOptions:
+        notMatch: /$
+  openapi-no-path-trailing-slash-info:
+    description: Info trailing slash on path.
+    message: Path Trailing Slash
+    severity: info
+    given: $.paths.*~
+    then:
+      function: pattern
+      functionOptions:
+        match: /$
+  openapi-no-request-body-on-delete-error:
+    description: Requires no request body on DELETE
+    message: DELETE Request Body
+    given: $.paths.*.delete
+    severity: error
+    then:
+      field: requestBody
+      function: falsy
+  openapi-no-request-body-on-delete-info:
+    description: Has no request body on DELETE
+    message: DELETE Request Body
+    given: $.paths.*.delete
+    severity: info
+    then:
+      field: requestBody
+      function: truthy
+  openapi-no-request-body-on-get-error:
+    description: Requires no request body on GET
+    message: GET Request Body
+    given: $.paths.*.get
+    severity: error
+    then:
+      field: requestBody
+      function: falsy
+  openapi-no-request-body-on-get-info:
+    description: Has no request body on DELETE
+    message: GET Request Body
+    given: $.paths.*.get
+    severity: info
+    then:
+      field: requestBody
+      function: truthy
+  openapi-operation-security-definitions-error:
+    description: Require operation security definition.
+    message: Operation Security Definition
+    severity: error
+    given: $.paths.*[get,post,patch,put,delete]
+    then:
+      field: security
+      function: truthy
+  openapi-operation-security-definitions-info:
+    description: Has operation security definition.
+    message: Operation Security Definition
+    severity: info
+    given: $.paths.*[get,post,patch,put,delete]
+    then:
+      field: security
+      function: falsy
+  openapi-operations-description-error:
+    description: Require operation description.
+    message: Operation Description
+    severity: error
+    given: $.paths.*[get,post,patch,put,delete]
+    then:
+      - field: description
+        function: truthy
+  openapi-operations-description-info:
+    description: Has operation description.
+    message: Operation Description
+    severity: info
+    given: $.paths.*[get,post,patch,put,delete]
+    then:
+      - field: description
+        function: falsy
+  openapi-operations-description-length-error:
+    description: Require operation description length 250.
+    message: Operation Description Length
+    given: $.paths.*[get,post,patch,put,delete]
+    then:
+      - field: description
+        function: length
+        functionOptions:
+          max: 250
+  openapi-operations-operation-ids-camel-case-error:
+    description: Require operation id camel case.
+    message: Operation ID Camel Case
+    given: $.paths.*[get,post,patch,put,delete].operationId
+    then:
+      function: casing
+      functionOptions:
+        type: camel
+    type: style
+  openapi-operations-operation-ids-error:
+    description: Require operation id.
+    message: Operation ID.
+    severity: error
+    given: $.paths.*[get,post,patch,put,delete]
+    then:
+      - field: operationId
+        function: truthy
+  openapi-operations-operation-ids-info:
+    description: Has operation id.
+    message: Operation ID.
+    severity: info
+    given: $.paths.*[get,post,patch,put,delete]
+    then:
+      - field: operationId
+        function: falsy
+  openapi-operations-operation-ids-kebab-case-error:
+    description: Require operation id kebab case.
+    message: Operation ID Kebab Case
+    given: $.paths.*[get,post,patch,put,delete].operationId
+    then:
+      function: casing
+      functionOptions:
+        type: kebab
+  openapi-operations-summary-error:
+    description: Require operation summary.
+    message: Operation Summary
+    severity: error
+    given: $.paths.*[get,post,patch,put,delete]
+    then:
+      - field: summary
+        function: truthy
+  openapi-operations-summary-info:
+    description: Has operation summary.
+    message: Operation Summary
+    severity: info
+    given: $.paths.*[get,post,patch,put,delete]
+    then:
+      - field: summary
+        function: falsy
+  openapi-operations-summary-length-error:
+    description: Operation summary length 50.
+    message: Operation Summary Length
+    given: $.paths.*[get,post,patch,put,delete]
+    then:
+      - field: summary
+        function: length
+        functionOptions:
+          max: 50
+    type: style
+  openapi-operations-summary-period-none-error:
+    description: Require no period on summary.
+    message: Operation Summary Period
+    severity: error
+    given: $.paths[*][*].summary
+    then:
+      function: pattern
+      functionOptions:
+        notMatch: \.$
+  openapi-operations-summary-period-none-info:
+    description: Has no period on summary.
+    message: Operation Summary Period
+    severity: info
+    given: $.paths[*][*].summary
+    then:
+      function: pattern
+      functionOptions:
+        match: \.$
+  openapi-operations-tags-error:
+    description: Require operation tags.
+    message: Operation Tags
+    severity: error
+    given: $.paths.*[get,post,patch,put,delete]
+    then:
+      - field: tags
+        function: truthy
+  openapi-operations-tags-info:
+    description: Has operation tags.
+    message: Operation Tags
+    severity: info
+    given: $.paths.*[get,post,patch,put,delete]
+    then:
+      - field: tags
+        function: falsy
+  openapi-operations-tags-one-error:
+    description: Has one operation tags.
+    message: One Operation Tags
+    given: $.paths.*[get,post,patch,put,delete]
+    severity: error
+    then:
+      field: tags
+      function: length
+      functionOptions:
+        min: 1
+  openapi-operations-x-maturity-hint:
+    description: Warn x-maturity.
+    message: X-Maturity
+    severity: hint
+    given: $.paths.*[get,post,patch,put,delete]
+    then:
+      - field: x-maturity
+        function: falsy
+  openapi-parameters-description-error:
+    description: Require parameter description.
+    message: Parameter Description
+    given: $.paths.*.*.parameters.*
+    then:
+      field: description
+      function: truthy
+  openapi-parameters-description-info:
+    description: Has parameter description.
+    message: Parameter Description
+    severity: info
+    given: $.paths.*.*.parameters.*
+    then:
+      field: description
+      function: falsy
+  openapi-parameters-description-length-error:
+    description: Require parameter description length 500.
+    message: Parameter Description Length
+    given: $.paths.*.*.parameters.*
+    then:
+      field: summary
+      function: length
+      functionOptions:
+        max: 500
+  openapi-parameters-enum-casing-error:
+    description: Require parameter enum upper snake case.
+    message: Parameter Enum Upper Snake Case
+    severity: error
+    given: $.paths.*.*.parameters.*.enum.*
+    then:
+      function: pattern
+      functionOptions:
+        notMatch: ^[A-Z]+(?:_[A-Z]+)*$
+  openapi-parameters-enum-casing-info:
+    description: Has parameter enum upper snake case.
+    message: Parameter Enum Upper Snake Case
+    severity: info
+    given: $.paths.*.*.parameters.*.enum.*
+    then:
+      function: pattern
+      functionOptions:
+        match: ^[A-Z]+(?:_[A-Z]+)*$
+  openapi-parameters-enum-info:
+    description: Has parameter enum.
+    message: Parameter Enum
+    severity: info
+    given: $.paths.*.*.parameters.*
+    then:
+      field: enum
+      function: falsy
+  openapi-parameters-in-error:
+    description: Require parameter in.
+    message: Parameters In
+    given: $.paths.*.*.parameters.*
+    then:
+      field: in
+      function: truthy
+  openapi-parameters-in-info:
+    description: Has parameter in.
+    message: Parameters In
+    severity: info
+    given: $.paths.*.*.parameters.*
+    then:
+      field: in
+      function: falsy
+  openapi-parameters-name-error:
+    description: Require parameter name.
+    message: Parameter Name
+    severity: error
+    given: $.paths.*.*.parameters.*
+    then:
+      field: name
+      function: truthy
+  openapi-parameters-name-info:
+    description: Has parameter name.
+    message: Parameter Name
+    severity: info
+    given: $.paths.*.*.parameters.*
+    then:
+      field: name
+      function: falsy
+  openapi-parameters-name-length-error:
+    description: Require parameter name length 25.
+    message: Parameter Length
+    given: $.paths.*.*.parameters[?(@.in=='path')].name
+    then:
+      field: summary
+      function: length
+      functionOptions:
+        max: 25
+  openapi-parameters-path-names-camel-case-error:
+    description: Warn parameter path name camel case.
+    message: Parameter Path Name Camel Case
+    severity: warn
+    given: $.paths.*.*.parameters[?(@.in=='path')].name
+    then:
+      field: '@key'
+      function: casing
+      functionOptions:
+        type: camel
+  openapi-parameters-path-names-snake-case-error:
+    description: Warn parameter path name snake case.
+    message: Parameter Path Name Snake Case
+    severity: warn
+    given: $.paths.*.*.parameters[?(@.in=='path')].name
+    then:
+      field: '@key'
+      function: casing
+      functionOptions:
+        type: snake
+  openapi-parameters-query-names-camel-case-error:
+    description: Warn parameter query name camel case.
+    message: Parameter Query Name Camel Case
+    severity: warn
+    given: $.paths.*.*.parameters[?(@.in=='query')].*
+    then:
+      field: name
+      function: casing
+      functionOptions:
+        type: camel
+  openapi-parameters-query-names-flat-case-error:
+    description: Warn parameter query name flat case.
+    message: Parameter Query Name Flat Case
+    severity: info
+    given: $.paths.*.*.parameters[?(@.in=='query')].*
+    then:
+      function: pattern
+      functionOptions:
+        notMatch: ^[a-z]+$
+  openapi-parameters-query-names-flat-case-info:
+    description: Warn parameter query name flat case.
+    message: Parameter Query Name Flat Case
+    severity: info
+    given: $.paths.*.*.parameters[?(@.in=='query')].*
+    then:
+      function: pattern
+      functionOptions:
+        match: ^[a-z]+$
+  openapi-parameters-query-names-snake-case-error:
+    description: Warn parameter query name snake case.
+    message: Parameter Query Name Snake Case
+    severity: warn
+    given: $.paths.*.*.parameters[?(@.in=='query')].*
+    then:
+      field: name
+      function: casing
+      functionOptions:
+        type: snake
+  openapi-parameters-required-error:
+    description: Parameters Required
+    message: Parameters MUST have a required property.
+    severity: error
+    given: $.paths.*.*.parameters.*
+    then:
+      field: required
+      function: truthy
+  openapi-parameters-required-info:
+    description: Parameters Required
+    message: Parameter has a required property.
+    severity: info
+    given: $.paths.*.*.parameters.*
+    then:
+      field: required
+      function: falsy
+  openapi-parameters-schema-allof-info:
+    description: Has parameter schema allof.
+    message: Parameter Schema AllOf
+    severity: info
+    given: $.paths.*.*.parameters.*.schema
+    then:
+      field: allOf
+      function: falsy
+  openapi-parameters-schema-anyof-info:
+    description: Has parameter schema anyof.
+    message: Parameter Schema AnyOf
+    severity: info
+    given: $.paths.*.*.parameters.*.schema
+    then:
+      field: anyOf
+      function: falsy
+  openapi-parameters-schema-error:
+    description: Require parameter schema.
+    message: Parameter Schema Type
+    given: $.paths.*.*.parameters.*
+    then:
+      field: schema
+      function: truthy
+  openapi-parameters-schema-info:
+    description: Has parameter schema.
+    message: Parameter Schema Type
+    severity: info
+    given: $.paths.*.*.parameters.*
+    then:
+      field: schema
+      function: falsy
+  openapi-parameters-schema-items-array-info:
+    description: Has schema type array items.
+    message: Parameter Schema Type Array Items
+    severity: info
+    given: $.paths.*.*.parameters.schema[?(@.type=='array')]
+    then:
+      field: items
+      function: falsy
+  openapi-parameters-schema-oneof-info:
+    description: Has parameter schema oneof.
+    message: Parameter Schema OneOf
+    severity: info
+    given: $.paths.*.*.parameters.*.schema
+    then:
+      field: oneOf
+      function: falsy
+  openapi-parameters-schema-type-array-error:
+    description: Require schema type array items.
+    message: Parameter Schema Type Array Items
+    given: $.paths.*.*.parameters.schema[?(@.type=='array')]
+    then:
+      field: items
+      function: truthy
+  openapi-parameters-schema-type-error:
+    description: Require parameter schema type.
+    message: Parameter Schema Type
+    given: $.paths.*.*.parameters.*.schema
+    then:
+      field: type
+      function: truthy
+  openapi-parameters-schema-type-info:
+    description: Has parameter schema type.
+    message: Parameter Schema Type
+    severity: info
+    given: $.paths.*.*.parameters.*.schema
+    then:
+      field: type
+      function: falsy
+  openapi-parameters-schema-type-integer-maximum-info:
+    description: Has parameter schema type integer maximum.
+    message: Parameter Schema Type Integer Maximum
+    given:
+      - $.paths.*.*.parameters.[?(@.type=='integer')]
+    severity: info
+    then:
+      field: maximum
+      function: falsy
+  openapi-parameters-schema-type-integer-maximum-warn:
+    description: Warn parameter schema type integer maximum.
+    message: Parameter Schema Type Integer Maximum
+    given:
+      - $.paths.*.*.parameters.[?(@.type=='integer')]
+    severity: warn
+    then:
+      field: maximum
+      function: truthy
+  openapi-parameters-schema-type-integer-minimum-info:
+    description: Has parameter schema type integer minimum.
+    message: Parameter Schema Type Integer Minimum
+    given:
+      - $.paths.*.*.parameters.[?(@.type=='integer')]
+    severity: info
+    then:
+      field: minimum
+      function: falsy
+  openapi-parameters-schema-type-integer-minimum-warn:
+    description: Warn parameter schema type integer minlength.
+    message: Parameter Schema Type Integer Minimum
+    given:
+      - $.paths.*.*.parameters.[?(@.type=='integer')]
+    severity: warn
+    then:
+      field: minimum
+      function: truthy
+  openapi-parameters-schema-type-string-maxlength-info:
+    description: Has parameter schema type string maxlength.
+    message: Parameter Schema Type String MaxLength
+    given:
+      - $.paths.*.*.parameters.[?(@.type=='string')]
+    severity: info
+    then:
+      field: maxLength
+      function: falsy
+  openapi-parameters-schema-type-string-maxlength-warn:
+    description: Warn parameter schema type string maxlength.
+    message: Parameter Schema Type String MaxLength
+    given:
+      - $.paths.*.*.parameters.[?(@.type=='string')]
+    severity: warn
+    then:
+      field: maxLength
+      function: truthy
+  openapi-parameters-schema-type-string-minlength-info:
+    description: Has parameter schema type string minlength.
+    message: Parameter Schema Type String MinLength
+    given:
+      - $.paths.*.*.parameters.[?(@.type=='string')]
+    severity: info
+    then:
+      field: minLength
+      function: falsy
+  openapi-parameters-schema-type-string-minlength-warn:
+    description: Warn parameter schema type string minlength.
+    message: Parameter Schema Type String MinLength
+    given:
+      - $.paths.*.*.parameters.[?(@.type=='string')]
+    severity: warn
+    then:
+      field: minLength
+      function: truthy
+  openapi-parameters-schema-type-string-pattern-info:
+    description: Has parameter schema type string pattern.
+    message: Parameter Schema Type String Pattern
+    given:
+      - $.paths.*.*.parameters.[?(@.type=='string')]
+    severity: info
+    then:
+      field: pattern
+      function: falsy
+  openapi-parameters-schema-type-string-pattern-warn:
+    description: Warn parameter schema type string pattern.
+    message: Parameter Schema Type String Pattern
+    given:
+      - $.paths.*.*.parameters.[?(@.type=='string')]
+    severity: warn
+    then:
+      field: pattern
+      function: truthy
+  openapi-path-description-info:
+    description: Has path description.
+    message: Path Description
+    given: $.paths.*
+    severity: info
+    then:
+      field: description
+      function: falsy
+  openapi-path-description-warn:
+    description: Require path description.
+    message: Path Description
+    given: $.paths.*
+    severity: warn
+    then:
+      field: description
+      function: truthy
+  openapi-request-bodies-required-property-error:
+    description: Require request body required.
+    message: REQUEST BODIES Required
+    severity: error
+    given: $.paths.*.requestBody
+    then:
+      field: required
+      function: falsy
+  openapi-request-bodies-required-property-info:
+    description: Has request body required.
+    message: REQUEST BODIES Required
+    severity: info
+    given: $.paths.*.requestBody
+    then:
+      field: required
+      function: truthy
+  openapi-request-body-content-on-post-error:
+    description: Requires request body content on POST.
+    message: Request Body Content POST
+    given: $.paths.*.post.requestBody
+    severity: error
+    then:
+      field: content
+      function: truthy
+  openapi-request-body-content-on-post-info:
+    description: Requires request body content on POST.
+    message: Request Body Content POST
+    given: $.paths.*.post.requestBody
+    severity: info
+    then:
+      field: content
+      function: falsy
+  openapi-request-body-content-on-put-error:
+    description: Requires request body content on PUT.
+    message: Request Body Content PUT
+    given: $.paths.*.put.requestBody
+    severity: error
+    then:
+      field: content
+      function: truthy
+  openapi-request-body-content-on-put-info:
+    description: Requires request body content on PUT.
+    message: Request Body Content PUT
+    given: $.paths.*.put.requestBody
+    severity: info
+    then:
+      field: content
+      function: falsy
+  openapi-request-body-have-application-json-info:
+    description: Has request body application/json.
+    message: Request Body Application JSON
+    given: $.paths.*.*.requestBody.content
+    severity: info
+    then:
+      field: application/json
+      function: falsy
+  openapi-request-body-have-application-x-www-form-url-encoded-info:
+    description: Has request body application/x-www-form-urlencoded.
+    message: Request Body Application X WWW Form URL Encoded
+    given: $.paths.*.*.requestBody.content
+    severity: info
+    then:
+      field: application/x-www-form-urlencoded
+      function: falsy
+  openapi-request-body-have-content-error:
+    description: Require request body content.
+    message: Request Body Content
+    given: $.paths.*.*.requestBody
+    severity: error
+    then:
+      field: content
+      function: truthy
+  openapi-request-body-have-content-info:
+    description: Has request body content.
+    message: Request Body Content
+    given: $.paths.*.*.requestBody
+    severity: info
+    then:
+      field: content
+      function: falsy
+  openapi-request-body-have-schema-error:
+    description: Require request body schema.
+    message: Request Body Schema
+    given: $.paths.*.*.requestBody.content.*
+    severity: error
+    then:
+      field: schema
+      function: truthy
+  openapi-request-body-have-schema-info:
+    description: Has request body schema.
+    message: Request Body Schema
+    given: $.paths.*.*.requestBody.content.*
+    severity: info
+    then:
+      field: schema
+      function: falsy
+  openapi-request-body-have-schema-properties-warn:
+    description: Warn component request body schema.
+    message: Request Body Schema Components
+    given: $.paths.*.*.requestBody.content.*.schema
+    severity: warn
+    then:
+      field: properties
+      function: truthy
+  openapi-request-body-have-schema-required-info:
+    description: Has request body schema required.
+    message: Request Body Schema Required
+    given: $.paths.*.*.requestBody.content.*.schema.*
+    severity: info
+    then:
+      field: required
+      function: truthy
+  openapi-request-body-have-schema-required-warn:
+    description: Warn request body schema required.
+    message: Request Body Schema Required
+    given: $.paths.*.*.requestBody.content.*.schema.*
+    severity: warn
+    then:
+      field: required
+      function: truthy
+  openapi-request-body-json-media-type-on-post-error:
+    description: Warn JSON media type on POST.
+    message: JSON Media Type POST
+    given: $.paths.*.post.requestBody.content
+    severity: warn
+    then:
+      field: application/json
+      function: truthy
+  openapi-request-body-json-media-type-on-post-info:
+    description: Has JSON media type on POST.
+    message: JSON Media Type POST
+    given: $.paths.*.post.requestBody.content
+    severity: info
+    then:
+      field: application/json
+      function: falsy
+  openapi-request-body-json-media-type-on-put-error:
+    description: Requires request body content on PUT.
+    message: JSON Media Type POSPUTT
+    given: $.paths.*.put.requestBody.content
+    severity: info
+    then:
+      field: application/json
+      function: falsy
+  openapi-request-body-json-media-type-on-put-info:
+    description: Requires request body content on PUT.
+    message: JSON Media Type PUT
+    given: $.paths.*.put.requestBody.content
+    severity: info
+    then:
+      field: application/json
+      function: falsy
+  openapi-request-body-on-post-error:
+    description: Require request body on POST.
+    message: Request Body POST
+    given: $.paths.*.post
+    severity: error
+    then:
+      field: requestBody
+      function: truthy
+  openapi-request-body-on-post-info:
+    description: Require request body on POST.
+    message: Request Body POST
+    given: $.paths.*.post
+    severity: info
+    then:
+      field: requestBody
+      function: falsy
+  openapi-request-body-on-put-error-info:
+    description: Requires request body on PUT.
+    message: Request Body PUT
+    given: $.paths.*.put
+    severity: error
+    then:
+      field: requestBody
+      function: truthy
+  openapi-request-body-on-put-info:
+    description: Requires request body on PUT.
+    message: Request Body PUT
+    given: $.paths.*.put
+    severity: error
+    then:
+      field: requestBody
+      function: falsy
+  openapi-request-body-schema-properties-allowed-integer-format-error:
+    description: Requires integer properties to have a format of int32 or int64.
+    message: Type format should be be int32 or int64.
+    severity: hint
+    given: $.paths.*.*.requestBody.content.*.schema.properties.[?(@.type=="integer")]
+    then:
+      field: format
+      function: enumeration
+      functionOptions:
+        values:
+          - int32
+          - int64
+  openapi-request-body-schema-properties-allowed-number-format-error:
+    description: Require request body schema property number formats.
+    message: Request Body Schema Property Number Formats
+    severity: hint
+    given: $.paths.*.*.requestBody.content.*.schema.properties.[?(@.type=="number")]
+    then:
+      field: format
+      function: enumeration
+      functionOptions:
+        values:
+          - decimal32
+          - decimal64
+          - float
+          - double
+          - decimal128
+  openapi-request-body-schema-properties-array-items-error:
+    description: Require request body schema property array items.
+    message: Request Body Schema Property Array Items
+    severity: error
+    given: $.paths.*.*.requestBody.content.*.schema.properties.[?(@.type=="array")]
+    then:
+      field: items
+      function: truthy
+  openapi-request-body-schema-properties-array-items-info:
+    description: Require request body schema property array items.
+    message: Request Body Schema Property Array Items
+    severity: info
+    given: $.paths.*.*.requestBody.content.*.schema.properties.[?(@.type=="array")]
+    then:
+      field: items
+      function: falsy
+  openapi-request-body-schema-properties-array-maxitems-error:
+    description: Require request body schema property array maxItems.
+    message: Request Body Schema Property Array MaxItems
+    severity: error
+    given: $.paths.*.*.requestBody.content.*.schema.properties.[?(@.type=="array")]
+    then:
+      - field: maxItems
+        function: truthy
+  openapi-request-body-schema-properties-array-maxitems-info:
+    description: Has schema property array maxItems.
+    message: Request Body Schema Property Array MaxItems
+    severity: info
+    given: $.paths.*.*.requestBody.content.*.schema.properties.[?(@.type=="array")]
+    then:
+      - field: maxItems
+        function: truthy
+  openapi-request-body-schema-properties-array-minitems-error:
+    description: Require request body schema property array minItems.
+    message: Request Body Schema Property Array MinItems
+    severity: error
+    given: $.paths.*.*.requestBody.content.*.schema.properties.[?(@.type=="array")]
+    then:
+      - field: minItems
+        function: truthy
+  openapi-request-body-schema-properties-array-minitems-info:
+    description: Has schema property array minItems.
+    message: Request Body Schema Property Array MinItems
+    severity: info
+    given: $.paths.*.*.requestBody.content.*.schema.properties.[?(@.type=="array")]
+    then:
+      - field: minItems
+        function: falsy
+  openapi-request-body-schema-properties-define-number-maximum-error:
+    description: Require request body schema property number minimum.
+    message: Request Body Schema Property Number Minimum
+    severity: error
+    given: $.paths.*.*.requestBody.content.*.schema.properties.[?(@.type=="number")]
+    then:
+      - field: maximum
+        function: defined
+  openapi-request-body-schema-properties-define-number-minimum-error:
+    description: Require request body schema property number minimum.
+    message: Request Body Schema Property Number Minimum
+    severity: error
+    given: $.paths.*.*.requestBody.content.*.schema.properties.[?(@.type=="number")]
+    then:
+      - field: minimum
+        function: defined
+  openapi-request-body-schema-properties-descriptions-error:
+    description: Require request body schema description.
+    message: Schema Description
+    severity: error
+    given: $.paths.*.*.requestBody.content.*.schema.properties.*
+    then:
+      field: description
+      function: falsy
+  openapi-request-body-schema-properties-descriptions-info:
+    description: Require request body schema description.
+    message: Schema Description
+    severity: info
+    given: $.paths.*.*.requestBody.content.*.schema.properties.*
+    then:
+      field: description
+      function: falsy
+  openapi-request-body-schema-properties-descriptions-length-error:
+    description: Require request body schema description length 250.
+    message: Schema Description Length
+    severity: error
+    given: $.paths.*.*.requestBody.content.*.schema.properties.*
+    then:
+      field: description
+      function: length
+      functionOptions:
+        max: 250
+  openapi-request-body-schema-properties-enum-casing-error:
+    description: Require request body schema property enum casing.
+    message: Request Body Schema Property Enum Casing
+    severity: error
+    given: $.paths.*.*.requestBody.content.*.schema.properties.*.enum.*
+    then:
+      function: pattern
+      functionOptions:
+        match: ^[A-Z]+(?:_[A-Z]+)*$
+  openapi-request-body-schema-properties-enum-casing-info:
+    description: Has schema property enum casing.
+    message: Request Body Schema Property Enum Casing
+    severity: error
+    given: $.paths.*.*.requestBody.content.*.schema.properties.*.enum.*
+    then:
+      function: pattern
+      functionOptions:
+        notMatch: ^[A-Z]+(?:_[A-Z]+)*$
+  openapi-request-body-schema-properties-enum-info:
+    description: Has schema property enum.
+    message: Request Body Schema Property Enum
+    severity: info
+    given: $.paths.*.*.requestBody.content.*.schema.properties.*
+    then:
+      - field: enum
+        function: truthy
+  openapi-request-body-schema-properties-format-error:
+    description: Warn request body schema properties format.
+    message: Request Body Schema Properties Format
+    severity: error
+    given: $.paths.*.*.requestBody.content.*.schema.properties.*
+    then:
+      field: format
+      function: truthy
+  openapi-request-body-schema-properties-format-info:
+    description: Has request body schema properties format.
+    message: Request Body Schema Properties Format
+    severity: info
+    given: $.paths.*.*.requestBody.content.*.schema.properties.*
+    then:
+      field: format
+      function: falsy
+  openapi-request-body-schema-properties-names-camel-case-error:
+    description: Warn schema property names camel case.
+    message: Request Body Schema Property Names Camel Case
+    severity: warn
+    given: $.paths.*.*.requestBody.content.*.schema.properties
+    then:
+      field: '@key'
+      function: casing
+      functionOptions:
+        type: camel
+  openapi-request-body-schema-properties-names-length-error:
+    description: Requires schema properties names length.
+    message: Schema Properties Name Length
+    severity: error
+    given: $.paths.*.*.requestBody.content.*.schema.properties
+    then:
+      field: '@key'
+      function: length
+      functionOptions:
+        max: 25
+  openapi-request-body-schema-properties-names-pascal-case-error:
+    description: Warn schema property names pascal case.
+    message: Request Body Schema Property Names Pascal Case
+    severity: warn
+    given: $.paths.*.*.requestBody.content.*.schema.properties
+    then:
+      field: '@key'
+      function: casing
+      functionOptions:
+        type: pascal
+  openapi-request-body-schema-properties-names-snake-case-error:
+    description: Warn schema property names snake case.
+    message: Request Body Schema Property Names Snake Case
+    severity: warn
+    given: $.paths.*.*.requestBody.content.*.schema.properties
+    then:
+      field: '@key'
+      function: casing
+      functionOptions:
+        type: snake
+  openapi-request-body-schema-properties-nullable-error:
+    description: Warn request body schema properties format.
+    message: Request Body Schema Properties Format
+    severity: error
+    given: $.paths.*.*.requestBody.content.*.schema.properties.*
+    then:
+      field: nullable
+      function: truthy
+  openapi-request-body-schema-properties-nullable-info:
+    description: Has request body schema properties nullable.
+    message: Request Body Schema Properties Nullable
+    severity: info
+    given: $.paths.*.*.requestBody.content.*.schema.properties.*
+    then:
+      field: nullable
+      function: falsy
+  openapi-request-body-schema-properties-string-maxlength-error:
+    message: Require request body schema property string maxlength.
+    description: Request Body Schema Property String MaxLength
+    severity: error
+    given: $.paths.*.*.requestBody.content.*.schema.properties.[?(@.type=="string")]
+    then:
+      field: maxLength
+      function: truthy
+  openapi-request-body-schema-properties-string-maxlength-info:
+    message: Has schema property string maxlength.
+    description: Request Body Schema Property String MaxLength
+    severity: info
+    given: $.paths.*.*.requestBody.content.*.schema.properties.[?(@.type=="string")]
+    then:
+      field: maxLength
+      function: falsy
+  openapi-request-body-schema-properties-string-minlength-error:
+    message: Require request body schema property string minlength.
+    description: Request Body Schema Property String MinLength
+    severity: error
+    given: $.paths.*.*.requestBody.content.*.schema.properties.[?(@.type=="string")]
+    then:
+      field: minLength
+      function: truthy
+  openapi-request-body-schema-properties-string-minlength-info:
+    message: Has schema property string minlength.
+    description: Request Body Schema Property String MinLength
+    severity: info
+    given: $.paths.*.*.requestBody.content.*.schema.properties.[?(@.type=="string")]
+    then:
+      field: minLength
+      function: falsy
+  openapi-request-body-schema-properties-type-error:
+    description: Require request body schema properties type.
+    message: Request Body Schema Properties Type
+    severity: error
+    given: $.paths.*.*.requestBody.content.*.schema.properties.*
+    then:
+      field: type
+      function: truthy
+  openapi-request-body-schema-properties-type-info:
+    description: Require request body schema properties type.
+    message: Request Body Schema Properties Type
+    severity: info
+    given: $.paths.*.*.requestBody.content.*.schema.properties.*
+    then:
+      field: type
+      function: falsy
+  openapi-request-body-schema-properties-type-string-pattern-info:
+    description: Has request body request body schema properties type string pattern.
+    message: Request Body Schema Properties Type String Pattern
+    given:
+      - >-
+        $.paths.*.*.requestBody.content.*.schema.properties.[?(@.type=='string')]
+    severity: info
+    then:
+      field: pattern
+      function: falsy
+  openapi-request-body-schema-properties-type-string-pattern-warn:
+    description: Warn request body request body schema properties type string pattern.
+    message: Request Body Schema Properties Type String Pattern
+    given:
+      - >-
+        $.paths.*.*.requestBody.content.*.schema.properties.[?(@.type=='string')]
+    severity: warn
+    then:
+      field: pattern
+      function: truthy
+  openapi-request-body-schema-ref-info:
+    description: Has request body schema $ref.
+    message: Request Body Schema Ref
+    given: $.paths.*.*.requestBody.content.*.schema.$ref
+    severity: info
+    then:
+      function: falsy
+  openapi-request-body-schema-ref-warn:
+    description: Warn request body schema should have $ref.
+    message: Request Body Schema Ref
+    given: $.paths.*.*.requestBody.content.*.schema.$ref
+    severity: warn
+    then:
+      function: truthy
+  openapi-request-body-x-www-form-urlencoded-media-type-on-post-info:
+    description: Requires request body content on POST.
+    message: Form URL Encoded Media Type POST
+    given: $.paths.*.put.requestBody.content
+    severity: info
+    then:
+      field: application/x-www-form-urlencoded
+      function: falsy
+  openapi-request-body-x-www-form-urlencoded-media-type-on-put-info:
+    description: Requires request body content on PUT.
+    message: Form URL Encoded Media Type PUT
+    given: $.paths.*.put.requestBody.content
+    severity: info
+    then:
+      field: application/x-www-form-urlencoded
+      function: falsy
+  openapi-response-delete-204-no-body-error:
+    description: Require no body for DELETE responses.
+    message: No Response Body DELETE
+    severity: error
+    given: $.paths.*.delete.responses.204
+    then:
+      field: content
+      function: falsy
+  openapi-response-delete-204-status-code-error:
+    description: Require 204 status code for DELETE responses.
+    message: DELETE 204 Status Code
+    severity: info
+    given: $.paths.*.delete.responses
+    then:
+      field: '204'
+      function: truthy
+  openapi-response-delete-204-status-code-info:
+    description: Has 204 status code for DELETE responses.
+    message: DELETE 204 Status Code
+    severity: info
+    given: $.paths.*.delete.responses
+    then:
+      field: '204'
+      function: falsy
+  openapi-response-delete-400-status-code-info:
+    description: Has 400 status code for DELETE response.
+    message: 400 Status Code for DELETE Responses
+    severity: info
+    given: $.paths.*.delete.responses
+    then:
+      field: '400'
+      function: falsy
+  openapi-response-delete-400-status-code-warn:
+    description: Warn 400 status code for DELETE response.
+    message: 400 Status Code for DELETE Responses
+    severity: warn
+    given: $.paths.*.delete.responses
+    then:
+      field: '400'
+      function: truthy
+  openapi-response-delete-401-status-code-info:
+    description: Has 401 status code for DELETE response.
+    message: 401 Status Code for DELETE Responses
+    severity: info
+    given: $.paths.*.delete.responses
+    then:
+      field: '401'
+      function: falsy
+  openapi-response-delete-401-status-code-warn:
+    description: Warn 401 status code for DELETE response.
+    message: 401 Status Code for DELETE Responses
+    severity: warn
+    given: $.paths.*.delete.responses
+    then:
+      field: '401'
+      function: truthy
+  openapi-response-delete-403-status-code-info:
+    description: Has 403 status code for DELETE response.
+    message: 403 Status Code for DELETE Responses
+    severity: info
+    given: $.paths.*.delete.responses
+    then:
+      field: '403'
+      function: falsy
+  openapi-response-delete-403-status-code-warn:
+    description: Warn 403 status code for DELETE response.
+    message: 403 Status Code for DELETE Responses
+    severity: warn
+    given: $.paths.*.delete.responses
+    then:
+      field: '403'
+      function: truthy
+  openapi-response-delete-404-status-code-error:
+    description: Warn 404 status code for DELETE response.
+    message: 404 Status Code for DELETE Responses
+    severity: warn
+    given: $.paths.*.delete.responses
+    then:
+      field: '404'
+      function: truthy
+  openapi-response-delete-404-status-code-info:
+    description: Warn 404 status code for DELETE response.
+    message: 404 Status Code for DELETE Responses
+    severity: info
+    given: $.paths.*.delete.responses
+    then:
+      field: '404'
+      function: falsy
+  openapi-response-delete-429-status-code-info:
+    description: Has 429 status code for DELETE response.
+    message: 429 Status Code for DELETE Responses
+    severity: info
+    given: $.paths.*.delete.responses
+    then:
+      field: '429'
+      function: falsy
+  openapi-response-delete-429-status-code-warn:
+    description: Warn 429 status code for DELETE response.
+    message: 429 Status Code for DELETE Responses
+    severity: warn
+    given: $.paths.*.delete.responses
+    then:
+      field: '429'
+      function: truthy
+  openapi-response-delete-500-status-code-error:
+    description: Require 500 status code for DELETE response.
+    message: 500 Status Code for DELETE Responses
+    severity: error
+    given: $.paths.*.delete.responses
+    then:
+      field: '500'
+      function: truthy
+  openapi-response-delete-500-status-code-info:
+    description: Require 500 status code for DELETE response.
+    message: 500 Status Code for DELETE Responses
+    severity: info
+    given: $.paths.*.delete.responses
+    then:
+      field: '500'
+      function: falsy
+  openapi-response-description-error:
+    description: Ensures responses have description.
+    message: Responses MUST have descriptions.
+    severity: error
+    given: $.paths.*.get.responses.*
+    then:
+      field: description
+      function: truthy
+  openapi-response-description-info:
+    description: Ensures GET operations have a 200 status code response.
+    message: Response has description
+    severity: info
+    given: $.paths.*.get.responses.*
+    then:
+      field: description
+      function: falsy
+  openapi-response-example-error:
+    description: OpenAPI - Responses - Example
+    message: Schema COULD have an example.
+    severity: warn
+    given: $.paths.*.*.responses.*.content[?(!@.examples)]
+    then:
+      - field: example
+        function: truthy
+  openapi-response-example-info:
+    description: OpenAPI - Responses - Examples
+    message: Response has examples.
+    severity: info
+    given: $.paths.*.*.responses.*.content[?(@.example || @.examples)]
+    then:
+      function: falsy
+  openapi-response-examples-error:
+    description: OpenAPI - Responses - Examples
+    message: Schema COULD have an examples.
+    severity: warn
+    given: $.paths.*.*.responses.*.content[?(!@.example || @.examples)]
+    then:
+      - field: examples
+        function: truthy
+  openapi-response-get-200-application-xml-error:
+    description: Require XML media type for GET.
+    message: XML Media Type GET
+    severity: error
+    given: $.paths.*.get.responses.200.content
+    then:
+      field: application/xml
+      function: truthy
+  openapi-response-get-200-application-xml-info:
+    description: Has XML media type for GET.
+    message: XML Media Type GET
+    severity: info
+    given: $.paths.*.get.responses.200.content
+    then:
+      field: application/xml
+      function: falsy
+  openapi-response-get-200-application-xml-schema-error:
+    description: Require schema for GET.
+    message: Application XML Schema for GET
+    severity: error
+    given: $.paths.*.get.responses.200.content.application/xml
+    then:
+      field: schema
+      function: truthy
+  openapi-response-get-200-application-xml-schema-info:
+    description: Has schema for GET.
+    message: Application XML Schema for GET
+    severity: info
+    given: $.paths.*.get.responses.200.content.application/xml
+    then:
+      field: schema
+      function: falsy
+  openapi-response-get-200-content-error:
+    description: Require content for GET.
+    message: GET Content
+    severity: error
+    given: $.paths.*.get.responses.200
+    then:
+      field: content
+      function: truthy
+  openapi-response-get-200-content-info:
+    description: Require content for GET.
+    message: GET Content
+    severity: info
+    given: $.paths.*.get.responses.200
+    then:
+      field: content
+      function: falsy
+  openapi-response-get-200-schema-components-warn:
+    description: Warn GET response 200 schema should use components.
+    message: GET Response 200 Schema Components
+    given: >-
+      $.paths.*.get.responses.200.content.*.schema[?(@.allOf && @.anyOf &&
+      @.oneOf)]
+    severity: warn
+    then:
+      field: properties
+      function: truthy
+  openapi-response-get-200-schema-ref-info:
+    description: Has GET response 200 schema has $ref.
+    message: GET Response 200 Schema Ref
+    given: >-
+      $.paths.*.get.responses.200.content.*.schema[?(@.allOf && @.anyOf &&
+      @.oneOf)]
+    severity: info
+    then:
+      field: $ref
+      function: falsy
+  openapi-response-get-200-schema-ref-warn:
+    description: Warn GET response 200 schema should have $ref.
+    message: GET Response 200 Schema Ref
+    given: >-
+      $.paths.*.get.responses.200.content.*.schema[?(@.allOf && @.anyOf &&
+      @.oneOf)]
+    severity: warn
+    then:
+      field: $ref
+      function: truthy
+  openapi-response-get-200-status-code-error:
+    description: Ensures GET operations have a 200 status code response.
+    message: A GET operation should have a 200 status code for the response.
+    severity: error
+    given: $.paths.*.get.responses
+    then:
+      field: '200'
+      function: truthy
+  openapi-response-get-200-status-code-info:
+    description: Ensures GET operations have a 200 status code response.
+    message: GET Response Has 200 Status Code
+    severity: info
+    given: $.paths.*.get.responses
+    then:
+      field: '200'
+      function: falsy
+  openapi-response-get-201-content-error:
+    description: Require content for POST.
+    message: POST Content
+    severity: error
+    given: $.paths.*.post.responses.201
+    then:
+      field: content
+      function: truthy
+  openapi-response-get-201-content-info:
+    description: Require content for POST.
+    message: POST Content
+    severity: info
+    given: $.paths.*.post.responses.201
+    then:
+      field: content
+      function: falsy
+  openapi-response-get-400-status-code-info:
+    description: Has 400 status code for GET response.
+    message: 400 Status Code for GET Responses
+    severity: info
+    given: $.paths.*.get.responses
+    then:
+      field: '400'
+      function: falsy
+  openapi-response-get-400-status-code-warn:
+    description: Warn 400 status code for GET response.
+    message: 400 Status Code for GET Responses
+    severity: warn
+    given: $.paths.*.get.responses
+    then:
+      field: '400'
+      function: truthy
+  openapi-response-get-401-status-code-info:
+    description: Has 401 status code for GET response.
+    message: 401 Status Code for GET Responses
+    severity: info
+    given: $.paths.*.get.responses
+    then:
+      field: '401'
+      function: falsy
+  openapi-response-get-401-status-code-warn:
+    description: Warn 401 status code for GET response.
+    message: 401 Status Code for GET Responses
+    severity: warn
+    given: $.paths.*.get.responses
+    then:
+      field: '401'
+      function: truthy
+  openapi-response-get-403-status-code-info:
+    description: Has 403 status code for GET response.
+    message: 403 Status Code for GET Responses
+    severity: info
+    given: $.paths.*.get.responses
+    then:
+      field: '403'
+      function: falsy
+  openapi-response-get-403-status-code-warn:
+    description: Warn 403 status code for GET response.
+    message: 403 Status Code for GET Responses
+    severity: warn
+    given: $.paths.*.get.responses
+    then:
+      field: '403'
+      function: truthy
+  openapi-response-get-404-status-code-info:
+    description: Has 404 status code for GET response.
+    message: 404 Status Code for GET Responses
+    severity: info
+    given: $.paths.*.get[?(@.properties)]
+    then:
+      field: '404'
+      function: falsy
+  openapi-response-get-404-status-code-warn:
+    description: Warn 404 status code for GET response.
+    message: 404 Status Code for GET Responses
+    severity: warn
+    given: $.paths.*.get[?(@.properties)]
+    then:
+      field: '404'
+      function: truthy
+  openapi-response-get-429-status-code-info:
+    description: Has 429 status code for GET response.
+    message: 429 Status Code for GET Responses
+    severity: info
+    given: $.paths.*.get.responses
+    then:
+      field: '429'
+      function: falsy
+  openapi-response-get-429-status-code-warn:
+    description: Warn 429 status code for GET response.
+    message: 429 Status Code for GET Responses
+    severity: warn
+    given: $.paths.*.get.responses
+    then:
+      field: '429'
+      function: truthy
+  openapi-response-get-500-status-code-error:
+    description: Require 500 status code for GET response.
+    message: 500 Status Code for GET Responses
+    severity: error
+    given: $.paths.*.get.responses
+    then:
+      field: '500'
+      function: truthy
+  openapi-response-get-500-status-code-info:
+    description: Has 500 status code for GET response.
+    message: 500 Status Code for GET Responses
+    severity: info
+    given: $.paths.*.get.responses
+    then:
+      field: '500'
+      function: falsy
+  openapi-response-get-default-content-error:
+    description: Require content for default.
+    message: Default Content
+    severity: error
+    given: $.paths.*.*.responses.default
+    then:
+      field: content
+      function: truthy
+  openapi-response-get-default-content-info:
+    description: Require content for default.
+    message: Default Content
+    severity: info
+    given: $.paths.*.*.responses.default
+    then:
+      field: content
+      function: falsy
+  openapi-response-get-default-media-type-error:
+    description: Require JSON media type for default.
+    message: JSON Media Type Default
+    severity: error
+    given: $.paths.*.*.responses.default.content
+    then:
+      field: application/json
+      function: truthy
+  openapi-response-get-default-media-type-info:
+    description: Has JSON media type for default.
+    message: JSON Media Type Default
+    severity: info
+    given: $.paths.*.*.responses.default.content
+    then:
+      field: application/json
+      function: falsy
+  openapi-response-get-default-media-type-schema-error:
+    description: Require schema for default.
+    message: Schema Default
+    severity: error
+    given: $.paths.*.*.responses.default.content.application/json
+    then:
+      field: schema
+      function: truthy
+  openapi-response-get-default-media-type-schema-info:
+    description: Has schema for default.
+    message: Schema Default
+    severity: info
+    given: $.paths.*.*.responses.default.content.application/json
+    then:
+      field: schema
+      function: falsy
+  openapi-response-get-default-schema-components-warn:
+    description: Warn default response default schema should use components.
+    message: Default Response Schema Components
+    given: $.paths.*.*.responses.default.content.*.schema
+    severity: warn
+    then:
+      field: properties
+      function: truthy
+  openapi-response-get-default-schema-ref-info:
+    description: Has default response default schema has $ref.
+    message: Default Response Schema Ref
+    given: $.paths.*.*.responses.default.content.*.schema
+    severity: info
+    then:
+      field: $ref
+      function: falsy
+  openapi-response-get-default-schema-ref-warn:
+    description: Warn default response default schema should have $ref.
+    message: Default Response Schema Ref
+    given: $.paths.*.*.responses.default.content.*.schema
+    severity: warn
+    then:
+      field: $ref
+      function: truthy
+  openapi-response-get-default-status-code-info:
+    description: Has a default status code.
+    message: Response Has Default Status Code
+    severity: info
+    given: $.paths.*.*.responses
+    then:
+      field: default
+      function: falsy
+  openapi-response-get-headers-error:
+    description: Ensures GET responses have headers.
+    message: GET responses MUST have headers.
+    severity: error
+    given: $.paths.*.get.responses.200
+    then:
+      field: headers
+      function: truthy
+  openapi-response-get-headers-info:
+    description: Ensures GET responses have headers.
+    message: GET response has headers.
+    severity: info
+    given: $.paths.*.get.responses.200
+    then:
+      field: headers
+      function: falsy
+  openapi-response-get-headers-schema-ref-info:
+    description: Ensure GET responses rate limit header has $ref.
+    message: GET Response has $ref for rate limit header
+    given: $.paths.*.get.responses.200.headers.RateLimit.$ref
+    severity: info
+    then:
+      function: falsy
+  openapi-response-get-headers-schema-ref-warn:
+    description: Ensure GET responses rate limit header has $ref.
+    message: GET Response MUST have $ref for rate limit header
+    given: $.paths.*.get.responses.200.headers.RateLimit.$ref
+    severity: warn
+    then:
+      function: truthy
+  openapi-response-post-201-content-error:
+    description: Require content for POST.
+    message: POST Content
+    severity: error
+    given: $.paths.*.post.responses.201
+    then:
+      field: content
+      function: truthy
+  openapi-response-post-201-content-info:
+    description: Require content for POST.
+    message: POST Content
+    severity: info
+    given: $.paths.*.post.responses.201
+    then:
+      field: content
+      function: falsy
+  openapi-response-post-201-media-type-info:
+    severity: info
+    description: Require JSON media type for POST response.
+    message: JSON Media Type POST
+    given: $.paths.*.post.responses.201.content
+    then:
+      field: application/json
+      function: falsy
+  openapi-response-post-201-media-type-schema-error:
+    description: Require schema for POST.
+    message: Schema POST
+    severity: error
+    given: $.paths.*.post.responses.201.content.application/json
+    then:
+      field: schema
+      function: truthy
+  openapi-response-post-201-media-type-schema-info:
+    description: Has schema for POST.
+    message: Schema POST
+    severity: info
+    given: $.paths.*.post.responses.201.content.application/json
+    then:
+      field: schema
+      function: falsy
+  openapi-response-post-201-media-type-warn:
+    description: Require JSON media type for POST.
+    message: JSON Media Type POST
+    severity: warn
+    given: $.paths.*.post.responses.201.content
+    then:
+      field: application/json
+      function: truthy
+  openapi-response-post-201-schema-components-warn:
+    description: Warn GET response 201 schema should use components.
+    message: POST Response 201 Schema Components
+    given: >-
+      $.paths.*.post.responses.201.content.*.schema[?(@.allOf && @.anyOf &&
+      @.oneOf)]
+    severity: warn
+    then:
+      field: properties
+      function: truthy
+  openapi-response-post-201-schema-ref-error:
+    description: Warn GET response 201 schema use $ref.
+    message: GET Response 201 Schema Ref
+    given: $.paths.*.post.responses.201.content.*.schema.*
+    severity: error
+    then:
+      field: $ref
+      function: truthy
+  openapi-response-post-201-schema-ref-info:
+    description: Has GET response 201 schema use $ref.
+    message: GET Response 201 Schema Ref
+    given: $.paths.*.post.responses.201.content.*.schema.*
+    severity: warn
+    then:
+      field: $ref
+      function: falsy
+  openapi-response-post-201-status-code-error:
+    description: Require 201 status code for POST responses.
+    message: POST 201 Status Code
+    severity: error
+    given: $.paths[*].post.responses
+    then:
+      field: '201'
+      function: truthy
+  openapi-response-post-201-status-code-info:
+    description: Has 201 status code for POST responses.
+    message: POST 201 Status Code
+    severity: info
+    given: $.paths[*].post.responses
+    then:
+      field: '201'
+      function: falsy
+  openapi-response-post-400-status-code-info:
+    description: Warn 400 status code for POST response.
+    message: 400 Status Code for POST Responses
+    severity: info
+    given: $.paths.*.post.responses
+    then:
+      field: '400'
+      function: falsy
+  openapi-response-post-400-status-code-warn:
+    description: Warn 400 status code for POST response.
+    message: 400 Status Code for POST Responses
+    severity: warn
+    given: $.paths.*.post.responses
+    then:
+      field: '400'
+      function: truthy
+  openapi-response-post-401-status-code-info:
+    description: Has 401 status code for POST response.
+    message: 401 Status Code for POST Responses
+    severity: info
+    given: $.paths.*.post.responses
+    then:
+      field: '401'
+      function: falsy
+  openapi-response-post-401-status-code-warn:
+    description: Warn 401 status code for POST response.
+    message: 401 Status Code for POST Responses
+    severity: warn
+    given: $.paths.*.post.responses
+    then:
+      field: '401'
+      function: truthy
+  openapi-response-post-404-status-code-info:
+    description: Has 404 status code for POST response.
+    message: 404 Status Code for POST Responses
+    severity: info
+    given: $.paths.*.post.responses
+    then:
+      field: '404'
+      function: falsy
+  openapi-response-post-404-status-code-warn:
+    description: Warn 404 status code for POST response.
+    message: 404 Status Code for POST Responses
+    severity: warn
+    given: $.paths.*.post.responses
+    then:
+      field: '404'
+      function: truthy
+  openapi-response-post-429-status-code-info:
+    description: Has 429 status code for POST response.
+    message: 429 Status Code for POST Responses
+    severity: info
+    given: $.paths.*.post.responses
+    then:
+      field: '429'
+      function: falsy
+  openapi-response-post-429-status-code-warn:
+    description: Warn 429 status code for POST response.
+    message: 429 Status Code for POST Responses
+    severity: warn
+    given: $.paths.*.post.responses
+    then:
+      field: '429'
+      function: truthy
+  openapi-response-post-500-status-code-error:
+    description: Has 500 status code for POST response.
+    message: 500 Status Code for POST Responses
+    severity: error
+    given: $.paths.*.post.responses
+    then:
+      field: '500'
+      function: truthy
+  openapi-response-post-500-status-code-info:
+    description: Has 500 status code for POST response.
+    message: 500 Status Code for POST Responses
+    severity: info
+    given: $.paths.*.post.responses
+    then:
+      field: '500'
+      function: falsy
+  openapi-response-put-204-no-body-error:
+    description: Require no body for PUT responses.
+    message: No Response Body PUT
+    severity: error
+    given: $.paths.*.put.responses.204
+    then:
+      field: content
+      function: falsy
+  openapi-response-put-204-status-code-error:
+    description: Require 204 status code for PUT responses.
+    message: PUT 204 Status Code
+    severity: error
+    given: $.paths.*.put.responses
+    then:
+      field: '204'
+      function: truthy
+  openapi-response-put-204-status-code-info:
+    description: Has 204 status code for PUT responses.
+    message: PUT 204 Status Code
+    severity: info
+    given: $.paths.*.put.responses
+    then:
+      field: '204'
+      function: falsy
+  openapi-response-put-400-status-code-info:
+    description: Has 400 status code for PUT response.
+    message: 400 Status Code for PUT Responses
+    severity: info
+    given: $.paths.*.put.responses
+    then:
+      field: '400'
+      function: falsy
+  openapi-response-put-400-status-code-warn:
+    description: Warn 400 status code for PUT response.
+    message: 400 Status Code for PUT Responses
+    severity: warn
+    given: $.paths.*.put.responses
+    then:
+      field: '400'
+      function: truthy
+  openapi-response-put-401-status-code-info:
+    description: Has 401 status code for PUT response.
+    message: 401 Status Code for PUT Responses
+    severity: info
+    given: $.paths.*.put.responses
+    then:
+      field: '401'
+      function: falsy
+  openapi-response-put-401-status-code-warn:
+    description: Warn 401 status code for PUT response.
+    message: 401 Status Code for PUT Responses
+    severity: warn
+    given: $.paths.*.put.responses
+    then:
+      field: '401'
+      function: truthy
+  openapi-response-put-403-status-code-info:
+    description: Has 403 status code for PUT response.
+    message: 403 Status Code for PUT Responses
+    severity: info
+    given: $.paths.*.put.responses
+    then:
+      field: '403'
+      function: falsy
+  openapi-response-put-403-status-code-warn:
+    description: Warn 403 status code for PUT response.
+    message: 403 Status Code for PUT Responses
+    severity: warn
+    given: $.paths.*.put.responses
+    then:
+      field: '403'
+      function: truthy
+  openapi-response-put-404-status-code-info:
+    description: Has 404 status code for PUT response.
+    message: 404 Status Code for PUT Responses
+    severity: info
+    given: $.paths.*.put.responses
+    then:
+      field: '404'
+      function: falsy
+  openapi-response-put-404-status-code-warn:
+    description: Warn 404 status code for PUT response.
+    message: 404 Status Code for PUT Responses
+    severity: warn
+    given: $.paths.*.put.responses
+    then:
+      field: '404'
+      function: truthy
+  openapi-response-put-429-status-code-info:
+    description: Has 429 status code for PUT response.
+    message: 429 Status Code for PUT Responses
+    severity: info
+    given: $.paths.*.put.responses
+    then:
+      field: '429'
+      function: falsy
+  openapi-response-put-429-status-code-warn:
+    description: Warn 429 status code for PUT response.
+    message: 429 Status Code for PUT Responses
+    severity: warn
+    given: $.paths.*.put.responses
+    then:
+      field: '429'
+      function: truthy
+  openapi-response-put-500-status-code-error:
+    description: Require 500 status code for PUT response.
+    message: 500 Status Code for PUT Responses
+    severity: error
+    given: $.paths.*.put.responses
+    then:
+      field: '500'
+      function: truthy
+  openapi-response-put-500-status-code-info:
+    description: Require 500 status code for PUT response.
+    message: 500 Status Code for PUT Responses
+    severity: info
+    given: $.paths.*.put.responses
+    then:
+      field: '500'
+      function: falsy
+  openapi-schema-description-error:
+    description: Ensure all schema properties should have a description.
+    message: Schema SHOULD have a description.
+    severity: error
+    given: $.components.schemas.*
+    then:
+      field: description
+      function: truthy
+  openapi-schema-description-info:
+    description: Ensure all schema properties should have a description.
+    message: Schemas has a description.
+    severity: info
+    given: $.components.schemas.*
+    then:
+      field: description
+      function: falsy
+  openapi-schema-description-length-error:
+    description: All schemas descriptions should be shorter than 250 characters.
+    message: Description needs to be less than 250 characters.
+    severity: error
+    given: $.components.schemas.*
+    then:
+      field: description
+      function: length
+      functionOptions:
+        max: 250
+  openapi-schema-enum-casing-camel-info:
+    description: Has schema enum camel casing.
+    message: Schema Enum Camel Casing
+    severity: info
+    given: $.components.schemas.*.enum.*
+    then:
+      function: pattern
+      functionOptions:
+        notMatch: ^[a-z]+(?:[A-Z][a-z]+)*$
+  openapi-schema-enum-casing-camel-warn:
+    description: Warn schema enum camel casing.
+    message: Schema Enum Camel Casing
+    severity: warn
+    given: $.components.schemas.*.enum.*
+    then:
+      function: pattern
+      functionOptions:
+        match: ^[a-z]+(?:[A-Z][a-z]+)*$
+  openapi-schema-enum-casing-lower-snake-info:
+    description: Has schema enum lower snake casing.
+    message: Schema Enum Lower Snake Casing
+    severity: info
+    given: $.components.schemas.*.enum.*
+    then:
+      function: pattern
+      functionOptions:
+        notMatch: ^(?:[a-z]++_)*+[a-z]++$
+  openapi-schema-enum-casing-lower-snake-warn:
+    description: Warn schema enum lower snake casing.
+    message: Schema Enum Lower Snake Casing
+    severity: warn
+    given: $.components.schemas.*.enum.*
+    then:
+      function: pattern
+      functionOptions:
+        match: ^(?:[a-z]++_)*+[a-z]++$
+  openapi-schema-enum-casing-pascal-info:
+    description: Has schema enum pascal casing.
+    message: Schema Enum Pascal Casing
+    severity: info
+    given: $.components.schemas.*.enum.*
+    then:
+      function: pattern
+      functionOptions:
+        notMatch: ^[A-Z][a-z]+(?:[A-Z][a-z]+)*$
+  openapi-schema-enum-casing-pascal-warn:
+    description: Warn schema enum pascal casing.
+    message: Schema Enum Pascal Casing
+    severity: warn
+    given: $.components.schemas.*.enum.*
+    then:
+      function: pattern
+      functionOptions:
+        match: ^[A-Z][a-z]+(?:[A-Z][a-z]+)*$
+  openapi-schema-enum-casing-upper-snake-info:
+    description: Has schema enum upper snake casing.
+    message: Schema Enum Upper Snake Casing
+    severity: info
+    given: $.components.schemas.*.enum.*
+    then:
+      function: pattern
+      functionOptions:
+        notMatch: ^[A-Z]+(?:_[A-Z]+)*$
+  openapi-schema-enum-casing-upper-snake-warn:
+    description: Warn schema enum upper snake casing.
+    message: Schema Enum Upper Snake Casing
+    severity: warn
+    given: $.components.schemas.*.enum.*
+    then:
+      function: pattern
+      functionOptions:
+        match: ^[A-Z]+(?:_[A-Z]+)*$
+  openapi-schema-enum-info:
+    description: Schema has enum
+    message: Schema Enum
+    severity: info
+    given: $.components.schemas.*
+    then:
+      - field: enum
+        function: falsy
+  openapi-schema-examples-info:
+    description: Schema has examples.
+    message: Schema Examples
+    severity: info
+    given: $.components.*
+    then:
+      - field: examples
+        function: truthy
+  openapi-schema-names-camel-case-warn:
+    description: Require schema name camel case.
+    message: Schema Name Camel Case
+    severity: warn
+    given: $.components.schemas
+    then:
+      field: '@key'
+      function: casing
+      functionOptions:
+        type: camel
+  openapi-schema-names-length-error:
+    description: Require schema name length 25.
+    message: Schema Name Length
+    severity: error
+    given: $.components.schemas
+    then:
+      field: '@key'
+      function: length
+      functionOptions:
+        max: 25
+  openapi-schema-names-pascal-case-warn:
+    description: Require schema name pascal case.
+    message: Schema Name Pascal Case
+    severity: warn
+    given: $.components.schemas
+    then:
+      field: '@key'
+      function: casing
+      functionOptions:
+        type: pascal
+  openapi-schema-names-snake-case-warn:
+    description: Require schema name snake case.
+    message: Schema Name Snake Case
+    severity: warn
+    given: $.components.schemas
+    then:
+      field: '@key'
+      function: casing
+      functionOptions:
+        type: snake
+  openapi-schema-properties-allof-info:
+    description: Require schema properties allof.
+    message: Schema Properties AllOf
+    severity: info
+    given: $.components.schemas.*.properties.*
+    then:
+      field: allOf
+      function: falsy
+  openapi-schema-properties-allowed-integer-format-error:
+    description: Requires integer properties to have a format of int32 or int64.
+    message: Type format should be be int32 or int64.
+    severity: hint
+    given: $.components.schemas.*.properties.[?(@.type=="integer")]
+    then:
+      field: format
+      function: enumeration
+      functionOptions:
+        values:
+          - int32
+          - int64
+  openapi-schema-properties-allowed-number-format-error:
+    description: Require schema property number formats.
+    message: Schema Property Number Formats
+    severity: hint
+    given: $.components.schemas.*.properties.[?(@.type=="number")]
+    then:
+      field: format
+      function: enumeration
+      functionOptions:
+        values:
+          - decimal32
+          - decimal64
+          - float
+          - double
+          - decimal128
+  openapi-schema-properties-anyof-info:
+    description: Require schema properties anyof.
+    message: Schema Properties AnyOf
+    severity: info
+    given: $.components.schemas.*.properties.*
+    then:
+      field: anyOf
+      function: falsy
+  openapi-schema-properties-array-items-error:
+    description: Require schema property array items.
+    message: Schema Property Array Items
+    severity: error
+    given: $.components.schemas.*.properties.[?(@.type=="array")]
+    then:
+      field: items
+      function: truthy
+  openapi-schema-properties-array-items-info:
+    description: Require schema property array items.
+    message: Schema Property Array Items
+    severity: info
+    given: $.components.schemas.*.properties.[?(@.type=="array")]
+    then:
+      field: items
+      function: falsy
+  openapi-schema-properties-array-maxitems-error:
+    description: Require schema property array maxItems.
+    message: Schema Property Array MaxItems
+    severity: error
+    given: $.components.schemas.*.properties.[?(@.type=="array")]
+    then:
+      - field: maxItems
+        function: truthy
+  openapi-schema-properties-array-maxitems-info:
+    description: Has schema property array maxItems.
+    message: Schema Property Array MaxItems
+    severity: info
+    given: $.components.schemas.*.properties.[?(@.type=="array")]
+    then:
+      - field: maxItems
+        function: truthy
+  openapi-schema-properties-array-minitems-error:
+    description: Require schema property array minItems.
+    message: Schema Property Array MinItems
+    severity: error
+    given: $.components.schemas.*.properties.[?(@.type=="array")]
+    then:
+      - field: minItems
+        function: truthy
+  openapi-schema-properties-array-minitems-info:
+    description: Has schema property array minItems.
+    message: Schema Property Array MinItems
+    severity: info
+    given: $.components.schemas.*.properties.[?(@.type=="array")]
+    then:
+      - field: minItems
+        function: falsy
+  openapi-schema-properties-define-number-maximum-error:
+    description: Require schema property number minimum.
+    message: Schema Property Number Minimum
+    severity: error
+    given: $.components.schemas.*.properties.[?(@.type=="number")]
+    then:
+      - field: maximum
+        function: defined
+  openapi-schema-properties-define-number-minimum-error:
+    description: Require schema property number minimum.
+    message: Schema Property Number Minimum
+    severity: error
+    given: $.components.schemas.*.properties.[?(@.type=="number")]
+    then:
+      - field: minimum
+        function: defined
+  openapi-schema-properties-descriptions-error:
+    description: Require schema description.
+    message: Schema Description
+    severity: error
+    given: $.components.schemas.*.properties.*
+    then:
+      field: description
+      function: truthy
+  openapi-schema-properties-descriptions-info:
+    description: Require schema description.
+    message: Schema Description
+    severity: info
+    given: $.components.schemas.*.properties.*
+    then:
+      field: description
+      function: falsy
+  openapi-schema-properties-descriptions-length-error:
+    description: Require schema description length 250.
+    message: Schema Description Length
+    severity: error
+    given: $.components.schemas.*.properties.*
+    then:
+      field: description
+      function: length
+      functionOptions:
+        max: 250
+  openapi-schema-properties-enum-casing-error:
+    description: Require schema property enum casing.
+    message: Schema Property Enum Casing
+    severity: error
+    given: $.components.schemas.*.properties.*.enum.*
+    then:
+      function: pattern
+      functionOptions:
+        match: ^[A-Z]+(?:_[A-Z]+)*$
+  openapi-schema-properties-enum-casing-info:
+    description: Has schema property enum casing.
+    message: Schema Property Enum Casing
+    severity: error
+    given: $.components.schemas.*.properties.*.enum.*
+    then:
+      function: pattern
+      functionOptions:
+        notMatch: ^[A-Z]+(?:_[A-Z]+)*$
+  openapi-schema-properties-enum-info:
+    description: Has schema property enum.
+    message: Schema Property Enum
+    severity: info
+    given:
+      - $.components.schemas.*.properties.*
+      - $.components.schemas.*.properties.*.properties.*
+      - $.components.schemas.*.properties.*.properties.*.properties.*
+    then:
+      - field: enum
+        function: falsy
+  openapi-schema-properties-error:
+    description: Require schema properties.
+    message: Schema Properties
+    severity: error
+    given: $.components.schemas.[?(@.type=="object")]
+    then:
+      field: properties
+      function: truthy
+  openapi-schema-properties-format-error:
+    description: Warn schema properties format.
+    message: Schema Properties Format
+    severity: error
+    given: $.components.schemas.*.properties.*
+    then:
+      field: format
+      function: truthy
+  openapi-schema-properties-format-info:
+    description: Has schema properties format.
+    message: Schema Properties Format
+    severity: info
+    given: $.components.schemas.*.properties.*
+    then:
+      field: format
+      function: falsy
+  openapi-schema-properties-names-camel-case-error:
+    description: Warn schema property names camel case.
+    message: Schema Property Names Camel Case
+    severity: warn
+    given: $.components.schemas.*.properties
+    then:
+      field: '@key'
+      function: casing
+      functionOptions:
+        type: camel
+  openapi-schema-properties-names-length-error:
+    description: Requires schema properties names length.
+    message: Schema Properties Name Length
+    severity: error
+    given: $.components.schemas.*.properties
+    then:
+      field: '@key'
+      function: length
+      functionOptions:
+        max: 25
+  openapi-schema-properties-names-pascal-case-error:
+    description: Warn schema property names pascal case.
+    message: Schema Property Names Pascal Case
+    severity: warn
+    given: $.components.schemas.*.properties
+    then:
+      field: '@key'
+      function: casing
+      functionOptions:
+        type: pascal
+  openapi-schema-properties-names-snake-case-error:
+    description: Schema properties are snake case.
+    message: Schema properties names MUST be snake case.
+    severity: warn
+    given: $.components.schemas.*.properties
+    then:
+      field: '@key'
+      function: pattern
+      functionOptions:
+        match: '[a-z0-9]+(?:_[a-z0-9]+)*'
+  openapi-schema-properties-names-snake-case-info:
+    description: Schema properties are snake case.
+    message: Schema property name is snake case.
+    severity: info
+    given: $.components.schemas.*.properties
+    then:
+      field: '@key'
+      function: pattern
+      functionOptions:
+        notMatch: '[a-z0-9]+(?:_[a-z0-9]+)*'
+  openapi-schema-properties-nullable-error:
+    description: Warn schema properties nullable.
+    message: Schema Properties Format
+    severity: error
+    given: $.components.schemas.*.properties.*
+    then:
+      field: nullable
+      function: truthy
+  openapi-schema-properties-nullable-info:
+    description: Has schema properties nullable.
+    message: Schema Properties Nullable
+    severity: info
+    given: $.components.schemas.*.properties.*
+    then:
+      field: nullable
+      function: falsy
+  openapi-schema-properties-oneof-info:
+    description: Require schema properties oneof.
+    message: Schema Properties OneOf
+    severity: info
+    given: $.components.schemas.*.properties.*
+    then:
+      field: oneOf
+      function: falsy
+  openapi-schema-properties-pii-info:
+    description: Has schema PII.
+    message: Schema PII
+    severity: info
+    given: $.components.schemas.*.properties.*.*
+    then:
+      field: x-pii
+      function: falsy
+  openapi-schema-properties-string-maxlength-error:
+    message: Require schema property string maxlength.
+    description: Schema Property String MaxLength
+    severity: error
+    given: $.components.schemas.*.properties.[?(@.type=="string")]
+    then:
+      field: maxLength
+      function: truthy
+  openapi-schema-properties-string-maxlength-info:
+    message: Has schema property string maxlength.
+    description: Schema Property String MaxLength
+    severity: info
+    given: $.components.schemas.*.properties.[?(@.type=="string")]
+    then:
+      field: maxLength
+      function: falsy
+  openapi-schema-properties-string-minlength-error:
+    message: Require schema property string minlength.
+    description: Schema Property String MinLength
+    severity: error
+    given: $.components.schemas.*.properties.[?(@.type=="string")]
+    then:
+      field: minLength
+      function: truthy
+  openapi-schema-properties-string-minlength-info:
+    message: Has schema property string minlength.
+    description: Schema Property String MinLength
+    severity: info
+    given: $.components.schemas.*.properties.[?(@.type=="string")]
+    then:
+      field: minLength
+      function: falsy
+  openapi-schema-properties-type-error:
+    description: Require schema properties type.
+    message: Schema Properties Type
+    severity: error
+    given: $.components.schemas.*.properties.*
+    then:
+      field: type
+      function: truthy
+  openapi-schema-properties-type-info:
+    description: Require schema properties type.
+    message: Schema Properties Type
+    severity: info
+    given: $.components.schemas.*.properties.*
+    then:
+      field: type
+      function: falsy
+  openapi-schema-properties-type-string-pattern-info:
+    description: Has schema property type string pattern.
+    message: Schema Property Type String Pattern
+    given:
+      - $.components.schemas.*.properties.[?(@.type=='string')]
+    severity: info
+    then:
+      field: pattern
+      function: falsy
+  openapi-schema-properties-type-string-pattern-warn:
+    description: Warn schema property type string pattern.
+    message: Schema Property Type String Pattern
+    given:
+      - $.components.schemas.*.properties.[?(@.type=='string')]
+    severity: warn
+    then:
+      field: pattern
+      function: truthy
+  openapi-schema-properties-x-expandableFields-info:
+    description: Has schema properties expansion fields.
+    message: Schema Properties X Expansion Fields
+    severity: info
+    given: $.components.schemas.*.properties.*
+    then:
+      field: x-expandableFields
+      function: falsy
+  openapi-schema-properties-x-expansion-resources-info:
+    description: Has schema properties expansion resources.
+    message: Schema Properties X Expansion Resources
+    severity: info
+    given: $.components.schemas.*.properties.*
+    then:
+      field: x-expansionResources
+      function: falsy
+  openapi-schema-required-error:
+    description: Require schema required.
+    message: Schema Required
+    severity: error
+    given: $.components.schemas.[?(@.type=="object")]
+    then:
+      field: required
+      function: truthy
+  openapi-schema-required-info:
+    description: Has schema required.
+    message: Schema Required
+    severity: info
+    given: $.components.schemas.[?(@.type=="object")]
+    then:
+      field: required
+      function: falsy
+  openapi-schema-type-error:
+    description: Require schema type.
+    message: Schema Type
+    severity: error
+    given: $.components.schemas.*
+    then:
+      field: type
+      function: truthy
+  openapi-schema-type-info:
+    description: Has schema type.
+    message: Schema Type
+    severity: info
+    given: $.components.schemas.*
+    then:
+      field: type
+      function: falsy
+  openapi-schema-x-expandableFields-info:
+    description: Has schema expansion fields.
+    message: Schema X Expansion Fields
+    severity: info
+    given: $.components.schemas.*
+    then:
+      field: x-expandableFields
+      function: falsy
+  openapi-schema-x-expansion-resources-info:
+    description: Has schema expansion resources.
+    message: Schema X Expansion Resources
+    severity: info
+    given: $.components.schemas.*
+    then:
+      field: x-expansionResources
+      function: falsy
+  openapi-security-schemes-error:
+    description: Require security scheme.
+    message: Security Scheme
+    severity: error
+    given: $.components
+    then:
+      field: securitySchemes
+      function: truthy
+  openapi-security-schemes-info:
+    description: Has security scheme.
+    message: Security Scheme
+    severity: info
+    given: $.components
+    then:
+      field: securitySchemes
+      function: falsy
+  openapi-tags-description-error:
+    description: Require tag descriptions.
+    message: Tag Descriptions
+    given: $.tags[*]
+    severity: error
+    then:
+      field: description
+      function: truthy
+  openapi-tags-description-info:
+    description: Has tag descriptions.
+    message: Tag Descriptions
+    given: $.tags[*]
+    severity: info
+    then:
+      field: description
+      function: falsy
+  openapi-tags-name-error:
+    description: Require tag name.
+    message: Tag Name
+    given: $.tags[*]
+    severity: error
+    then:
+      field: name
+      function: truthy
+  openapi-tags-name-info:
+    description: Has tag name.
+    message: Tag Name
+    given: $.tags[*]
+    severity: info
+    then:
+      field: name
+      function: falsy
+  openapi-tags-object-error:
+    description: Require tag object.
+    message: Tag Object
+    given: $
+    severity: error
+    then:
+      field: tags
+      function: truthy
+  openapi-tags-object-info:
+    description: Has tag object.
+    message: Tag Object
+    given: $
+    severity: info
+    then:
+      field: tags
+      function: falsy
+  openapi-tags-one-error:
+    description: Require One Tag
+    message: One Tag
+    given: $
+    severity: error
+    then:
+      field: tags
+      function: length
+      functionOptions:
+        min: 1
+  openapi-version-date-info:
+    description: Has date versioning.
+    message: Date Versioning
+    severity: info
+    given: $.info.version
+    then:
+      function: pattern
+      functionOptions:
+        notMatch: ^([12]\d{3}-(0[1-9]|1[0-2])-(0[1-9]|[12]\d|3[01]))?$
+  openapi-version-in-path-info:
+    description: Has no version in path.
+    message: Version in Path
+    severity: error
+    given: $.paths[*]~
+    then:
+      function: pattern
+      functionOptions:
+        match: /((?:/)(v|version)?[0-9]{1,3}(?:/)?)/i
+  openapi-version-semantic-info:
+    description: Has semantic versioning.
+    message: Semantic Versioning
+    severity: info
+    given: $.info.version
+    then:
+      function: pattern
+      functionOptions:
+        notMatch: >-
+          ^(0|[1-9][0-9]*)\.(0|[1-9][0-9]*)\.(0|[1-9][0-9]*)(-(0|[1-9A-Za-z-][0-9A-Za-z-]*)(\.[0-9A-Za-z-]+)*)?(\+[0-9A-Za-z-]+(\.[0-9A-Za-z-]+)*)?$
+  openapi-x-maturity-error:
+    description: Require x-maturity extension.
+    message: Maturity Extension
+    severity: hint
+    given: $
+    then:
+      field: x-maturity
+      function: falsy
