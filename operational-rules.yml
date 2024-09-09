@@ -369,10 +369,10 @@ rules:
         functionOptions:
           notMatch: \b(api-environment-sandbox)\b
   apis-json-apis-properties-forum-info:
-    description: API Properties Forum
-    message: >-
+    description: >-
       Provides a dedicated forum to supporting an API and the community of
       consumers, ensuring that discussions around API usage is self-service.
+    message: API Properties Forum
     severity: info
     given:
       - $.apis.*.properties.*
@@ -395,11 +395,11 @@ rules:
         functionOptions:
           notMatch: \b(GettingStarted)\b
   apis-json-apis-properties-github-organization-info:
-    description: API Properties GitHub Organization
-    message: >-
+    description: >-
       Provides a dedicated GitHub organizations as part API operations, offering
       up a link to all of the resources available across all APIs being made
       available.
+    message: API Properties GitHub Organization
     severity: info
     given:
       - $.apis.*.properties.*
@@ -460,10 +460,10 @@ rules:
         functionOptions:
           notMatch: \b(openapi|OpenAPI)\b
   apis-json-apis-properties-performance-info:
-    description: API Properties Performance
-    message: >-
+    description: >-
       Offering information regarding the performance of an API, making available
       processes, tests, results, and the other evidence of API performance.
+    message: API Properties Performance
     severity: info
     given:
       - $.apis.*.properties.*
@@ -722,10 +722,10 @@ rules:
         functionOptions:
           notMatch: \b(email|Email)\b
   apis-json-apis-properties-support-issues-info:
-    description: API Properties Support Issues
-    message: >-
+    description: >-
       Offering a support using GitHub issues offers an easy way to encourage
       consumers to submit issues and communicate in a self-service way.
+    message: API Properties Support Issues
     severity: info
     given:
       - $.apis.*.properties.*
@@ -736,10 +736,10 @@ rules:
         functionOptions:
           notMatch: \b(issues|x-issues|Issues)\b
   apis-json-apis-properties-support-support-info:
-    description: API Properties Support Support
-    message: >-
+    description: >-
       Offering a formal support page and channel helps make it easy for
-      consumers to find the help they need with putting aPIs to work.
+      consumers to find the help they need with putting aPIs to work.       
+    message: API Properties Support Support
     severity: info
     given:
       - $.apis.*.properties.*
@@ -750,10 +750,10 @@ rules:
         functionOptions:
           notMatch: \b(support|Support)\b
   apis-json-apis-properties-terms-of-service-info:
-    description: API Properties Terms of Service
-    message: >-
+    description: >-
       Offering a dedicated terms of service page helps ensure consumers are
-      aware of what is expected when it comes to using a service.
+      aware of what is expected when it comes to using a service.       
+    message: API Properties Terms of Service
     severity: info
     given:
       - $.apis.*.properties.*
@@ -791,10 +791,9 @@ rules:
           notMatch: >-
             ^((http|https)://)[-a-zA-Z0-9@:%._\+~#?&//=]{2,256}\.[a-z]{2,6}\b([-a-zA-Z0-9@:%._\+~#?&//=]*)$
   apis-json-apis-properties-use-cases-info:
-    description: API Properties Use Cases
-    message: >-
-      Providing a list of use cases for an API, defining the who, what, how, and
-      why of API consumption, helping map to operations.
+    description: >-
+      Providing a list of use cases for an API, defining the who, what, how, and why of API consumption, helping map to operations.    
+    message: API Properties Use Cases      
     severity: info
     given:
       - $.apis.*.properties.*
@@ -805,11 +804,11 @@ rules:
         functionOptions:
           notMatch: \b(UseCases)\b
   apis-json-apis-properties-video-info:
-    description: API Properties Video
-    message: >-
+    description: >-
       Offering a video channel that is dedicated to your API helps increase
       engagement with consumers and help ensure they are more aware of what is
       happening.
+    message: API Properties Video
     severity: info
     given:
       - $.apis.*.properties.*
