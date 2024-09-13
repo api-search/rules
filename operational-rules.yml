@@ -43,7 +43,7 @@ rules:
       APIs.json</a>, and explore <a
       href="https://apievangelist.com/guidance/environments/base-url/"
       target="_blank">Base URLs</a> more via API Evangelist.
-    message: APIs MUST have a baseUrl property.
+    message: APIs MUST Have a Base URL
     given: $.apis.*
     severity: error
     then:
@@ -59,7 +59,7 @@ rules:
       APIs.json</a>, and explore <a
       href="https://apievangelist.com/guidance/environments/base-url/"
       target="_blank">Base URLs</a> more via API Evangelist.
-    message: APIs has a baseUrl property.
+    message: APIs Has a Base URL
     given: $.apis.*
     severity: info
     then:
@@ -190,7 +190,7 @@ rules:
       property for APIs.json</a>, and explore <a
       href="https://apievangelist.com/guidance/documentation/human-url/"
       target="_blank">Human URLs</a> more via API Evangelist.
-    message: APIs has a human URL.
+    message: APIs Has a Human URL.
     given: $.apis.*
     severity: info
     then:
@@ -264,7 +264,7 @@ rules:
           notMatch: \b(about|About)\b
   apis-json-apis-properties-authentication-info:
     description: API Properties Authentication
-    message: Has authentication.
+    message: Has Authentication
     severity: info
     given:
       - $.apis.*.properties.*
@@ -274,12 +274,21 @@ rules:
         function: pattern
         functionOptions:
           notMatch: \b(Authentication)\b
+  apis-json-apis-properties-blog-info:
+    description: A Properties Blog     
+    message: Has a Blog
+    severity: info
+    given:
+      - $.apis.*.properties.*
+      - $.common.*
+    then:
+      - field: type
+        function: pattern
+        functionOptions:
+          notMatch: \b(blog|Blog)\b          
   apis-json-apis-properties-blog-feed-info:
-    description: API Properties Blog Feed
-    message: >-
-      Offering a blog feed that is dedicated to your API helps increase
-      engagement with consumers and help ensure they are more aware of what is
-      happening.
+    description: API Properties Blog Feed      
+    message: Has a Blog Feed
     severity: info
     given:
       - $.apis.*.properties.*
@@ -290,8 +299,8 @@ rules:
         functionOptions:
           notMatch: \b(blog-feed|BlogFeed)\b
   apis-json-apis-properties-change-log-info:
-    description: API Properties Change Change Log
-    message: Has change log.
+    description: API Properties Change Log
+    message: Has Change Log
     severity: info
     given:
       - $.apis.*.properties.*
@@ -303,7 +312,7 @@ rules:
           notMatch: \b(api-change-log|change-log|Change Log|Changelog|ChangeLog)\b
   apis-json-apis-properties-compare-info:
     description: API Properties Change Compare
-    message: Has API compare.
+    message: Has an API Comparison
     severity: info
     given:
       - $.apis.*.properties.*
@@ -315,10 +324,7 @@ rules:
           notMatch: \b(compare|Compare)\b
   apis-json-apis-properties-deprecation-policy-info:
     description: API Properties Deprecation Policy
-    message: >-
-      Offering a deprecation policy page helping ensure consumers are aware of
-      the deprecation strategy surrounding using an API, and how long it will be
-      available for use.
+    message: Has Deprecation Policy
     severity: info
     given:
       - $.apis.*.properties.*
@@ -332,7 +338,7 @@ rules:
             Policy|DeprecationPolicy)\b
   apis-json-apis-properties-documentation-info:
     description: API Properties Documentation
-    message: There is a documentation property.
+    message: Has Documentation
     severity: info
     given:
       - $.apis.*.properties.*
@@ -344,9 +350,7 @@ rules:
           notMatch: \b(documentation|Documentation)\b
   apis-json-apis-properties-environments-production-info:
     description: API Properties Environments Production
-    message: >-
-      Offering a production environment makes it easy for consumers to access
-      the details they need to work with an API in production.
+    message: Has a Production Environment
     severity: info
     given:
       - $.apis.*.properties.*
@@ -358,7 +362,7 @@ rules:
           notMatch: \b(api-environment-production)\b
   apis-json-apis-properties-environments-sandbox-info:
     description: API Properties Environments Sandbox
-    message: Has a sandbox.
+    message: Has a Sandbox Environment
     severity: info
     given:
       - $.apis.*.properties.*
@@ -369,10 +373,8 @@ rules:
         functionOptions:
           notMatch: \b(api-environment-sandbox)\b
   apis-json-apis-properties-forum-info:
-    description: >-
-      Provides a dedicated forum to supporting an API and the community of
-      consumers, ensuring that discussions around API usage is self-service.
-    message: API Properties Forum
+    description: API Properties Forum
+    message: Has a Discussion Forum
     severity: info
     given:
       - $.apis.*.properties.*
@@ -384,7 +386,7 @@ rules:
           notMatch: \b(Forums|Forums|Discussions)\b
   apis-json-apis-properties-getting-started-info:
     description: API Properties Getting Started
-    message: Has a getting started.
+    message: Has Getting Started
     severity: info
     given:
       - $.apis.*.properties.*
@@ -421,6 +423,18 @@ rules:
         function: pattern
         functionOptions:
           notMatch: \b(github-repository|GitHubRepository)\b
+  apis-json-apis-properties-github-action-info:
+    description: API Properties GitHub Action
+    message: Has a GitHub Action.
+    severity: info
+    given:
+      - $.apis.*.properties.*
+      - $.common.*
+    then:
+      - field: type
+        function: pattern
+        functionOptions:
+          notMatch: \b(github-action|GitHubAction)\b          
   apis-json-apis-properties-insomnia-collection-info:
     description: API Properties Insomnia Collection
     message: Has a Insomnia Collection.
@@ -434,10 +448,8 @@ rules:
         functionOptions:
           notMatch: \b(RunInInsomnia)\b
   apis-json-apis-properties-license-info:
-    description: API Properties Legal License
-    message: >-
-      Offering a dedicated licensing page helps ensure consumers are aware of
-      the licensing for an API, SDKs, and other supporting resources.
+    description: API Properties Interface License
+    message: Has Interface License
     severity: info
     given:
       - $.apis.*.properties.*
@@ -533,10 +545,10 @@ rules:
       - field: type
         function: pattern
         functionOptions:
-          notMatch: \b(postman-public-workspace)\b
+          notMatch: \b(postman-public-workspace|PostmanPublicWorkspace)\b
   apis-json-apis-properties-pricing-info:
     description: API Properties Pricing
-    message: Has a pricing page.
+    message: Has Pricing
     severity: info
     given:
       - $.apis.*.properties.*
@@ -548,9 +560,7 @@ rules:
           notMatch: \b(Pricing)\b
   apis-json-apis-properties-privacy-policy-info:
     description: API Properties Privacy Policy
-    message: >-
-      Offering a dedicated privacy policy page helps ensure consumers are aware
-      of the privacy requirements surrounding using an API.
+    message: Has an API Privacy Policy
     severity: info
     given:
       - $.apis.*.properties.*
@@ -600,7 +610,55 @@ rules:
       - field: type
         function: pattern
         functionOptions:
-          notMatch: \b(api-rules|Rules)\b
+          notMatch: \b(api-rules|OpenApiRules)\b
+  apis-json-apis-properties-apis-json-rules-info:
+    description: API Properties APIs.json Rules
+    message: Has APIs.json Rules
+    severity: info
+    given:
+      - $.apis.*.properties.*
+      - $.common.*
+    then:
+      - field: type
+        function: pattern
+        functionOptions:
+          notMatch: \b(apisjson-rules|ApisJsonRules)\b  
+  apis-json-apis-properties-openapi-rules-info:
+    description: API Properties OpenAPI Rules
+    message: Has OpenAPI Rules
+    severity: info
+    given:
+      - $.apis.*.properties.*
+      - $.common.*
+    then:
+      - field: type
+        function: pattern
+        functionOptions:
+          notMatch: \b(openapi-rules|OpenApiRules)\b                     
+  apis-json-apis-properties-lifecycle-info:
+    description: API Properties Lifecycle
+    message: Has Lifecycle
+    severity: info
+    given:
+      - $.apis.*.properties.*
+      - $.common.*
+    then:
+      - field: type
+        function: pattern
+        functionOptions:
+          notMatch: \b(lifecycle|Lifecycle)\b  
+  apis-json-apis-properties-vocabulary-info:
+    description: API Properties Vocabulary
+    message: Has Vocabulary
+    severity: info
+    given:
+      - $.apis.*.properties.*
+      - $.common.*
+    then:
+      - field: type
+        function: pattern
+        functionOptions:
+          notMatch: \b(vocabulary|vocabularies|Vocabulary|Vocabularies)\b                      
   apis-json-apis-properties-sdk-go-info:
     description: API Properties SDK Go
     message: >-
@@ -707,39 +765,10 @@ rules:
         function: pattern
         functionOptions:
           notMatch: \b(x-status|status|Status|StatusPage)\b
-  apis-json-apis-properties-support-email-info:
-    description: API Properties Email email
-    message: >-
-      Offering a dedicated email channel for your API makes it very simple for
-      consumers to get the support they need when using your API.
-    severity: info
-    given:
-      - $.apis.*.properties.*
-      - $.common.*
-    then:
-      - field: type
-        function: pattern
-        functionOptions:
-          notMatch: \b(email|Email)\b
-  apis-json-apis-properties-support-issues-info:
-    description: >-
-      Offering a support using GitHub issues offers an easy way to encourage
-      consumers to submit issues and communicate in a self-service way.
-    message: API Properties Support Issues
-    severity: info
-    given:
-      - $.apis.*.properties.*
-      - $.common.*
-    then:
-      - field: type
-        function: pattern
-        functionOptions:
-          notMatch: \b(issues|x-issues|Issues)\b
+
   apis-json-apis-properties-support-support-info:
-    description: >-
-      Offering a formal support page and channel helps make it easy for
-      consumers to find the help they need with putting aPIs to work.       
-    message: API Properties Support Support
+    description: Support Page
+    message: Has Support Page
     severity: info
     given:
       - $.apis.*.properties.*
@@ -749,11 +778,72 @@ rules:
         function: pattern
         functionOptions:
           notMatch: \b(support|Support)\b
+  apis-json-apis-properties-support-email-info:
+    description: Support Email
+    message: Has Support Email
+    severity: info     
+    given:
+      - $.apis.*.properties.*
+      - $.common.*
+    then:
+      - field: type
+        function: pattern
+        functionOptions:
+          notMatch: \b(support-email|SupportEmail)\b
+  apis-json-apis-properties-support-issues-info:
+    description: Support Issues
+    message: Has Support Issues URL
+    severity: info
+    given:
+      - $.apis.*.properties.*
+      - $.common.*
+    then:
+      - field: type
+        function: pattern
+        functionOptions:
+          notMatch: \b(SupportIssues|SupportGitHubIssues)\b
+
+  apis-json-apis-properties-feedback-email-info:
+    description: Feedback Email
+    message: Has Feedback Email
+    severity: info     
+    given:
+      - $.apis.*.properties.*
+      - $.common.*
+    then:
+      - field: type
+        function: pattern
+        functionOptions:
+          notMatch: \b(feedback-email|FeedbackEmail)\b
+  apis-json-apis-properties-feedback-issues-info:
+    description: Feedback Issues
+    message: Has Feedback Issues URL
+    severity: info
+    given:
+      - $.apis.*.properties.*
+      - $.common.*
+    then:
+      - field: type
+        function: pattern
+        functionOptions:
+          notMatch: \b(FeedbackIssues|FeedbackGitHubIssues)\b          
+
+  apis-json-apis-properties-questions-issues-info:
+    description: Questions Issues
+    message: Has Questions Issues URL
+    severity: info
+    given:
+      - $.apis.*.properties.*
+      - $.common.*
+    then:
+      - field: type
+        function: pattern
+        functionOptions:
+          notMatch: \b(QuestionsIssues|QuestionsGitHubIssues)\b    
+
   apis-json-apis-properties-terms-of-service-info:
-    description: >-
-      Offering a dedicated terms of service page helps ensure consumers are
-      aware of what is expected when it comes to using a service.       
-    message: API Properties Terms of Service
+    description: API Properties Terms of Service     
+    message: Has an API Terms of Service
     severity: info
     given:
       - $.apis.*.properties.*
@@ -767,7 +857,7 @@ rules:
             Service|TOS|TermsOfService)\b
   apis-json-apis-properties-uptime-monitor-info:
     description: API Properties Uptime Monitor
-    message: Has an uptime monitor.
+    message: Has an Uptime Monitor
     severity: info
     given:
       - $.apis.*.properties.*
@@ -779,7 +869,7 @@ rules:
           notMatch: \b(api-uptime-monitor|uptime-monitor|UptimeMonitor)\b
   apis-json-apis-properties-url-info:
     description: API Properties URL
-    message: API Properties URL
+    message: Property URLs Are Valid
     severity: info
     given:
       - $.apis.*.properties.*
@@ -791,9 +881,8 @@ rules:
           notMatch: >-
             ^((http|https)://)[-a-zA-Z0-9@:%._\+~#?&//=]{2,256}\.[a-z]{2,6}\b([-a-zA-Z0-9@:%._\+~#?&//=]*)$
   apis-json-apis-properties-use-cases-info:
-    description: >-
-      Providing a list of use cases for an API, defining the who, what, how, and why of API consumption, helping map to operations.    
-    message: API Properties Use Cases      
+    description: API Properties Use Cases   
+    message: Has Use Cases    
     severity: info
     given:
       - $.apis.*.properties.*
@@ -803,12 +892,21 @@ rules:
         function: pattern
         functionOptions:
           notMatch: \b(UseCases)\b
+  apis-json-apis-properties-teams-info:
+    description: API Properties Teams
+    message: Has a Team Defined
+    severity: info
+    given:
+      - $.apis.*.properties.*
+      - $.common.*
+    then:
+      - field: type
+        function: pattern
+        functionOptions:
+          notMatch: \b(team|teams|Team|Teams)\b          
   apis-json-apis-properties-video-info:
-    description: >-
-      Offering a video channel that is dedicated to your API helps increase
-      engagement with consumers and help ensure they are more aware of what is
-      happening.
-    message: API Properties Video
+    description: API Properties Video
+    message: Has Videos for API
     severity: info
     given:
       - $.apis.*.properties.*
@@ -828,7 +926,7 @@ rules:
       function: falsy
   apis-json-apis-tags-upper-case-error:
     description: Upper Case Tag for API
-    message: API Tags Upper Case
+    message: API Tags MUST Be Upper Case
     severity: error
     given: $.apis.*.tags.*
     then:
@@ -837,7 +935,7 @@ rules:
         match: '[A-Z]\w*'
   apis-json-apis-tags-upper-case-info:
     description: Upper Case Tag for API
-    message: API Tags Upper Case
+    message: API Tags are Upper Case
     severity: info
     given: $.apis.*.tags.*
     then:
@@ -1064,7 +1162,7 @@ rules:
       property for APIs.json</a>, and explore <a
       href="https://apievangelist.com/guidance/bounded-context/apis-json-tags/"
       target="_blank">tagging</a> more via API Evangelist.
-    message: There is a tags object.
+    message: There is a Tags Object
     given: $
     severity: info
     then:
