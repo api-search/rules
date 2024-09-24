@@ -122,7 +122,7 @@ rules:
       for APIs.json</a>, and explore <a
       href="https://guidance.apievangelist.com/guidance/support/name/"
       target="_blank">support name</a> more via API Evangelist.
-    message: API contact COULD have FN.
+    message: Contact Could Have FN
     given: $.apis.*.contact.*
     severity: error
     then:
@@ -138,7 +138,7 @@ rules:
       for APIs.json</a>, and explore <a
       href="https://guidance.apievangelist.com/guidance/support/name/"
       target="_blank">support name</a> more via API Evangelist.
-    message: API contact has FN.
+    message: Contact Has FN
     given: $.apis.*.contact.*
     severity: info
     then:
@@ -154,7 +154,7 @@ rules:
       APIs.json</a>, and explore <a
       href="https://guidance.apievangelist.com/guidance/support/contact/"
       target="_blank">support contact</a> more via API Evangelist.
-    message: API has a contact.
+    message: Has a Contract
     severity: info
     given:
       - $.apis.*
@@ -173,7 +173,7 @@ rules:
       APIs.json</a>, and explore <a
       href="https://guidance.apievangelist.com/guidance/apis/descriptions.html"
       target="_blank">API descriptons</a> more via API Evangelist.
-    message: API has a description.
+    message: Has a Description
     given: $.apis.*
     severity: info
     then:
@@ -190,7 +190,7 @@ rules:
       property for APIs.json</a>, and explore <a
       href="https://guidance.apievangelist.com/guidance/apis/human-url/"
       target="_blank">Human URLs</a> more via API Evangelist.
-    message: APIs Has a Human URL.
+    message: Has a Human URL
     given: $.apis.*
     severity: info
     then:
@@ -208,7 +208,7 @@ rules:
       APIs.json</a>, and explore <a
       href="https://guidance.apievangelist.com/guidance/apis/images.html"
       target="_blank">API images</a> more via API Evangelist.
-    message: API has an image.
+    message: Has an Image
     given: $.apis.*
     severity: info
     then:
@@ -227,7 +227,7 @@ rules:
       APIs.json</a>, and explore <a
       href="https://guidance.apievangelist.com/guidance/bounded-context/apis/"
       target="_blank">APIs</a> more via API Evangelist guidance.
-    message: There is an APIs property.
+    message: Has APIs
     given: $
     severity: info
     then:
@@ -244,7 +244,7 @@ rules:
       href="https://apisjson.org/schema/name/">name property for APIs.json</a>,
       and explore <a href="https://guidance.apievangelist.com/guidance/apis/names.html"
       target="_blank">API names</a> more via API Evangelist guidance.
-    message: API has a name.
+    message: Has a Name
     given: $.apis.*
     severity: info
     then:
@@ -252,7 +252,7 @@ rules:
       function: falsy
   apis-json-apis-properties-about-info:
     description: This property ensures provides a reference to an about page, either for the company, organization, or government agency behind an API, or specifically about the domain, team, and the APIs they produce. The goal is to provide more background on who is behind an API for consumers, but also any other stakeholder who may want to know more.  You can find details about the <a href="https://apisjson.org/common/about/">about property type for APIs.json</a>, and explore <a href="https://guidance.apievangelist.com/guidance/bounded-context/about.html" target="_blank">about pages</a> more via API Evangelist guidance.
-    message: Has an about property.
+    message: Has About
     severity: info
     given:
       - $.apis.*.properties.*
@@ -410,7 +410,7 @@ rules:
           notMatch: \b(github-organization|GitHubOrganization)\b
   apis-json-apis-properties-github-repository-info:
     description: This property ensures that an API possess a reference to a dedicated GitHub repository that is used to manage the Open, but also possible server and client code. A GitHub repository provides a single source of truth for the API contract and code, but also the conversation that occurs across the API lifecycle. You can find details about the <a href="https://apisjson.org/common/github-repositories/">GitHub repositories property type for APIs.json</a>, and explore <a href="https://guidance.apievangelist.com/guidance/source-control/github.html" target="_blank">GitHub repositories</a> more via API Evangelist.
-    message: Has a GitHub repository.
+    message: Has a GitHub Repository
     severity: info
     given:
       - $.apis.*.properties.*
@@ -422,7 +422,7 @@ rules:
           notMatch: \b(github-repository|GitHubRepository)\b
   apis-json-apis-properties-github-action-info:
     description: This property ensures that a GitHub Actions CI/CD pipeline is available for an API, providing a link to the pipeline YAML artifact, which can be used to automate and govern the API as part of the build process. GitHub Actions provide a proven way to automate each stage of the API lifecycle, weaving API governance into each stage of the lifecycle using policies and rules. You can find details about the <a href="https://apisjson.org/schema/aid/">GitHub Actions property type for APIs.json</a>, and explore <a href="https://guidance.apievangelist.com/guidance/pipelines/github-actions.html" target="_blank">GitHub Actions</a> more via API Evangelist guidance.
-    message: Has a GitHub Action.
+    message: Has a GitHub Action
     severity: info
     given:
       - $.apis.*.properties.*
@@ -431,10 +431,10 @@ rules:
       - field: type
         function: pattern
         functionOptions:
-          notMatch: \b(github-action|GitHubAction)\b          
+          notMatch: \b(github-actions|GitHubActions)\b          
   apis-json-apis-properties-insomnia-collection-info:
     description: This property defines an Insomnia collection available for each API, providing executable artifacts that can be used in the Insomnia client for making calls, and executing automation workflows. Insomnia Collections provide a great way to produce derivatives of an API that can be used to automate using an API, as well as the operations around it. You can find details about the <a href="https://apisjson.org/community/insomnia-collections/">Insomnnia Collection property type for APIs.json</a>, and explore <a href="https://guidance.apievangelist.com/guidance/contracts/insomnia-collections.html" target="_blank">Insomnia Collections</a> more via API Evangelist guidance.
-    message: Has a Insomnia Collection.
+    message: Has Insomnia Collection
     severity: info
     given:
       - $.apis.*.properties.*
@@ -614,7 +614,7 @@ rules:
       - field: type
         function: pattern
         functionOptions:
-          notMatch: \b(apisjson-rules|ApisJsonRules)\b  
+          notMatch: \b(operational-rules|OperationalRules)\b  
   apis-json-apis-properties-openapi-rules-info:
     description: This property ensures that an OpenAPI has support governance rules, that can be applied during design time via editors, development time via IDE, and run-time via CI/CD pipelines. OpenAPI rules are usually centrally defined, but can also be defined specifically for an API. You can find details about the <a href="https://apisjson.org/common/openapi-rules/">OpenAPI rules property for APIs.json</a>, and explore <a href="https://guidance.apievangelist.com/guidance/governance/openapi-rules.html" target="_blank">OpenAPI rules</a> via API Evangelist guidance.
     message: Has API Rules
@@ -626,7 +626,7 @@ rules:
       - field: type
         function: pattern
         functionOptions:
-          notMatch: \b(openapi-rules|OpenApiRules)\b                     
+          notMatch: \b(api-rules|ApiRules)\b                     
   apis-json-apis-properties-lifecycle-info:
     description: This property makes sure there is an API lifecycle schema defining all of the stages of a lifecycle and which policies get applied at each stage of the API lifecycle. A lifecycle schema is usually centrally defined, but then applied to each individual API to track the evolution of each version. You can find details about the <a href="https://apisjson.org/common/lifecycle/">lifecycle property type for APIs.json</a>, and explore <a href="https://guidance.apievangelist.com/guidance/governance/lifecycle.html" target="_blank">API lifecycle</a> via API Evangelist guidance.
     message: Has an API Lifecycle

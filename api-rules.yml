@@ -4556,6 +4556,7 @@ rules:
       object for OpenAPI</a>, and explore <a
       href="https://guidance.apievangelist.com/guidance/openapi/schema-property-shapes.html"
       target="_blank">schema property shapes</a> via API Evangelist guidance.
+    message: Schema String Properties MUST Have Maximum Length
     severity: error
     given: $.components.schemas.*.properties[?(@.type == 'string')]
     then:
@@ -4568,6 +4569,7 @@ rules:
       object for OpenAPI</a>, and explore <a
       href="https://guidance.apievangelist.com/guidance/openapi/schema-property-shapes.html"
       target="_blank">schema property shapes</a> via API Evangelist guidance.
+    message: Schema String Properties Has Maximum Length
     severity: info
     given: $.components.schemas.*.properties[?(@.type == 'string')]
     then:
@@ -4580,6 +4582,7 @@ rules:
       object for OpenAPI</a>, and explore <a
       href="https://guidance.apievangelist.com/guidance/openapi/schema-property-shapes.html"
       target="_blank">schema property shapes</a> via API Evangelist guidance.
+    message: Schema String Properties MUST Have Minimum Length
     severity: error
     given: $.components.schemas.*.properties[?(@.type == 'string')]
     then:
@@ -4592,6 +4595,7 @@ rules:
       object for OpenAPI</a>, and explore <a
       href="https://guidance.apievangelist.com/guidance/openapi/schema-property-shapes.html"
       target="_blank">schema property shapes</a> via API Evangelist guidance.
+    message: Schema String Properties Has Minimum Length
     severity: info
     given: $.components.schemas.*.properties[?(@.type == 'string')]
     then:
