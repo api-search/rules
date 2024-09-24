@@ -285,7 +285,7 @@ rules:
       - field: type
         function: pattern
         functionOptions:
-          notMatch: \b(blog|Blog)\b          
+          notMatch: \b(blog|Blogs)\b          
   apis-json-apis-properties-blog-feed-info:
     description: This property ensures that blogs in support of APIs have an Atom or RSS feed of posts, allowing for the syndication of updates and information around individual APIs and the operations around them. Feeds are a great way to augment APIs which are very distributed in nature, with information feeds that keep API consumers up to date. You can find details about the <a href="https://apisjson.org/common/blog-feeds/">aid property for APIs.json</a>, and explore <a href="https://guidance.apievangelist.com/guidance/communication/blog-feeds.html" target="_blank">API Unique Identifiers</a> more via API Evangelist.     
     message: Has a Blog Feed
@@ -297,7 +297,7 @@ rules:
       - field: type
         function: pattern
         functionOptions:
-          notMatch: \b(blog-feed|BlogFeed)\b
+          notMatch: \b(blog-feed|BlogFeeds)\b
   apis-json-apis-properties-change-log-info:
     description: This property ensures that than an individual API or API operations possesses a change log that catalogs all the changes that have occurred in a recent time frame, with historical and version information available if possible. Change log helps inform API consumers, but also keep API producers grounded in the recent past. You can find details about the <a href="https://apisjson.org/common/change-log/">change log property type for APIs.json</a>, and explore <a href="https://guidance.apievangelist.com/guidance/change/change-log.html" target="_blank">change logs</a> more via API Evangelist.
     message: Has Change Log
@@ -374,7 +374,7 @@ rules:
           notMatch: \b(api-environment-sandbox)\b
   apis-json-apis-properties-forum-info:
     description: This property ensures that there is a link to a discussion forum, providing a way for consumers and producers to engage and support either other throughout the lifecycle. This is a great way for making support self-service and community-driven, while ensuring everyone is taken care of. You can find details about the <a href="https://apisjson.org/common/forum/">forum property type for APIs.json</a>, and explore <a href="https://guidance.apievangelist.com/guidance/support/forums.html" target="_blank">discussion forums</a> more via API Evangelist.
-    message: Has a Discussion Forum
+    message: Has Discussion Forum
     severity: info
     given:
       - $.apis.*.properties.*
@@ -398,7 +398,7 @@ rules:
           notMatch: \b(GettingStarted)\b
   apis-json-apis-properties-github-organization-info:
     description: This property ensures that an API is associated with GitHub organization, providing the URL to where you can engage with the operations surrounding an API. Having a dedicated GitHub Organization for teams producing APIs helps establish a common and well-known place where teams can find out what is happening with an API. You can find details about the <a href="https://apisjson.org/common/github-organizations/">GitHub Organization property type for APIs.json</a>, and explore <a href="https://guidance.apievangelist.com/guidance/workspaces/github-organizations.html" target="_blank">GitHub Organization</a> more via API Evangelist guidance.
-    message: API Properties GitHub Organization
+    message: Has a GitHub Organization
     severity: info
     given:
       - $.apis.*.properties.*
@@ -458,7 +458,7 @@ rules:
           notMatch: \b(api-license|License|license|InterfaceLicense)\b
   apis-json-apis-properties-openapi-info:
     description: This property ensures that there is an OpenAPI present for an API, providing the technical contract that describes the surface area of an API. While the OpenAPI will be used for documentation, code generation, and other areas, this makes sure there is a direct link to the OpenAPI for wider use. You can find details about the <a href="https://apisjson.org/community/openapi/">OpenAPI property type for APIs.json</a>, and explore <a href="https://guidance.apievangelist.com/guidance/contracts/openapi.html" target="_blank">OpenAPI</a> more via API Evangelist guidance.
-    message: API has and OpenAPI.
+    message: Has An OpenAPI
     severity: info
     given:
       - $.apis.*.properties.*
@@ -470,7 +470,7 @@ rules:
           notMatch: \b(openapi|OpenAPI)\b
   apis-json-apis-properties-performance-info:
     description: This property ensures that an API has performance testing in place, providing a URL to the performance testing, dashboard, or other resource. Linking to performance testing is the first step towards actually publishing the results of performance tests as part of the contract. You can find details about the <a href="https://apisjson.org/common/performance/">performance property type for APIs.json</a>, and explore <a href="https://guidance.apievangelist.com/guidance/testing/performance.html" target="_blank">performance testing</a>  via API Evangelist guidance.
-    message: API Properties Performance
+    message: Has API Performance
     severity: info
     given:
       - $.apis.*.properties.*
@@ -482,7 +482,7 @@ rules:
           notMatch: \b(Performance|PerformanceTesting)\b
   apis-json-apis-properties-plans-info:
     description: This property provides a link to the dedicated plans page that applies to an API, providing information about access tiers, rate limits, and features available for an API as part of a wider API business plan. You can find details about the <a href="https://apisjson.org/common/plans/">plans property type for APIs.json</a>, and explore <a href="https://guidance.apievangelist.com/guidance/plans/overview.html" target="_blank">plans</a> via API Evangelist guidance.
-    message: Has a plans page.
+    message: Has API Plans
     severity: info
     given:
       - $.apis.*.properties.*
@@ -494,7 +494,7 @@ rules:
           notMatch: \b(api-plans|Plans)\b
   apis-json-apis-properties-policies-info:
     description: This property ensures there is a governance policies reference as part of an API contract, usually a common property pointing to a centralized set of policies that get applied. Policies are used to group governance rules and associate them with the business reasoning behind why rules should be applied. You can find details about the <a href="https://apisjson.org/common/policies/">policies property type for APIs.json</a>, and explore <a href="https://guidance.apievangelist.com/guidance/governance/policies.html" target="_blank">governance policies</a> via API Evangelist guidance.
-    message: Has a policies page.
+    message: Has API Governance Policies
     severity: info
     given:
       - $.apis.*.properties.*
@@ -506,7 +506,7 @@ rules:
           notMatch: \b(api-policies|Policies)\b
   apis-json-apis-properties-portal-info:
     description: This property ensures there a developer portal associated with an API and that you can find a landing page for the API, documentation, SDKs, and other resources. The API portal should be the front door for the API, providing a single place consumers can find whatever they need. You can find details about the <a href="https://apisjson.org/common/portas/">portals property type for APIs.json</a>, and explore <a href="https://guidance.apievangelist.com/guidance/discovery/portals.html" target="_blank">API portals</a> via API Evangelist guidance.
-    message: Has a portal
+    message: Has Developer Portal
     severity: info
     given:
       - $.apis.*.properties.*
@@ -519,7 +519,7 @@ rules:
             \b(api-developer-portal|developer-portal|portal|Portal|Portals|DeveloperPortal)\b
   apis-json-apis-properties-postman-collection-info:
     description: This property ensures that an API has at least one Postman Collection associated with it, providing automation, tests, and other executable derivatives of an APIs OpenAPI. Collections are a great way to define, organize, and execute specific API capabilities and automate API operations. You can find details about the <a href="https://apisjson.org/community/postman-collections/">Postman Collections property type for APIs.json</a>, and explore <a href="https://guidance.apievangelist.com/guidance/contracts/postman-collections.html" target="_blank">Postman Collections</a> via API Evangelist guidance.
-    message: Has a Postman Collection.
+    message: Has a Postman Collection
     severity: info
     given:
       - $.apis.*.properties.*
@@ -531,7 +531,7 @@ rules:
           notMatch: \b(PostmanCollection)\b
   apis-json-apis-properties-postman-public-workspace-info:
     description: This property ensures that an API is associated with a Postman Workspace, providing a single location that API producers and/or API consumers can engage around an API. Postman Workspaces provide a collaborative way to manage an API, meeting developers where they already work as part of their API work. You can find details about the <a href="https://apisjson.org/community/postman-workspaces/">Postman Workspaces property type for APIs.json</a>, and explore <a href="https://guidance.apievangelist.com/guidance/workspaces/postman-workspaces.html" target="_blank">Postman Workspaces</a> via API Evangelist guidance.
-    message: Providing a public Postman workspace
+    message: Has Public Postman Workspace
     severity: info
     given:
       - $.apis.*.properties.*
@@ -605,7 +605,7 @@ rules:
           notMatch: \b(api-rules|OpenApiRules)\b
   apis-json-apis-properties-apis-json-rules-info:
     description: This property ensures that an API has operational level rules for APIs.json defined, applying governance to everything surrounding an API. APIs.json operation rules are usually centralized as part of a public, or internal domain, team, or other bounded context. You can find details about the <a href="https://apisjson.org/common/rules/">operational rules property for APIs.json</a>, and explore <a href="https://guidance.apievangelist.com/guidance/governance/operational-rules.html" target="_blank">operational governance rules</a> via API Evangelist guidance.
-    message: Has APIs.json Rules
+    message: Has Operational Rules
     severity: info
     given:
       - $.apis.*.properties.*
@@ -617,7 +617,7 @@ rules:
           notMatch: \b(apisjson-rules|ApisJsonRules)\b  
   apis-json-apis-properties-openapi-rules-info:
     description: This property ensures that an OpenAPI has support governance rules, that can be applied during design time via editors, development time via IDE, and run-time via CI/CD pipelines. OpenAPI rules are usually centrally defined, but can also be defined specifically for an API. You can find details about the <a href="https://apisjson.org/common/openapi-rules/">OpenAPI rules property for APIs.json</a>, and explore <a href="https://guidance.apievangelist.com/guidance/governance/openapi-rules.html" target="_blank">OpenAPI rules</a> via API Evangelist guidance.
-    message: Has OpenAPI Rules
+    message: Has API Rules
     severity: info
     given:
       - $.apis.*.properties.*
