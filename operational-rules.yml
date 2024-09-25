@@ -72,7 +72,7 @@ rules:
       be an individual or wider, and associated with a team. You can find
       details about the <a href="https://apisjson.org/schema/apis-contact/">API
       contact property for APIs.json</a>, and explore <a
-      href="https://guidance.apievangelist.com/guidance/support/email/"
+      href="https://guidance.apievangelist.com/guidance/support/email.html"
       target="_blank">support emails</a> more via API Evangelist.
     message: API contact COULD have email.
     given: $.apis.*.contact.*
@@ -87,7 +87,7 @@ rules:
       be an individual or wider, and associated with a team. You can find
       details about the <a href="https://apisjson.org/schema/apis-contact/">API
       contact property for APIs.json</a>, and explore <a
-      href="https://guidance.apievangelist.com/guidance/support/email/"
+      href="https://guidance.apievangelist.com/guidance/support/email.html"
       target="_blank">support emails</a> more via API Evangelist.
     message: API contact has email.
     given: $.apis.*.contact.*
@@ -103,7 +103,7 @@ rules:
       standardized way of supporting an API. You can find details about the <a
       href="https://apisjson.org/schema/apis-contact/">API contact property for
       APIs.json</a>, and explore <a
-      href="https://guidance.apievangelist.com/guidance/support/contact/"
+      href="https://guidance.apievangelist.com/guidance/support/contact.html"
       target="_blank">support contact</a> more via API Evangelist.
     message: API COULD have a contact.
     severity: warn
@@ -120,7 +120,7 @@ rules:
       reference needed for support or feedback. You can find details about the
       <a href="https://apisjson.org/schema/apis-contact/">API contact property
       for APIs.json</a>, and explore <a
-      href="https://guidance.apievangelist.com/guidance/support/name/"
+      href="https://guidance.apievangelist.com/guidance/support/name.html"
       target="_blank">support name</a> more via API Evangelist.
     message: Contact Could Have FN
     given: $.apis.*.contact.*
@@ -136,7 +136,7 @@ rules:
       reference needed for support or feedback. You can find details about the
       <a href="https://apisjson.org/schema/apis-contact/">API contact property
       for APIs.json</a>, and explore <a
-      href="https://guidance.apievangelist.com/guidance/support/name/"
+      href="https://guidance.apievangelist.com/guidance/support/name.html"
       target="_blank">support name</a> more via API Evangelist.
     message: Contact Has FN
     given: $.apis.*.contact.*
@@ -152,7 +152,7 @@ rules:
       standardized way of supporting an API. You can find details about the <a
       href="https://apisjson.org/schema/apis-contact/">API contact property for
       APIs.json</a>, and explore <a
-      href="https://guidance.apievangelist.com/guidance/support/contact/"
+      href="https://guidance.apievangelist.com/guidance/support/contact.html"
       target="_blank">support contact</a> more via API Evangelist.
     message: Has a Contract
     severity: info
@@ -188,7 +188,7 @@ rules:
       of the properties API consumers will need for an API. You can find details
       about the <a href="https://apisjson.org/schema/human-url/">humanUrl
       property for APIs.json</a>, and explore <a
-      href="https://guidance.apievangelist.com/guidance/apis/human-url/"
+      href="https://guidance.apievangelist.com/guidance/apis/human-url.html"
       target="_blank">Human URLs</a> more via API Evangelist.
     message: Has a Human URL
     given: $.apis.*
@@ -225,7 +225,7 @@ rules:
       serving the purpose of the APIs.json artifact. You can find details about
       the <a href="https://apisjson.org/schema/apis/">baseUrl property for
       APIs.json</a>, and explore <a
-      href="https://guidance.apievangelist.com/guidance/bounded-context/apis/"
+      href="https://guidance.apievangelist.com/guidance/bounded-context/apis.html"
       target="_blank">APIs</a> more via API Evangelist guidance.
     message: Has APIs
     given: $
@@ -359,10 +359,10 @@ rules:
       - field: type
         function: pattern
         functionOptions:
-          notMatch: \b(api-environment-production)\b
-  apis-json-apis-properties-environments-sandbox-info:
-    description: This property ensures that there is a sandb ox environment available for an API, providing base URL, tokens, keys, and other key / value pairs that are needed to integrate with an API. Make sure attention is paid towards security and using a secure vault and service to keep all secrets secured. You can find details about the <a href="https://apisjson.org/common/environments/">environments for APIs.json</a>, and explore <a href="https://guidance.apievangelist.com/guidance/environments/sandbox.html" target="_blank">sandbox environments</a> more via API Evangelist guidance.
-    message: Has a Sandbox Environment
+          notMatch: \b(ProductionEnvironment)\b
+  apis-json-apis-properties-environments-staging-info:
+    description: This property ensures that there is a staging environment available for an API, providing base URL, tokens, keys, and other key / value pairs that are needed to integrate with an API. Make sure attention is paid towards security and using a secure vault and service to keep all secrets secured. You can find details about the <a href="https://apisjson.org/common/environments/">environments for APIs.json</a>, and explore <a href="https://guidance.apievangelist.com/guidance/environments/sandbox.html" target="_blank">sandbox environments</a> more via API Evangelist guidance.
+    message: Has a Stage Environment
     severity: info
     given:
       - $.apis.*.properties.*
@@ -371,7 +371,7 @@ rules:
       - field: type
         function: pattern
         functionOptions:
-          notMatch: \b(api-environment-sandbox)\b
+          notMatch: \b(StagingEnvironment)\b
   apis-json-apis-properties-forum-info:
     description: This property ensures that there is a link to a discussion forum, providing a way for consumers and producers to engage and support either other throughout the lifecycle. This is a great way for making support self-service and community-driven, while ensuring everyone is taken care of. You can find details about the <a href="https://apisjson.org/common/forum/">forum property type for APIs.json</a>, and explore <a href="https://guidance.apievangelist.com/guidance/support/forums.html" target="_blank">discussion forums</a> more via API Evangelist.
     message: Has Discussion Forum
@@ -540,7 +540,7 @@ rules:
       - field: type
         function: pattern
         functionOptions:
-          notMatch: \b(postman-public-workspace|PostmanPublicWorkspace)\b
+          notMatch: \b(postman-public-workspace|PostmanPublicWorkspace|PostmanWorkspace)\b
   apis-json-apis-properties-pricing-info:
     description: This property provides a link to a pricing page that applies to an API, providing a breakdown of the costs associated with using an API. Even if an API is free it should have a pricing page that provides an overview of what is available for free from an API. You can find details about the <a href="https://apisjson.org/common/pricing/">pricing property type for APIs.json</a>, and explore <a href="https://guidance.apievangelist.com/guidance/plans/pricing.html" target="_blank">API pricing</a> via API Evangelist guidance.
     message: Has Pricing
@@ -927,7 +927,7 @@ rules:
       platform, or other entities. You can find details about the <a
       href="https://apisjson.org/schema/common/">baseUrl property for
       APIs.json</a>, and explore <a
-      href="https://guidance.apievangelist.com/guidance/discovery/common/"
+      href="https://guidance.apievangelist.com/guidance/discovery/common.html"
       target="_blank">common discovery properties</a> more via API Evangelist.
     message: There is an common property.
     given: $
@@ -945,7 +945,7 @@ rules:
       any API platform. You can find details about the <a
       href="https://apisjson.org/schema/created/">created property for
       APIs.json</a>, and explore <a
-      href="https://guidance.apievangelist.com/guidance/change/created/"
+      href="https://guidance.apievangelist.com/guidance/change/created.html"
       target="_blank">how created property is used to manage change</a> more via
       API Evangelist.
     message: There is a created date.
@@ -965,7 +965,7 @@ rules:
       ways an APIs.json will be discovered. You can find details about the <a
       href="https://apisjson.org/schema/description/">description property for
       APIs.json</a>, and explore <a
-      href="https://guidance.apievangelist.com/guidance/descriptions/apis-json-descriptions/"
+      href="https://guidance.apievangelist.com/guidance/descriptions/apis-json-descriptions.html"
       target="_blank">APIs.json</a> more via API Evangelist.
     message: There is a description.
     given: $
@@ -982,7 +982,7 @@ rules:
       the APis.json. You can find details about the <a
       href="https://apisjson.org/schema/images/">images property for
       APIs.json</a>, and explore <a
-      href="https://guidance.apievangelist.com/guidance/images/apis-json-images/"
+      href="https://guidance.apievangelist.com/guidance/images/apis-json-images.html"
       target="_blank">using images</a> more via API Evangelist.
     message: There is an image.
     given: $
@@ -999,7 +999,7 @@ rules:
       details about the <a
       href="https://apisjson.org/schema/maintainers-email/">maintainers email
       property for APIs.json</a>, and explore <a
-      href="https://guidance.apievangelist.com/guidance/support/email/"
+      href="https://guidance.apievangelist.com/guidance/support/email.html"
       target="_blank">email support</a> more via API Evangelist.
     message: There is a email property for maintainers.
     given: $.maintainers.*
@@ -1016,7 +1016,7 @@ rules:
       details about the <a
       href="https://apisjson.org/schema/maintainers-fn/">API contact property
       for APIs.json</a>, and explore <a
-      href="https://guidance.apievangelist.com/guidance/support/name/"
+      href="https://guidance.apievangelist.com/guidance/support/name.html"
       target="_blank">support name</a> more via API Evangelist.
     message: There is a FN property for maintainers.
     given: $.maintainers.*
@@ -1034,7 +1034,7 @@ rules:
       details about the <a
       href="https://apisjson.org/schema/maintianers/">maintainers property for
       APIs.json</a>, and explore <a
-      href="https://guidance.apievangelist.com/guidance/support/names/"
+      href="https://guidance.apievangelist.com/guidance/support/names.html"
       target="_blank">support</a> more via API Evangelist.
     message: There is a maintainer object.
     given: $
@@ -1051,7 +1051,7 @@ rules:
       that are inevitable across API operations. You can find details about the
       <a href="https://apisjson.org/schema/modified/">modified property for
       APIs.json</a>, and explore <a
-      href="https://guidance.apievangelist.com/guidance/change/modified/"
+      href="https://guidance.apievangelist.com/guidance/change/modified.html"
       target="_blank">modified property and change management</a> more via API
       Evangelist.
     message: There is a modified date.
@@ -1070,7 +1070,7 @@ rules:
       does. You can find details about the <a
       href="https://apisjson.org/schema/names/">names property for
       APIs.json</a>, and explore <a
-      href="https://guidance.apievangelist.com/guidance/naming/apis-json-names/"
+      href="https://guidance.apievangelist.com/guidance/naming/apis-json-names.html"
       target="_blank">APIs.json names</a> more via API Evangelist.
     message: There is a name.
     severity: info
@@ -1084,9 +1084,8 @@ rules:
       APIs.json identifiers are a standardized format for allowing API producers
       to establish a unique identifier for each API contract they provide using
       APIs.json, which will then be prepended to each APIs defined. You can find
-      details about the standard for APIs.json unique identifier on API Commons
-      [need link], and explore <a
-      href="https://guidance.apievangelist.com/guidance/identifiers/apis-json-identifier/"
+      details about the standard for <a href="https://apisjson.org/schema/aid/">APIs.json unique identifier on API Commons</a>, and explore <a
+      href="https://guidance.apievangelist.com/guidance/identifiers/apis-json-identifier.html"
       target="_blank">APIs.json Unique Identifiers</a> via API Evangelist.
     message: There is an aid.
     severity: info
@@ -1104,7 +1103,9 @@ rules:
       types have recently been added, expanding the ways in which the APIs.json
       specification can be used beyond just API discovery. You can find details
       about the <a href="https://apisjson.org/schema/type/">type property for
-      APIs.json</a>.
+      APIs.json</a>, and explore <a
+      href="https://guidance.apievangelist.com/guidance/contracts/type.html"
+      target="_blank">APIs.json Unique Identifiers</a> via API Evangelist..
     message: There is a specification type.
     severity: info
     given: $
@@ -1136,7 +1137,7 @@ rules:
       tangible and meaningful for both API producers and consumers. You can find
       details about the <a href="https://apisjson.org/schema/tags/">tags
       property for APIs.json</a>, and explore <a
-      href="https://guidance.apievangelist.com/guidance/bounded-context/apis-json-tags/"
+      href="https://guidance.apievangelist.com/guidance/bounded-context/apis-json-tags.html"
       target="_blank">tagging</a> more via API Evangelist.
     message: There is a Tags Object
     given: $
@@ -1153,7 +1154,7 @@ rules:
       things are readable, and act as a vocabulary for API operations. You can
       find details about the <a href="https://apisjson.org/schema/tags/">tags
       property for APIs.json</a>, and explore <a
-      href="https://guidance.apievangelist.com/guidance/bounded-context/apis-json-tags/"
+      href="https://guidance.apievangelist.com/guidance/bounded-context/apis-json-tags.html"
       target="_blank">tagging</a> more via API Evangelist.
     message: Tags Upper Case
     severity: error
@@ -1171,7 +1172,7 @@ rules:
       things are readable, and act as a vocabulary for API operations. You can
       find details about the <a href="https://apisjson.org/schema/tags/">tags
       property for APIs.json</a>, and explore <a
-      href="https://guidance.apievangelist.com/guidance/bounded-context/apis-json-tags/"
+      href="https://guidance.apievangelist.com/guidance/bounded-context/apis-json-tags.html"
       target="_blank">tagging</a> more via API Evangelist.
     message: Tags Upper Case
     severity: info
@@ -1188,10 +1189,60 @@ rules:
       used to ensure the authenticity and origin of APIs.json. The URL is
       regularly validated as part of API operations and the solutions using the
       APIs.json. You can find details about the <a
-      href="https://apisjson.org/schema/url/">url property for APIs.json</a>.
+      href="https://apisjson.org/schema/url/">url property for APIs.json</a>, and explore <a
+      href="https://guidance.apievangelist.com/guidance/contracts/apis-json-url.html"
+      target="_blank">APIs.json URLs</a> more via API Evangelist.
     message: There is a URL.
     given: $
     severity: info
     then:
       field: url
       function: falsy
+  apis-json-apis-properties-versioning-info:
+    description: This property ensures there is a reference to how APIs are versioned, providing a single place where teams can learn about how change is communicated. The versioning page will usually talk about whether it is Semantic or date-based versioning, as well as referencing the change log, road map, and other elements You can find details about the <a href="https://apisjson.org/common/versioning/">versioning property type for APIs.json</a>, and explore <a href="https://guidance.apievangelist.com/guidance/change/versioning.html" target="_blank">versioning</a> via API Evangelist guidance.
+    message: Has Versioning for API
+    severity: info
+    given:
+      - $.apis.*.properties.*
+      - $.common.*
+    then:
+      - field: type
+        function: pattern
+        functionOptions:
+          notMatch: \b(versions|Versions|Versioning|versioning)\b                   
+  apis-json-apis-properties-gateway-info:
+    description: This property ensures that there is a reference to the gateway for an API, referencing where you can manage the configuration for each API. Each gateway stage for an API ideally has a dedicated URL which contains the unique identifier for the API which can be access via the gateway API. You can find details about the <a href="https://apisjson.org/common/gateways/">gateway property type for APIs.json</a>, and explore <a href="https://guidance.apievangelist.com/guidance/gateways/overview.html" target="_blank">gateways</a> via API Evangelist guidance.
+    message: Has Staging Gateway for API
+    severity: info
+    given:
+      - $.apis.*.properties.*
+      - $.common.*
+    then:
+      - field: type
+        function: pattern
+        functionOptions:
+          notMatch: \b(gateway|Gateway)\b     
+  apis-json-apis-properties-apis-json-validator-info:
+    description: This property ensures that there is a link to the validator for the APIs.json business contract, allowing anyone to see the details of governance being applied. The validator is custom to each API and the business contract, providing all the details of rules that are governing the APIs.json for an API. You can find details about the <a href="https://apisjson.org/common/validator/">validator property type for APIs.json</a>, and explore <a href="https://guidance.apievangelist.com/guidance/validator/overview.html" target="_blank">validator</a> via API Evangelist guidance.
+    message: Has APIs.json (Business) Validator
+    severity: info
+    given:
+      - $.apis.*.properties.*
+      - $.common.*
+    then:
+      - field: type
+        function: pattern
+        functionOptions:
+          notMatch: \b(OperationalValidation)\b   
+  apis-json-apis-properties-openapi-validator-info:
+    description: This property ensures that there is a link to the validator for the OpenAPI technical contract, allowing anyone to see the details of governance being applied. The validator is custom to each API and the technical contract, providing all the details of rules that are governing the OpenAPI for an API. You can find details about the <a href="https://apisjson.org/common/validator/">validator property type for APIs.json</a>, and explore <a href="https://guidance.apievangelist.com/guidance/validator/overview.html" target="_blank">validator</a> via API Evangelist guidance.
+    message: Has OpenAPI (Technical) Validator
+    severity: info
+    given:
+      - $.apis.*.properties.*
+      - $.common.*
+    then:
+      - field: type
+        function: pattern
+        functionOptions:
+          notMatch: \b(APIValidation)\b                                
