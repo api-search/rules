@@ -1,0 +1,62 @@
+---
+categories:
+- hudi
+description: Spectral linting rules defining API design standards and conventions for Apache Hudi.
+layout: rules
+name: Apache Hudi API Rules
+provider_name: Apache Hudi
+provider_slug: apache-hudi
+rule_count: 8
+rules:
+- description: All Hudi Timeline Server API operations must have a summary
+  given: $.paths[*][get,put,post,delete,patch]
+  name: hudi-operation-summary
+  severity: error
+- description: All Hudi Timeline Server API operations must have an operationId
+  given: $.paths[*][get,put,post,delete,patch]
+  name: hudi-operation-id
+  severity: error
+- description: All Hudi Timeline Server API operations must have at least one tag
+  given: $.paths[*][get,put,post,delete,patch]
+  name: hudi-operation-tags
+  severity: warn
+- description: All Hudi schema components must have a description
+  given: $.components.schemas[*]
+  name: hudi-schema-description
+  severity: warn
+- description: All Hudi schema properties should have descriptions
+  given: $.components.schemas[*].properties[*]
+  name: hudi-property-description
+  severity: info
+- description: API info must include contact information
+  given: $.info
+  name: hudi-info-contact
+  severity: warn
+- description: API info must include license information
+  given: $.info
+  name: hudi-info-license
+  severity: warn
+- description: All Hudi path parameters must have descriptions
+  given: $.paths[*][*].parameters[?(@.in=='path')]
+  name: hudi-path-parameters-described
+  severity: warn
+rules_file: rules/apache-hudi-spectral-rules.yml
+rules_url: https://raw.githubusercontent.com/api-evangelist/apache-hudi/refs/heads/main/rules/apache-hudi-spectral-rules.yml
+severity_counts:
+  error: 2
+  hint: 0
+  info: 1
+  warn: 5
+slug: apache-hudi-spectral-rules
+tags:
+- ACID
+- Apache
+- Big Data
+- Data Lake
+- Incremental Processing
+- Lakehouse
+- Open Source
+- Spectral
+- Linting
+- API Governance
+---
