@@ -1,0 +1,50 @@
+---
+layout: default
+meta_title: "API Governance Rules | APIs.io"
+meta_description: "Browse API governance rules and Spectral rulesets across the APIs.io network."
+---
+
+<style>
+  .page-hero { text-align: center; padding: 2rem 0 1.5rem; }
+  .page-hero h1 { font-size: 2rem; margin-bottom: 0.5rem; }
+  .page-hero p { color: #666; margin-bottom: 1.5rem; }
+  .filter-bar { max-width: 960px; margin: 0 auto 1.5rem; }
+  .item-list { max-width: 960px; margin: 0 auto; }
+  .item-row { background: white; border: 1px solid #e3e7ee; border-left: 3px solid #c2410c; border-radius: 8px; padding: 0.75rem 1.25rem; margin-bottom: 0.4rem; transition: all 0.15s; }
+  .item-row:hover { border-color: #c2410c; box-shadow: 0 1px 4px rgba(194,65,12,0.08); }
+  .item-row h3 { font-size: 0.95rem; font-weight: 600; margin: 0; }
+  .item-row h3 a { color: #1a1a2e; text-decoration: none; }
+  .item-row h3 a:hover { color: #c2410c; }
+  .item-provider { font-size: 0.8rem; color: #6c757d; }
+  .item-stats { font-size: 0.8rem; color: #999; }
+</style>
+
+<div class="page-hero">
+  <h1>API Governance Rules</h1>
+  <p>Browse <strong>{{ site.rules | size }}</strong> rulesets across the APIs.io network</p>
+  <div class="filter-bar">
+    <input type="text" class="form-control" id="item-filter" placeholder="Filter rules..." style="max-width: 400px; margin: 0 auto;">
+  </div>
+</div>
+
+<div class="item-list" id="item-list">
+  {% for rule in site.rules %}
+  <div class="item-row" data-name="{{ rule.name | downcase }} {{ rule.provider_name | downcase }}">
+    <h3><a href="{{ rule.url }}">{{ rule.name }}</a></h3>
+    <div class="item-provider"><a href="https://providers.apis.io/providers/{{ rule.provider_slug }}/">{{ rule.provider_name }}</a></div>
+    <div class="item-stats">{{ rule.rule_count }} rules &middot;
+      {% if rule.severity_counts.error > 0 %}<span style="color: #dc3545;">{{ rule.severity_counts.error }} errors</span> {% endif %}
+      {% if rule.severity_counts.warn > 0 %}<span style="color: #fd7e14;">{{ rule.severity_counts.warn }} warnings</span>{% endif %}
+    </div>
+  </div>
+  {% endfor %}
+</div>
+
+<script>
+document.getElementById('item-filter').addEventListener('input', function() {
+  var q = this.value.toLowerCase();
+  document.querySelectorAll('.item-row').forEach(function(item) {
+    item.style.display = item.getAttribute('data-name').indexOf(q) !== -1 ? '' : 'none';
+  });
+});
+</script>

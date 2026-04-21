@@ -1,0 +1,29 @@
+name: APIs.io Rules
+description: Browse API governance rules and Spectral rulesets across the APIs.io network.
+image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+url: https://rules.apis.io
+
+node: website
+nav_active: more
+
+keywords:
+  - APIs
+  - Search
+  - Discovery
+
+exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", "scripts"]
+
+github_org: api-search
+github_repo: rules
+
+collections:
+  rules:
+    output: true
+    permalink: /rules/:path/
+
+defaults:
+  - scope:
+      path: ""
+      type: rules
+    values:
+      layout: rules

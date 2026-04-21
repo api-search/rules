@@ -1,0 +1,16 @@
+---
+layout: none
+---
+[
+{% assign idx = 0 %}{% for rule in site.rules %}{
+"i":{{ idx }},
+"type":"rules",
+"n":{{ rule.name | jsonify }},
+"d":{{ rule.description | strip_html | strip_newlines | truncate: 300 | jsonify }},
+"t":{{ rule.tags | jsonify }},
+"p":{{ rule.provider_name | default: rule.provider_slug | jsonify }},
+"ps":{{ rule.provider_slug | jsonify }},
+"u":"{{ rule.url | absolute_url }}"
+}{% assign idx = idx | plus: 1 %}{% unless forloop.last %},{% endunless %}
+{% endfor %}
+]
