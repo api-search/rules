@@ -1,0 +1,51 @@
+---
+categories:
+- blender
+description: Spectral linting rules defining API design standards and conventions for Blender.
+layout: rules
+name: Blender API Rules
+provider_name: Blender
+provider_slug: blender
+rule_count: 5
+rules:
+- description: Addon ID must be lowercase with underscores only
+  given: $.components.schemas.AddonManifest.properties.id
+  name: blender-addon-id-format
+  severity: warn
+- description: Blender addon version must follow semantic versioning
+  given: $.components.schemas.AddonManifest.properties.version
+  name: blender-version-semver
+  severity: warn
+- description: Operator bl_idname must use category.name format
+  given: $.components.schemas.BpyOperator.properties.bl_idname
+  name: blender-operator-idname-format
+  severity: warn
+- description: Addon manifest should include category tags
+  given: $.components.schemas.AddonManifest.properties.tags
+  name: blender-tags-present
+  severity: warn
+- description: License identifiers should use SPDX format
+  given: $.components.schemas.AddonManifest.properties.license
+  name: blender-license-spdx
+  severity: warn
+rules_file: rules/blender-spectral-rules.yml
+rules_url: https://raw.githubusercontent.com/api-evangelist/blender/refs/heads/main/rules/blender-spectral-rules.yml
+severity_counts:
+  error: 0
+  hint: 0
+  info: 0
+  warn: 5
+slug: blender-spectral-rules
+tags:
+- 3D
+- Animation
+- Game Development
+- Modeling
+- Open Source
+- Python
+- Rendering
+- VFX
+- Spectral
+- Linting
+- API Governance
+---
