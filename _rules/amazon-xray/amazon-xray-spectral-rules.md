@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: amazon-xray-openapi-original.yaml
+  format: yaml
+  label: Amazon X-Ray REST API
+  slug: amazon-xray-rest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-xray/refs/heads/main/openapi/amazon-xray-openapi-original.yaml
 categories:
 - components
 - get

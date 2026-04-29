@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: amazon-codeguru-security-openapi-original.yaml
+  format: yaml
+  label: Amazon CodeGuru Security API
+  slug: amazon-codeguru-security-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-codeguru-security/refs/heads/main/openapi/amazon-codeguru-security-openapi-original.yaml
 categories:
 - info
 - 'no'

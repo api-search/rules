@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: apptio-openapi.yaml
+  format: yaml
+  label: Apptio API
+  slug: apptio-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apptio/refs/heads/main/openapi/apptio-openapi.yaml
 categories:
 - http
 - info

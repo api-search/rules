@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: argo-cd-openapi.json
+  format: json
+  label: Argo CD API
+  slug: argo-cd
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/argo-cd/refs/heads/main/openapi/argo-cd-openapi.json
 categories:
 - get
 - info

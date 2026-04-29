@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: appwrite-openapi.yaml
+  format: yaml
+  label: Appwrite API
+  slug: appwrite-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/appwrite/refs/heads/main/openapi/appwrite-openapi.yaml
 categories:
 - http
 - info

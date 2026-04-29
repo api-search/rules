@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: absentify-openapi.yml
+  format: yaml
+  label: Absentify API
+  slug: absentify
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/absentify/refs/heads/main/openapi/absentify-openapi.yml
 categories:
 - absentify
 description: Spectral linting rules defining API design standards and conventions for Absentify.

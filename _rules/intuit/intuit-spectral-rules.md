@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: quickbooks-accounting.yml
+  format: yaml
+  label: QuickBooks Online Accounting API
+  slug: quickbooks-accounting
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/intuit/refs/heads/main/openapi/quickbooks-accounting.yml
 categories:
 - info
 - 'no'

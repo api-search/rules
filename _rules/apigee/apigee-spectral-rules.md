@@ -1,4 +1,35 @@
 ---
+api_specs:
+- filename: apigee-api-management-openapi.yml
+  format: yaml
+  label: Apigee API Management
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apigee/refs/heads/main/openapi/apigee-api-management-openapi.yml
+- filename: apigee-api-hub-openapi.yml
+  format: yaml
+  label: Apigee API Hub API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apigee/refs/heads/main/openapi/apigee-api-hub-openapi.yml
+- filename: apigee-integrations-openapi.yml
+  format: yaml
+  label: Apigee Integrations API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apigee/refs/heads/main/openapi/apigee-integrations-openapi.yml
+- filename: apigee-apim-openapi.yml
+  format: yaml
+  label: Apigee API Management API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apigee/refs/heads/main/openapi/apigee-apim-openapi.yml
+- filename: apigee-registry-openapi.yml
+  format: yaml
+  label: Apigee Registry API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apigee/refs/heads/main/openapi/apigee-registry-openapi.yml
 categories:
 - delete
 - info

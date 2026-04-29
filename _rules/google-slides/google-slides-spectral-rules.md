@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: google-slides-api-openapi.yml
+  format: yaml
+  label: Google Slides API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-slides/refs/heads/main/openapi/google-slides-api-openapi.yml
 categories:
 - info
 - 'no'

@@ -1,4 +1,23 @@
 ---
+api_specs:
+- filename: agstack-openagri-weather-service-openapi.yml
+  format: yaml
+  label: OpenAgri Weather Service
+  slug: openagri-weather-service
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/agstack/refs/heads/main/openapi/agstack-openagri-weather-service-openapi.yml
+- filename: agstack-openagri-farm-calendar-openapi.yml
+  format: yaml
+  label: OpenAgri Farm Calendar
+  slug: openagri-farm-calendar
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/agstack/refs/heads/main/openapi/agstack-openagri-farm-calendar-openapi.yml
+- filename: agstack-asset-registry-openapi.yml
+  format: yaml
+  label: AgStack Asset Registry
+  slug: asset-registry
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/agstack/refs/heads/main/openapi/agstack-asset-registry-openapi.yml
 categories:
 - agstack
 description: Spectral linting rules defining API design standards and conventions for AgStack Foundation.

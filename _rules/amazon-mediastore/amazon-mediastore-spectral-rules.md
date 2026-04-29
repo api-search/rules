@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: amazon-mediastore-openapi-original.yml
+  format: yaml
+  label: Amazon MediaStore API
+  slug: mediastore-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-mediastore/refs/heads/main/openapi/amazon-mediastore-openapi-original.yml
 categories:
 - get
 - info

@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: amazon-location-service-openapi.yml
+  format: yaml
+  label: Amazon Location Service REST API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-location-service/refs/heads/main/openapi/amazon-location-service-openapi.yml
 categories:
 - info
 - openapi

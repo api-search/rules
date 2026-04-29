@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: amazon-lookout-for-vision-openapi-original.yaml
+  format: yaml
+  label: Amazon Lookout for Vision API
+  slug: amazon-lookout-for-vision-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-lookout-for-vision/refs/heads/main/openapi/amazon-lookout-for-vision-openapi-original.yaml
 categories:
 - examples
 - http

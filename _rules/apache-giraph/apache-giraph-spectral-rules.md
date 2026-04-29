@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: apache-giraph-job-openapi.yml
+  format: yaml
+  label: Apache Giraph Job Monitoring API
+  slug: apache-giraph-job-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-giraph/refs/heads/main/openapi/apache-giraph-job-openapi.yml
 categories:
 - info
 - operation

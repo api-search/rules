@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: splunk-enterprise-rest-api.yml
+  format: yaml
+  label: Splunk Enterprise REST API
+  slug: splunk-enterprise-rest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/splunk/refs/heads/main/openapi/splunk-enterprise-rest-api.yml
 categories:
 - info
 - 'no'

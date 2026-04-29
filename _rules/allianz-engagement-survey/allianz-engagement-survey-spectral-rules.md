@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: allianz-engagement-survey.yaml
+  format: yaml
+  label: Allianz Engagement Survey API
+  slug: engagement-survey-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/allianz-engagement-survey/refs/heads/main/openapi/allianz-engagement-survey.yaml
 categories:
 - get
 - info

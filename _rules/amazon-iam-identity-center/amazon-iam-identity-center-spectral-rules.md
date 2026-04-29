@@ -1,4 +1,17 @@
 ---
+api_specs:
+- filename: amazon-iam-identity-center-sso-admin-openapi-original.yml
+  format: yaml
+  label: AWS IAM Identity Center SSO Admin API
+  slug: aws-sso-admin-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-iam-identity-center/refs/heads/main/openapi/amazon-iam-identity-center-sso-admin-openapi-original.yml
+- filename: amazon-iam-identity-center-identitystore-openapi-original.yml
+  format: yaml
+  label: AWS IAM Identity Center Identity Store API
+  slug: aws-identitystore-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-iam-identity-center/refs/heads/main/openapi/amazon-iam-identity-center-identitystore-openapi-original.yml
 categories:
 - get
 - info

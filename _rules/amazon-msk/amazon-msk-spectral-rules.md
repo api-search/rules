@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: amazon-msk-openapi-original.yml
+  format: yaml
+  label: Amazon MSK API
+  slug: msk-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-msk/refs/heads/main/openapi/amazon-msk-openapi-original.yml
 categories:
 - get
 - info

@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: amazon-health-dashboard-openapi.yaml
+  format: yaml
+  label: AWS Health API
+  slug: aws-health-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-health-dashboard/refs/heads/main/openapi/amazon-health-dashboard-openapi.yaml
 categories:
 - info
 - microcks

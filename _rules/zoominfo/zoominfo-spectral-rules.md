@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: zoominfo-openapi.yml
+  format: yaml
+  label: ZoomInfo
+  slug: zoominfo
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/zoominfo/refs/heads/main/openapi/zoominfo-openapi.yml
 categories:
 - http
 - info

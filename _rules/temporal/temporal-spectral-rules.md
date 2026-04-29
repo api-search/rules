@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: cloud-ops-api.yml
+  format: yaml
+  label: Temporal Cloud Ops API
+  slug: cloud-ops-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/temporal/refs/heads/main/openapi/cloud-ops-api.yml
 categories:
 - info
 - 'no'

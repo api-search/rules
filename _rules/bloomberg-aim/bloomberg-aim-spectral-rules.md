@@ -1,4 +1,23 @@
 ---
+api_specs:
+- filename: bloomberg-data-license-api.yml
+  format: yaml
+  label: Bloomberg Data License API
+  slug: bloomberg-data-license-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bloomberg-aim/refs/heads/main/openapi/bloomberg-data-license-api.yml
+- filename: bloomberg-emsx-api.yml
+  format: yaml
+  label: Bloomberg EMSX API
+  slug: bloomberg-emsx-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bloomberg-aim/refs/heads/main/openapi/bloomberg-emsx-api.yml
+- filename: bloomberg-http-api.yml
+  format: yaml
+  label: Bloomberg HTTP API
+  slug: bloomberg-http-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bloomberg-aim/refs/heads/main/openapi/bloomberg-http-api.yml
 categories:
 - info
 - 'no'

@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: amazon-mainframe-modernization-openapi-original.yaml
+  format: yaml
+  label: AWS Mainframe Modernization API
+  slug: aws-mainframe-modernization-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-mainframe-modernization/refs/heads/main/openapi/amazon-mainframe-modernization-openapi-original.yaml
 categories:
 - examples
 - http

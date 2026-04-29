@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: amazon-incident-manager-openapi-original.yml
+  format: yaml
+  label: AWS Systems Manager Incident Manager API
+  slug: aws-ssm-incidents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-incident-manager/refs/heads/main/openapi/amazon-incident-manager-openapi-original.yml
 categories:
 - get
 - info

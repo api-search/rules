@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: apache-opennlp-tools.yaml
+  format: yaml
+  label: Apache OpenNLP
+  slug: apache-opennlp
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-opennlp/refs/heads/main/openapi/apache-opennlp-tools.yaml
 categories:
 - info
 - operation

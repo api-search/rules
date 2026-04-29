@@ -1,4 +1,53 @@
 ---
+api_specs:
+- filename: salesforce-openapi.yml
+  format: yaml
+  label: Salesforce REST API
+  slug: salesforce-rest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/salesforce/refs/heads/main/openapi/salesforce-openapi.yml
+- filename: salesforce-bulk-api-2-openapi.yml
+  format: yaml
+  label: Salesforce Bulk API 2.0
+  slug: salesforce-bulk-api-2
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/salesforce/refs/heads/main/openapi/salesforce-bulk-api-2-openapi.yml
+- filename: salesforce-streaming-asyncapi.yml
+  format: yaml
+  label: Salesforce Streaming API
+  slug: salesforce-streaming-api
+  spec_type: AsyncAPI
+  url: https://raw.githubusercontent.com/api-evangelist/salesforce/refs/heads/main/asyncapi/salesforce-streaming-asyncapi.yml
+- filename: salesforce-platform-events-asyncapi.yml
+  format: yaml
+  label: Salesforce Platform Events API
+  slug: salesforce-platform-events-api
+  spec_type: AsyncAPI
+  url: https://raw.githubusercontent.com/api-evangelist/salesforce/refs/heads/main/asyncapi/salesforce-platform-events-asyncapi.yml
+- filename: salesforce-change-data-capture-asyncapi.yml
+  format: yaml
+  label: Salesforce Change Data Capture API
+  slug: salesforce-change-data-capture-api
+  spec_type: AsyncAPI
+  url: https://raw.githubusercontent.com/api-evangelist/salesforce/refs/heads/main/asyncapi/salesforce-change-data-capture-asyncapi.yml
+- filename: salesforce-ui-api-openapi.yml
+  format: yaml
+  label: Salesforce UI API
+  slug: salesforce-ui-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/salesforce/refs/heads/main/openapi/salesforce-ui-api-openapi.yml
+- filename: salesforce-marketing-cloud-rest-openapi.yml
+  format: yaml
+  label: Salesforce Marketing Cloud REST API
+  slug: salesforce-marketing-cloud-rest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/salesforce/refs/heads/main/openapi/salesforce-marketing-cloud-rest-openapi.yml
+- filename: salesforce-openapi.yml
+  format: yaml
+  label: Salesforce
+  slug: salesforce-salesforce
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/salesforce/refs/heads/main/openapi/salesforce-openapi.yml
 categories:
 - http
 - info

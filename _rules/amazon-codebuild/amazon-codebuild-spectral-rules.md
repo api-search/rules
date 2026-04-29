@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: amazon-codebuild-openapi-original.yaml
+  format: yaml
+  label: Amazon CodeBuild API
+  slug: amazon-codebuild-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-codebuild/refs/heads/main/openapi/amazon-codebuild-openapi-original.yaml
 categories:
 - info
 - 'no'

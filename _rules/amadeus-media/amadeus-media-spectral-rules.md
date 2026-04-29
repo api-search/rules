@@ -1,4 +1,17 @@
 ---
+api_specs:
+- filename: amadeus-media-hotel-content-openapi.yaml
+  format: yaml
+  label: Hotel Content API
+  slug: hotel-content-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amadeus-media/refs/heads/main/openapi/amadeus-media-hotel-content-openapi.yaml
+- filename: amadeus-media-hotel-list-openapi.yaml
+  format: yaml
+  label: Hotel List API
+  slug: hotel-list-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amadeus-media/refs/heads/main/openapi/amadeus-media-hotel-list-openapi.yaml
 categories:
 - delete
 - get

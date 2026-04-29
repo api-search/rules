@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: amazon-compute-optimizer-openapi.yml
+  format: yaml
+  label: Amazon Compute Optimizer API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-compute-optimizer/refs/heads/main/openapi/amazon-compute-optimizer-openapi.yml
 categories:
 - compute
 - get

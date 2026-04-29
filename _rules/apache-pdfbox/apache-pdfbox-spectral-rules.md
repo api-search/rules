@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: apache-pdfbox-api.yaml
+  format: yaml
+  label: Apache PDFBox
+  slug: apache-pdfbox
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-pdfbox/refs/heads/main/openapi/apache-pdfbox-api.yaml
 categories:
 - info
 - operation

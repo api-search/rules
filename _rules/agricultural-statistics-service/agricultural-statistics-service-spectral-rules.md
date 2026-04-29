@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: agricultural-statistics-service-quickstats-api.yaml
+  format: yaml
+  label: USDA NASS QuickStats API
+  slug: quickstats-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/agricultural-statistics-service/refs/heads/main/openapi/agricultural-statistics-service-quickstats-api.yaml
 categories:
 - get
 - info

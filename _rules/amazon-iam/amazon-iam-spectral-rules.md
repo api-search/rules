@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: amazon-iam-openapi.yml
+  format: yaml
+  label: AWS IAM API
+  slug: aws-iam-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-iam/refs/heads/main/openapi/amazon-iam-openapi.yml
 categories:
 - get
 - info

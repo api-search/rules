@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: cloudrf-openapi.yml
+  format: yaml
+  label: CloudRF API
+  slug: cloudrf-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cloudrf/refs/heads/main/openapi/cloudrf-openapi.yml
 categories:
 - cloudrf
 description: Spectral linting rules defining API design standards and conventions for CloudRF.

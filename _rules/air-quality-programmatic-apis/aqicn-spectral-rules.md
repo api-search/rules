@@ -1,4 +1,17 @@
 ---
+api_specs:
+- filename: air-quality-programmatic-apis-openapi.yml
+  format: yaml
+  label: AQICN Real-Time Air Quality API
+  slug: air-quality-programmatic-apis
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/air-quality-programmatic-apis/refs/heads/main/openapi/air-quality-programmatic-apis-openapi.yml
+- filename: aqicn-json-api-openapi.yaml
+  format: yaml
+  label: AQICN JSON Air Quality API
+  slug: aqicn-json-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/air-quality-programmatic-apis/refs/heads/main/openapi/aqicn-json-api-openapi.yaml
 categories:
 - info
 - operation

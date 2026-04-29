@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: amazon-panorama-openapi.yml
+  format: yaml
+  label: AWS Panorama API
+  slug: aws-panorama-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-panorama/refs/heads/main/openapi/amazon-panorama-openapi.yml
 categories:
 - get
 - info

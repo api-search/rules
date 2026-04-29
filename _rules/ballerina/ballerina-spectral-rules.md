@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: ballerina-central-api.yml
+  format: yaml
+  label: Ballerina
+  slug: ballerina
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ballerina/refs/heads/main/openapi/ballerina-central-api.yml
 categories:
 - get
 - info

@@ -1,4 +1,53 @@
 ---
+api_specs:
+- filename: red-hat-openshift-cluster-manager-openapi.yml
+  format: yaml
+  label: Red Hat OpenShift Cluster Manager API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/red-hat/refs/heads/main/openapi/red-hat-openshift-cluster-manager-openapi.yml
+- filename: red-hat-ansible-automation-platform-openapi.yml
+  format: yaml
+  label: Red Hat Ansible Automation Platform API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/red-hat/refs/heads/main/openapi/red-hat-ansible-automation-platform-openapi.yml
+- filename: red-hat-quay-openapi.yml
+  format: yaml
+  label: Red Hat Quay API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/red-hat/refs/heads/main/openapi/red-hat-quay-openapi.yml
+- filename: red-hat-insights-openapi.yml
+  format: yaml
+  label: Red Hat Insights API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/red-hat/refs/heads/main/openapi/red-hat-insights-openapi.yml
+- filename: red-hat-satellite-openapi.yml
+  format: yaml
+  label: Red Hat Satellite API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/red-hat/refs/heads/main/openapi/red-hat-satellite-openapi.yml
+- filename: red-hat-keycloak-admin-openapi.yml
+  format: yaml
+  label: Red Hat Build of Keycloak Admin REST API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/red-hat/refs/heads/main/openapi/red-hat-keycloak-admin-openapi.yml
+- filename: red-hat-kafka-bridge-asyncapi.yml
+  format: yaml
+  label: Red Hat Streams for Apache Kafka Bridge API
+  slug: ''
+  spec_type: AsyncAPI
+  url: https://raw.githubusercontent.com/api-evangelist/red-hat/refs/heads/main/asyncapi/red-hat-kafka-bridge-asyncapi.yml
+- filename: red-hat-notifications-webhooks-asyncapi.yml
+  format: yaml
+  label: Red Hat Notifications API
+  slug: ''
+  spec_type: AsyncAPI
+  url: https://raw.githubusercontent.com/api-evangelist/red-hat/refs/heads/main/asyncapi/red-hat-notifications-webhooks-asyncapi.yml
 categories:
 - info
 - 'no'

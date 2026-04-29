@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: productiv-developer-openapi.yml
+  format: yaml
+  label: Productiv Developer API
+  slug: developer-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/productiv/refs/heads/main/openapi/productiv-developer-openapi.yml
 categories:
 - info
 - 'no'

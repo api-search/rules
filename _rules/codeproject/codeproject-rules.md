@@ -1,4 +1,17 @@
 ---
+api_specs:
+- filename: codeproject-rest-api-openapi.yml
+  format: yaml
+  label: CodeProject REST API
+  slug: codeproject-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/codeproject/refs/heads/main/openapi/codeproject-rest-api-openapi.yml
+- filename: codeproject-ai-server-openapi.yml
+  format: yaml
+  label: CodeProject.AI Server API
+  slug: codeproject-ai-server
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/codeproject/refs/heads/main/openapi/codeproject-ai-server-openapi.yml
 categories:
 - codeproject
 description: Spectral linting rules defining API design standards and conventions for CodeProject.

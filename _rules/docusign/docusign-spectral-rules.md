@@ -1,4 +1,41 @@
 ---
+api_specs:
+- filename: docusign-openapi-original.yml
+  format: yaml
+  label: Docusign eSignature REST API
+  slug: docusign-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/docusign/refs/heads/main/openapi/docusign-openapi-original.yml
+- filename: docusign-admin-openapi-original.yml
+  format: yaml
+  label: Docusign Admin API
+  slug: docusign-admin-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/docusign/refs/heads/main/openapi/docusign-admin-openapi-original.yml
+- filename: docusign-click-openapi-original.yml
+  format: yaml
+  label: Docusign Click API
+  slug: docusign-click-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/docusign/refs/heads/main/openapi/docusign-click-openapi-original.yml
+- filename: docusign-maestro-openapi-original.yml
+  format: yaml
+  label: Docusign Maestro API
+  slug: docusign-maestro-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/docusign/refs/heads/main/openapi/docusign-maestro-openapi-original.yml
+- filename: docusign-monitor-openapi-original.yml
+  format: yaml
+  label: Docusign Monitor API
+  slug: docusign-monitor-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/docusign/refs/heads/main/openapi/docusign-monitor-openapi-original.yml
+- filename: docusign-rooms-openapi-original.yml
+  format: yaml
+  label: Docusign Rooms API
+  slug: docusign-rooms-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/docusign/refs/heads/main/openapi/docusign-rooms-openapi-original.yml
 categories:
 - info
 - 'no'

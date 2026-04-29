@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: apache-atlas-rest-openapi.yaml
+  format: yaml
+  label: Apache Atlas REST API
+  slug: apache-atlas-rest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-atlas/refs/heads/main/openapi/apache-atlas-rest-openapi.yaml
 categories:
 - get
 - info

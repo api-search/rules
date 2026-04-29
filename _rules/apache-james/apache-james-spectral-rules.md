@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: apache-james-webadmin-rest-api.yaml
+  format: yaml
+  label: Apache James WebAdmin REST API
+  slug: webadmin-rest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-james/refs/heads/main/openapi/apache-james-webadmin-rest-api.yaml
 categories:
 - get
 - info

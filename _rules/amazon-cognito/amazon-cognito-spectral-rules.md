@@ -1,4 +1,17 @@
 ---
+api_specs:
+- filename: amazon-cognito-user-pools-openapi.yml
+  format: yaml
+  label: Cognito User Pools API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-cognito/refs/heads/main/openapi/amazon-cognito-user-pools-openapi.yml
+- filename: amazon-cognito-identity-pools-openapi.yml
+  format: yaml
+  label: Cognito Identity Pools API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-cognito/refs/heads/main/openapi/amazon-cognito-identity-pools-openapi.yml
 categories:
 - cognito
 - get

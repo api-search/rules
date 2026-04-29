@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: amazon-serverless-application-repository-openapi.yml
+  format: yaml
+  label: AWS Serverless Application Repository API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-serverless-application-repository/refs/heads/main/openapi/amazon-serverless-application-repository-openapi.yml
 categories:
 - global
 - info

@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: activision-blizzard-battle-net.json
+  format: json
+  label: Battle.net API
+  slug: battle-net
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/activision-blizzard/refs/heads/main/openapi/activision-blizzard-battle-net.json
 categories:
 - http
 - info

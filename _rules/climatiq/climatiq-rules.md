@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: climatiq-openapi.yml
+  format: yaml
+  label: Climatiq API
+  slug: climatiq-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/climatiq/refs/heads/main/openapi/climatiq-openapi.yml
 categories:
 - climatiq
 description: Spectral linting rules defining API design standards and conventions for Climatiq.

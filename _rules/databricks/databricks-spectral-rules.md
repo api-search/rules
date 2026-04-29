@@ -1,4 +1,23 @@
 ---
+api_specs:
+- filename: databricks-openapi.yml
+  format: yaml
+  label: Databricks Clusters API
+  slug: clusters-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/databricks/refs/heads/main/openapi/databricks-openapi.yml
+- filename: databricks-openapi.yml
+  format: yaml
+  label: Databricks Jobs API
+  slug: jobs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/databricks/refs/heads/main/openapi/databricks-openapi.yml
+- filename: databricks-openapi.yml
+  format: yaml
+  label: Databricks Workspace API
+  slug: workspace-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/databricks/refs/heads/main/openapi/databricks-openapi.yml
 categories:
 - info
 - 'no'

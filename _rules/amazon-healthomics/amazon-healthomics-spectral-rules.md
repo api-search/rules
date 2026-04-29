@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: amazon-healthomics-openapi.yaml
+  format: yaml
+  label: AWS HealthOmics API
+  slug: aws-healthomics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-healthomics/refs/heads/main/openapi/amazon-healthomics-openapi.yaml
 categories:
 - healthomics
 description: Spectral linting rules defining API design standards and conventions for Amazon HealthOmics.

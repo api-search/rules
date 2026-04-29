@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: albertsons-retail-media-api-openapi.yml
+  format: yaml
+  label: Albertsons Media Collective API
+  slug: retail-media-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/albertsons/refs/heads/main/openapi/albertsons-retail-media-api-openapi.yml
 categories:
 - delete
 - examples

@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: amtrust-financial-services-commercial-lines-api.yaml
+  format: yaml
+  label: AmTrust Commercial Lines API
+  slug: commercial-lines-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amtrust-financial-services/refs/heads/main/openapi/amtrust-financial-services-commercial-lines-api.yaml
 categories:
 - info
 - operation

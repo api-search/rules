@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: amazon-managed-grafana-openapi-original.yaml
+  format: yaml
+  label: Amazon Managed Grafana API
+  slug: amazon-managed-grafana-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-managed-grafana/refs/heads/main/openapi/amazon-managed-grafana-openapi-original.yaml
 categories:
 - examples
 - http

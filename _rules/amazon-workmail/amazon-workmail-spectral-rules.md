@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: amazon-workmail-openapi-original.yaml
+  format: yaml
+  label: Amazon WorkMail API
+  slug: amazon-workmail-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-workmail/refs/heads/main/openapi/amazon-workmail-openapi-original.yaml
 categories:
 - components
 - get

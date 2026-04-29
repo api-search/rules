@@ -1,4 +1,35 @@
 ---
+api_specs:
+- filename: amadeus-reservations-hotel-booking-openapi.yaml
+  format: yaml
+  label: Hotel Booking API
+  slug: hotel-booking-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amadeus-reservations/refs/heads/main/openapi/amadeus-reservations-hotel-booking-openapi.yaml
+- filename: amadeus-reservations-flight-create-orders-openapi.yaml
+  format: yaml
+  label: Flight Create Orders API
+  slug: flight-create-orders-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amadeus-reservations/refs/heads/main/openapi/amadeus-reservations-flight-create-orders-openapi.yaml
+- filename: amadeus-reservations-flight-order-management-openapi.yaml
+  format: yaml
+  label: Flight Order Management API
+  slug: flight-order-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amadeus-reservations/refs/heads/main/openapi/amadeus-reservations-flight-order-management-openapi.yaml
+- filename: amadeus-reservations-transfer-booking-openapi.yaml
+  format: yaml
+  label: Transfer Booking API
+  slug: transfer-booking-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amadeus-reservations/refs/heads/main/openapi/amadeus-reservations-transfer-booking-openapi.yaml
+- filename: amadeus-reservations-transfer-management-openapi.yaml
+  format: yaml
+  label: Transfer Management API
+  slug: transfer-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amadeus-reservations/refs/heads/main/openapi/amadeus-reservations-transfer-management-openapi.yaml
 categories:
 - delete
 - get

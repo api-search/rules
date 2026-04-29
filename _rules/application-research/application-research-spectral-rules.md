@@ -1,4 +1,35 @@
 ---
+api_specs:
+- filename: score-openapi.yml
+  format: yaml
+  label: Score Workload Specification API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/application-research/refs/heads/main/openapi/score-openapi.yml
+- filename: cloud-native-application-bundle-openapi.yml
+  format: yaml
+  label: Cloud Native Application Bundle API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/application-research/refs/heads/main/openapi/cloud-native-application-bundle-openapi.yml
+- filename: open-component-model-openapi.yml
+  format: yaml
+  label: Open Component Model API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/application-research/refs/heads/main/openapi/open-component-model-openapi.yml
+- filename: open-resource-discovery-openapi.yml
+  format: yaml
+  label: Open Resource Discovery API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/application-research/refs/heads/main/openapi/open-resource-discovery-openapi.yml
+- filename: radius-openapi.yml
+  format: yaml
+  label: Radius Application Platform API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/application-research/refs/heads/main/openapi/radius-openapi.yml
 categories:
 - http
 - info

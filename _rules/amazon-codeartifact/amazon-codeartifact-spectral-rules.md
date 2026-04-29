@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: amazon-codeartifact-openapi-original.yaml
+  format: yaml
+  label: Amazon CodeArtifact API
+  slug: amazon-codeartifact-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-codeartifact/refs/heads/main/openapi/amazon-codeartifact-openapi-original.yaml
 categories:
 - delete
 - get

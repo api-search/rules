@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: amazon-iot-events-openapi-original.yml
+  format: yaml
+  label: AWS IoT Events API
+  slug: aws-iot-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-events/refs/heads/main/openapi/amazon-iot-events-openapi-original.yml
 categories:
 - get
 - info

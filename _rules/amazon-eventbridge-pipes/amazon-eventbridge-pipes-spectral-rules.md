@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: amazon-eventbridge-pipes-openapi.yml
+  format: yaml
+  label: Amazon EventBridge Pipes API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-eventbridge-pipes/refs/heads/main/openapi/amazon-eventbridge-pipes-openapi.yml
 categories:
 - delete
 - get

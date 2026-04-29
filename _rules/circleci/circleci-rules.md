@@ -1,4 +1,29 @@
 ---
+api_specs:
+- filename: circleci-rest-api-v2-openapi.yml
+  format: yaml
+  label: CircleCI REST API V2
+  slug: rest-api-v2
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/circleci/refs/heads/main/openapi/circleci-rest-api-v2-openapi.yml
+- filename: circleci-rest-api-v1-openapi.yml
+  format: yaml
+  label: CircleCI REST API V1
+  slug: rest-api-v1
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/circleci/refs/heads/main/openapi/circleci-rest-api-v1-openapi.yml
+- filename: circleci-runner-api-openapi.yml
+  format: yaml
+  label: CircleCI Self-Hosted Runner API
+  slug: runner-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/circleci/refs/heads/main/openapi/circleci-runner-api-openapi.yml
+- filename: circleci-webhooks-asyncapi.yml
+  format: yaml
+  label: CircleCI Webhooks
+  slug: webhooks
+  spec_type: AsyncAPI
+  url: https://raw.githubusercontent.com/api-evangelist/circleci/refs/heads/main/asyncapi/circleci-webhooks-asyncapi.yml
 categories:
 - circleci
 description: Spectral linting rules defining API design standards and conventions for CircleCI.

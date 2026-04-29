@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: apache-servicemix-rest-api.yaml
+  format: yaml
+  label: Apache ServiceMix
+  slug: apache-servicemix
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-servicemix/refs/heads/main/openapi/apache-servicemix-rest-api.yaml
 categories:
 - apache
 description: Spectral linting rules defining API design standards and conventions for Apache ServiceMix.

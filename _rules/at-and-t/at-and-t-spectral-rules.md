@@ -1,4 +1,23 @@
 ---
+api_specs:
+- filename: at-and-t-sms-api.yaml
+  format: yaml
+  label: AT&T SMS API
+  slug: att-sms-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/at-and-t/refs/heads/main/openapi/at-and-t-sms-api.yaml
+- filename: at-and-t-in-app-messaging-api.yaml
+  format: yaml
+  label: AT&T In-App Messaging API
+  slug: att-in-app-messaging-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/at-and-t/refs/heads/main/openapi/at-and-t-in-app-messaging-api.yaml
+- filename: at-and-t-mvnx-api.yaml
+  format: yaml
+  label: AT&T MVNX API
+  slug: att-mvnx-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/at-and-t/refs/heads/main/openapi/at-and-t-mvnx-api.yaml
 categories:
 - delete
 - get

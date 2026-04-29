@@ -1,4 +1,23 @@
 ---
+api_specs:
+- filename: airbnb-homes-api-openapi.yml
+  format: yaml
+  label: Airbnb Homes API
+  slug: homes-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/airbnb/refs/heads/main/openapi/airbnb-homes-api-openapi.yml
+- filename: airbnb-activities-api-openapi.yml
+  format: yaml
+  label: Airbnb Activities API
+  slug: activities-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/airbnb/refs/heads/main/openapi/airbnb-activities-api-openapi.yml
+- filename: airbnb-webhooks-asyncapi.yml
+  format: yaml
+  label: Airbnb Webhooks API
+  slug: webhooks-api
+  spec_type: AsyncAPI
+  url: https://raw.githubusercontent.com/api-evangelist/airbnb/refs/heads/main/asyncapi/airbnb-webhooks-asyncapi.yml
 categories:
 - airbnb
 description: Spectral linting rules defining API design standards and conventions for airbnb.

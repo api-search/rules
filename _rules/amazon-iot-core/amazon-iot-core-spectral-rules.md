@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: amazon-iot-core-openapi-original.yml
+  format: yaml
+  label: AWS IoT Core API
+  slug: aws-iot-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-core/refs/heads/main/openapi/amazon-iot-core-openapi-original.yml
 categories:
 - get
 - info

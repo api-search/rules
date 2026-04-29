@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: amazon-mechanical-turk-openapi-original.yaml
+  format: yaml
+  label: Amazon Mechanical Turk API
+  slug: amazon-mturk-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-mechanical-turk/refs/heads/main/openapi/amazon-mechanical-turk-openapi-original.yaml
 categories:
 - examples
 - http

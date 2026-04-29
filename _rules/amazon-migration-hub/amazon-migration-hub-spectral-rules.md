@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: amazon-migration-hub-openapi-original.yml
+  format: yaml
+  label: Amazon Migration Hub API
+  slug: migration-hub-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-migration-hub/refs/heads/main/openapi/amazon-migration-hub-openapi-original.yml
 categories:
 - get
 - info

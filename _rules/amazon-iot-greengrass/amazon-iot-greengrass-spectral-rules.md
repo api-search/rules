@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: amazon-iot-greengrass-openapi-original.yml
+  format: yaml
+  label: AWS IoT Greengrass API
+  slug: aws-iot-greengrass-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-greengrass/refs/heads/main/openapi/amazon-iot-greengrass-openapi-original.yml
 categories:
 - get
 - info

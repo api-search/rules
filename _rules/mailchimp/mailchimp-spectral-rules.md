@@ -1,4 +1,17 @@
 ---
+api_specs:
+- filename: mailchimp-marketing-api-openapi.yml
+  format: yaml
+  label: Mailchimp Marketing API
+  slug: mailchimp-marketing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mailchimp/refs/heads/main/openapi/mailchimp-marketing-api-openapi.yml
+- filename: mailchimp-transactional-api-openapi.yml
+  format: yaml
+  label: Mailchimp Transactional API
+  slug: mailchimp-transactional-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mailchimp/refs/heads/main/openapi/mailchimp-transactional-api-openapi.yml
 categories:
 - info
 - 'no'

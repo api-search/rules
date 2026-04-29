@@ -1,4 +1,35 @@
 ---
+api_specs:
+- filename: spot-administration-api-openapi.yml
+  format: yaml
+  label: Spot Administration API
+  slug: administration-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spot/refs/heads/main/openapi/spot-administration-api-openapi.yml
+- filename: spot-elastigroup-api-openapi.yml
+  format: yaml
+  label: Spot Elastigroup API
+  slug: elastigroup-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spot/refs/heads/main/openapi/spot-elastigroup-api-openapi.yml
+- filename: spot-ocean-api-openapi.yml
+  format: yaml
+  label: Spot Ocean API
+  slug: ocean-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spot/refs/heads/main/openapi/spot-ocean-api-openapi.yml
+- filename: spot-eco-api-openapi.yml
+  format: yaml
+  label: Spot Eco API
+  slug: eco-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spot/refs/heads/main/openapi/spot-eco-api-openapi.yml
+- filename: spot-billing-engine-api-openapi.yml
+  format: yaml
+  label: Spot Billing Engine API
+  slug: billing-engine-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/spot/refs/heads/main/openapi/spot-billing-engine-api-openapi.yml
 categories:
 - info
 - 'no'

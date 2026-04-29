@@ -1,4 +1,29 @@
 ---
+api_specs:
+- filename: sap-business-one-service-layer-openapi.yml
+  format: yaml
+  label: SAP Business One Service Layer API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sap/refs/heads/main/openapi/sap-business-one-service-layer-openapi.yml
+- filename: sap-s4hana-cloud-business-partner-openapi.yml
+  format: yaml
+  label: SAP S/4HANA Cloud API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sap/refs/heads/main/openapi/sap-s4hana-cloud-business-partner-openapi.yml
+- filename: sap-event-mesh-asyncapi.yml
+  format: yaml
+  label: SAP Event Mesh API
+  slug: ''
+  spec_type: AsyncAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sap/refs/heads/main/asyncapi/sap-event-mesh-asyncapi.yml
+- filename: sap-ai-core-openapi.yml
+  format: yaml
+  label: SAP AI Core API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sap/refs/heads/main/openapi/sap-ai-core-openapi.yml
 categories:
 - info
 - 'no'

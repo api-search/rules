@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: amazon-kinesis-data-streams-openapi.yml
+  format: yaml
+  label: Amazon Kinesis Data Streams
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-kinesis/refs/heads/main/openapi/amazon-kinesis-data-streams-openapi.yml
 categories:
 - info
 - openapi

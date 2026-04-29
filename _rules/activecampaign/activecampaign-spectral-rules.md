@@ -1,4 +1,17 @@
 ---
+api_specs:
+- filename: activecampaign-v3.json
+  format: json
+  label: ActiveCampaign API v3
+  slug: activecampaign-v3
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/activecampaign/refs/heads/main/openapi/activecampaign-v3.json
+- filename: activecampaign-sms.json
+  format: json
+  label: ActiveCampaign SMS Broadcast API
+  slug: activecampaign-sms
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/activecampaign/refs/heads/main/openapi/activecampaign-sms.json
 categories:
 - examples
 - http

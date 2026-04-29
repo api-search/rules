@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: amazon-outposts-openapi.yml
+  format: yaml
+  label: AWS Outposts API
+  slug: aws-outposts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-outposts/refs/heads/main/openapi/amazon-outposts-openapi.yml
 categories:
 - get
 - info

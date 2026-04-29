@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: apache-kylin-rest-api.yaml
+  format: yaml
+  label: Apache Kylin REST API
+  slug: rest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-kylin/refs/heads/main/openapi/apache-kylin-rest-api.yaml
 categories:
 - get
 - info

@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: amazon-data-exchange-openapi.yml
+  format: yaml
+  label: AWS Data Exchange API
+  slug: aws-data-exchange-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-data-exchange/refs/heads/main/openapi/amazon-data-exchange-openapi.yml
 categories:
 - arn
 - create

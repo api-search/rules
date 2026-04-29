@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: apache-ignite-rest-api.yaml
+  format: yaml
+  label: Apache Ignite REST API
+  slug: rest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-ignite/refs/heads/main/openapi/apache-ignite-rest-api.yaml
 categories:
 - examples
 - get

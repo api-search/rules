@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: amazon-snow-family.yaml
+  format: yaml
+  label: AWS Snow Device Management API
+  slug: aws-snow-device-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-snow-family/refs/heads/main/openapi/amazon-snow-family.yaml
 categories:
 - get
 - info

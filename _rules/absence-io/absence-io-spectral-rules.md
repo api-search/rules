@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: absence-io-openapi.yml
+  format: yaml
+  label: Absence.io API
+  slug: absence-io
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/absence-io/refs/heads/main/openapi/absence-io-openapi.yml
 categories:
 - examples
 - id

@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: amazon-ivs-openapi-original.yml
+  format: yaml
+  label: AWS Amazon IVS API
+  slug: aws-ivs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-interactive-video-service/refs/heads/main/openapi/amazon-ivs-openapi-original.yml
 categories:
 - get
 - info

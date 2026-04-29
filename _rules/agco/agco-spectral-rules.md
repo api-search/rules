@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: agco-agcommand-api-openapi.yml
+  format: yaml
+  label: AGCO AgCommand API
+  slug: agcommand-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/agco/refs/heads/main/openapi/agco-agcommand-api-openapi.yml
 categories:
 - get
 - info

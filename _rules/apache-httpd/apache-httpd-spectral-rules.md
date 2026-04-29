@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: apache-httpd-status-openapi.yml
+  format: yaml
+  label: Apache HTTP Server Status API
+  slug: apache-httpd-status-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-httpd/refs/heads/main/openapi/apache-httpd-status-openapi.yml
 categories:
 - httpd
 description: Spectral linting rules defining API design standards and conventions for Apache HTTP Server.

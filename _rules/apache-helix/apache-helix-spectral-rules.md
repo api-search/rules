@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: apache-helix-rest-openapi.yml
+  format: yaml
+  label: Apache Helix REST API
+  slug: apache-helix-rest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-helix/refs/heads/main/openapi/apache-helix-rest-openapi.yml
 categories:
 - helix
 description: Spectral linting rules defining API design standards and conventions for Apache Helix.

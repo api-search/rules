@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: apache-livy-rest-api.yaml
+  format: yaml
+  label: Apache Livy REST API
+  slug: rest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-livy/refs/heads/main/openapi/apache-livy-rest-api.yaml
 categories:
 - get
 - info

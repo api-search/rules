@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: amazon-signer.yaml
+  format: yaml
+  label: AWS Signer API
+  slug: aws-signer-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-signer/refs/heads/main/openapi/amazon-signer.yaml
 categories:
 - delete
 - get

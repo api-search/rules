@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: 1factory-openapi.json
+  format: json
+  label: 1Factory API
+  slug: 1factory
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/1factory/refs/heads/main/openapi/1factory-openapi.json
 categories:
 - delete
 - examples

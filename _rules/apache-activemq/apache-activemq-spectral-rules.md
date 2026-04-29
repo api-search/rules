@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: apache-activemq-rest-openapi.yaml
+  format: yaml
+  label: Apache ActiveMQ REST API
+  slug: apache-activemq-rest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-activemq/refs/heads/main/openapi/apache-activemq-rest-openapi.yaml
 categories:
 - delete
 - get

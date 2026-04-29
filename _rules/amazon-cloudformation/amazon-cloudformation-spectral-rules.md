@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: amazon-cloudformation-openapi.yml
+  format: yaml
+  label: Amazon CloudFormation API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-cloudformation/refs/heads/main/openapi/amazon-cloudformation-openapi.yml
 categories:
 - get
 - info

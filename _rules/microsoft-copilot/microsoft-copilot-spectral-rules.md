@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: microsoft-copilot-openapi.yml
+  format: yaml
+  label: Microsoft 365 Copilot APIs
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-copilot/refs/heads/main/openapi/microsoft-copilot-openapi.yml
 categories:
 - info
 - 'no'

@@ -1,4 +1,47 @@
 ---
+api_specs:
+- filename: backstage-catalog-openapi.yml
+  format: yaml
+  label: Backstage Catalog API
+  slug: catalog-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/backstage/refs/heads/main/openapi/backstage-catalog-openapi.yml
+- filename: backstage-scaffolder-openapi.yml
+  format: yaml
+  label: Backstage Scaffolder API
+  slug: scaffolder-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/backstage/refs/heads/main/openapi/backstage-scaffolder-openapi.yml
+- filename: backstage-auth-openapi.yml
+  format: yaml
+  label: Backstage Auth API
+  slug: auth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/backstage/refs/heads/main/openapi/backstage-auth-openapi.yml
+- filename: backstage-techdocs-openapi.yml
+  format: yaml
+  label: Backstage TechDocs API
+  slug: techdocs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/backstage/refs/heads/main/openapi/backstage-techdocs-openapi.yml
+- filename: backstage-search-openapi.yml
+  format: yaml
+  label: Backstage Search API
+  slug: search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/backstage/refs/heads/main/openapi/backstage-search-openapi.yml
+- filename: backstage-permissions-openapi.yml
+  format: yaml
+  label: Backstage Permissions API
+  slug: permissions-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/backstage/refs/heads/main/openapi/backstage-permissions-openapi.yml
+- filename: backstage-events-asyncapi.yml
+  format: yaml
+  label: Backstage Events System
+  slug: events-system
+  spec_type: AsyncAPI
+  url: https://raw.githubusercontent.com/api-evangelist/backstage/refs/heads/main/asyncapi/backstage-events-asyncapi.yml
 categories:
 - get
 - info

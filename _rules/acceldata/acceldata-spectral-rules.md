@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: acceldata-adoc-api.yaml
+  format: yaml
+  label: Acceldata Data Observability Cloud API
+  slug: adoc-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/acceldata/refs/heads/main/openapi/acceldata-adoc-api.yaml
 categories:
 - acceldata
 description: Spectral linting rules defining API design standards and conventions for Acceldata.

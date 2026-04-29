@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: amazon-entity-resolution-openapi.yml
+  format: yaml
+  label: Amazon Entity Resolution API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-entity-resolution/refs/heads/main/openapi/amazon-entity-resolution-openapi.yml
 categories:
 - delete
 - get

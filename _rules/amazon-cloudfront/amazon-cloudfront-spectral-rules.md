@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: amazon-cloudfront-openapi.yml
+  format: yaml
+  label: Amazon CloudFront API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-cloudfront/refs/heads/main/openapi/amazon-cloudfront-openapi.yml
 categories:
 - get
 - info

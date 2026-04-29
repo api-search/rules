@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: appomni-openapi.yaml
+  format: yaml
+  label: AppOmni API
+  slug: appomni-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/appomni/refs/heads/main/openapi/appomni-openapi.yaml
 categories:
 - http
 - info

@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: amazon-workspaces-openapi-original.yaml
+  format: yaml
+  label: Amazon WorkSpaces API
+  slug: amazon-workspaces-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-workspaces/refs/heads/main/openapi/amazon-workspaces-openapi-original.yaml
 categories:
 - components
 - get

@@ -1,4 +1,23 @@
 ---
+api_specs:
+- filename: business-central-api-v2.yml
+  format: yaml
+  label: Business Central API v2.0
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/navision/refs/heads/main/openapi/business-central-api-v2.yml
+- filename: admin-center-api.yml
+  format: yaml
+  label: Business Central Administration Center API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/navision/refs/heads/main/openapi/admin-center-api.yml
+- filename: automation-api.yml
+  format: yaml
+  label: Business Central Automation API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/navision/refs/heads/main/openapi/automation-api.yml
 categories:
 - info
 - 'no'

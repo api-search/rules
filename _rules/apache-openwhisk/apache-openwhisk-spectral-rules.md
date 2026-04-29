@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: apache-openwhisk-rest-api.yaml
+  format: yaml
+  label: Apache OpenWhisk REST API
+  slug: apache-openwhisk-rest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-openwhisk/refs/heads/main/openapi/apache-openwhisk-rest-api.yaml
 categories:
 - info
 - operation

@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: cobalt-api-openapi.yml
+  format: yaml
+  label: Cobalt API
+  slug: cobalt-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cobalt/refs/heads/main/openapi/cobalt-api-openapi.yml
 categories:
 - cobalt
 description: Spectral linting rules defining API design standards and conventions for Cobalt.

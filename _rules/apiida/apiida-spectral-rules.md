@@ -1,4 +1,17 @@
 ---
+api_specs:
+- filename: apiida-api-control-plane-openapi.yml
+  format: yaml
+  label: APIIDA API Control Plane
+  slug: api-control-plane
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apiida/refs/heads/main/openapi/apiida-api-control-plane-openapi.yml
+- filename: apiida-api-gateway-manager-openapi.yml
+  format: yaml
+  label: APIIDA API Gateway Manager
+  slug: api-gateway-manager
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apiida/refs/heads/main/openapi/apiida-api-gateway-manager-openapi.yml
 categories:
 - info
 - operation

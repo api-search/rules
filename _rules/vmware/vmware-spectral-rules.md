@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: vmware-vsphere-api-openapi.yml
+  format: yaml
+  label: vSphere API
+  slug: vsphere-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vmware/refs/heads/main/openapi/vmware-vsphere-api-openapi.yml
 categories:
 - info
 - 'no'

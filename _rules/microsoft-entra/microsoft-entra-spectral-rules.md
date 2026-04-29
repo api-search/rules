@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: microsoft-entra-graph-identity-openapi.yml
+  format: yaml
+  label: Microsoft Entra ID (Azure AD) API
+  slug: graph-identity
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-entra/refs/heads/main/openapi/microsoft-entra-graph-identity-openapi.yml
 categories:
 - info
 - 'no'

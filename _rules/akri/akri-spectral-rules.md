@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: akri-metrics-openapi.yaml
+  format: yaml
+  label: Akri Metrics API
+  slug: metrics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/akri/refs/heads/main/openapi/akri-metrics-openapi.yaml
 categories:
 - examples
 - info

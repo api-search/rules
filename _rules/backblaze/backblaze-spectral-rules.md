@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: backblaze-b2-native-api.yaml
+  format: yaml
+  label: Backblaze B2 Cloud Storage API
+  slug: backblaze-b2-cloud-storage-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/backblaze/refs/heads/main/openapi/backblaze-b2-native-api.yaml
 categories:
 - components
 - get

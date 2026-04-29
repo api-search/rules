@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: amazon-macie-openapi-original.yaml
+  format: yaml
+  label: Amazon Macie API
+  slug: amazon-macie-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-macie/refs/heads/main/openapi/amazon-macie-openapi-original.yaml
 categories:
 - examples
 - http

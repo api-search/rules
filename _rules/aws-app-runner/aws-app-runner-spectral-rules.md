@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: aws-app-runner-openapi.yml
+  format: yaml
+  label: AWS App Runner
+  slug: aws-app-runner
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aws-app-runner/refs/heads/main/openapi/aws-app-runner-openapi.yml
 categories:
 - info
 - method

@@ -1,4 +1,23 @@
 ---
+api_specs:
+- filename: microsoft-word-graph-api.yaml
+  format: yaml
+  label: Microsoft Graph Word API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-word/refs/heads/main/openapi/microsoft-word-graph-api.yaml
+- filename: microsoft-word-javascript-api.yaml
+  format: yaml
+  label: Office JavaScript API for Word
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-word/refs/heads/main/openapi/microsoft-word-javascript-api.yaml
+- filename: microsoft-word-open-xml-sdk.yaml
+  format: yaml
+  label: Open XML SDK for Word
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-word/refs/heads/main/openapi/microsoft-word-open-xml-sdk.yaml
 categories:
 - delete
 - examples

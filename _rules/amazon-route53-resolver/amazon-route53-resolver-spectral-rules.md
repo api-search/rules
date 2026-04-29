@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: amazon-route53-resolver-openapi.yml
+  format: yaml
+  label: Amazon Route 53 Resolver API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/openapi/amazon-route53-resolver-openapi.yml
 categories:
 - delete
 - get

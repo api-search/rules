@@ -1,4 +1,29 @@
 ---
+api_specs:
+- filename: adobe-creative-suite-photoshop-openapi.yml
+  format: yaml
+  label: Adobe Photoshop API
+  slug: photoshop-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adobe-creative-suite/refs/heads/main/openapi/adobe-creative-suite-photoshop-openapi.yml
+- filename: adobe-creative-suite-stock-openapi.yml
+  format: yaml
+  label: Adobe Stock API
+  slug: stock-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adobe-creative-suite/refs/heads/main/openapi/adobe-creative-suite-stock-openapi.yml
+- filename: adobe-creative-suite-firefly-openapi.yml
+  format: yaml
+  label: Adobe Firefly API
+  slug: firefly-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adobe-creative-suite/refs/heads/main/openapi/adobe-creative-suite-firefly-openapi.yml
+- filename: adobe-creative-suite-pdf-services-openapi.yml
+  format: yaml
+  label: Adobe PDF Services API
+  slug: pdf-services-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adobe-creative-suite/refs/heads/main/openapi/adobe-creative-suite-pdf-services-openapi.yml
 categories:
 - get
 - info

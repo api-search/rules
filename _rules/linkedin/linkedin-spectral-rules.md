@@ -1,4 +1,41 @@
 ---
+api_specs:
+- filename: linkedin-marketing-audience-insights.yml
+  format: yaml
+  label: LinkedIn Marketing API
+  slug: linkedin-marketing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/linkedin/refs/heads/main/openapi/linkedin-marketing-audience-insights.yml
+- filename: linkedin-learning-activity-reports.yml
+  format: yaml
+  label: LinkedIn Learning Solutions
+  slug: linkedin-learning-solutions
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/linkedin/refs/heads/main/openapi/linkedin-learning-activity-reports.yml
+- filename: linkedin-talent-job-posting.yml
+  format: yaml
+  label: LinkedIn Talent Solutions
+  slug: linkedin-talent-solutions
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/linkedin/refs/heads/main/openapi/linkedin-talent-job-posting.yml
+- filename: linkedin-compliance-events.yml
+  format: yaml
+  label: LinkedIn Compliance Solutions
+  slug: linkedin-compliance-solutions
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/linkedin/refs/heads/main/openapi/linkedin-compliance-events.yml
+- filename: linkedin-sales-navigator.yml
+  format: yaml
+  label: LinkedIn Sales Navigator API
+  slug: linkedin-sales-navigator-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/linkedin/refs/heads/main/openapi/linkedin-sales-navigator.yml
+- filename: linkedin-regulations-data-portability.yml
+  format: yaml
+  label: LinkedIn Regulatory API
+  slug: linkedin-regulatory-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/linkedin/refs/heads/main/openapi/linkedin-regulations-data-portability.yml
 categories:
 - get
 - info

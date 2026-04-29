@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: amazon-codestar-openapi.yml
+  format: yaml
+  label: AWS CodeStar API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-codestar/refs/heads/main/openapi/amazon-codestar-openapi.yml
 categories:
 - delete
 - get

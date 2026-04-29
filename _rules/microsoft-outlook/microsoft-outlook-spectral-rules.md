@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: microsoft-graph-mail-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph Mail API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-outlook/refs/heads/main/openapi/microsoft-graph-mail-api-openapi.yml
 categories:
 - info
 - 'no'

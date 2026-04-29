@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: openapi.yml
+  format: yaml
+  label: Google Marketing Platform Admin API
+  slug: admin
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-marketing-platform/refs/heads/main/openapi/openapi.yml
 categories:
 - info
 - 'no'

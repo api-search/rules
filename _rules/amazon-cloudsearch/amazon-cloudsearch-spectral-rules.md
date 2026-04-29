@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: amazon-cloudsearch-openapi.yml
+  format: yaml
+  label: Amazon CloudSearch API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-cloudsearch/refs/heads/main/openapi/amazon-cloudsearch-openapi.yml
 categories:
 - get
 - info

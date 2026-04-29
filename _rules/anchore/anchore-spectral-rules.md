@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: anchore-enterprise-api.yaml
+  format: yaml
+  label: Anchore Enterprise API
+  slug: anchore-enterprise-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/anchore/refs/heads/main/openapi/anchore-enterprise-api.yaml
 categories:
 - anchore
 description: Spectral linting rules defining API design standards and conventions for Anchore.

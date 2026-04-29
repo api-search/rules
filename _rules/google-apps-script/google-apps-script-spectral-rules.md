@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: openapi.yml
+  format: yaml
+  label: Google Apps Script API
+  slug: google-apps-script
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-apps-script/refs/heads/main/openapi/openapi.yml
 categories:
 - info
 - 'no'

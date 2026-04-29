@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: actor-model.json
+  format: json
+  label: Actor Model API
+  slug: actor-model-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/actor-model/refs/heads/main/openapi/actor-model.json
 categories:
 - actor
 - http

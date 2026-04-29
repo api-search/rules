@@ -1,4 +1,29 @@
 ---
+api_specs:
+- filename: amadeus-traveler-media-points-of-interest-openapi.yaml
+  format: yaml
+  label: Points of Interest API
+  slug: points-of-interest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amadeus-traveler-media/refs/heads/main/openapi/amadeus-traveler-media-points-of-interest-openapi.yaml
+- filename: amadeus-traveler-media-hotel-ratings-openapi.yaml
+  format: yaml
+  label: Hotel Ratings API
+  slug: hotel-ratings-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amadeus-traveler-media/refs/heads/main/openapi/amadeus-traveler-media-hotel-ratings-openapi.yaml
+- filename: amadeus-traveler-media-travel-recommendations-openapi.yaml
+  format: yaml
+  label: Travel Recommendations API
+  slug: travel-recommendations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amadeus-traveler-media/refs/heads/main/openapi/amadeus-traveler-media-travel-recommendations-openapi.yaml
+- filename: amadeus-traveler-media-location-score-openapi.yaml
+  format: yaml
+  label: Location Score API
+  slug: location-score-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amadeus-traveler-media/refs/heads/main/openapi/amadeus-traveler-media-location-score-openapi.yaml
 categories:
 - get
 - info

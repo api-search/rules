@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: amazon-simspace-weaver.yaml
+  format: yaml
+  label: AWS SimSpace Weaver API
+  slug: aws-simspace-weaver-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-simspace-weaver/refs/heads/main/openapi/amazon-simspace-weaver.yaml
 categories:
 - get
 - info

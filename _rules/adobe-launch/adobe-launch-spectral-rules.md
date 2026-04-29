@@ -1,4 +1,29 @@
 ---
+api_specs:
+- filename: reactor-api.yml
+  format: yaml
+  label: Adobe Launch Reactor API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adobe-launch/refs/heads/main/openapi/reactor-api.yml
+- filename: extension-api.yml
+  format: yaml
+  label: Adobe Launch Extension API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adobe-launch/refs/heads/main/openapi/extension-api.yml
+- filename: event-forwarding-api.yml
+  format: yaml
+  label: Adobe Experience Platform Event Forwarding API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adobe-launch/refs/heads/main/openapi/event-forwarding-api.yml
+- filename: data-collection-api.yml
+  format: yaml
+  label: Adobe Experience Platform Data Collection API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adobe-launch/refs/heads/main/openapi/data-collection-api.yml
 categories:
 - info
 - 'no'

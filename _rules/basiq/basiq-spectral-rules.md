@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: basiq-api-openapi.yml
+  format: yaml
+  label: Basiq API
+  slug: basiq-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/basiq/refs/heads/main/openapi/basiq-api-openapi.yml
 categories:
 - basiq
 description: Spectral linting rules defining API design standards and conventions for Basiq.

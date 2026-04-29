@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: cloudzero-api-openapi.yml
+  format: yaml
+  label: CloudZero API
+  slug: api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cloudzero/refs/heads/main/openapi/cloudzero-api-openapi.yml
 categories:
 - cloudzero
 description: Spectral linting rules defining API design standards and conventions for CloudZero.

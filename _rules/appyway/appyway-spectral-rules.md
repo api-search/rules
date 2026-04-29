@@ -1,4 +1,29 @@
 ---
+api_specs:
+- filename: appyway-availability-realtime-api-openapi.yml
+  format: yaml
+  label: AppyWay Availability RealTime API
+  slug: appyway-availability-realtime-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/appyway/refs/heads/main/openapi/appyway-availability-realtime-api-openapi.yml
+- filename: appyway-traffic-data-api-openapi.yml
+  format: yaml
+  label: AppyWay Traffic Data API
+  slug: appyway-traffic-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/appyway/refs/heads/main/openapi/appyway-traffic-data-api-openapi.yml
+- filename: appyway-explorer-api-openapi.yml
+  format: yaml
+  label: AppyWay Explorer API
+  slug: appyway-explorer-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/appyway/refs/heads/main/openapi/appyway-explorer-api-openapi.yml
+- filename: appyway-platform-api-openapi.yml
+  format: yaml
+  label: AppyWay Platform API
+  slug: appyway-platform-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/appyway/refs/heads/main/openapi/appyway-platform-api-openapi.yml
 categories:
 - http
 - info

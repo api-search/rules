@@ -1,4 +1,17 @@
 ---
+api_specs:
+- filename: amazon-api-gateway-openapi.yaml
+  format: yaml
+  label: Amazon API Gateway REST API
+  slug: rest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-api-gateway/refs/heads/main/openapi/amazon-api-gateway-openapi.yaml
+- filename: amazon-api-gateway-websocket-asyncapi.yml
+  format: yaml
+  label: Amazon API Gateway WebSocket API
+  slug: websocket-api
+  spec_type: AsyncAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-api-gateway/refs/heads/main/asyncapi/amazon-api-gateway-websocket-asyncapi.yml
 categories:
 - amazon
 description: Spectral linting rules defining API design standards and conventions for Amazon API Gateway.

@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: apache-ozone-s3-api.yaml
+  format: yaml
+  label: Apache Ozone
+  slug: apache-ozone
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-ozone/refs/heads/main/openapi/apache-ozone-s3-api.yaml
 categories:
 - info
 - operation

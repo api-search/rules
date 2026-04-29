@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: amazon-mediaconvert-openapi-original.yml
+  format: yaml
+  label: Amazon MediaConvert API
+  slug: mediaconvert-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-mediaconvert/refs/heads/main/openapi/amazon-mediaconvert-openapi-original.yml
 categories:
 - get
 - info

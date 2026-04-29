@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: adobe-photoshop-api-openapi-original.yml
+  format: yaml
+  label: Adobe Photoshop API
+  slug: photoshop-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adobe-photoshop/refs/heads/main/openapi/adobe-photoshop-api-openapi-original.yml
 categories:
 - get
 - info

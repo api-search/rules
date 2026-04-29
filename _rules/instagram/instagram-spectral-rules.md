@@ -1,4 +1,17 @@
 ---
+api_specs:
+- filename: instagram-graph-api.yaml
+  format: yaml
+  label: Instagram API with Instagram Login
+  slug: instagram-api-with-instagram-login
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/instagram/refs/heads/main/openapi/instagram-graph-api.yaml
+- filename: instagram-graph-api.yaml
+  format: yaml
+  label: Instagram API with Facebook Login
+  slug: instagram-api-with-facebook-login
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/instagram/refs/heads/main/openapi/instagram-graph-api.yaml
 categories:
 - get
 - info

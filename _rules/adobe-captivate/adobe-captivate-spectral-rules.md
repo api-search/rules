@@ -1,4 +1,17 @@
 ---
+api_specs:
+- filename: adobe-captivate-prime-api-openapi.yml
+  format: yaml
+  label: Adobe Captivate Prime API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adobe-captivate/refs/heads/main/openapi/adobe-captivate-prime-api-openapi.yml
+- filename: adobe-captivate-learning-manager-webhooks-asyncapi.yml
+  format: yaml
+  label: Adobe Learning Manager Webhooks API
+  slug: ''
+  spec_type: AsyncAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adobe-captivate/refs/heads/main/asyncapi/adobe-captivate-learning-manager-webhooks-asyncapi.yml
 categories:
 - delete
 - examples

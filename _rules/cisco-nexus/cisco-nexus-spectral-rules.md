@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: cisco-nexus-nxapi-rest.yml
+  format: yaml
+  label: Cisco NX-API REST
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cisco-nexus/refs/heads/main/openapi/cisco-nexus-nxapi-rest.yml
 categories:
 - info
 - 'no'

@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: amazon-codeguru-reviewer-openapi-original.yaml
+  format: yaml
+  label: Amazon CodeGuru Reviewer API
+  slug: amazon-codeguru-reviewer-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-codeguru-reviewer/refs/heads/main/openapi/amazon-codeguru-reviewer-openapi-original.yaml
 categories:
 - info
 - 'no'

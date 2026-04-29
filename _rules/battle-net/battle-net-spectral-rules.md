@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: battle-net-hearthstone-game-data.yaml
+  format: yaml
+  label: Hearthstone Game Data API
+  slug: hearthstone-game-data
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/battle-net/refs/heads/main/openapi/battle-net-hearthstone-game-data.yaml
 categories:
 - delete
 - get

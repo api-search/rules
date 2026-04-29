@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: acuity-brands.json
+  format: json
+  label: Acuity Brands API
+  slug: acuity-brands-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/acuity-brands/refs/heads/main/openapi/acuity-brands.json
 categories:
 - http
 - info

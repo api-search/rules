@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: argo-workflows-openapi.json
+  format: json
+  label: Argo Workflows API
+  slug: argo-workflows
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/argo-workflows/refs/heads/main/openapi/argo-workflows-openapi.json
 categories:
 - info
 - 'no'

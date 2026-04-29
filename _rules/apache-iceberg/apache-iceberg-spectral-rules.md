@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: apache-iceberg-rest-catalog-open-api.yaml
+  format: yaml
+  label: Apache Iceberg REST Catalog API
+  slug: rest-catalog-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-iceberg/refs/heads/main/openapi/apache-iceberg-rest-catalog-open-api.yaml
 categories:
 - delete
 - examples

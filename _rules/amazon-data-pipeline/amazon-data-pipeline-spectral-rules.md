@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: amazon-data-pipeline-openapi.yml
+  format: yaml
+  label: AWS Data Pipeline API
+  slug: aws-data-pipeline-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-data-pipeline/refs/heads/main/openapi/amazon-data-pipeline-openapi.yml
 categories:
 - action
 - all

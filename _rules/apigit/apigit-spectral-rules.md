@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: apigit-api.yaml
+  format: yaml
+  label: APIGit
+  slug: apigit
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apigit/refs/heads/main/openapi/apigit-api.yaml
 categories:
 - info
 - operation

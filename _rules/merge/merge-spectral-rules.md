@@ -1,4 +1,41 @@
 ---
+api_specs:
+- filename: merge-hris-api-openapi.yaml
+  format: yaml
+  label: Merge HRIS API
+  slug: hris-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/merge/refs/heads/main/openapi/merge-hris-api-openapi.yaml
+- filename: merge-ats-api-openapi.yaml
+  format: yaml
+  label: Merge ATS API
+  slug: ats-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/merge/refs/heads/main/openapi/merge-ats-api-openapi.yaml
+- filename: merge-accounting-api-openapi.yaml
+  format: yaml
+  label: Merge Accounting API
+  slug: accounting-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/merge/refs/heads/main/openapi/merge-accounting-api-openapi.yaml
+- filename: merge-ticketing-api-openapi.yaml
+  format: yaml
+  label: Merge Ticketing API
+  slug: ticketing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/merge/refs/heads/main/openapi/merge-ticketing-api-openapi.yaml
+- filename: merge-crm-api-openapi.yaml
+  format: yaml
+  label: Merge CRM API
+  slug: crm-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/merge/refs/heads/main/openapi/merge-crm-api-openapi.yaml
+- filename: merge-file-storage-api-openapi.yaml
+  format: yaml
+  label: Merge File Storage API
+  slug: file-storage-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/merge/refs/heads/main/openapi/merge-file-storage-api-openapi.yaml
 categories:
 - delete
 - examples

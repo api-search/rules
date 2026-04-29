@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: cloudally-openapi.yml
+  format: yaml
+  label: CloudAlly API
+  slug: cloudally-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cloudally/refs/heads/main/openapi/cloudally-openapi.yml
 categories:
 - cloudally
 description: Spectral linting rules defining API design standards and conventions for CloudAlly.

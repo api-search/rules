@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: apify-api.yaml
+  format: yaml
+  label: Apify API
+  slug: apify-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apify/refs/heads/main/openapi/apify-api.yaml
 categories:
 - info
 - operation

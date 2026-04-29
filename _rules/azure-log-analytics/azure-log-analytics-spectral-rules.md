@@ -1,4 +1,23 @@
 ---
+api_specs:
+- filename: azure-log-analytics-query-api.yaml
+  format: yaml
+  label: Azure Log Analytics Query API
+  slug: azure-log-analytics-query-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/azure-log-analytics/refs/heads/main/openapi/azure-log-analytics-query-api.yaml
+- filename: azure-log-analytics-management-api.yaml
+  format: yaml
+  label: Azure Log Analytics Management API
+  slug: azure-log-analytics-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/azure-log-analytics/refs/heads/main/openapi/azure-log-analytics-management-api.yaml
+- filename: azure-log-analytics-ingestion-api.yaml
+  format: yaml
+  label: Azure Log Analytics Ingestion API
+  slug: azure-log-analytics-ingestion-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/azure-log-analytics/refs/heads/main/openapi/azure-log-analytics-ingestion-api.yaml
 categories:
 - delete
 - examples

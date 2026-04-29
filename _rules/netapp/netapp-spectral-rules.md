@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: netapp-ontap-openapi.yml
+  format: yaml
+  label: NetApp ONTAP REST API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/netapp/refs/heads/main/openapi/netapp-ontap-openapi.yml
 categories:
 - info
 - 'no'

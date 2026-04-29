@@ -1,4 +1,17 @@
 ---
+api_specs:
+- filename: chatgpt-chat-completions-api-openapi.yml
+  format: yaml
+  label: ChatGPT API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chatgpt/refs/heads/main/openapi/chatgpt-chat-completions-api-openapi.yml
+- filename: chatgpt-responses-api-openapi.yml
+  format: yaml
+  label: OpenAI Responses API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/chatgpt/refs/heads/main/openapi/chatgpt-responses-api-openapi.yml
 categories:
 - info
 - 'no'

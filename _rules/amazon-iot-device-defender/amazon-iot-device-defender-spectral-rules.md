@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: amazon-iot-device-defender-openapi-original.yml
+  format: yaml
+  label: AWS IoT Device Defender API
+  slug: aws-iot-defender-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-device-defender/refs/heads/main/openapi/amazon-iot-device-defender-openapi-original.yml
 categories:
 - get
 - info

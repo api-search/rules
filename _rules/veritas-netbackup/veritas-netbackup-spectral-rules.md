@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: veritas-netbackup-rest-api-openapi.yml
+  format: yaml
+  label: Veritas NetBackup REST API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/veritas-netbackup/refs/heads/main/openapi/veritas-netbackup-rest-api-openapi.yml
 categories:
 - info
 - 'no'

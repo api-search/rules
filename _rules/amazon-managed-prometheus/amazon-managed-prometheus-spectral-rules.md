@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: amazon-managed-prometheus-openapi-original.yaml
+  format: yaml
+  label: Amazon Managed Service for Prometheus API
+  slug: amazon-managed-prometheus-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-managed-prometheus/refs/heads/main/openapi/amazon-managed-prometheus-openapi-original.yaml
 categories:
 - examples
 - http

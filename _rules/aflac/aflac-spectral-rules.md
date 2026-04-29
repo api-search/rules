@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: aflac-enterprise-connect-openapi.yml
+  format: yaml
+  label: Aflac Enterprise Connect API
+  slug: enterprise-connect-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aflac/refs/heads/main/openapi/aflac-enterprise-connect-openapi.yml
 categories:
 - get
 - info

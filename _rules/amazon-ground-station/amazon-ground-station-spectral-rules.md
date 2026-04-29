@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: amazon-ground-station-openapi.yaml
+  format: yaml
+  label: AWS Ground Station API
+  slug: aws-ground-station-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-ground-station/refs/heads/main/openapi/amazon-ground-station-openapi.yaml
 categories:
 - info
 - microcks

@@ -1,4 +1,29 @@
 ---
+api_specs:
+- filename: aladdin-studio-graph-openapi.yaml
+  format: yaml
+  label: Aladdin Graph API
+  slug: graph-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aladdin-studio/refs/heads/main/openapi/aladdin-studio-graph-openapi.yaml
+- filename: aladdin-studio-data-cloud-openapi.yaml
+  format: yaml
+  label: Aladdin Data Cloud API
+  slug: data-cloud-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aladdin-studio/refs/heads/main/openapi/aladdin-studio-data-cloud-openapi.yaml
+- filename: aladdin-studio-trading-openapi.yaml
+  format: yaml
+  label: Aladdin Trading API
+  slug: trading-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aladdin-studio/refs/heads/main/openapi/aladdin-studio-trading-openapi.yaml
+- filename: aladdin-studio-investment-research-openapi.yaml
+  format: yaml
+  label: Aladdin Investment Research API
+  slug: investment-research-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aladdin-studio/refs/heads/main/openapi/aladdin-studio-investment-research-openapi.yaml
 categories:
 - delete
 - examples

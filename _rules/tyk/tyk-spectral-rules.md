@@ -1,4 +1,29 @@
 ---
+api_specs:
+- filename: tyk-gateway-api-openapi.yml
+  format: yaml
+  label: Tyk Gateway API
+  slug: tyk-gateway-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tyk/refs/heads/main/openapi/tyk-gateway-api-openapi.yml
+- filename: tyk-dashboard-api-openapi.yml
+  format: yaml
+  label: Tyk Dashboard API
+  slug: tyk-dashboard-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tyk/refs/heads/main/openapi/tyk-dashboard-api-openapi.yml
+- filename: tyk-dashboard-admin-api-openapi.yml
+  format: yaml
+  label: Tyk Dashboard Admin API
+  slug: tyk-dashboard-admin-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tyk/refs/heads/main/openapi/tyk-dashboard-admin-api-openapi.yml
+- filename: tyk-mdcb-api-openapi.yml
+  format: yaml
+  label: Tyk MDCB API
+  slug: tyk-mdcb-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/tyk/refs/heads/main/openapi/tyk-mdcb-api-openapi.yml
 categories:
 - info
 - 'no'

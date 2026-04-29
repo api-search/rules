@@ -1,4 +1,41 @@
 ---
+api_specs:
+- filename: github-copilot-openapi.yml
+  format: yaml
+  label: GitHub Copilot API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/github-copilot/refs/heads/main/openapi/github-copilot-openapi.yml
+- filename: github-copilot-openapi.yml
+  format: yaml
+  label: GitHub Copilot for Business API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/github-copilot/refs/heads/main/openapi/github-copilot-openapi.yml
+- filename: github-copilot-openapi.yml
+  format: yaml
+  label: GitHub Copilot User Management API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/github-copilot/refs/heads/main/openapi/github-copilot-openapi.yml
+- filename: github-copilot-openapi.yml
+  format: yaml
+  label: GitHub Copilot Metrics API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/github-copilot/refs/heads/main/openapi/github-copilot-openapi.yml
+- filename: github-copilot-openapi.yml
+  format: yaml
+  label: GitHub Copilot Usage Metrics API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/github-copilot/refs/heads/main/openapi/github-copilot-openapi.yml
+- filename: github-copilot-openapi.yml
+  format: yaml
+  label: GitHub Copilot Content Exclusion API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/github-copilot/refs/heads/main/openapi/github-copilot-openapi.yml
 categories:
 - info
 - 'no'

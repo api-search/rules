@@ -1,4 +1,17 @@
 ---
+api_specs:
+- filename: alloy-automation-embedded.yaml
+  format: yaml
+  label: Alloy Automation Embedded API
+  slug: embedded-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/alloy-automation/refs/heads/main/openapi/alloy-automation-embedded.yaml
+- filename: alloy-automation-connectivity.yaml
+  format: yaml
+  label: Alloy Automation Connectivity API
+  slug: connectivity-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/alloy-automation/refs/heads/main/openapi/alloy-automation-connectivity.yaml
 categories:
 - alloy
 description: Spectral linting rules defining API design standards and conventions for Alloy Automation.

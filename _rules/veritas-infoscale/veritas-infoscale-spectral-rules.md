@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: veritas-infoscale-rest-api.yaml
+  format: yaml
+  label: Veritas InfoScale REST API
+  slug: rest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/veritas-infoscale/refs/heads/main/openapi/veritas-infoscale-rest-api.yaml
 categories:
 - delete
 - get

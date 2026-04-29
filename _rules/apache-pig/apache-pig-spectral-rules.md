@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: apache-pig-api.yaml
+  format: yaml
+  label: Apache Pig
+  slug: apache-pig
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-pig/refs/heads/main/openapi/apache-pig-api.yaml
 categories:
 - info
 - operation

@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: amazon-mediaconnect-openapi-original.yml
+  format: yaml
+  label: AWS Elemental MediaConnect API
+  slug: aws-elemental-mediaconnect-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-mediaconnect/refs/heads/main/openapi/amazon-mediaconnect-openapi-original.yml
 categories:
 - delete
 - get

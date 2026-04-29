@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: apache-flume-monitoring-openapi.yml
+  format: yaml
+  label: Apache Flume Monitoring API
+  slug: apache-flume-monitoring-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-flume/refs/heads/main/openapi/apache-flume-monitoring-openapi.yml
 categories:
 - info
 - operation

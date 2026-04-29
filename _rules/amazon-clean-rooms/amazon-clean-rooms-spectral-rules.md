@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: amazon-clean-rooms-openapi.yml
+  format: yaml
+  label: Amazon Clean Rooms API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-clean-rooms/refs/heads/main/openapi/amazon-clean-rooms-openapi.yml
 categories:
 - delete
 - get

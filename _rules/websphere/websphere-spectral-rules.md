@@ -1,4 +1,47 @@
 ---
+api_specs:
+- filename: websphere-admin-rest-api.yml
+  format: yaml
+  label: WebSphere Application Server Admin API
+  slug: websphere-admin-rest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/websphere/refs/heads/main/openapi/websphere-admin-rest-api.yml
+- filename: websphere-liberty-admin-rest-api.yml
+  format: yaml
+  label: WebSphere Liberty Admin REST API
+  slug: websphere-liberty-admin-rest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/websphere/refs/heads/main/openapi/websphere-liberty-admin-rest-api.yml
+- filename: websphere-liberty-rest-connector-api.yml
+  format: yaml
+  label: WebSphere Liberty REST Connector API
+  slug: websphere-liberty-rest-connector-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/websphere/refs/heads/main/openapi/websphere-liberty-rest-connector-api.yml
+- filename: websphere-mq-rest-api.yml
+  format: yaml
+  label: WebSphere MQ REST API
+  slug: websphere-mq-rest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/websphere/refs/heads/main/openapi/websphere-mq-rest-api.yml
+- filename: websphere-liberty-collective-controller-rest-api.yml
+  format: yaml
+  label: WebSphere Liberty Collective Controller REST API
+  slug: websphere-liberty-collective-controller-rest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/websphere/refs/heads/main/openapi/websphere-liberty-collective-controller-rest-api.yml
+- filename: websphere-automation-rest-api.yml
+  format: yaml
+  label: WebSphere Automation REST API
+  slug: websphere-automation-rest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/websphere/refs/heads/main/openapi/websphere-automation-rest-api.yml
+- filename: open-liberty-apis.yml
+  format: yaml
+  label: Open Liberty APIs
+  slug: open-liberty-apis
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/websphere/refs/heads/main/openapi/open-liberty-apis.yml
 categories:
 - info
 - 'no'

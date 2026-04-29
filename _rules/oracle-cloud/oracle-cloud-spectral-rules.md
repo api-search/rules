@@ -1,4 +1,53 @@
 ---
+api_specs:
+- filename: oracle-cloud-compute-openapi.yaml
+  format: yaml
+  label: Compute API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-cloud/refs/heads/main/openapi/oracle-cloud-compute-openapi.yaml
+- filename: oracle-cloud-object-storage-openapi.yaml
+  format: yaml
+  label: Object Storage API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-cloud/refs/heads/main/openapi/oracle-cloud-object-storage-openapi.yaml
+- filename: oracle-cloud-networking-openapi.yaml
+  format: yaml
+  label: Networking API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-cloud/refs/heads/main/openapi/oracle-cloud-networking-openapi.yaml
+- filename: oracle-cloud-database-openapi.yaml
+  format: yaml
+  label: Database API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-cloud/refs/heads/main/openapi/oracle-cloud-database-openapi.yaml
+- filename: oracle-cloud-iam-openapi.yaml
+  format: yaml
+  label: Identity and Access Management API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-cloud/refs/heads/main/openapi/oracle-cloud-iam-openapi.yaml
+- filename: oracle-cloud-oke-openapi.yaml
+  format: yaml
+  label: Container Engine for Kubernetes API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-cloud/refs/heads/main/openapi/oracle-cloud-oke-openapi.yaml
+- filename: oracle-cloud-functions-openapi.yaml
+  format: yaml
+  label: Functions API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-cloud/refs/heads/main/openapi/oracle-cloud-functions-openapi.yaml
+- filename: oracle-cloud-monitoring-openapi.yaml
+  format: yaml
+  label: Monitoring API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-cloud/refs/heads/main/openapi/oracle-cloud-monitoring-openapi.yaml
 categories:
 - delete
 - get

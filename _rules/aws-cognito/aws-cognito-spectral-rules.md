@@ -1,4 +1,17 @@
 ---
+api_specs:
+- filename: aws-cognito-identity-provider-openapi.yaml
+  format: yaml
+  label: Amazon Cognito Identity Provider
+  slug: aws-cognito-identity-provider
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aws-cognito/refs/heads/main/openapi/aws-cognito-identity-provider-openapi.yaml
+- filename: aws-cognito-identity-openapi.yaml
+  format: yaml
+  label: Amazon Cognito Identity (Federated Identities)
+  slug: aws-cognito-identity
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aws-cognito/refs/heads/main/openapi/aws-cognito-identity-openapi.yaml
 categories:
 - info
 - method

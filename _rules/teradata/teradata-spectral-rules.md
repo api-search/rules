@@ -1,4 +1,17 @@
 ---
+api_specs:
+- filename: teradata-querygrid-manager-api.yaml
+  format: yaml
+  label: Teradata QueryGrid Manager API
+  slug: querygrid-manager-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/teradata/refs/heads/main/openapi/teradata-querygrid-manager-api.yaml
+- filename: teradata-query-service-api.yaml
+  format: yaml
+  label: Teradata Query Service API
+  slug: query-service-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/teradata/refs/heads/main/openapi/teradata-query-service-api.yaml
 categories:
 - delete
 - examples

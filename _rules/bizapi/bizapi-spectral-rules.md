@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: bizapi-business-intelligence-api-openapi.yml
+  format: yaml
+  label: BizAPI Business Intelligence API
+  slug: bizapi
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bizapi/refs/heads/main/openapi/bizapi-business-intelligence-api-openapi.yml
 categories:
 - examples
 - get

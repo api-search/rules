@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: amazon-supply-chain.yaml
+  format: yaml
+  label: AWS Supply Chain API
+  slug: aws-supply-chain-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-supply-chain/refs/heads/main/openapi/amazon-supply-chain.yaml
 categories:
 - get
 - info

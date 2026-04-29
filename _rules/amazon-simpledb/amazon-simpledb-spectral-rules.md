@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: amazon-simpledb.yaml
+  format: yaml
+  label: Amazon SimpleDB API
+  slug: amazon-simpledb-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-simpledb/refs/heads/main/openapi/amazon-simpledb.yaml
 categories:
 - get
 - info

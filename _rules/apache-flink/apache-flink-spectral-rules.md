@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: apache-flink-rest-openapi-original.yml
+  format: yaml
+  label: Apache Flink REST API
+  slug: apache-flink-rest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-flink/refs/heads/main/openapi/apache-flink-rest-openapi-original.yml
 categories:
 - info
 - operation

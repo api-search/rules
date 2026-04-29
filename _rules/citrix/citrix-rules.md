@@ -1,4 +1,47 @@
 ---
+api_specs:
+- filename: citrix-daas-openapi.yml
+  format: yaml
+  label: Citrix Virtual Apps and Desktops REST API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/citrix/refs/heads/main/openapi/citrix-daas-openapi.yml
+- filename: citrix-adc-nitro-openapi.yml
+  format: yaml
+  label: Citrix ADC (NetScaler) NITRO API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/citrix/refs/heads/main/openapi/citrix-adc-nitro-openapi.yml
+- filename: citrix-daas-openapi.yml
+  format: yaml
+  label: Citrix DaaS REST API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/citrix/refs/heads/main/openapi/citrix-daas-openapi.yml
+- filename: citrix-cloud-openapi.yml
+  format: yaml
+  label: Citrix Cloud API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/citrix/refs/heads/main/openapi/citrix-cloud-openapi.yml
+- filename: citrix-storefront-web-openapi.yml
+  format: yaml
+  label: Citrix StoreFront Web API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/citrix/refs/heads/main/openapi/citrix-storefront-web-openapi.yml
+- filename: citrix-endpoint-management-openapi.yml
+  format: yaml
+  label: Citrix Endpoint Management REST API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/citrix/refs/heads/main/openapi/citrix-endpoint-management-openapi.yml
+- filename: citrix-secure-private-access-openapi.yml
+  format: yaml
+  label: Citrix Secure Private Access API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/citrix/refs/heads/main/openapi/citrix-secure-private-access-openapi.yml
 categories:
 - citrix
 description: Spectral linting rules defining API design standards and conventions for Citrix.

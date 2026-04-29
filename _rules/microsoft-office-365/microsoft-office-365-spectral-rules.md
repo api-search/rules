@@ -1,4 +1,29 @@
 ---
+api_specs:
+- filename: microsoft-graph-api-openapi.yml
+  format: yaml
+  label: Microsoft Graph API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-office-365/refs/heads/main/openapi/microsoft-graph-api-openapi.yml
+- filename: microsoft-graph-api-openapi.yml
+  format: yaml
+  label: Outlook Mail API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-office-365/refs/heads/main/openapi/microsoft-graph-api-openapi.yml
+- filename: microsoft-graph-api-openapi.yml
+  format: yaml
+  label: Outlook Calendar API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-office-365/refs/heads/main/openapi/microsoft-graph-api-openapi.yml
+- filename: microsoft-graph-api-openapi.yml
+  format: yaml
+  label: Office 365 Groups API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-office-365/refs/heads/main/openapi/microsoft-graph-api-openapi.yml
 categories:
 - info
 - 'no'

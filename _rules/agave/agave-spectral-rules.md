@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: agave-unified-api-openapi.yml
+  format: yaml
+  label: Agave Unified Construction API
+  slug: unified-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/agave/refs/heads/main/openapi/agave-unified-api-openapi.yml
 categories:
 - get
 - info

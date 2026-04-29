@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: apyhub-openapi.yaml
+  format: yaml
+  label: ApyHub API
+  slug: apyhub-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apyhub/refs/heads/main/openapi/apyhub-openapi.yaml
 categories:
 - http
 - info

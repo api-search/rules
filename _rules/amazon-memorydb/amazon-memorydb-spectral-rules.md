@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: amazon-memorydb-openapi-original.yml
+  format: yaml
+  label: Amazon MemoryDB API
+  slug: memorydb-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-memorydb/refs/heads/main/openapi/amazon-memorydb-openapi-original.yml
 categories:
 - get
 - info

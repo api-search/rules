@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: apache-cloudstack-api-openapi.yaml
+  format: yaml
+  label: Apache CloudStack API
+  slug: apache-cloudstack-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-cloudstack/refs/heads/main/openapi/apache-cloudstack-api-openapi.yaml
 categories:
 - cloudstack
 description: Spectral linting rules defining API design standards and conventions for Apache CloudStack.

@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: amazon-well-architected-tool-openapi-original.yaml
+  format: yaml
+  label: AWS Well-Architected Tool API
+  slug: aws-well-architected-tool-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-well-architected-tool/refs/heads/main/openapi/amazon-well-architected-tool-openapi-original.yaml
 categories:
 - components
 - delete

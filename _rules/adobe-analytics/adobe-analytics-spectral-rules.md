@@ -1,4 +1,29 @@
 ---
+api_specs:
+- filename: adobe-analytics-api-openapi.yml
+  format: yaml
+  label: Adobe Analytics API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adobe-analytics/refs/heads/main/openapi/adobe-analytics-api-openapi.yml
+- filename: adobe-analytics-bulk-data-insertion-api-openapi.yml
+  format: yaml
+  label: Adobe Analytics Bulk Data Insertion API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adobe-analytics/refs/heads/main/openapi/adobe-analytics-bulk-data-insertion-api-openapi.yml
+- filename: adobe-analytics-livestream-asyncapi.yml
+  format: yaml
+  label: Adobe Analytics Livestream API
+  slug: ''
+  spec_type: AsyncAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adobe-analytics/refs/heads/main/asyncapi/adobe-analytics-livestream-asyncapi.yml
+- filename: adobe-analytics-data-repair-api-openapi.yml
+  format: yaml
+  label: Adobe Analytics Data Repair API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adobe-analytics/refs/heads/main/openapi/adobe-analytics-data-repair-api-openapi.yml
 categories:
 - http
 - info

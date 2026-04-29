@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: amazon-guardduty-openapi.yml
+  format: yaml
+  label: Amazon GuardDuty API
+  slug: amazon-guardduty-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-guardduty/refs/heads/main/openapi/amazon-guardduty-openapi.yml
 categories:
 - info
 - microcks

@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: nops-nops-openapi.yml
+  format: yaml
+  label: nOps
+  slug: nops
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/nops/refs/heads/main/openapi/nops-nops-openapi.yml
 categories:
 - info
 - 'no'

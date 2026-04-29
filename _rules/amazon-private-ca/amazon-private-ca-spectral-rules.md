@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: amazon-private-ca-openapi-original.yaml
+  format: yaml
+  label: AWS Private CA API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/openapi/amazon-private-ca-openapi-original.yaml
 categories:
 - info
 - 'no'

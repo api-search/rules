@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: amazon-cloudtrail-openapi.yml
+  format: yaml
+  label: Amazon CloudTrail API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-cloudtrail/refs/heads/main/openapi/amazon-cloudtrail-openapi.yml
 categories:
 - get
 - info

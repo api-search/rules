@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: apache-rocketmq-rest-api.yaml
+  format: yaml
+  label: Apache RocketMQ
+  slug: apache-rocketmq
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-rocketmq/refs/heads/main/openapi/apache-rocketmq-rest-api.yaml
 categories:
 - apache
 description: Spectral linting rules defining API design standards and conventions for Apache RocketMQ.

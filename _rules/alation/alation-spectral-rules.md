@@ -1,4 +1,29 @@
 ---
+api_specs:
+- filename: alation-data-catalog-openapi.yaml
+  format: yaml
+  label: Alation Data Catalog API
+  slug: data-catalog-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/alation/refs/heads/main/openapi/alation-data-catalog-openapi.yaml
+- filename: alation-lineage-openapi.yaml
+  format: yaml
+  label: Alation Lineage API
+  slug: lineage-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/alation/refs/heads/main/openapi/alation-lineage-openapi.yaml
+- filename: alation-governance-openapi.yaml
+  format: yaml
+  label: Alation Governance API
+  slug: governance-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/alation/refs/heads/main/openapi/alation-governance-openapi.yaml
+- filename: alation-search-openapi.yaml
+  format: yaml
+  label: Alation Search API
+  slug: search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/alation/refs/heads/main/openapi/alation-search-openapi.yaml
 categories:
 - alation
 description: Spectral linting rules defining API design standards and conventions for Alation.

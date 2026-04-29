@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: amazon-iam-access-analyzer-openapi-original.yml
+  format: yaml
+  label: AWS IAM Access Analyzer API
+  slug: aws-access-analyzer-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-iam-access-analyzer/refs/heads/main/openapi/amazon-iam-access-analyzer-openapi-original.yml
 categories:
 - delete
 - examples

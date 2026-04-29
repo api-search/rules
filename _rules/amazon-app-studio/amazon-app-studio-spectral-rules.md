@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: amazon-app-studio-openapi.yaml
+  format: yaml
+  label: Amazon App Studio API
+  slug: app-studio-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-app-studio/refs/heads/main/openapi/amazon-app-studio-openapi.yaml
 categories:
 - amazon
 description: Spectral linting rules defining API design standards and conventions for Amazon App Studio.

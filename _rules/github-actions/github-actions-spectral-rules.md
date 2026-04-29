@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: github-actions-openapi.yml
+  format: yaml
+  label: GitHub Actions API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/github-actions/refs/heads/main/openapi/github-actions-openapi.yml
 categories:
 - info
 - 'no'

@@ -1,4 +1,17 @@
 ---
+api_specs:
+- filename: lightroom-services-openapi.yml
+  format: yaml
+  label: Lightroom Services API
+  slug: lightroom-services-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lightroom/refs/heads/main/openapi/lightroom-services-openapi.yml
+- filename: lightroom-firefly-services-openapi.yml
+  format: yaml
+  label: Adobe Lightroom API (Firefly Services)
+  slug: lightroom-firefly-services-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/lightroom/refs/heads/main/openapi/lightroom-firefly-services-openapi.yml
 categories:
 - info
 - 'no'

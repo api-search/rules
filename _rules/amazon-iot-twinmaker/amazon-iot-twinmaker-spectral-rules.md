@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: amazon-iot-twinmaker-openapi-original.yml
+  format: yaml
+  label: AWS IoT TwinMaker API
+  slug: aws-iot-twinmaker-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-twinmaker/refs/heads/main/openapi/amazon-iot-twinmaker-openapi-original.yml
 categories:
 - get
 - info

@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: zookeeper-admin-api.yml
+  format: yaml
+  label: Apache ZooKeeper Admin Server API
+  slug: apache-zookeeper-admin-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-zookeeper/refs/heads/main/openapi/zookeeper-admin-api.yml
 categories:
 - info
 - operation

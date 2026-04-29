@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: amazon-codedeploy-openapi-original.yaml
+  format: yaml
+  label: Amazon CodeDeploy API
+  slug: amazon-codedeploy-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-codedeploy/refs/heads/main/openapi/amazon-codedeploy-openapi-original.yaml
 categories:
 - info
 - 'no'

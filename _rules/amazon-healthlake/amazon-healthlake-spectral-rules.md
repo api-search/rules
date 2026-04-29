@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: amazon-healthlake-openapi.yaml
+  format: yaml
+  label: Amazon HealthLake API
+  slug: amazon-healthlake-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-healthlake/refs/heads/main/openapi/amazon-healthlake-openapi.yaml
 categories:
 - healthlake
 description: Spectral linting rules defining API design standards and conventions for Amazon HealthLake.

@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: ampersand-api-openapi-original.yml
+  format: yaml
+  label: Ampersand API
+  slug: ampersand-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ampersand/refs/heads/main/openapi/ampersand-api-openapi-original.yml
 categories:
 - delete
 - examples

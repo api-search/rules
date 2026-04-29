@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: activepieces.json
+  format: json
+  label: Activepieces API
+  slug: activepieces-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/activepieces/refs/heads/main/openapi/activepieces.json
 categories:
 - http
 - info

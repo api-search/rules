@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: moodys-data-buffet-api-openapi.yml
+  format: yaml
+  label: Moody's Data Buffet API
+  slug: data-buffet-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/moodys/refs/heads/main/openapi/moodys-data-buffet-api-openapi.yml
 categories:
 - info
 - 'no'

@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: adobe-illustrator-scripting-openapi-original.yml
+  format: yaml
+  label: Adobe Illustrator Scripting API
+  slug: scripting-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adobe-illustrator/refs/heads/main/openapi/adobe-illustrator-scripting-openapi-original.yml
 categories:
 - get
 - info

@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: academy-software-foundation-opencue.yaml
+  format: yaml
+  label: OpenCue
+  slug: opencue
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/academy-software-foundation/refs/heads/main/openapi/academy-software-foundation-opencue.yaml
 categories:
 - delete
 - get

@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: amazon-redshift-data-api-openapi.yml
+  format: yaml
+  label: Amazon Redshift Data API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-redshift/refs/heads/main/openapi/amazon-redshift-data-api-openapi.yml
 categories:
 - info
 - 'no'

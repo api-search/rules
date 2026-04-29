@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: amazon-mediatailor-openapi-original.yml
+  format: yaml
+  label: Amazon MediaTailor API
+  slug: mediatailor-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-mediatailor/refs/heads/main/openapi/amazon-mediatailor-openapi-original.yml
 categories:
 - get
 - info

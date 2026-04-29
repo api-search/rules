@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: amazon-detective-openapi.yml
+  format: yaml
+  label: Amazon Detective API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-detective/refs/heads/main/openapi/amazon-detective-openapi.yml
 categories:
 - delete
 - external

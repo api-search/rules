@@ -1,4 +1,17 @@
 ---
+api_specs:
+- filename: ariba-guided-buying-catalog-shop-api.yaml
+  format: yaml
+  label: Ariba Guided Buying - Public Catalogs Shop API
+  slug: ariba-guided-buying-catalog-shop-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ariba-guided-buying/refs/heads/main/openapi/ariba-guided-buying-catalog-shop-api.yaml
+- filename: ariba-guided-buying-asset-management-api.yaml
+  format: yaml
+  label: Ariba Guided Buying - Asset Management API
+  slug: ariba-guided-buying-asset-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ariba-guided-buying/refs/heads/main/openapi/ariba-guided-buying-asset-management-api.yaml
 categories:
 - delete
 - get

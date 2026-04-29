@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: apache-openmeetings-rest-api.json
+  format: json
+  label: Apache OpenMeetings REST API
+  slug: apache-openmeetings-rest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-openmeetings/refs/heads/main/openapi/apache-openmeetings-rest-api.json
 categories:
 - info
 - operation

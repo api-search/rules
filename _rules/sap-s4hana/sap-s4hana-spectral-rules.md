@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: sap-s4hana-sales-order-openapi.yml
+  format: yaml
+  label: SAP S/4HANA Sales Order API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sap-s4hana/refs/heads/main/openapi/sap-s4hana-sales-order-openapi.yml
 categories:
 - info
 - 'no'

@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: mulesoft-anypoint-platform-openapi.yml
+  format: yaml
+  label: MuleSoft Anypoint Platform Management API
+  slug: mulesoft-anypoint-platform-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mulesoft/refs/heads/main/openapi/mulesoft-anypoint-platform-openapi.yml
 categories:
 - info
 - 'no'

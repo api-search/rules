@@ -1,4 +1,59 @@
 ---
+api_specs:
+- filename: amazon-neptune-management-openapi.yml
+  format: yaml
+  label: Amazon Neptune Management API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-neptune/refs/heads/main/openapi/amazon-neptune-management-openapi.yml
+- filename: amazon-neptune-data-openapi.yml
+  format: yaml
+  label: Amazon Neptune Data API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-neptune/refs/heads/main/openapi/amazon-neptune-data-openapi.yml
+- filename: amazon-neptune-gremlin-openapi.yml
+  format: yaml
+  label: Neptune Gremlin API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-neptune/refs/heads/main/openapi/amazon-neptune-gremlin-openapi.yml
+- filename: amazon-neptune-sparql-openapi.yml
+  format: yaml
+  label: Neptune SPARQL API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-neptune/refs/heads/main/openapi/amazon-neptune-sparql-openapi.yml
+- filename: amazon-neptune-opencypher-openapi.yml
+  format: yaml
+  label: Neptune openCypher API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-neptune/refs/heads/main/openapi/amazon-neptune-opencypher-openapi.yml
+- filename: amazon-neptune-streams-openapi.yml
+  format: yaml
+  label: Neptune Streams API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-neptune/refs/heads/main/openapi/amazon-neptune-streams-openapi.yml
+- filename: amazon-neptune-loader-openapi.yml
+  format: yaml
+  label: Neptune Loader API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-neptune/refs/heads/main/openapi/amazon-neptune-loader-openapi.yml
+- filename: amazon-neptune-ml-openapi.yml
+  format: yaml
+  label: Neptune ML API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-neptune/refs/heads/main/openapi/amazon-neptune-ml-openapi.yml
+- filename: amazon-neptune-analytics-openapi.yml
+  format: yaml
+  label: Neptune Analytics API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-neptune/refs/heads/main/openapi/amazon-neptune-analytics-openapi.yml
 categories:
 - delete
 - get

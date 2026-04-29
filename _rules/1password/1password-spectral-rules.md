@@ -1,4 +1,23 @@
 ---
+api_specs:
+- filename: 1password-connect-openapi.yml
+  format: yaml
+  label: 1Password Connect Server API
+  slug: 1password-connect-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/1password/refs/heads/main/openapi/1password-connect-openapi.yml
+- filename: 1password-events-openapi.yml
+  format: yaml
+  label: 1Password Events API
+  slug: 1password-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/1password/refs/heads/main/openapi/1password-events-openapi.yml
+- filename: 1password-partnership-openapi.yml
+  format: yaml
+  label: 1Password Partnership API
+  slug: 1password-partnership-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/1password/refs/heads/main/openapi/1password-partnership-openapi.yml
 categories:
 - delete
 - examples

@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: apache-hive-webhcat-openapi.yml
+  format: yaml
+  label: Apache Hive WebHCat REST API
+  slug: apache-hive-webhcat-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-hive/refs/heads/main/openapi/apache-hive-webhcat-openapi.yml
 categories:
 - hive
 description: Spectral linting rules defining API design standards and conventions for Apache Hive.

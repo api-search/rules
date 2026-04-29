@@ -1,4 +1,17 @@
 ---
+api_specs:
+- filename: codehooks-database-rest-api-openapi.yml
+  format: yaml
+  label: Codehooks Database REST API
+  slug: codehooks-database-rest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/codehooks/refs/heads/main/openapi/codehooks-database-rest-api-openapi.yml
+- filename: codehooks-events-asyncapi.yml
+  format: yaml
+  label: Codehooks Events (AsyncAPI)
+  slug: codehooks-events
+  spec_type: AsyncAPI
+  url: https://raw.githubusercontent.com/api-evangelist/codehooks/refs/heads/main/asyncapi/codehooks-events-asyncapi.yml
 categories:
 - codehooks
 description: Spectral linting rules defining API design standards and conventions for Codehooks.

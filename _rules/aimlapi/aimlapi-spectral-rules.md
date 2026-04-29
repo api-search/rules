@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: aimlapi-openapi.yml
+  format: yaml
+  label: AIMLAPI
+  slug: aimlapi
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aimlapi/refs/heads/main/openapi/aimlapi-openapi.yml
 categories:
 - info
 - 'no'

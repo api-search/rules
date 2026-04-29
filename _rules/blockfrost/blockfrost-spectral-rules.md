@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: blockfrost-openapi.yaml
+  format: yaml
+  label: Blockfrost API
+  slug: blockfrost
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/blockfrost/refs/heads/main/openapi/blockfrost-openapi.yaml
 categories:
 - external
 - get

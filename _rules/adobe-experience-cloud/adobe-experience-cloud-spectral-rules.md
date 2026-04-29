@@ -1,4 +1,41 @@
 ---
+api_specs:
+- filename: adobe-analytics-api-openapi.yml
+  format: yaml
+  label: Adobe Analytics 2.0 API
+  slug: analytics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adobe-experience-cloud/refs/heads/main/openapi/adobe-analytics-api-openapi.yml
+- filename: adobe-experience-platform-api-openapi.yml
+  format: yaml
+  label: Adobe Experience Platform API
+  slug: experience-platform-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adobe-experience-cloud/refs/heads/main/openapi/adobe-experience-platform-api-openapi.yml
+- filename: adobe-target-api-openapi.yml
+  format: yaml
+  label: Adobe Target API
+  slug: target-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adobe-experience-cloud/refs/heads/main/openapi/adobe-target-api-openapi.yml
+- filename: adobe-journey-optimizer-api-openapi.yml
+  format: yaml
+  label: Adobe Journey Optimizer API
+  slug: journey-optimizer-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adobe-experience-cloud/refs/heads/main/openapi/adobe-journey-optimizer-api-openapi.yml
+- filename: adobe-campaign-api-openapi.yml
+  format: yaml
+  label: Adobe Campaign API
+  slug: campaign-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adobe-experience-cloud/refs/heads/main/openapi/adobe-campaign-api-openapi.yml
+- filename: adobe-io-events-asyncapi.yml
+  format: yaml
+  label: Adobe I/O Events
+  slug: io-events
+  spec_type: AsyncAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adobe-experience-cloud/refs/heads/main/asyncapi/adobe-io-events-asyncapi.yml
 categories:
 - delete
 - examples

@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: amazon-marketplace-openapi-original.yaml
+  format: yaml
+  label: AWS Marketplace Catalog API
+  slug: aws-marketplace-catalog-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-marketplace/refs/heads/main/openapi/amazon-marketplace-openapi-original.yaml
 categories:
 - examples
 - http

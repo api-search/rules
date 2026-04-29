@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: apache-geode-rest-openapi.yml
+  format: yaml
+  label: Apache Geode REST API
+  slug: apache-geode-rest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-geode/refs/heads/main/openapi/apache-geode-rest-openapi.yml
 categories:
 - info
 - operation

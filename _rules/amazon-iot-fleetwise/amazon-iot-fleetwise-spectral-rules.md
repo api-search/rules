@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: amazon-iot-fleetwise-openapi-original.yml
+  format: yaml
+  label: AWS IoT FleetWise API
+  slug: aws-iot-fleetwise-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-fleetwise/refs/heads/main/openapi/amazon-iot-fleetwise-openapi-original.yml
 categories:
 - get
 - info

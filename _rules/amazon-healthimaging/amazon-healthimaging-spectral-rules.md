@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: amazon-healthimaging-openapi.yaml
+  format: yaml
+  label: AWS HealthImaging API
+  slug: aws-healthimaging-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-healthimaging/refs/heads/main/openapi/amazon-healthimaging-openapi.yaml
 categories:
 - healthimaging
 description: Spectral linting rules defining API design standards and conventions for Amazon HealthImaging.

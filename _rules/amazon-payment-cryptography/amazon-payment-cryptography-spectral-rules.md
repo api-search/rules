@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: amazon-payment-cryptography-openapi.yml
+  format: yaml
+  label: AWS Payment Cryptography API
+  slug: aws-payment-cryptography-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-payment-cryptography/refs/heads/main/openapi/amazon-payment-cryptography-openapi.yml
 categories:
 - get
 - info

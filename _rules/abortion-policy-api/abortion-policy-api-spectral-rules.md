@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: abortion-policy-api-openapi.yml
+  format: yaml
+  label: Abortion Policy API
+  slug: abortion-policy-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/abortion-policy-api/refs/heads/main/openapi/abortion-policy-api-openapi.yml
 categories:
 - delete
 - examples

@@ -1,4 +1,35 @@
 ---
+api_specs:
+- filename: solarwinds-orion-openapi.yml
+  format: yaml
+  label: SolarWinds Orion API
+  slug: solarwinds-orion-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/solarwinds/refs/heads/main/openapi/solarwinds-orion-openapi.yml
+- filename: solarwinds-service-desk-openapi.yml
+  format: yaml
+  label: SolarWinds Service Desk API
+  slug: solarwinds-service-desk-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/solarwinds/refs/heads/main/openapi/solarwinds-service-desk-openapi.yml
+- filename: solarwinds-pingdom-openapi.yml
+  format: yaml
+  label: SolarWinds Pingdom API
+  slug: solarwinds-pingdom-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/solarwinds/refs/heads/main/openapi/solarwinds-pingdom-openapi.yml
+- filename: solarwinds-loggly-openapi.yml
+  format: yaml
+  label: SolarWinds Loggly API
+  slug: solarwinds-loggly-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/solarwinds/refs/heads/main/openapi/solarwinds-loggly-openapi.yml
+- filename: solarwinds-papertrail-openapi.yml
+  format: yaml
+  label: SolarWinds Papertrail API
+  slug: solarwinds-papertrail-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/solarwinds/refs/heads/main/openapi/solarwinds-papertrail-openapi.yml
 categories:
 - info
 - 'no'

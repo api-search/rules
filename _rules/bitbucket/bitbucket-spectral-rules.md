@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: bitbucket-cloud-rest-api-openapi.json
+  format: json
+  label: Bitbucket Cloud REST API
+  slug: bitbucket-cloud-rest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bitbucket/refs/heads/main/openapi/bitbucket-cloud-rest-api-openapi.json
 categories:
 - delete
 - get

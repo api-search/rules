@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: conductor-conductor-openapi.yml
+  format: yaml
+  label: Conductor
+  slug: conductor
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/conductor/refs/heads/main/openapi/conductor-conductor-openapi.yml
 categories:
 - info
 - 'no'

@@ -1,4 +1,41 @@
 ---
+api_specs:
+- filename: bandwidth-voice-api-openapi.yml
+  format: yaml
+  label: Bandwidth Voice API
+  slug: voice-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bandwidth/refs/heads/main/openapi/bandwidth-voice-api-openapi.yml
+- filename: bandwidth-messaging-api-openapi.yml
+  format: yaml
+  label: Bandwidth Messaging API
+  slug: messaging-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bandwidth/refs/heads/main/openapi/bandwidth-messaging-api-openapi.yml
+- filename: bandwidth-phone-numbers-api-openapi.yml
+  format: yaml
+  label: Bandwidth Phone Numbers API
+  slug: phone-numbers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bandwidth/refs/heads/main/openapi/bandwidth-phone-numbers-api-openapi.yml
+- filename: bandwidth-mfa-api-openapi.yml
+  format: yaml
+  label: Bandwidth Multi-Factor Authentication API
+  slug: multi-factor-authentication-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bandwidth/refs/heads/main/openapi/bandwidth-mfa-api-openapi.yml
+- filename: bandwidth-emergency-calling-api-openapi.yml
+  format: yaml
+  label: Bandwidth Emergency Calling API
+  slug: emergency-calling-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bandwidth/refs/heads/main/openapi/bandwidth-emergency-calling-api-openapi.yml
+- filename: bandwidth-toll-free-verification-api-openapi.yml
+  format: yaml
+  label: Bandwidth Toll-Free Verification API
+  slug: toll-free-verification-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bandwidth/refs/heads/main/openapi/bandwidth-toll-free-verification-api-openapi.yml
 categories:
 - get
 - info

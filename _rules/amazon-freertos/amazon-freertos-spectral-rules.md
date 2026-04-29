@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: amazon-freertos-openapi.yml
+  format: yaml
+  label: Amazon FreeRTOS API
+  slug: amazon-freertos-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-freertos/refs/heads/main/openapi/amazon-freertos-openapi.yml
 categories:
 - freertos
 description: Spectral linting rules defining API design standards and conventions for Amazon FreeRTOS.

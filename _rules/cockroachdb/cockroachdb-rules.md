@@ -1,4 +1,17 @@
 ---
+api_specs:
+- filename: cockroachdb-cloud-api-openapi.yml
+  format: yaml
+  label: CockroachDB Cloud API
+  slug: cloud-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cockroachdb/refs/heads/main/openapi/cockroachdb-cloud-api-openapi.yml
+- filename: cockroachdb-cluster-api-openapi.yml
+  format: yaml
+  label: CockroachDB Cluster API
+  slug: cluster-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cockroachdb/refs/heads/main/openapi/cockroachdb-cluster-api-openapi.yml
 categories:
 - cockroachdb
 description: Spectral linting rules defining API design standards and conventions for CockroachDB.

@@ -1,4 +1,35 @@
 ---
+api_specs:
+- filename: new-relic-openapi.yml
+  format: yaml
+  label: New Relic REST API v2
+  slug: new-relic-rest-api-v2
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/new-relic/refs/heads/main/openapi/new-relic-openapi.yml
+- filename: new-relic-metric-api-openapi.yml
+  format: yaml
+  label: New Relic Metric API
+  slug: new-relic-metric-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/new-relic/refs/heads/main/openapi/new-relic-metric-api-openapi.yml
+- filename: new-relic-event-api-openapi.yml
+  format: yaml
+  label: New Relic Event API
+  slug: new-relic-event-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/new-relic/refs/heads/main/openapi/new-relic-event-api-openapi.yml
+- filename: new-relic-log-api-openapi.yml
+  format: yaml
+  label: New Relic Log API
+  slug: new-relic-log-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/new-relic/refs/heads/main/openapi/new-relic-log-api-openapi.yml
+- filename: new-relic-trace-api-openapi.yml
+  format: yaml
+  label: New Relic Trace API
+  slug: new-relic-trace-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/new-relic/refs/heads/main/openapi/new-relic-trace-api-openapi.yml
 categories:
 - http
 - info

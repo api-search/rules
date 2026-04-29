@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: amazon-security-hub-openapi.yml
+  format: yaml
+  label: AWS Security Hub API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-security-hub/refs/heads/main/openapi/amazon-security-hub-openapi.yml
 categories:
 - info
 - microcks

@@ -1,4 +1,23 @@
 ---
+api_specs:
+- filename: atandt-wireless-apis.yaml
+  format: yaml
+  label: AT&T Wireless APIs
+  slug: att-wireless-apis
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/atandt/refs/heads/main/openapi/atandt-wireless-apis.yaml
+- filename: atandt-network-apis.yaml
+  format: yaml
+  label: AT&T 5G Network APIs
+  slug: att-network-apis
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/atandt/refs/heads/main/openapi/atandt-network-apis.yaml
+- filename: atandt-enterprise-connectivity-apis.yaml
+  format: yaml
+  label: AT&T Enterprise Connectivity APIs
+  slug: att-enterprise-connectivity-apis
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/atandt/refs/heads/main/openapi/atandt-enterprise-connectivity-apis.yaml
 categories:
 - atandt
 description: Spectral linting rules defining API design standards and conventions for AT&T.

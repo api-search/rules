@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: amazon-config-openapi.yml
+  format: yaml
+  label: Amazon Config API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-config/refs/heads/main/openapi/amazon-config-openapi.yml
 categories:
 - config
 - get

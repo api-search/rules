@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: admin-sdk-directory-api.yml
+  format: yaml
+  label: Admin SDK Directory API
+  slug: admin-directory
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-workspace/refs/heads/main/openapi/admin-sdk-directory-api.yml
 categories:
 - info
 - 'no'

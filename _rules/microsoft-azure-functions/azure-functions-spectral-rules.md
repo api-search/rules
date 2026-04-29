@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: azure-functions-management-api.json
+  format: json
+  label: Azure Functions Management API
+  slug: azure-functions-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-functions/refs/heads/main/openapi/azure-functions-management-api.json
 categories:
 - get
 - info

@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: amazon-elastic-transcoder-openapi.yml
+  format: yaml
+  label: Amazon Elastic Transcoder API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-elastic-transcoder/refs/heads/main/openapi/amazon-elastic-transcoder-openapi.yml
 categories:
 - delete
 - get

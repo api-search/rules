@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: amazon-glue-databrew-openapi.yaml
+  format: yaml
+  label: AWS Glue DataBrew API
+  slug: aws-glue-databrew-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-glue-databrew/refs/heads/main/openapi/amazon-glue-databrew-openapi.yaml
 categories:
 - info
 - microcks

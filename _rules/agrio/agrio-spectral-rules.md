@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: agrio-openapi-original.yml
+  format: yaml
+  label: Agrio Agriculture API
+  slug: agrio
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/agrio/refs/heads/main/openapi/agrio-openapi-original.yml
 categories:
 - get
 - info

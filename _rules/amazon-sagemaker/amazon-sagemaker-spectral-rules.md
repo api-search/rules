@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: amazon-sagemaker-openapi.yml
+  format: yaml
+  label: Amazon SageMaker API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-sagemaker/refs/heads/main/openapi/amazon-sagemaker-openapi.yml
 categories:
 - delete
 - get

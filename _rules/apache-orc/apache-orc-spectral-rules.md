@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: apache-orc-tools-api.yaml
+  format: yaml
+  label: Apache ORC
+  slug: apache-orc
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-orc/refs/heads/main/openapi/apache-orc-tools-api.yaml
 categories:
 - info
 - operation

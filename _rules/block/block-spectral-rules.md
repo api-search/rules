@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: block-square-api-openapi.yaml
+  format: yaml
+  label: Square API
+  slug: block-square-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/block/refs/heads/main/openapi/block-square-api-openapi.yaml
 categories:
 - block
 description: Spectral linting rules defining API design standards and conventions for Block.

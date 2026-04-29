@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: amazon-certificate-manager-openapi.yml
+  format: yaml
+  label: Amazon Certificate Manager API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-certificate-manager/refs/heads/main/openapi/amazon-certificate-manager-openapi.yml
 categories:
 - delete
 - external

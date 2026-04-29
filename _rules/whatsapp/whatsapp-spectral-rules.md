@@ -1,4 +1,23 @@
 ---
+api_specs:
+- filename: whatsapp-cloud-api-openapi.yml
+  format: yaml
+  label: WhatsApp Business Platform API
+  slug: business-platform-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/whatsapp/refs/heads/main/openapi/whatsapp-cloud-api-openapi.yml
+- filename: whatsapp-business-management-api-openapi.yml
+  format: yaml
+  label: WhatsApp Business Account Management API
+  slug: business-account-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/whatsapp/refs/heads/main/openapi/whatsapp-business-management-api-openapi.yml
+- filename: whatsapp-flows-api-openapi.yml
+  format: yaml
+  label: WhatsApp Flows API
+  slug: flows-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/whatsapp/refs/heads/main/openapi/whatsapp-flows-api-openapi.yml
 categories:
 - get
 - info

@@ -1,4 +1,41 @@
 ---
+api_specs:
+- filename: google-analytics-data-api.yaml
+  format: yaml
+  label: Google Analytics Data API (GA4)
+  slug: google-analytics-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-analytics/refs/heads/main/openapi/google-analytics-data-api.yaml
+- filename: google-analytics-admin-api.yaml
+  format: yaml
+  label: Google Analytics Admin API
+  slug: google-analytics-admin-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-analytics/refs/heads/main/openapi/google-analytics-admin-api.yaml
+- filename: google-analytics-measurement-protocol.yaml
+  format: yaml
+  label: Google Analytics Measurement Protocol (GA4)
+  slug: google-analytics-measurement-protocol
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-analytics/refs/heads/main/openapi/google-analytics-measurement-protocol.yaml
+- filename: google-analytics-user-deletion-api.yaml
+  format: yaml
+  label: Google Analytics User Deletion API
+  slug: google-analytics-user-deletion-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-analytics/refs/heads/main/openapi/google-analytics-user-deletion-api.yaml
+- filename: google-analytics-reporting-api-v4.yaml
+  format: yaml
+  label: Google Analytics Reporting API v4 (Universal Analytics)
+  slug: google-analytics-reporting-api-v4
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-analytics/refs/heads/main/openapi/google-analytics-reporting-api-v4.yaml
+- filename: google-analytics-management-api-v3.yaml
+  format: yaml
+  label: Google Analytics Management API v3
+  slug: google-analytics-management-api-v3
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-analytics/refs/heads/main/openapi/google-analytics-management-api-v3.yaml
 categories:
 - delete
 - deprecated

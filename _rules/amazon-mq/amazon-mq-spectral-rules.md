@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: amazon-mq-openapi-original.yml
+  format: yaml
+  label: Amazon MQ API
+  slug: mq-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-mq/refs/heads/main/openapi/amazon-mq-openapi-original.yml
 categories:
 - get
 - info

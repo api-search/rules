@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: amazon-pinpoint-openapi.yml
+  format: yaml
+  label: Amazon Pinpoint API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-pinpoint/refs/heads/main/openapi/amazon-pinpoint-openapi.yml
 categories:
 - delete
 - get

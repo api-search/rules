@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: aws-step-functions-openapi.json
+  format: json
+  label: AWS Step Functions
+  slug: aws-step-functions
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aws-step-functions/refs/heads/main/openapi/aws-step-functions-openapi.json
 categories:
 - sfn
 description: Spectral linting rules defining API design standards and conventions for AWS Step Functions.

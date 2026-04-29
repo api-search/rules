@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: amazon-managed-apache-flink-openapi-original.yaml
+  format: yaml
+  label: Amazon Managed Service for Apache Flink API
+  slug: aws-managed-flink-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-managed-apache-flink/refs/heads/main/openapi/amazon-managed-apache-flink-openapi-original.yaml
 categories:
 - examples
 - http

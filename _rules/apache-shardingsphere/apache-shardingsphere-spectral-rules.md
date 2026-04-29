@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: apache-shardingsphere-rest-api.yaml
+  format: yaml
+  label: Apache ShardingSphere
+  slug: apache-shardingsphere
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-shardingsphere/refs/heads/main/openapi/apache-shardingsphere-rest-api.yaml
 categories:
 - apache
 description: Spectral linting rules defining API design standards and conventions for Apache ShardingSphere.

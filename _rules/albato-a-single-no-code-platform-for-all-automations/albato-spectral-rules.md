@@ -1,4 +1,17 @@
 ---
+api_specs:
+- filename: albato-automations-openapi.yaml
+  format: yaml
+  label: Albato Automations API
+  slug: automations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/albato-a-single-no-code-platform-for-all-automations/refs/heads/main/openapi/albato-automations-openapi.yaml
+- filename: albato-connections-openapi.yaml
+  format: yaml
+  label: Albato Connections API
+  slug: connections-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/albato-a-single-no-code-platform-for-all-automations/refs/heads/main/openapi/albato-connections-openapi.yaml
 categories:
 - albato
 description: Spectral linting rules defining API design standards and conventions for Albato A Single No Code Platform For All Automations.

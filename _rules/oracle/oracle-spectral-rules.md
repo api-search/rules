@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: oci-compute-api-openapi.yml
+  format: yaml
+  label: OCI Compute API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle/refs/heads/main/openapi/oci-compute-api-openapi.yml
 categories:
 - info
 - 'no'

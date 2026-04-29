@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: amazon-organizations-openapi.yml
+  format: yaml
+  label: AWS Organizations API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-organizations/refs/heads/main/openapi/amazon-organizations-openapi.yml
 categories:
 - get
 - info

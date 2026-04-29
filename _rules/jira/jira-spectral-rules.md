@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: jira-cloud-platform-rest-api-openapi.yml
+  format: yaml
+  label: Jira Cloud Platform REST API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/jira/refs/heads/main/openapi/jira-cloud-platform-rest-api-openapi.yml
 categories:
 - info
 - 'no'

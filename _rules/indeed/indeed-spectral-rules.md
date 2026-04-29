@@ -1,4 +1,17 @@
 ---
+api_specs:
+- filename: indeed-employer-api-openapi.yml
+  format: yaml
+  label: Indeed Job Sync API
+  slug: job-sync
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/indeed/refs/heads/main/openapi/indeed-employer-api-openapi.yml
+- filename: indeed-employer-api-openapi.yml
+  format: yaml
+  label: Indeed Employer API
+  slug: employer
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/indeed/refs/heads/main/openapi/indeed-employer-api-openapi.yml
 categories:
 - info
 - 'no'

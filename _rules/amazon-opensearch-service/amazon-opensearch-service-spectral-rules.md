@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: amazon-opensearch-service-openapi.yml
+  format: yaml
+  label: Amazon OpenSearch Service API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-opensearch-service/refs/heads/main/openapi/amazon-opensearch-service-openapi.yml
 categories:
 - get
 - info

@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: amazon-datasync-api-openapi.yml
+  format: yaml
+  label: Amazon DataSync REST API
+  slug: amazon-datasync-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-datasync/refs/heads/main/openapi/amazon-datasync-api-openapi.yml
 categories:
 - arn
 - info

@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: arlula-openapi.yaml
+  format: yaml
+  label: Arlula API
+  slug: arlula-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/arlula/refs/heads/main/openapi/arlula-openapi.yaml
 categories:
 - arlula
 description: Spectral linting rules defining API design standards and conventions for Arlula.

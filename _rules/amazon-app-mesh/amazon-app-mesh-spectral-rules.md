@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: amazon-app-mesh-openapi.yaml
+  format: yaml
+  label: AWS App Mesh API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-app-mesh/refs/heads/main/openapi/amazon-app-mesh-openapi.yaml
 categories:
 - amazon
 description: Spectral linting rules defining API design standards and conventions for Amazon App Mesh.

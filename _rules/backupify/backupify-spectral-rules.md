@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: backupify-saas-protection-api.yaml
+  format: yaml
+  label: Backupify SaaS Protection API
+  slug: saas-protection-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/backupify/refs/heads/main/openapi/backupify-saas-protection-api.yaml
 categories:
 - info
 - openapi

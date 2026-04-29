@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: oracle-enterprise-manager-cloud-control-openapi.yml
+  format: yaml
+  label: Oracle Enterprise Manager Cloud Control REST API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-enterprise-manager/refs/heads/main/openapi/oracle-enterprise-manager-cloud-control-openapi.yml
 categories:
 - info
 - 'no'

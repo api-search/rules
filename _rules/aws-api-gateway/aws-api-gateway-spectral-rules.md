@@ -1,4 +1,23 @@
 ---
+api_specs:
+- filename: aws-api-gateway-v1-openapi.yml
+  format: yaml
+  label: Amazon API Gateway V1 (REST)
+  slug: aws-api-gateway-v1
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aws-api-gateway/refs/heads/main/openapi/aws-api-gateway-v1-openapi.yml
+- filename: aws-api-gateway-v2-openapi.yml
+  format: yaml
+  label: Amazon API Gateway V2 (HTTP and WebSocket)
+  slug: aws-api-gateway-v2
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aws-api-gateway/refs/heads/main/openapi/aws-api-gateway-v2-openapi.yml
+- filename: aws-api-gateway-management-openapi.yml
+  format: yaml
+  label: Amazon API Gateway Management API
+  slug: aws-api-gateway-management
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aws-api-gateway/refs/heads/main/openapi/aws-api-gateway-management-openapi.yml
 categories:
 - deprecation
 - info

@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: aws-x-ray-openapi.yml
+  format: yaml
+  label: AWS X-Ray
+  slug: aws-x-ray
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aws-x-ray/refs/heads/main/openapi/aws-x-ray-openapi.yml
 categories:
 - xray
 description: Spectral linting rules defining API design standards and conventions for AWS X-Ray.

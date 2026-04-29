@@ -1,4 +1,41 @@
 ---
+api_specs:
+- filename: airtable-airtable-api-openapi.yml
+  format: yaml
+  label: Airtable API
+  slug: airtable-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/airtable/refs/heads/main/openapi/airtable-airtable-api-openapi.yml
+- filename: airtable-metadata-api-openapi.yml
+  format: yaml
+  label: Airtable Metadata API
+  slug: airtable-metadata-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/airtable/refs/heads/main/openapi/airtable-metadata-api-openapi.yml
+- filename: airtable-enterprise-api-openapi.yml
+  format: yaml
+  label: Airtable Enterprise API
+  slug: airtable-enterprise-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/airtable/refs/heads/main/openapi/airtable-enterprise-api-openapi.yml
+- filename: airtable-scim-api-openapi.yml
+  format: yaml
+  label: Airtable SCIM API
+  slug: airtable-scim-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/airtable/refs/heads/main/openapi/airtable-scim-api-openapi.yml
+- filename: airtable-audit-logs-api-openapi.yml
+  format: yaml
+  label: Airtable Audit Logs API
+  slug: airtable-audit-logs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/airtable/refs/heads/main/openapi/airtable-audit-logs-api-openapi.yml
+- filename: airtable-shares-api-openapi.yml
+  format: yaml
+  label: Airtable Shares API
+  slug: airtable-shares-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/airtable/refs/heads/main/openapi/airtable-shares-api-openapi.yml
 categories:
 - airtable
 - get

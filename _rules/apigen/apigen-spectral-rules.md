@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: apigen-apigen-openapi.yml
+  format: yaml
+  label: APIGen
+  slug: apigen
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apigen/refs/heads/main/openapi/apigen-apigen-openapi.yml
 categories:
 - info
 - operation

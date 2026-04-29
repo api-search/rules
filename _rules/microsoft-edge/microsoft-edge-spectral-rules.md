@@ -1,4 +1,17 @@
 ---
+api_specs:
+- filename: microsoft-edge-addons-api.yaml
+  format: yaml
+  label: Microsoft Edge Add-ons API
+  slug: edge-addons-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-edge/refs/heads/main/openapi/microsoft-edge-addons-api.yaml
+- filename: microsoft-edge-devtools-api.yaml
+  format: yaml
+  label: Microsoft Edge DevTools Protocol HTTP API
+  slug: edge-devtools-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-edge/refs/heads/main/openapi/microsoft-edge-devtools-api.yaml
 categories:
 - delete
 - get

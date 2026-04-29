@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: blablacar-bus-api-openapi.yaml
+  format: yaml
+  label: BlaBlaCar Bus API
+  slug: blablacar-bus-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/blablacar-bus-api/refs/heads/main/openapi/blablacar-bus-api-openapi.yaml
 categories:
 - delete
 - external

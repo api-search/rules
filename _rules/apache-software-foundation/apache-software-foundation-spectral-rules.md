@@ -1,4 +1,17 @@
 ---
+api_specs:
+- filename: apache-software-foundation-projects-api-openapi.yml
+  format: yaml
+  label: Apache Software Foundation Projects API
+  slug: projects-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-software-foundation/refs/heads/main/openapi/apache-software-foundation-projects-api-openapi.yml
+- filename: apache-software-foundation-whimsy-api-openapi.yml
+  format: yaml
+  label: Apache Software Foundation Whimsy Public Data API
+  slug: whimsy-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-software-foundation/refs/heads/main/openapi/apache-software-foundation-whimsy-api-openapi.yml
 categories:
 - info
 - 'no'

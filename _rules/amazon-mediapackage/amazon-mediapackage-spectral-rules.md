@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: amazon-mediapackage-openapi-original.yml
+  format: yaml
+  label: Amazon MediaPackage API
+  slug: mediapackage-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-mediapackage/refs/heads/main/openapi/amazon-mediapackage-openapi-original.yml
 categories:
 - get
 - info

@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: blissfully-vendr-catalog-api-openapi.yaml
+  format: yaml
+  label: Vendr Catalog API
+  slug: vendr-catalog-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/blissfully/refs/heads/main/openapi/blissfully-vendr-catalog-api-openapi.yaml
 categories:
 - get
 - info

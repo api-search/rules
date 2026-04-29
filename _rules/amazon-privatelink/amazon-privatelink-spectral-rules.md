@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: amazon-privatelink-openapi.yaml
+  format: yaml
+  label: AWS PrivateLink API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-privatelink/refs/heads/main/openapi/amazon-privatelink-openapi.yaml
 categories:
 - info
 - 'no'

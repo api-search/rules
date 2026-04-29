@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: amnic-openapi.yml
+  format: yaml
+  label: Amnic Cloud Cost Observability API
+  slug: amnic-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amnic/refs/heads/main/openapi/amnic-openapi.yml
 categories:
 - examples
 - get

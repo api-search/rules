@@ -1,4 +1,23 @@
 ---
+api_specs:
+- filename: best-buy-products-api.yaml
+  format: yaml
+  label: Best Buy Products API
+  slug: products-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/best-buy/refs/heads/main/openapi/best-buy-products-api.yaml
+- filename: best-buy-stores-api.yaml
+  format: yaml
+  label: Best Buy Stores API
+  slug: stores-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/best-buy/refs/heads/main/openapi/best-buy-stores-api.yaml
+- filename: best-buy-recommendations-api.yaml
+  format: yaml
+  label: Best Buy Recommendations API
+  slug: recommendations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/best-buy/refs/heads/main/openapi/best-buy-recommendations-api.yaml
 categories:
 - delete
 - get

@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: amazon-gamelift-openapi.yaml
+  format: yaml
+  label: Amazon GameLift API
+  slug: amazon-gamelift-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-gamelift/refs/heads/main/openapi/amazon-gamelift-openapi.yaml
 categories:
 - info
 - microcks

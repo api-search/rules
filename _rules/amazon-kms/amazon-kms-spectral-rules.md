@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: amazon-kms-openapi.yml
+  format: yaml
+  label: Amazon KMS API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-kms/refs/heads/main/openapi/amazon-kms-openapi.yml
 categories:
 - info
 - openapi

@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: amazon-dynamodb-openapi.yml
+  format: yaml
+  label: Amazon DynamoDB API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-dynamodb/refs/heads/main/openapi/amazon-dynamodb-openapi.yml
 categories:
 - delete
 - examples

@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: ahasend-openapi.yml
+  format: yaml
+  label: AhaSend
+  slug: ahasend
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ahasend/refs/heads/main/openapi/ahasend-openapi.yml
 categories:
 - delete
 - get

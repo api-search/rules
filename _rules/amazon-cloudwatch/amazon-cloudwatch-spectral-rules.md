@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: amazon-cloudwatch-openapi.yml
+  format: yaml
+  label: Amazon CloudWatch API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-cloudwatch/refs/heads/main/openapi/amazon-cloudwatch-openapi.yml
 categories:
 - get
 - info

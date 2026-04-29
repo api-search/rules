@@ -1,4 +1,23 @@
 ---
+api_specs:
+- filename: active-directory-users-openapi.yaml
+  format: yaml
+  label: Microsoft Graph Users API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/active-directory/refs/heads/main/openapi/active-directory-users-openapi.yaml
+- filename: active-directory-groups-openapi.yaml
+  format: yaml
+  label: Microsoft Graph Groups API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/active-directory/refs/heads/main/openapi/active-directory-groups-openapi.yaml
+- filename: active-directory-applications-openapi.yaml
+  format: yaml
+  label: Microsoft Graph Applications and Service Principals API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/active-directory/refs/heads/main/openapi/active-directory-applications-openapi.yaml
 categories:
 - ad
 description: Spectral linting rules defining API design standards and conventions for Microsoft Active Directory.

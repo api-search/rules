@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: amazon-medialive-openapi-original.yml
+  format: yaml
+  label: Amazon MediaLive API
+  slug: medialive-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-medialive/refs/heads/main/openapi/amazon-medialive-openapi-original.yml
 categories:
 - get
 - info

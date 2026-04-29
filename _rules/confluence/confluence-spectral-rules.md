@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: confluence-cloud-v2.yml
+  format: yaml
+  label: Confluence Cloud REST API v2
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/confluence/refs/heads/main/openapi/confluence-cloud-v2.yml
 categories:
 - info
 - 'no'

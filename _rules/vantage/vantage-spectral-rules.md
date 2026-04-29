@@ -1,4 +1,17 @@
 ---
+api_specs:
+- filename: vantage-cost-management-api-openapi.yml
+  format: yaml
+  label: Vantage Cost Management API
+  slug: cost-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vantage/refs/heads/main/openapi/vantage-cost-management-api-openapi.yml
+- filename: vantage-cloud-pricing-api-openapi.yml
+  format: yaml
+  label: Vantage Cloud Pricing API
+  slug: cloud-pricing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/vantage/refs/heads/main/openapi/vantage-cloud-pricing-api-openapi.yml
 categories:
 - info
 - 'no'

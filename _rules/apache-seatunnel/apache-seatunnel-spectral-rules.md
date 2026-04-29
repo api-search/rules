@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: apache-seatunnel-rest-api.yaml
+  format: yaml
+  label: Apache SeaTunnel REST API
+  slug: apache-seatunnel-rest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-seatunnel/refs/heads/main/openapi/apache-seatunnel-rest-api.yaml
 categories:
 - apache
 description: Spectral linting rules defining API design standards and conventions for Apache SeaTunnel.

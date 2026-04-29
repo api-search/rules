@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: amazon-comprehend-openapi.yml
+  format: yaml
+  label: Amazon Comprehend API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-comprehend/refs/heads/main/openapi/amazon-comprehend-openapi.yml
 categories:
 - comprehend
 - get

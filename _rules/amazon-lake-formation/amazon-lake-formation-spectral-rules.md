@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: amazon-lake-formation-openapi.yml
+  format: yaml
+  label: Amazon Lake Formation API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-lake-formation/refs/heads/main/openapi/amazon-lake-formation-openapi.yml
 categories:
 - info
 - openapi

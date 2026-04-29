@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: informatica-platform-rest-api-openapi.yml
+  format: yaml
+  label: Informatica Platform REST API
+  slug: informatica
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/informatica/refs/heads/main/openapi/informatica-platform-rest-api-openapi.yml
 categories:
 - info
 - 'no'

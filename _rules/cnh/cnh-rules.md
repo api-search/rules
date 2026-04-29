@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: cnh-fieldops-openapi.yml
+  format: yaml
+  label: CNH FieldOps API
+  slug: cnh-fieldops-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cnh/refs/heads/main/openapi/cnh-fieldops-openapi.yml
 categories:
 - cnh
 description: Spectral linting rules defining API design standards and conventions for CNH.

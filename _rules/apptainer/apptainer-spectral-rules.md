@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: apptainer-openapi.yaml
+  format: yaml
+  label: Apptainer API
+  slug: apptainer-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apptainer/refs/heads/main/openapi/apptainer-openapi.yaml
 categories:
 - http
 - info

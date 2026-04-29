@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: betsolutions-wallet-api.yaml
+  format: yaml
+  label: BetSolutions Wallet API
+  slug: wallet-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/betsolutions/refs/heads/main/openapi/betsolutions-wallet-api.yaml
 categories:
 - get
 - hash

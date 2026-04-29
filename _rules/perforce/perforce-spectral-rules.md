@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: perforce-helix-swarm-openapi.yml
+  format: yaml
+  label: Perforce Helix Swarm API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/perforce/refs/heads/main/openapi/perforce-helix-swarm-openapi.yml
 categories:
 - info
 - 'no'

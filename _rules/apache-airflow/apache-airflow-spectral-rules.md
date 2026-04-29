@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: apache-airflow-openapi.yaml
+  format: yaml
+  label: Apache Airflow REST API
+  slug: apache-airflow-rest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-airflow/refs/heads/main/openapi/apache-airflow-openapi.yaml
 categories:
 - delete
 - get

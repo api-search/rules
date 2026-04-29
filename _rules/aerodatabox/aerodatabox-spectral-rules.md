@@ -1,4 +1,35 @@
 ---
+api_specs:
+- filename: aerodatabox-openapi.yml
+  format: yaml
+  label: AeroDataBox Flight API
+  slug: aerodatabox-flight-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aerodatabox/refs/heads/main/openapi/aerodatabox-openapi.yml
+- filename: aerodatabox-openapi.yml
+  format: yaml
+  label: AeroDataBox Aircraft API
+  slug: aerodatabox-aircraft-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aerodatabox/refs/heads/main/openapi/aerodatabox-openapi.yml
+- filename: aerodatabox-openapi.yml
+  format: yaml
+  label: AeroDataBox Airport API
+  slug: aerodatabox-airport-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aerodatabox/refs/heads/main/openapi/aerodatabox-openapi.yml
+- filename: aerodatabox-openapi.yml
+  format: yaml
+  label: AeroDataBox Statistical API
+  slug: aerodatabox-statistical-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aerodatabox/refs/heads/main/openapi/aerodatabox-openapi.yml
+- filename: aerodatabox-openapi.yml
+  format: yaml
+  label: AeroDataBox Flight Alert API
+  slug: aerodatabox-flight-alert-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aerodatabox/refs/heads/main/openapi/aerodatabox-openapi.yml
 categories:
 - get
 - info

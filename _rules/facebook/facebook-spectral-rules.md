@@ -1,4 +1,41 @@
 ---
+api_specs:
+- filename: facebook-graph-api.yaml
+  format: yaml
+  label: Facebook Graph API
+  slug: facebook-graph-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/facebook/refs/heads/main/openapi/facebook-graph-api.yaml
+- filename: facebook-marketing-api.yaml
+  format: yaml
+  label: Facebook Marketing API
+  slug: facebook-marketing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/facebook/refs/heads/main/openapi/facebook-marketing-api.yaml
+- filename: facebook-instagram-api.yaml
+  format: yaml
+  label: Instagram API
+  slug: instagram-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/facebook/refs/heads/main/openapi/facebook-instagram-api.yaml
+- filename: facebook-messenger-api.yaml
+  format: yaml
+  label: Messenger Platform API
+  slug: messenger-platform-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/facebook/refs/heads/main/openapi/facebook-messenger-api.yaml
+- filename: facebook-threads-api.yaml
+  format: yaml
+  label: Threads API
+  slug: threads-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/facebook/refs/heads/main/openapi/facebook-threads-api.yaml
+- filename: facebook-whatsapp-api.yaml
+  format: yaml
+  label: WhatsApp Business API
+  slug: whatsapp-business-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/facebook/refs/heads/main/openapi/facebook-whatsapp-api.yaml
 categories:
 - delete
 - examples

@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: amazon-codeguru-profiler-openapi-original.yaml
+  format: yaml
+  label: Amazon CodeGuru Profiler API
+  slug: amazon-codeguru-profiler-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-codeguru-profiler/refs/heads/main/openapi/amazon-codeguru-profiler-openapi-original.yaml
 categories:
 - info
 - 'no'

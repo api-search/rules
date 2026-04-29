@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: apache-pinot-rest-api.yaml
+  format: yaml
+  label: Apache Pinot REST API
+  slug: apache-pinot-rest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-pinot/refs/heads/main/openapi/apache-pinot-rest-api.yaml
 categories:
 - info
 - operation

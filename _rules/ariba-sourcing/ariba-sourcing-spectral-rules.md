@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: ariba-sourcing-external-approval-api.yaml
+  format: yaml
+  label: Ariba Sourcing - External Approval API
+  slug: ariba-sourcing-external-approval-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ariba-sourcing/refs/heads/main/openapi/ariba-sourcing-external-approval-api.yaml
 categories:
 - get
 - info

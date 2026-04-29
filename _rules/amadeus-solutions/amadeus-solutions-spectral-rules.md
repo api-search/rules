@@ -1,4 +1,29 @@
 ---
+api_specs:
+- filename: amadeus-solutions-flight-offers-search-openapi.yaml
+  format: yaml
+  label: Flight Offers Search API
+  slug: flight-offers-search-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amadeus-solutions/refs/heads/main/openapi/amadeus-solutions-flight-offers-search-openapi.yaml
+- filename: amadeus-solutions-flight-offers-price-openapi.yaml
+  format: yaml
+  label: Flight Offers Price API
+  slug: flight-offers-price-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amadeus-solutions/refs/heads/main/openapi/amadeus-solutions-flight-offers-price-openapi.yaml
+- filename: amadeus-solutions-branded-fares-upsell-openapi.yaml
+  format: yaml
+  label: Branded Fares Upsell API
+  slug: branded-fares-upsell-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amadeus-solutions/refs/heads/main/openapi/amadeus-solutions-branded-fares-upsell-openapi.yaml
+- filename: amadeus-solutions-seat-map-display-openapi.yaml
+  format: yaml
+  label: Seat Map Display API
+  slug: seat-map-display-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amadeus-solutions/refs/heads/main/openapi/amadeus-solutions-seat-map-display-openapi.yaml
 categories:
 - get
 - info

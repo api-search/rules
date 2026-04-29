@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: amazon-storage-gateway.yaml
+  format: yaml
+  label: Amazon Storage Gateway REST API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-storage-gateway/refs/heads/main/openapi/amazon-storage-gateway.yaml
 categories:
 - get
 - info

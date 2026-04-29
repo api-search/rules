@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: ambassador-openapi.yml
+  format: yaml
+  label: Ambassador Edge Stack API Gateway
+  slug: edge-stack-api-gateway
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ambassador/refs/heads/main/openapi/ambassador-openapi.yml
 categories:
 - info
 - 'no'

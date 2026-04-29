@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: apache-hudi-timeline-openapi.yml
+  format: yaml
+  label: Apache Hudi Timeline Server API
+  slug: apache-hudi-timeline-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-hudi/refs/heads/main/openapi/apache-hudi-timeline-openapi.yml
 categories:
 - hudi
 description: Spectral linting rules defining API design standards and conventions for Apache Hudi.

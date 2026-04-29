@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: aws-s3-openapi.yaml
+  format: yaml
+  label: Amazon S3 REST API
+  slug: amazon-s3-rest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aws-s3/refs/heads/main/openapi/aws-s3-openapi.yaml
 categories:
 - s3
 description: Spectral linting rules defining API design standards and conventions for Amazon S3 API.

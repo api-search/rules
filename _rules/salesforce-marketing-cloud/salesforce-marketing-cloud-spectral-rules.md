@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: salesforce-marketing-cloud-openapi.yml
+  format: yaml
+  label: Marketing Cloud REST API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/salesforce-marketing-cloud/refs/heads/main/openapi/salesforce-marketing-cloud-openapi.yml
 categories:
 - info
 - 'no'

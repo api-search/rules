@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: appsmith-openapi.yaml
+  format: yaml
+  label: Appsmith API
+  slug: appsmith-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/appsmith/refs/heads/main/openapi/appsmith-openapi.yaml
 categories:
 - http
 - info

@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: amazon-device-farm-openapi.yaml
+  format: yaml
+  label: AWS Device Farm API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-device-farm/refs/heads/main/openapi/amazon-device-farm-openapi.yaml
 categories:
 - external
 - get

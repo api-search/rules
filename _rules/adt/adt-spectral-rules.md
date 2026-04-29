@@ -1,4 +1,17 @@
 ---
+api_specs:
+- filename: adt-platform-api-openapi.yml
+  format: yaml
+  label: ADT+ Platform API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adt/refs/heads/main/openapi/adt-platform-api-openapi.yml
+- filename: adt-business-api-openapi.yml
+  format: yaml
+  label: ADT Business API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adt/refs/heads/main/openapi/adt-business-api-openapi.yml
 categories:
 - delete
 - examples

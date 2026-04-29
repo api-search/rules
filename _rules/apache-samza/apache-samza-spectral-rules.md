@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: apache-samza-rest-api.yaml
+  format: yaml
+  label: Apache Samza
+  slug: apache-samza
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-samza/refs/heads/main/openapi/apache-samza-rest-api.yaml
 categories:
 - apache
 description: Spectral linting rules defining API design standards and conventions for Apache Samza.

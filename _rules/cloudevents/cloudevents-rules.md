@@ -1,4 +1,17 @@
 ---
+api_specs:
+- filename: cloudevents-http-asyncapi.yml
+  format: yaml
+  label: CloudEvents Specification
+  slug: cloudevents-spec
+  spec_type: AsyncAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cloudevents/refs/heads/main/asyncapi/cloudevents-http-asyncapi.yml
+- filename: cloudevents-subscriptions-openapi.yml
+  format: yaml
+  label: CloudEvents Subscriptions API
+  slug: cloudevents-subscriptions
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cloudevents/refs/heads/main/openapi/cloudevents-subscriptions-openapi.yml
 categories:
 - cloudevents
 description: Spectral linting rules defining API design standards and conventions for CloudEvents.

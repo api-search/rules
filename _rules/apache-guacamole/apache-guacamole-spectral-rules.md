@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: apache-guacamole-rest-openapi.yml
+  format: yaml
+  label: Apache Guacamole REST API
+  slug: apache-guacamole-rest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-guacamole/refs/heads/main/openapi/apache-guacamole-rest-openapi.yml
 categories:
 - info
 - operation

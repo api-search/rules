@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: amazon-glue-openapi.yml
+  format: yaml
+  label: Amazon Glue API
+  slug: amazon-glue-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-glue/refs/heads/main/openapi/amazon-glue-openapi.yml
 categories:
 - info
 - microcks

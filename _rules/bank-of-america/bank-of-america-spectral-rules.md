@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: bank-of-america-cashpro-api-openapi.yml
+  format: yaml
+  label: Bank of America CashPro API
+  slug: cashpro-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bank-of-america/refs/heads/main/openapi/bank-of-america-cashpro-api-openapi.yml
 categories:
 - get
 - info

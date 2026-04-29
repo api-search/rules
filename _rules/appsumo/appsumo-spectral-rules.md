@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: appsumo-licensing-openapi.yaml
+  format: yaml
+  label: AppSumo Licensing API
+  slug: appsumo-licensing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/appsumo/refs/heads/main/openapi/appsumo-licensing-openapi.yaml
 categories:
 - http
 - info

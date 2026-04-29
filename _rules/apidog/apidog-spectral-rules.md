@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: apidog-apidog-openapi.yml
+  format: yaml
+  label: Apidog
+  slug: apidog
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apidog/refs/heads/main/openapi/apidog-apidog-openapi.yml
 categories:
 - info
 - openapi

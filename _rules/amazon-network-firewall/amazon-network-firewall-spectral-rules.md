@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: amazon-network-firewall-openapi.yml
+  format: yaml
+  label: AWS Network Firewall API
+  slug: aws-network-firewall-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-network-firewall/refs/heads/main/openapi/amazon-network-firewall-openapi.yml
 categories:
 - get
 - info

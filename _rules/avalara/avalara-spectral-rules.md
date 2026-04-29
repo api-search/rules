@@ -1,4 +1,95 @@
 ---
+api_specs:
+- filename: avalara-avatax-rest-openapi.yml
+  format: yaml
+  label: AvaTax APIs
+  slug: avatax-apis
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/avalara/refs/heads/main/openapi/avalara-avatax-rest-openapi.yml
+- filename: avalara-communications-openapi.yml
+  format: yaml
+  label: Communications Tax API
+  slug: communications-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/avalara/refs/heads/main/openapi/avalara-communications-openapi.yml
+- filename: avalara-excise-openapi.yml
+  format: yaml
+  label: Excise Platform API
+  slug: excise-tax-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/avalara/refs/heads/main/openapi/avalara-excise-openapi.yml
+- filename: avalara-item-classification-openapi.yml
+  format: yaml
+  label: Item Classification API
+  slug: item-classification-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/avalara/refs/heads/main/openapi/avalara-item-classification-openapi.yml
+- filename: avalara-avatax-brazil-openapi.yml
+  format: yaml
+  label: AvaTax Brazil API
+  slug: avatax-brazil-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/avalara/refs/heads/main/openapi/avalara-avatax-brazil-openapi.yml
+- filename: avalara-vat-reporting-openapi.yml
+  format: yaml
+  label: VAT Reporting API
+  slug: vat-reporting-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/avalara/refs/heads/main/openapi/avalara-vat-reporting-openapi.yml
+- filename: avalara-mylodgetax-openapi.yml
+  format: yaml
+  label: MyLodgeTax API
+  slug: mylodgetax-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/avalara/refs/heads/main/openapi/avalara-mylodgetax-openapi.yml
+- filename: avalara-certcapture-openapi.yml
+  format: yaml
+  label: CertCapture API
+  slug: certcapture-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/avalara/refs/heads/main/openapi/avalara-certcapture-openapi.yml
+- filename: avalara-e-invoicing-openapi.yml
+  format: yaml
+  label: E-Invoicing REST API
+  slug: e-invoicing-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/avalara/refs/heads/main/openapi/avalara-e-invoicing-openapi.yml
+- filename: avalara-activation-service-openapi.yml
+  format: yaml
+  label: Activation Service API
+  slug: activation-service-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/avalara/refs/heads/main/openapi/avalara-activation-service-openapi.yml
+- filename: avalara-business-openapi.yml
+  format: yaml
+  label: Avalara Business API
+  slug: business-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/avalara/refs/heads/main/openapi/avalara-business-openapi.yml
+- filename: avalara-portal-oauth-openapi.yml
+  format: yaml
+  label: Portal OAuth API
+  slug: portal-oauth-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/avalara/refs/heads/main/openapi/avalara-portal-oauth-openapi.yml
+- filename: avalara-shared-company-service-openapi.yml
+  format: yaml
+  label: Shared Company Service API
+  slug: shared-company-service-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/avalara/refs/heads/main/openapi/avalara-shared-company-service-openapi.yml
+- filename: avalara-hs-code-classification-openapi.yml
+  format: yaml
+  label: Automated Tariff Code Classification API
+  slug: hs-code-classification-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/avalara/refs/heads/main/openapi/avalara-hs-code-classification-openapi.yml
+- filename: avalara-1099-w9-openapi.yml
+  format: yaml
+  label: 1099 & W-9 API
+  slug: 1099-w9-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/avalara/refs/heads/main/openapi/avalara-1099-w9-openapi.yml
 categories:
 - get
 - info

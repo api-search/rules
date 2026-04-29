@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: microsoft-project-rest-api.yaml
+  format: yaml
+  label: Microsoft Project Online REST API
+  slug: rest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-project/refs/heads/main/openapi/microsoft-project-rest-api.yaml
 categories:
 - delete
 - get

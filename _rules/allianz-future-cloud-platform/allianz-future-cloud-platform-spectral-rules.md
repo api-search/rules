@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: allianz-future-cloud-platform-services.yaml
+  format: yaml
+  label: Allianz Future Cloud Platform Services API
+  slug: platform-services-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/allianz-future-cloud-platform/refs/heads/main/openapi/allianz-future-cloud-platform-services.yaml
 categories:
 - async
 - get

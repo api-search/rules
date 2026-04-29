@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: bny-mellon-treasury-services-api-openapi.yml
+  format: yaml
+  label: BNY Mellon Treasury Services API
+  slug: treasury-services-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bank-of-new-york-mellon/refs/heads/main/openapi/bny-mellon-treasury-services-api-openapi.yml
 categories:
 - get
 - info

@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: canva-connect-api-openapi.yml
+  format: yaml
+  label: Canva Connect API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/canva/refs/heads/main/openapi/canva-connect-api-openapi.yml
 categories:
 - info
 - 'no'

@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: bjs-wholesale-club-openapi.yaml
+  format: yaml
+  label: BJ's Wholesale Club API
+  slug: bjs-wholesale-club
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bjs-wholesale-club/refs/heads/main/openapi/bjs-wholesale-club-openapi.yaml
 categories:
 - bjs
 description: Spectral linting rules defining API design standards and conventions for BJ's Wholesale Club.

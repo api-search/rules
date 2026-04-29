@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: amazon-inspector-openapi-original.yml
+  format: yaml
+  label: AWS Amazon Inspector API
+  slug: aws-inspector-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-inspector/refs/heads/main/openapi/amazon-inspector-openapi-original.yml
 categories:
 - get
 - info

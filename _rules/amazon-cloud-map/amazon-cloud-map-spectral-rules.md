@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: amazon-cloud-map-openapi.yml
+  format: yaml
+  label: Amazon Cloud Map API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-cloud-map/refs/heads/main/openapi/amazon-cloud-map-openapi.yml
 categories:
 - get
 - info

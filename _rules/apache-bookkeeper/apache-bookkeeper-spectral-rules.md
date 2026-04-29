@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: apache-bookkeeper-admin-openapi.yaml
+  format: yaml
+  label: Apache BookKeeper Admin API
+  slug: apache-bookkeeper-admin-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-bookkeeper/refs/heads/main/openapi/apache-bookkeeper-admin-openapi.yaml
 categories:
 - bookkeeper
 description: Spectral linting rules defining API design standards and conventions for Apache BookKeeper.

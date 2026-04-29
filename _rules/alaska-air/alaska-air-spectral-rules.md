@@ -1,4 +1,29 @@
 ---
+api_specs:
+- filename: alaska-air-flight-status-openapi.yaml
+  format: yaml
+  label: Alaska Airlines Flight Status API
+  slug: flight-status-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/alaska-air/refs/heads/main/openapi/alaska-air-flight-status-openapi.yaml
+- filename: alaska-air-flight-schedules-openapi.yaml
+  format: yaml
+  label: Alaska Airlines Flight Schedules API
+  slug: flight-schedules-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/alaska-air/refs/heads/main/openapi/alaska-air-flight-schedules-openapi.yaml
+- filename: alaska-air-cargo-openapi.yaml
+  format: yaml
+  label: Alaska Air Cargo API
+  slug: cargo-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/alaska-air/refs/heads/main/openapi/alaska-air-cargo-openapi.yaml
+- filename: alaska-air-mileage-plan-openapi.yaml
+  format: yaml
+  label: Alaska Airlines Mileage Plan API
+  slug: mileage-plan-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/alaska-air/refs/heads/main/openapi/alaska-air-mileage-plan-openapi.yaml
 categories:
 - examples
 - get

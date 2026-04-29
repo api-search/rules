@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: amazon-forecast-openapi.yml
+  format: yaml
+  label: Amazon Forecast API
+  slug: amazon-forecast-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-forecast/refs/heads/main/openapi/amazon-forecast-openapi.yml
 categories:
 - forecast
 description: Spectral linting rules defining API design standards and conventions for Amazon Forecast.

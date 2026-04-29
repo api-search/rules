@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: amazon-kendra-openapi.yml
+  format: yaml
+  label: Amazon Kendra API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-kendra/refs/heads/main/openapi/amazon-kendra-openapi.yml
 categories:
 - info
 - openapi

@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: apache-knox-admin-api.yaml
+  format: yaml
+  label: Apache Knox Admin REST API
+  slug: admin-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-knox/refs/heads/main/openapi/apache-knox-admin-api.yaml
 categories:
 - get
 - info

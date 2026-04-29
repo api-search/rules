@@ -1,4 +1,23 @@
 ---
+api_specs:
+- filename: basecamp-api-openapi.yml
+  format: yaml
+  label: Basecamp API
+  slug: basecamp-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/basecamp/refs/heads/main/openapi/basecamp-api-openapi.yml
+- filename: basecamp-webhooks-asyncapi.yml
+  format: yaml
+  label: Basecamp Webhooks
+  slug: basecamp-webhooks
+  spec_type: AsyncAPI
+  url: https://raw.githubusercontent.com/api-evangelist/basecamp/refs/heads/main/asyncapi/basecamp-webhooks-asyncapi.yml
+- filename: basecamp-oauth-openapi.yml
+  format: yaml
+  label: Basecamp OAuth
+  slug: basecamp-oauth
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/basecamp/refs/heads/main/openapi/basecamp-oauth-openapi.yml
 categories:
 - get
 - info

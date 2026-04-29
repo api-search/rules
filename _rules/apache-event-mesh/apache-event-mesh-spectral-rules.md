@@ -1,4 +1,17 @@
 ---
+api_specs:
+- filename: eventmesh-admin.yml
+  format: yaml
+  label: Apache EventMesh Admin API
+  slug: eventmesh-admin-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-event-mesh/refs/heads/main/openapi/eventmesh-admin.yml
+- filename: eventmesh-messaging.yml
+  format: yaml
+  label: Apache EventMesh Messaging API
+  slug: eventmesh-messaging-api
+  spec_type: AsyncAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-event-mesh/refs/heads/main/asyncapi/eventmesh-messaging.yml
 categories:
 - info
 - operation

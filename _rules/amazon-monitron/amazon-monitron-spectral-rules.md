@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: amazon-monitron-openapi-original.yml
+  format: yaml
+  label: Amazon Monitron API
+  slug: monitron-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-monitron/refs/heads/main/openapi/amazon-monitron-openapi-original.yml
 categories:
 - get
 - info

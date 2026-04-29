@@ -1,4 +1,41 @@
 ---
+api_specs:
+- filename: datadog-api-openapi.yml
+  format: yaml
+  label: Datadog API
+  slug: datadog-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/openapi/datadog-api-openapi.yml
+- filename: datadog-metrics-openapi.yml
+  format: yaml
+  label: Datadog Metrics API
+  slug: datadog-metrics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/openapi/datadog-metrics-openapi.yml
+- filename: datadog-logs-openapi.yml
+  format: yaml
+  label: Datadog Logs API
+  slug: datadog-logs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/openapi/datadog-logs-openapi.yml
+- filename: datadog-events-openapi.yml
+  format: yaml
+  label: Datadog Events API
+  slug: datadog-events-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/openapi/datadog-events-openapi.yml
+- filename: datadog-monitors-openapi.yml
+  format: yaml
+  label: Datadog Monitors API
+  slug: datadog-monitors-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/openapi/datadog-monitors-openapi.yml
+- filename: datadog-incidents-openapi.yml
+  format: yaml
+  label: Datadog Incidents API
+  slug: datadog-incidents-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/openapi/datadog-incidents-openapi.yml
 categories:
 - get
 - info

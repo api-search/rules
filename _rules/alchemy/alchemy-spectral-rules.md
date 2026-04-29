@@ -1,4 +1,23 @@
 ---
+api_specs:
+- filename: alchemy-gas-manager-api-openapi.yml
+  format: yaml
+  label: Alchemy Gas Manager API
+  slug: alchemy-gas-manager-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/alchemy/refs/heads/main/openapi/alchemy-gas-manager-api-openapi.yml
+- filename: alchemy-token-api-openapi.yml
+  format: yaml
+  label: Alchemy Token API
+  slug: alchemy-token-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/alchemy/refs/heads/main/openapi/alchemy-token-api-openapi.yml
+- filename: alchemy-transfers-api-openapi.yml
+  format: yaml
+  label: Alchemy Transfers API
+  slug: alchemy-transfers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/alchemy/refs/heads/main/openapi/alchemy-transfers-api-openapi.yml
 categories:
 - examples
 - http

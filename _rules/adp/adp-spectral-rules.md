@@ -1,4 +1,17 @@
 ---
+api_specs:
+- filename: adp-workers-openapi.yml
+  format: yaml
+  label: ADP Workers API
+  slug: adp-workers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adp/refs/heads/main/openapi/adp-workers-openapi.yml
+- filename: adp-payroll-openapi.yml
+  format: yaml
+  label: ADP Payroll API
+  slug: adp-payroll-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adp/refs/heads/main/openapi/adp-payroll-openapi.yml
 categories:
 - info
 - 'no'

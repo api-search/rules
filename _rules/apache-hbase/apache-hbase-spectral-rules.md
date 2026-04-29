@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: apache-hbase-rest-openapi.yml
+  format: yaml
+  label: Apache HBase REST API
+  slug: apache-hbase-rest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-hbase/refs/heads/main/openapi/apache-hbase-rest-openapi.yml
 categories:
 - hbase
 description: Spectral linting rules defining API design standards and conventions for Apache HBase.

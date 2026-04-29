@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: amazon-appflow-openapi.yml
+  format: yaml
+  label: Amazon AppFlow API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-appflow/refs/heads/main/openapi/amazon-appflow-openapi.yml
 categories:
 - delete
 - get

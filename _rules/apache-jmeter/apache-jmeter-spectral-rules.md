@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: apache-jmeter-rest-api.yaml
+  format: yaml
+  label: Apache JMeter REST API
+  slug: rest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-jmeter/refs/heads/main/openapi/apache-jmeter-rest-api.yaml
 categories:
 - get
 - info

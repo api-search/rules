@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: amazon-fsx-openapi.yml
+  format: yaml
+  label: Amazon FSx API
+  slug: amazon-fsx-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-fsx/refs/heads/main/openapi/amazon-fsx-openapi.yml
 categories:
 - fsx
 description: Spectral linting rules defining API design standards and conventions for Amazon FSx.

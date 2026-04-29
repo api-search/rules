@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: red-hat-satellite-api.yml
+  format: yaml
+  label: Red Hat Satellite REST API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/red-hat-satellite/refs/heads/main/openapi/red-hat-satellite-api.yml
 categories:
 - info
 - 'no'

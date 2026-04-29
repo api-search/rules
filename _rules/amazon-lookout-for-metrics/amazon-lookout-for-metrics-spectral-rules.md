@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: amazon-lookout-for-metrics-openapi-original.yaml
+  format: yaml
+  label: Amazon Lookout for Metrics API
+  slug: amazon-lookout-for-metrics-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-lookout-for-metrics/refs/heads/main/openapi/amazon-lookout-for-metrics-openapi-original.yaml
 categories:
 - examples
 - http

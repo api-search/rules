@@ -1,4 +1,17 @@
 ---
+api_specs:
+- filename: dynamodb-openapi.yml
+  format: yaml
+  label: Amazon DynamoDB API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dynamodb/refs/heads/main/openapi/dynamodb-openapi.yml
+- filename: dynamodb-streams-asyncapi.yml
+  format: yaml
+  label: Amazon DynamoDB Streams API
+  slug: ''
+  spec_type: AsyncAPI
+  url: https://raw.githubusercontent.com/api-evangelist/dynamodb/refs/heads/main/asyncapi/dynamodb-streams-asyncapi.yml
 categories:
 - info
 - 'no'

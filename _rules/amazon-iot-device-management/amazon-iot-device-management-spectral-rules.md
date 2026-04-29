@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: amazon-iot-device-management-openapi-original.yml
+  format: yaml
+  label: AWS IoT Device Management API
+  slug: aws-iot-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-device-management/refs/heads/main/openapi/amazon-iot-device-management-openapi-original.yml
 categories:
 - get
 - info

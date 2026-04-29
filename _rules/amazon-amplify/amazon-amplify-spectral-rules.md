@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: amazon-amplify-openapi.yaml
+  format: yaml
+  label: Amazon Amplify REST API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-amplify/refs/heads/main/openapi/amazon-amplify-openapi.yaml
 categories:
 - amazon
 description: Spectral linting rules defining API design standards and conventions for Amazon Amplify.

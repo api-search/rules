@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: amazon-iot-sitewise-openapi-original.yml
+  format: yaml
+  label: AWS IoT SiteWise API
+  slug: aws-iot-sitewise-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-sitewise/refs/heads/main/openapi/amazon-iot-sitewise-openapi-original.yml
 categories:
 - get
 - info

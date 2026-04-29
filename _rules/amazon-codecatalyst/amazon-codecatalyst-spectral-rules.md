@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: amazon-codecatalyst-openapi-original.yaml
+  format: yaml
+  label: Amazon CodeCatalyst API
+  slug: amazon-codecatalyst-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-codecatalyst/refs/heads/main/openapi/amazon-codecatalyst-openapi-original.yaml
 categories:
 - info
 - 'no'

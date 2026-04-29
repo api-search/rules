@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: clockodo-openapi.yml
+  format: yaml
+  label: Clockodo API
+  slug: clockodo-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/clockodo/refs/heads/main/openapi/clockodo-openapi.yml
 categories:
 - clockodo
 description: Spectral linting rules defining API design standards and conventions for Clockodo.

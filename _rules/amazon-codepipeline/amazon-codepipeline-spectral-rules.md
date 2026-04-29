@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: amazon-codepipeline-openapi-original.yaml
+  format: yaml
+  label: Amazon CodePipeline API
+  slug: amazon-codepipeline-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-codepipeline/refs/heads/main/openapi/amazon-codepipeline-openapi-original.yaml
 categories:
 - info
 - 'no'

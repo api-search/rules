@@ -1,4 +1,23 @@
 ---
+api_specs:
+- filename: google-maps-geocoding-api.yml
+  format: yaml
+  label: Geocoding API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-maps/refs/heads/main/openapi/google-maps-geocoding-api.yml
+- filename: google-maps-places-api.yml
+  format: yaml
+  label: Places API (New)
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-maps/refs/heads/main/openapi/google-maps-places-api.yml
+- filename: google-maps-directions-api.yml
+  format: yaml
+  label: Directions API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/google-maps/refs/heads/main/openapi/google-maps-directions-api.yml
 categories:
 - info
 - 'no'

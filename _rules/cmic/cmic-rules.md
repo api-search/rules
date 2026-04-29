@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: cmic-construction-erp-openapi.yml
+  format: yaml
+  label: CMiC Construction ERP API
+  slug: cmic-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cmic/refs/heads/main/openapi/cmic-construction-erp-openapi.yml
 categories:
 - cmic
 description: Spectral linting rules defining API design standards and conventions for CMiC.

@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: amazon-control-tower-openapi.yml
+  format: yaml
+  label: AWS Control Tower API
+  slug: aws-control-tower-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-control-tower/refs/heads/main/openapi/amazon-control-tower-openapi.yml
 categories:
 - arn
 - async

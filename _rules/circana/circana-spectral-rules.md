@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: circana-liquid-data.yaml
+  format: yaml
+  label: Circana Liquid Data API
+  slug: liquid-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/circana/refs/heads/main/openapi/circana-liquid-data.yaml
 categories:
 - delete
 - examples

@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: amazon-robomaker-openapi.yml
+  format: yaml
+  label: AWS RoboMaker API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-robomaker/refs/heads/main/openapi/amazon-robomaker-openapi.yml
 categories:
 - delete
 - get

@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: amazon-devops-guru-openapi.yaml
+  format: yaml
+  label: Amazon DevOps Guru API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-devops-guru/refs/heads/main/openapi/amazon-devops-guru-openapi.yaml
 categories:
 - external
 - get

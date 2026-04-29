@@ -1,4 +1,17 @@
 ---
+api_specs:
+- filename: argus-enterprise-core-openapi.yml
+  format: yaml
+  label: ARGUS Enterprise Core API
+  slug: argus-enterprise-core
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/argus-enterprise/refs/heads/main/openapi/argus-enterprise-core-openapi.yml
+- filename: argus-enterprise-webhooks-openapi.yml
+  format: yaml
+  label: ARGUS Enterprise Webhook API
+  slug: argus-enterprise-webhooks
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/argus-enterprise/refs/heads/main/openapi/argus-enterprise-webhooks-openapi.yml
 categories:
 - info
 - 'no'

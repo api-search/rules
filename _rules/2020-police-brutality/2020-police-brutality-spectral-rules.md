@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: 2020-police-brutality-openapi.yml
+  format: yaml
+  label: 2020 Police Brutality API
+  slug: 2020-police-brutality
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/2020-police-brutality/refs/heads/main/openapi/2020-police-brutality-openapi.yml
 categories:
 - get
 - info

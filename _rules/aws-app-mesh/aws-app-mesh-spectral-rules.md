@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: aws-app-mesh-openapi.yaml
+  format: yaml
+  label: AWS App Mesh API
+  slug: aws-app-mesh-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aws-app-mesh/refs/heads/main/openapi/aws-app-mesh-openapi.yaml
 categories:
 - deprecation
 - info

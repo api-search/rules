@@ -1,4 +1,35 @@
 ---
+api_specs:
+- filename: adobe-firefly-api-openapi-original.yml
+  format: yaml
+  label: Adobe Firefly API
+  slug: firefly-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adobe-creative-cloud/refs/heads/main/openapi/adobe-firefly-api-openapi-original.yml
+- filename: adobe-cc-libraries-api-openapi-original.yml
+  format: yaml
+  label: Creative Cloud Libraries API
+  slug: cc-libraries-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adobe-creative-cloud/refs/heads/main/openapi/adobe-cc-libraries-api-openapi-original.yml
+- filename: adobe-stock-api-openapi-original.yml
+  format: yaml
+  label: Adobe Stock API
+  slug: stock-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adobe-creative-cloud/refs/heads/main/openapi/adobe-stock-api-openapi-original.yml
+- filename: adobe-pdf-services-api-openapi-original.yml
+  format: yaml
+  label: Adobe PDF Services API
+  slug: pdf-services-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adobe-creative-cloud/refs/heads/main/openapi/adobe-pdf-services-api-openapi-original.yml
+- filename: adobe-io-events-asyncapi-original.yml
+  format: yaml
+  label: Adobe I/O Events
+  slug: io-events
+  spec_type: AsyncAPI
+  url: https://raw.githubusercontent.com/api-evangelist/adobe-creative-cloud/refs/heads/main/asyncapi/adobe-io-events-asyncapi-original.yml
 categories:
 - get
 - info

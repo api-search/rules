@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: amazon-personalize-openapi.yml
+  format: yaml
+  label: Amazon Personalize API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-personalize/refs/heads/main/openapi/amazon-personalize-openapi.yml
 categories:
 - get
 - info

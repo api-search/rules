@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: 3m-partner-supplier-api-openapi.yml
+  format: yaml
+  label: 3M Partner and Supplier API
+  slug: partner-supplier-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/3m/refs/heads/main/openapi/3m-partner-supplier-api-openapi.yml
 categories:
 - delete
 - get

@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: appmixer-api-openapi.yml
+  format: yaml
+  label: Appmixer API
+  slug: appmixer-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/appmixer/refs/heads/main/openapi/appmixer-api-openapi.yml
 categories:
 - http
 - info

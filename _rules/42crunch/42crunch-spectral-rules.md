@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: 42crunch-scand-manager.yaml
+  format: yaml
+  label: 42Crunch API Conformance Scan Jobs Manager
+  slug: 42crunch-scand-manager
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/42crunch/refs/heads/main/openapi/42crunch-scand-manager.yaml
 categories:
 - delete
 - examples

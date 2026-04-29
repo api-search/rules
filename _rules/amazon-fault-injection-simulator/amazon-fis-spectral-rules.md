@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: amazon-fis-openapi.yml
+  format: yaml
+  label: AWS Fault Injection Simulator API
+  slug: aws-fis-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-fault-injection-simulator/refs/heads/main/openapi/amazon-fis-openapi.yml
 categories:
 - client
 - info

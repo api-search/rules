@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: aptargroup-openapi.yaml
+  format: yaml
+  label: AptarGroup API
+  slug: aptargroup-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aptargroup/refs/heads/main/openapi/aptargroup-openapi.yaml
 categories:
 - http
 - info

@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: apifuse-api.yaml
+  format: yaml
+  label: Apifuse API
+  slug: apifuse-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apifuse/refs/heads/main/openapi/apifuse-api.yaml
 categories:
 - info
 - operation

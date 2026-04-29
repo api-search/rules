@@ -1,4 +1,41 @@
 ---
+api_specs:
+- filename: isg-rest-api.yml
+  format: yaml
+  label: Oracle EBS Integrated SOA Gateway REST API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-e-business-suite/refs/heads/main/openapi/isg-rest-api.yml
+- filename: financial-services-api.yml
+  format: yaml
+  label: Oracle EBS Financial Services API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-e-business-suite/refs/heads/main/openapi/financial-services-api.yml
+- filename: supply-chain-api.yml
+  format: yaml
+  label: Oracle EBS Supply Chain Management API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-e-business-suite/refs/heads/main/openapi/supply-chain-api.yml
+- filename: human-resources-api.yml
+  format: yaml
+  label: Oracle EBS Human Resources API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-e-business-suite/refs/heads/main/openapi/human-resources-api.yml
+- filename: manufacturing-api.yml
+  format: yaml
+  label: Oracle EBS Manufacturing API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-e-business-suite/refs/heads/main/openapi/manufacturing-api.yml
+- filename: ecommerce-gateway-api.yml
+  format: yaml
+  label: Oracle EBS e-Commerce Gateway API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/oracle-e-business-suite/refs/heads/main/openapi/ecommerce-gateway-api.yml
 categories:
 - info
 - 'no'

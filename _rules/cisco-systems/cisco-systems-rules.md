@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: cisco-systems-cisco-api-openapi.yml
+  format: yaml
+  label: Cisco DevNet API Catalog
+  slug: devnet-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/cisco-systems/refs/heads/main/openapi/cisco-systems-cisco-api-openapi.yml
 categories:
 - cisco
 description: Spectral linting rules defining API design standards and conventions for Cisco Systems.

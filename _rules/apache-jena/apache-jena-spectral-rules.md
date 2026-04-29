@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: apache-jena-fuseki-sparql-api.yaml
+  format: yaml
+  label: Apache Jena Fuseki SPARQL API
+  slug: fuseki-sparql-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-jena/refs/heads/main/openapi/apache-jena-fuseki-sparql-api.yaml
 categories:
 - info
 - 'no'

@@ -1,4 +1,23 @@
 ---
+api_specs:
+- filename: amazon-selling-partner-api-openapi.yml
+  format: yaml
+  label: Amazon Selling Partner API
+  slug: selling-partner-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon/refs/heads/main/openapi/amazon-selling-partner-api-openapi.yml
+- filename: amazon-advertising-api-openapi.yml
+  format: yaml
+  label: Amazon Advertising API
+  slug: advertising-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon/refs/heads/main/openapi/amazon-advertising-api-openapi.yml
+- filename: amazon-pay-api-openapi.yml
+  format: yaml
+  label: Amazon Pay API
+  slug: pay-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon/refs/heads/main/openapi/amazon-pay-api-openapi.yml
 categories:
 - components
 - get

@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: claude-messages-api.yml
+  format: yaml
+  label: Claude Messages API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/claude/refs/heads/main/openapi/claude-messages-api.yml
 categories:
 - info
 - 'no'

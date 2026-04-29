@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: apache-dubbo-admin-openapi-original.json
+  format: json
+  label: Apache Dubbo Admin API
+  slug: apache-dubbo-admin
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-dubbo/refs/heads/main/openapi/apache-dubbo-admin-openapi-original.json
 categories:
 - info
 - 'no'

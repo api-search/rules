@@ -1,4 +1,89 @@
 ---
+api_specs:
+- filename: amplitude-http-v2-api-openapi.yml
+  format: yaml
+  label: Amplitude HTTP V2 API
+  slug: http-v2-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amplitude/refs/heads/main/openapi/amplitude-http-v2-api-openapi.yml
+- filename: amplitude-identify-api-openapi.yml
+  format: yaml
+  label: Amplitude Identify API
+  slug: identify-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amplitude/refs/heads/main/openapi/amplitude-identify-api-openapi.yml
+- filename: amplitude-dashboard-rest-api-openapi.yml
+  format: yaml
+  label: Amplitude Dashboard REST API
+  slug: dashboard-rest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amplitude/refs/heads/main/openapi/amplitude-dashboard-rest-api-openapi.yml
+- filename: amplitude-export-api-openapi.yml
+  format: yaml
+  label: Amplitude Export API
+  slug: export-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amplitude/refs/heads/main/openapi/amplitude-export-api-openapi.yml
+- filename: amplitude-behavioral-cohorts-api-openapi.yml
+  format: yaml
+  label: Amplitude Behavioral Cohorts API
+  slug: behavioral-cohorts-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amplitude/refs/heads/main/openapi/amplitude-behavioral-cohorts-api-openapi.yml
+- filename: amplitude-taxonomy-api-openapi.yml
+  format: yaml
+  label: Amplitude Taxonomy API
+  slug: taxonomy-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amplitude/refs/heads/main/openapi/amplitude-taxonomy-api-openapi.yml
+- filename: amplitude-attribution-api-openapi.yml
+  format: yaml
+  label: Amplitude Attribution API
+  slug: attribution-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amplitude/refs/heads/main/openapi/amplitude-attribution-api-openapi.yml
+- filename: amplitude-chart-annotations-api-openapi.yml
+  format: yaml
+  label: Amplitude Chart Annotations API
+  slug: chart-annotations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amplitude/refs/heads/main/openapi/amplitude-chart-annotations-api-openapi.yml
+- filename: amplitude-user-profile-api-openapi.yml
+  format: yaml
+  label: Amplitude User Profile API
+  slug: user-profile-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amplitude/refs/heads/main/openapi/amplitude-user-profile-api-openapi.yml
+- filename: amplitude-user-mapping-api-openapi.yml
+  format: yaml
+  label: Amplitude User Mapping API
+  slug: user-mapping-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amplitude/refs/heads/main/openapi/amplitude-user-mapping-api-openapi.yml
+- filename: amplitude-scim-api-openapi.yml
+  format: yaml
+  label: Amplitude SCIM API
+  slug: scim-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amplitude/refs/heads/main/openapi/amplitude-scim-api-openapi.yml
+- filename: amplitude-dsar-api-openapi.yml
+  format: yaml
+  label: Amplitude Data Subject Access Request API
+  slug: dsar-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amplitude/refs/heads/main/openapi/amplitude-dsar-api-openapi.yml
+- filename: amplitude-experiment-evaluation-api-openapi.yml
+  format: yaml
+  label: Amplitude Experiment Evaluation API
+  slug: experiment-evaluation-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amplitude/refs/heads/main/openapi/amplitude-experiment-evaluation-api-openapi.yml
+- filename: amplitude-experiment-management-api-openapi.yml
+  format: yaml
+  label: Amplitude Experiment Management API
+  slug: experiment-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amplitude/refs/heads/main/openapi/amplitude-experiment-management-api-openapi.yml
 categories:
 - delete
 - get

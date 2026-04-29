@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: alpha-vantage-openapi.yml
+  format: yaml
+  label: Alpha Vantage Market Data API
+  slug: market-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/alpha-vantage/refs/heads/main/openapi/alpha-vantage-openapi.yml
 categories:
 - alpha
 description: Spectral linting rules defining API design standards and conventions for Alpha Vantage.
