@@ -36,6 +36,9 @@ severity_counts:
   info: 0
   warn: 5
 slug: blackstone-spectral-rules
+source_yaml: "rules:\n  blackstone-fund-strategy-enum:\n    description: Fund strategy must be one of the defined values\n    message: \"Fund strategy must use a defined enum value\"\n    given: \"$.components.schemas.Fund.properties.strategy\"\n    then:\n      field: enum\n      function: truthy\n\n  blackstone-currency-required:\n    description: Financial records must include a currency field\n    message: \"Currency is required on financial records\"\n    given: \"$.components.schemas[*].properties\"\n    then:\n      field: currency\n      function: defined\n\n  blackstone-date-iso-format:\n    description: Date fields must use ISO 8601 format\n    message: \"Date fields must specify format: date or date-time\"\n    given: \"$.components.schemas[*].properties[?(@.description =~ /date/i)]\"\n    then:\n      field: format\n      function: pattern\n      functionOptions:\n        match: \"^date\"\n\n  blackstone-operations-have-descriptions:\n    description: All API operations should\
+  \ include descriptions\n    message: \"Operation is missing a description\"\n    given: \"$.paths[*][*]\"\n    then:\n      field: description\n      function: truthy\n\n  blackstone-ids-are-strings:\n    description: All ID fields should be of type string\n    message: \"ID fields must be of type string\"\n    given: \"$.components.schemas[*].properties[?(@.description =~ /identifier|id/i)]\"\n    then:\n      field: type\n      function: pattern\n      functionOptions:\n        match: \"^string$\"\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/blackstone/refs/heads/main/rules/blackstone-spectral-rules.yml
 tags:
 - Alternative Assets
 - Finance

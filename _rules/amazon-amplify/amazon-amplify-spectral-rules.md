@@ -36,6 +36,9 @@ severity_counts:
   info: 1
   warn: 0
 slug: amazon-amplify-spectral-rules
+source_yaml: "extends:\n- - spectral:oas\n  - all\nrules:\n  amazon-info-title-required:\n    description: API must have a title.\n    message: Info must include title.\n    severity: error\n    given: $.info\n    then:\n      field: title\n      function: truthy\n  amazon-operation-summary-required:\n    description: Operations must have summaries.\n    message: Operation must include summary.\n    severity: error\n    given: $.paths[*][get,post,put,patch,delete]\n    then:\n      field: summary\n      function: truthy\n  amazon-operation-operationid-required:\n    description: Operations must have operationIds.\n    message: Operation must include operationId.\n    severity: error\n    given: $.paths[*][get,post,put,patch,delete]\n    then:\n      field: operationId\n      function: truthy\n  amazon-response-200-get:\n    description: GET operations must return 200.\n    message: GET must have 200 response.\n    severity: error\n    given: $.paths[*].get\n    then:\n      field: responses.200\n\
+  \      function: truthy\n  amazon-schema-description:\n    description: Schemas should have descriptions.\n    message: Schema should include description.\n    severity: info\n    given: $.components.schemas[*]\n    then:\n      field: description\n      function: truthy\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-amplify/refs/heads/main/rules/amazon-amplify-spectral-rules.yml
 tags:
 - AWS
 - Frontend

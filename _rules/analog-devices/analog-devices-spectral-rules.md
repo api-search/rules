@@ -34,6 +34,8 @@ severity_counts:
   info: 0
   warn: 0
 slug: analog-devices-spectral-rules
+source_yaml: "rules:\n  info-description-required:\n    description: All API info objects must have descriptions\n    severity: error\n    given: \"$.info\"\n    then:\n      field: description\n      function: truthy\n\n  operation-summary-required:\n    description: All operations must have summaries\n    severity: error\n    given: \"$.paths[*][get,post,put,patch,delete]\"\n    then:\n      field: summary\n      function: truthy\n\n  operation-operationid-required:\n    description: All operations must have operationIds\n    severity: error\n    given: \"$.paths[*][get,post,put,patch,delete]\"\n    then:\n      field: operationId\n      function: truthy\n\n  servers-https-only:\n    description: All servers must use HTTPS\n    severity: error\n    given: \"$.servers[*].url\"\n    then:\n      function: pattern\n      functionOptions:\n        match: \"^https://\"\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/analog-devices/refs/heads/main/rules/analog-devices-spectral-rules.yml
 tags:
 - Embedded Systems
 - Hardware

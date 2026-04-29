@@ -36,6 +36,9 @@ severity_counts:
   info: 0
   warn: 2
 slug: cisco-secure-client-rules
+source_yaml: "extends:\n  - spectral:oas\nrules:\n  csc-https-only:\n    description: All Secure Client management API servers MUST use HTTPS.\n    severity: error\n    given: $.servers[*].url\n    then:\n      function: pattern\n      functionOptions:\n        match: '^https://'\n  csc-security-required:\n    description: API MUST define security schemes for token, OAuth, or HMAC auth.\n    severity: error\n    given: $.components.securitySchemes\n    then:\n      function: truthy\n  csc-operation-id:\n    description: Operations MUST have an operationId.\n    severity: error\n    given: $.paths[*][get,post,put,delete,patch]\n    then:\n      field: operationId\n      function: truthy\n  csc-tag-required:\n    description: Operations MUST be tagged for security domain grouping.\n    severity: warn\n    given: $.paths[*][get,post,put,delete,patch].tags\n    then:\n      function: truthy\n  csc-info-contact:\n    description: API info MUST contain a contact for security disclosures.\n   \
+  \ severity: warn\n    given: $.info\n    then:\n      field: contact\n      function: truthy\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cisco-secure-client/refs/heads/main/rules/cisco-secure-client-rules.yml
 tags:
 - Endpoint Security
 - Remote Access

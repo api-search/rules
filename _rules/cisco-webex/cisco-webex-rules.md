@@ -40,6 +40,9 @@ severity_counts:
   info: 0
   warn: 4
 slug: cisco-webex-rules
+source_yaml: "extends:\n  - spectral:oas\nrules:\n  webex-server-https:\n    description: All Webex API servers MUST use HTTPS.\n    severity: error\n    given: $.servers[*].url\n    then:\n      function: pattern\n      functionOptions:\n        match: '^https://'\n  webex-base-url:\n    description: Webex server URL SHOULD be webexapis.com/v1.\n    severity: warn\n    given: $.servers[*].url\n    then:\n      function: pattern\n      functionOptions:\n        match: '^https://webexapis\\.com/v1'\n  webex-operation-id:\n    description: Operations MUST have an operationId.\n    severity: error\n    given: $.paths[*][get,post,put,delete,patch]\n    then:\n      field: operationId\n      function: truthy\n  webex-summary-required:\n    description: Operations MUST have a summary.\n    severity: warn\n    given: $.paths[*][get,post,put,delete,patch]\n    then:\n      field: summary\n      function: truthy\n  webex-tag-required:\n    description: Operations MUST be tagged for Webex domain grouping.\n\
+  \    severity: warn\n    given: $.paths[*][get,post,put,delete,patch].tags\n    then:\n      function: truthy\n  webex-oauth-security:\n    description: API SHOULD declare OAuth 2.0 security scheme.\n    severity: warn\n    given: $.components.securitySchemes\n    then:\n      function: truthy\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cisco-webex/refs/heads/main/rules/cisco-webex-rules.yml
 tags:
 - Collaboration
 - Communications

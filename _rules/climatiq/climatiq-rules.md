@@ -40,6 +40,9 @@ severity_counts:
   info: 0
   warn: 2
 slug: climatiq-rules
+source_yaml: "extends:\n  - spectral:oas\nrules:\n  climatiq-info-contact:\n    description: API info MUST contain a contact email or URL.\n    severity: warn\n    given: $.info\n    then:\n      field: contact\n      function: truthy\n  climatiq-https-only:\n    description: All Climatiq API servers MUST use HTTPS.\n    severity: error\n    given: $.servers[*].url\n    then:\n      function: pattern\n      functionOptions:\n        match: '^https://'\n  climatiq-operation-id:\n    description: Operations MUST have an operationId.\n    severity: error\n    given: $.paths[*][get,post,put,delete,patch]\n    then:\n      field: operationId\n      function: truthy\n  climatiq-tag-required:\n    description: Operations MUST be tagged for product-domain grouping (Search, Estimate, Travel, Freight, Energy, Computing, Procurement, Autopilot, Classifications, CBAM).\n    severity: warn\n    given: $.paths[*][get,post,put,delete,patch].tags\n    then:\n      function: truthy\n  climatiq-bearer-auth-required:\n\
+  \    description: API MUST define a bearer-token security scheme since Climatiq authenticates with API keys passed as Bearer tokens.\n    severity: error\n    given: $.components.securitySchemes\n    then:\n      function: truthy\n  climatiq-server-url:\n    description: API MUST declare at least one server URL (api.climatiq.io).\n    severity: error\n    given: $.servers\n    then:\n      function: truthy\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/climatiq/refs/heads/main/rules/climatiq-rules.yml
 tags:
 - Carbon Accounting
 - Carbon Emissions

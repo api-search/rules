@@ -40,6 +40,9 @@ severity_counts:
   info: 0
   warn: 2
 slug: climate-fieldview-rules
+source_yaml: "extends:\n  - spectral:oas\nrules:\n  climate-fieldview-info-contact:\n    description: API info MUST contain a contact email or URL.\n    severity: warn\n    given: $.info\n    then:\n      field: contact\n      function: truthy\n  climate-fieldview-https-only:\n    description: All Climate FieldView API servers MUST use HTTPS.\n    severity: error\n    given: $.servers[*].url\n    then:\n      function: pattern\n      functionOptions:\n        match: '^https://'\n  climate-fieldview-operation-id:\n    description: Operations MUST have an operationId.\n    severity: error\n    given: $.paths[*][get,post,put,delete,patch]\n    then:\n      field: operationId\n      function: truthy\n  climate-fieldview-tag-required:\n    description: Operations MUST be tagged for agronomic-domain grouping (Fields, Planting, Harvest, Application, Soil Sampling).\n    severity: warn\n    given: $.paths[*][get,post,put,delete,patch].tags\n    then:\n      function: truthy\n  climate-fieldview-oauth2-required:\n\
+  \    description: API MUST define an OAuth2 security scheme since FieldView authenticates with OAuth 2.0 authorization-code grant.\n    severity: error\n    given: $.components.securitySchemes\n    then:\n      function: truthy\n  climate-fieldview-server-url:\n    description: API MUST declare at least one server URL pointing at api.climate.com.\n    severity: error\n    given: $.servers\n    then:\n      function: truthy\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/climate-fieldview/refs/heads/main/rules/climate-fieldview-rules.yml
 tags:
 - Agriculture
 - Bayer

@@ -36,6 +36,9 @@ severity_counts:
   info: 1
   warn: 1
 slug: axon-framework-spectral-rules
+source_yaml: "rules:\n  axon-operation-summary:\n    description: All operations must have a summary starting with \"Axon Framework\"\n    severity: warn\n    given: \"$.paths[*][get,post,put,delete,patch]\"\n    then:\n      field: summary\n      function: pattern\n      functionOptions:\n        match: \"^Axon Framework\"\n  axon-operation-id:\n    description: All operations must have an operationId\n    severity: error\n    given: \"$.paths[*][get,post,put,delete,patch]\"\n    then:\n      field: operationId\n      function: truthy\n  axon-info-title:\n    description: Info object must have a title\n    severity: error\n    given: \"$.info\"\n    then:\n      field: title\n      function: truthy\n  axon-response-description:\n    description: All responses must have a description\n    severity: error\n    given: \"$.paths[*][*].responses[*]\"\n    then:\n      field: description\n      function: truthy\n  axon-microcks-annotation:\n    description: Operations should have x-microcks-operation\
+  \ annotation\n    severity: info\n    given: \"$.paths[*][get,post,put,delete,patch]\"\n    then:\n      field: x-microcks-operation\n      function: truthy\n"
+source_yaml_url: https://raw.githubusercontent.com/api-evangelist/axon-framework/refs/heads/main/rules/axon-framework-spectral-rules.yml
 tags:
 - CQRS
 - Event Sourcing
