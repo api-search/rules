@@ -43,6 +43,8 @@ severity_counts:
   info: 0
   warn: 2
 slug: cities-database-api-rules
+source_filename: cities-database-api-rules.yml
+source_heading: Spectral Ruleset
 source_yaml: "extends:\n  - spectral:oas\nrules:\n  cities-server-https:\n    description: Cities Database API server URL MUST use HTTPS.\n    severity: error\n    given: $.servers[*].url\n    then:\n      function: pattern\n      functionOptions:\n        match: '^https://'\n  cities-base-url:\n    description: Cities Database API server SHOULD be airlabs.co/api/v9.\n    severity: warn\n    given: $.servers[*].url\n    then:\n      function: pattern\n      functionOptions:\n        match: '^https://airlabs\\.co/api/v9'\n  cities-operation-id:\n    description: Operations MUST have an operationId.\n    severity: error\n    given: $.paths[*][get,post,put,delete,patch]\n    then:\n      field: operationId\n      function: truthy\n  cities-tag-required:\n    description: Operations MUST be tagged.\n    severity: warn\n    given: $.paths[*][get,post,put,delete,patch].tags\n    then:\n      function: truthy\n  cities-api-key-required:\n    description: Cities Database API operations MUST require\
   \ an api_key parameter.\n    severity: error\n    given: $.paths[*][get,post,put,delete,patch].parameters[?(@.name=='api_key')]\n    then:\n      function: truthy\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cities-database-api/refs/heads/main/rules/cities-database-api-rules.yml

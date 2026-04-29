@@ -87,6 +87,8 @@ severity_counts:
   info: 0
   warn: 3
 slug: citrix-rules
+source_filename: citrix-rules.yml
+source_heading: Spectral Ruleset
 source_yaml: "extends:\n  - spectral:oas\nrules:\n  citrix-info-contact:\n    description: API info MUST contain a contact email or URL.\n    severity: warn\n    given: $.info\n    then:\n      field: contact\n      function: truthy\n  citrix-https-only:\n    description: All Citrix API servers MUST use HTTPS.\n    severity: error\n    given: $.servers[*].url\n    then:\n      function: pattern\n      functionOptions:\n        match: '^https://'\n  citrix-operation-id:\n    description: Operations MUST have an operationId.\n    severity: error\n    given: $.paths[*][get,post,put,delete,patch]\n    then:\n      field: operationId\n      function: truthy\n  citrix-tag-required:\n    description: Operations MUST be tagged for product domain grouping.\n    severity: warn\n    given: $.paths[*][get,post,put,delete,patch].tags\n    then:\n      function: truthy\n  citrix-security-required:\n    description: API MUST define security schemes (OAuth 2.0 bearer for Citrix Cloud).\n    severity: error\n\
   \    given: $.components.securitySchemes\n    then:\n      function: truthy\n  citrix-server-url:\n    description: API MUST declare at least one server URL.\n    severity: error\n    given: $.servers\n    then:\n      function: truthy\n  citrix-customer-id-templating:\n    description: Customer-scoped Citrix Cloud paths SHOULD use templated customerId.\n    severity: warn\n    given: $.paths\n    then:\n      function: truthy\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/citrix/refs/heads/main/rules/citrix-rules.yml

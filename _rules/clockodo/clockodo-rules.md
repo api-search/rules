@@ -47,6 +47,8 @@ severity_counts:
   info: 0
   warn: 2
 slug: clockodo-rules
+source_filename: clockodo-rules.yml
+source_heading: Spectral Ruleset
 source_yaml: "extends:\n  - spectral:oas\nrules:\n  clockodo-info-contact:\n    description: API info MUST contain a contact email or URL.\n    severity: warn\n    given: $.info\n    then:\n      field: contact\n      function: truthy\n  clockodo-https-only:\n    description: All Clockodo API servers MUST use HTTPS.\n    severity: error\n    given: $.servers[*].url\n    then:\n      function: pattern\n      functionOptions:\n        match: '^https://'\n  clockodo-operation-id:\n    description: Operations MUST have an operationId.\n    severity: error\n    given: $.paths[*][get,post,put,delete,patch]\n    then:\n      field: operationId\n      function: truthy\n  clockodo-tag-required:\n    description: Operations MUST be tagged for resource grouping (Entries, Customers, Projects, Services, Users, Absences, LumpSumServices, HolidaysQuota, Clock).\n    severity: warn\n    given: $.paths[*][get,post,put,delete,patch].tags\n    then:\n      function: truthy\n  clockodo-auth-required:\n    description:\
   \ API MUST define API-key and/or basic-auth security since Clockodo authenticates with X-ClockodoApiUser/X-ClockodoApiKey headers or HTTP Basic.\n    severity: error\n    given: $.components.securitySchemes\n    then:\n      function: truthy\n  clockodo-server-url:\n    description: API MUST declare at least one server URL pointing at my.clockodo.com.\n    severity: error\n    given: $.servers\n    then:\n      function: truthy\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/clockodo/refs/heads/main/rules/clockodo-rules.yml

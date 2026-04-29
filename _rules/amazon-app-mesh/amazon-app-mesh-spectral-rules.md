@@ -35,6 +35,8 @@ severity_counts:
   info: 0
   warn: 0
 slug: amazon-app-mesh-spectral-rules
+source_filename: amazon-app-mesh-spectral-rules.yml
+source_heading: Spectral Ruleset
 source_yaml: "extends:\n- - spectral:oas\n  - all\nrules:\n  amazon-app-mesh-info-title:\n    description: API must have a title.\n    message: Info must include title.\n    severity: error\n    given: $.info\n    then:\n      field: title\n      function: truthy\n  amazon-app-mesh-operation-summary:\n    description: Operations must have summaries.\n    message: Operation must include summary.\n    severity: error\n    given: $.paths[*][get,post,put,patch,delete]\n    then:\n      field: summary\n      function: truthy\n  amazon-app-mesh-operation-id:\n    description: Operations must have operationIds.\n    message: Operation must include operationId.\n    severity: error\n    given: $.paths[*][get,post,put,patch,delete]\n    then:\n      field: operationId\n      function: truthy\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-app-mesh/refs/heads/main/rules/amazon-app-mesh-spectral-rules.yml
 tags:

@@ -40,6 +40,8 @@ severity_counts:
   info: 0
   warn: 3
 slug: citizens-financial-group-rules
+source_filename: citizens-financial-group-rules.yml
+source_heading: Spectral Ruleset
 source_yaml: "extends:\n  - spectral:oas\nrules:\n  citizens-https-only:\n    description: All Citizens API servers MUST use HTTPS.\n    severity: error\n    given: $.servers[*].url\n    then:\n      function: pattern\n      functionOptions:\n        match: '^https://'\n  citizens-oauth-required:\n    description: Citizens APIs MUST declare an OAuth 2.0 security scheme for consented data access.\n    severity: error\n    given: $.components.securitySchemes\n    then:\n      function: truthy\n  citizens-operation-id:\n    description: Operations MUST have an operationId.\n    severity: error\n    given: $.paths[*][get,post,put,delete,patch]\n    then:\n      field: operationId\n      function: truthy\n  citizens-tag-required:\n    description: Operations MUST be tagged for product domain grouping.\n    severity: warn\n    given: $.paths[*][get,post,put,delete,patch].tags\n    then:\n      function: truthy\n  citizens-info-contact:\n    description: API info MUST contain a contact for security\
   \ disclosures.\n    severity: warn\n    given: $.info\n    then:\n      field: contact\n      function: truthy\n  citizens-fdx-alignment:\n    description: Open banking endpoints SHOULD align with Financial Data Exchange (FDX) field names.\n    severity: warn\n    given: $.components.schemas\n    then:\n      function: truthy\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/citizens-financial-group/refs/heads/main/rules/citizens-financial-group-rules.yml

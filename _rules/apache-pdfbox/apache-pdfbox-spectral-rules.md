@@ -50,6 +50,8 @@ severity_counts:
   info: 2
   warn: 0
 slug: apache-pdfbox-spectral-rules
+source_filename: apache-pdfbox-spectral-rules.yml
+source_heading: Spectral Ruleset
 source_yaml: "extends: \"spectral:oas\"\nrules:\n  info-title-required:\n    severity: error\n    given: \"$.info\"\n    then:\n      field: title\n      function: truthy\n  operation-summary-required:\n    severity: error\n    given: \"$.paths[*][*]\"\n    then:\n      field: summary\n      function: truthy\n  operation-operationId-required:\n    severity: error\n    given: \"$.paths[*][*]\"\n    then:\n      field: operationId\n      function: truthy\n  operation-summary-apache-prefix:\n    description: \"Summaries should start with Apache PDFBox\"\n    severity: info\n    given: \"$.paths[*][get,post,put,delete,patch].summary\"\n    then:\n      function: pattern\n      functionOptions:\n        match: \"^Apache PDFBox\"\n  paths-document-resource:\n    description: \"Document paths should follow /documents pattern\"\n    severity: info\n    given: \"$.paths[*]~\"\n    then:\n      function: pattern\n      functionOptions:\n        match: \"^/documents\"\n  response-success-required:\n\
   \    severity: error\n    given: \"$.paths[*][get,post,put].responses\"\n    then:\n      function: schema\n      functionOptions:\n        schema:\n          required: [\"200\"]\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apache-pdfbox/refs/heads/main/rules/apache-pdfbox-spectral-rules.yml

@@ -40,6 +40,8 @@ severity_counts:
   info: 0
   warn: 3
 slug: cisco-hardware-rules
+source_filename: cisco-hardware-rules.yml
+source_heading: Spectral Ruleset
 source_yaml: "extends:\n  - spectral:oas\n  - spectral:asyncapi\nrules:\n  cisco-hardware-info-contact:\n    description: API info object MUST contain a contact for Cisco Hardware APIs.\n    severity: warn\n    given: $.info\n    then:\n      field: contact\n      function: truthy\n  cisco-hardware-https-only:\n    description: All Cisco Hardware API servers MUST use HTTPS.\n    severity: error\n    given: $.servers[*].url\n    then:\n      function: pattern\n      functionOptions:\n        match: '^https://'\n  cisco-hardware-tag-required:\n    description: Operations MUST be tagged for hardware domain grouping.\n    severity: warn\n    given: $.paths[*][get,post,put,delete,patch].tags\n    then:\n      function: truthy\n  cisco-hardware-operation-id:\n    description: Operations MUST have an operationId.\n    severity: error\n    given: $.paths[*][get,post,put,delete,patch]\n    then:\n      field: operationId\n      function: truthy\n  cisco-hardware-summary-required:\n    description:\
   \ Operations MUST have a summary.\n    severity: warn\n    given: $.paths[*][get,post,put,delete,patch]\n    then:\n      field: summary\n      function: truthy\n  cisco-hardware-security-required:\n    description: API MUST define security schemes for token, basic-auth, or signature auth.\n    severity: error\n    given: $.components.securitySchemes\n    then:\n      function: truthy\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cisco-hardware/refs/heads/main/rules/cisco-hardware-rules.yml
