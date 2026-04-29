@@ -1,6 +1,6 @@
 name: APIs.io Rules
 description: Browse API governance rules and Spectral rulesets across the APIs.io network.
-image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://apis.io/assets/branding/apisio-social-card.png
 url: https://rules.apis.io
 
 node: website
