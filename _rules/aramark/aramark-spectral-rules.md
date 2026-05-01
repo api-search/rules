@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: marko-api.yml
+  format: yaml
+  label: Aramark Marko API
+  slug: marko-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aramark/refs/heads/main/openapi/marko-api.yml
 categories:
 - delete
 - get

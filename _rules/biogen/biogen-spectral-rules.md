@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: biogen-developer-api-openapi.yml
+  format: yaml
+  label: Biogen Developer API
+  slug: developer-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/biogen/refs/heads/main/openapi/biogen-developer-api-openapi.yml
 categories:
 - biogen
 description: Spectral linting rules defining API design standards and conventions for Biogen.

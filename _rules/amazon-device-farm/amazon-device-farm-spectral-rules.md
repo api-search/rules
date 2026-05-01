@@ -141,7 +141,6 @@ source_yaml: "rules:\n  # INFO / METADATA\n  info-title-prefix:\n    description
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-device-farm/refs/heads/main/rules/amazon-device-farm-spectral-rules.yml
 tags:
 - Application Testing
-- AWS
 - Device Testing
 - Mobile Testing
 - Quality Assurance

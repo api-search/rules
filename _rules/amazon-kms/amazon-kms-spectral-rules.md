@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: amazon-kms-openapi.yml
+- filename: openapi.yaml
   format: yaml
   label: Amazon KMS API
   slug: ''
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-kms/refs/heads/main/openapi/amazon-kms-openapi.yml
+  url: https://api.apis.guru/v2/specs/amazonaws.com/kms/2014-11-01/openapi.yaml
 categories:
 - info
 - openapi
@@ -102,7 +102,6 @@ source_yaml: "rules:\n\n  info-title-format:\n    description: API title must st
   \ warn\n    given: \"$.paths\"\n    then:\n      function: pattern\n      functionOptions:\n        match: \"^(/[a-zA-Z0-9{}/-]+)+$\"\n\n  schema-description-required:\n    description: Schema components should have descriptions\n    severity: warn\n    given: \"$.components.schemas[*]\"\n    then:\n      field: description\n      function: truthy\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-kms/refs/heads/main/rules/amazon-kms-spectral-rules.yml
 tags:
-- AWS
 - Cryptography
 - Data Protection
 - Encryption

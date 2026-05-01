@@ -118,7 +118,6 @@ source_yaml: "rules:\n  # INFO / METADATA\n  info-title-required:\n    descripti
   \    description: GET operations should not have a request body\n    severity: error\n    given: \"$.paths[*].get\"\n    then:\n      field: requestBody\n      function: falsy\n\n  delete-no-request-body:\n    description: DELETE operations should not have a request body\n    severity: warn\n    given: \"$.paths[*].delete\"\n    then:\n      field: requestBody\n      function: falsy\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/rules/amazon-route53-resolver-spectral-rules.yml
 tags:
-- AWS
 - DNS
 - Hybrid Cloud
 - Networking

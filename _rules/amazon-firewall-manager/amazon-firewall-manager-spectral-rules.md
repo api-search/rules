@@ -133,7 +133,6 @@ source_yaml: "# Amazon Firewall Manager Spectral Rules\nextends: spectral:oas\nr
   \    description: Compliance endpoint should be documented\n    severity: info\n    given: \"$.paths\"\n    then:\n      field: \"/fms/2018-01-01/compliance/{policyId}/detail/{memberAccountId}\"\n      function: truthy\n  fms-resource-set-documented:\n    description: Resource set endpoint should be documented\n    severity: info\n    given: \"$.paths\"\n    then:\n      field: \"/fms/2018-01-01/resource-set\"\n      function: truthy\n  fms-schema-properties-defined:\n    description: Object schemas should define properties\n    severity: warn\n    given: \"$.components.schemas[?(@.type=='object')]\"\n    then:\n      field: properties\n      function: truthy\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-firewall-manager/refs/heads/main/rules/amazon-firewall-manager-spectral-rules.yml
 tags:
-- AWS
 - Compliance
 - Firewall
 - Network Security

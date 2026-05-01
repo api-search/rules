@@ -1,4 +1,23 @@
 ---
+api_specs:
+- filename: azure-management-openapi.yaml
+  format: yaml
+  label: Azure Compute API
+  slug: azure-compute-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/azure/refs/heads/main/openapi/azure-management-openapi.yaml
+- filename: azure-management-openapi.yaml
+  format: yaml
+  label: Azure Storage API
+  slug: azure-storage-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/azure/refs/heads/main/openapi/azure-management-openapi.yaml
+- filename: azure-management-openapi.yaml
+  format: yaml
+  label: Azure Cognitive Services API
+  slug: azure-cognitive-services-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/azure/refs/heads/main/openapi/azure-management-openapi.yaml
 categories:
 - info
 - openapi

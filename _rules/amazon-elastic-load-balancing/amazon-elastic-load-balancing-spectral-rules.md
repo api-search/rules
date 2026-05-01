@@ -123,7 +123,6 @@ source_yaml: "# Spectral Ruleset for Amazon Elastic Load Balancing\n# Enforces A
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-elastic-load-balancing/refs/heads/main/rules/amazon-elastic-load-balancing-spectral-rules.yml
 tags:
 - Amazon Web Services
-- AWS
 - High Availability
 - Load Balancing
 - Networking

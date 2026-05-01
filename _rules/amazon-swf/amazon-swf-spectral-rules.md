@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: amazon-swf-openapi-original.yml
+  format: yaml
+  label: Amazon Simple Workflow Service API
+  slug: amazon-swf-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-swf/refs/heads/main/openapi/amazon-swf-openapi-original.yml
 categories:
 - info
 - operation
@@ -64,7 +71,6 @@ source_yaml: "extends: spectral:oas\nrules:\n  # INFO / METADATA\n  info-title-r
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-swf/refs/heads/main/rules/amazon-swf-spectral-rules.yml
 tags:
 - Automation
-- AWS
 - Task Coordination
 - Workflow
 - Spectral

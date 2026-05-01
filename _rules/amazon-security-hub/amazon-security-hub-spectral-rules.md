@@ -113,7 +113,6 @@ source_yaml: "rules:\n\n  # INFO / METADATA\n  info-title-required:\n    descrip
   \ truthy\n\n  # GENERAL QUALITY\n  microcks-operation-present:\n    description: Operations should have x-microcks-operation for mock support\n    severity: info\n    given: \"$.paths[*][get,post,put,patch,delete]\"\n    then:\n      field: x-microcks-operation\n      function: truthy\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-security-hub/refs/heads/main/rules/amazon-security-hub-spectral-rules.yml
 tags:
-- AWS
 - Compliance
 - Monitoring
 - Security

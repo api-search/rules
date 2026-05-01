@@ -122,7 +122,6 @@ source_yaml: "rules:\n  info-title-prefix:\n    description: API title must refe
   \   function: truthy\n\n  no-empty-descriptions:\n    description: Descriptions must not be empty strings\n    severity: error\n    given: \"$..description\"\n    then:\n      function: pattern\n      functionOptions:\n        match: \".+\"\n\n  list-response-has-next-token:\n    description: List/search operations should support pagination via nextToken\n    severity: info\n    given: \"$.paths[*][get].responses.200.content.application/json.schema.properties\"\n    then:\n      field: nextToken\n      function: truthy\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-datazone/refs/heads/main/rules/amazon-datazone-spectral-rules.yml
 tags:
-- AWS
 - Data Catalog
 - Data Governance
 - Data Management

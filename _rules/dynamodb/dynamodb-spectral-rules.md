@@ -12,6 +12,12 @@ api_specs:
   slug: ''
   spec_type: AsyncAPI
   url: https://raw.githubusercontent.com/api-evangelist/dynamodb/refs/heads/main/asyncapi/dynamodb-streams-asyncapi.yml
+- filename: openapi.yaml
+  format: yaml
+  label: Amazon DynamoDB Accelerator (DAX) API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://api.apis.guru/v2/specs/amazonaws.com/dax/2017-04-19/openapi.yaml
 categories:
 - info
 - 'no'
@@ -66,7 +72,6 @@ source_yaml: "rules:\n  info-title-required:\n    description: Info title must b
   \ Every response must have a description\n    severity: error\n    given: $.paths[*][get,post,put,patch,delete].responses[*]\n    then: {field: description, function: truthy}\n  no-empty-descriptions:\n    description: Descriptions must not be empty\n    severity: error\n    given: $..description\n    then: {function: truthy}\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dynamodb/refs/heads/main/rules/dynamodb-spectral-rules.yml
 tags:
-- AWS
 - Cloud
 - Database
 - Document Store

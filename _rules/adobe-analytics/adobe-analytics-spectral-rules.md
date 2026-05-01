@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: adobe-analytics-api-openapi.yml
-  format: yaml
+- filename: swagger.json
+  format: json
   label: Adobe Analytics API
   slug: ''
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adobe-analytics/refs/heads/main/openapi/adobe-analytics-api-openapi.yml
+  url: https://raw.githubusercontent.com/AdobeDocs/analytics-2.0-apis/main/docs/swagger.json
 - filename: adobe-analytics-bulk-data-insertion-api-openapi.yml
   format: yaml
   label: Adobe Analytics Bulk Data Insertion API

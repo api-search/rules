@@ -70,7 +70,6 @@ source_yaml: "rules:\n  s3-operation-summary:\n    description: All operations m
   \    given: \"$\"\n    then:\n      field: servers\n      function: truthy\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aws-s3/refs/heads/main/rules/aws-s3-spectral-rules.yml
 tags:
-- AWS
 - Cloud Storage
 - Object Storage
 - Storage

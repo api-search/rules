@@ -138,7 +138,6 @@ source_yaml: "rules:\n\n  # INFO / METADATA\n  info-title-required:\n    descrip
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-sagemaker/refs/heads/main/rules/amazon-sagemaker-spectral-rules.yml
 tags:
 - AI
-- AWS
 - Inference
 - Machine Learning
 - MLOps

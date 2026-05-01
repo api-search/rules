@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: amazon-application-migration-service-openapi.yml
+  format: yaml
+  label: Amazon Application Migration Service API
+  slug: amazon-application-migration-service-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-application-migration-service/refs/heads/main/openapi/amazon-application-migration-service-openapi.yml
 categories:
 - info
 - openapi
@@ -119,7 +126,6 @@ tags:
 - Amazon Application Migration Service
 - Migration
 - Lift And Shift
-- AWS
 - Cloud Migration
 - Spectral
 - Linting

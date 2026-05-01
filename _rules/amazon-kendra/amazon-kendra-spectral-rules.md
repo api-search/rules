@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: amazon-kendra-openapi.yml
+- filename: openapi.yaml
   format: yaml
   label: Amazon Kendra API
   slug: ''
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-kendra/refs/heads/main/openapi/amazon-kendra-openapi.yml
+  url: https://api.apis.guru/v2/specs/amazonaws.com/kendra/2019-02-03/openapi.yaml
 categories:
 - info
 - openapi
@@ -108,7 +108,6 @@ source_yaml: "rules:\n\n  # INFO / METADATA\n  info-title-format:\n    descripti
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-kendra/refs/heads/main/rules/amazon-kendra-spectral-rules.yml
 tags:
 - AI
-- AWS
 - Enterprise Search
 - Knowledge Management
 - Machine Learning

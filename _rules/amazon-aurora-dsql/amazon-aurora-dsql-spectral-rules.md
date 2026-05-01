@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: amazon-aurora-dsql-openapi.yml
+  format: yaml
+  label: Amazon Aurora DSQL API
+  slug: amazon-aurora-dsql-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-aurora-dsql/refs/heads/main/openapi/amazon-aurora-dsql-openapi.yml
 categories:
 - aurora
 description: Spectral linting rules defining API design standards and conventions for Amazon Aurora DSQL.
@@ -67,7 +74,6 @@ tags:
 - Distributed SQL
 - PostgreSQL
 - Serverless
-- AWS
 - Spectral
 - Linting
 - API Governance

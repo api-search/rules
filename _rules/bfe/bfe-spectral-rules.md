@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: bfe-management-api.yaml
+  format: yaml
+  label: BFE Management API
+  slug: bfe-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bfe/refs/heads/main/openapi/bfe-management-api.yaml
 categories:
 - get
 - info

@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: agechecker-net-age-verification-openapi.yml
+  format: yaml
+  label: AgeChecker.Net Age Verification API
+  slug: agechecker-net-age-verification-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/agechecker-net/refs/heads/main/openapi/agechecker-net-age-verification-openapi.yml
 categories:
 - get
 - info

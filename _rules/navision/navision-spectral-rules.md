@@ -1,5 +1,17 @@
 ---
 api_specs:
+- filename: nav-webservices.yaml
+  format: yaml
+  label: Dynamics NAV Web Services API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://example.com/openapi/nav-webservices.yaml
+- filename: nav-odata.yaml
+  format: yaml
+  label: Dynamics NAV OData API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://example.com/openapi/nav-odata.yaml
 - filename: business-central-api-v2.yml
   format: yaml
   label: Business Central API v2.0

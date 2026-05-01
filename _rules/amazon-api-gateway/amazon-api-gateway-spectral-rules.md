@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: amazon-api-gateway-openapi.yaml
+- filename: API_Operations.html
   format: yaml
   label: Amazon API Gateway REST API
   slug: rest-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-api-gateway/refs/heads/main/openapi/amazon-api-gateway-openapi.yaml
+  url: https://docs.aws.amazon.com/apigateway/latest/api/API_Operations.html
 - filename: amazon-api-gateway-websocket-asyncapi.yml
   format: yaml
   label: Amazon API Gateway WebSocket API
@@ -55,7 +55,6 @@ source_yaml: "extends:\n- - spectral:oas\n  - all\nrules:\n  amazon-info-title-r
   \      function: truthy\n  amazon-schema-description:\n    description: Schemas should have descriptions.\n    message: Schema should include description.\n    severity: info\n    given: $.components.schemas[*]\n    then:\n      field: description\n      function: truthy\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-api-gateway/refs/heads/main/rules/amazon-api-gateway-spectral-rules.yml
 tags:
-- AWS
 - Gateway
 - HTTP API
 - REST API

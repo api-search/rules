@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: arch-coal-investor-relations-api.yaml
+  format: yaml
+  label: Arch Coal Investor Relations
+  slug: arch-coal-investor-relations
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/arch-coal/refs/heads/main/openapi/arch-coal-investor-relations-api.yaml
 categories:
 - get
 - info

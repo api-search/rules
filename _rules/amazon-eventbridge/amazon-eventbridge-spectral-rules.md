@@ -123,7 +123,6 @@ source_yaml: "# Spectral Ruleset for Amazon EventBridge\n# Enforces API design c
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-eventbridge/refs/heads/main/rules/amazon-eventbridge-spectral-rules.yml
 tags:
 - Amazon Web Services
-- AWS
 - Event Bus
 - Event-Driven
 - Events

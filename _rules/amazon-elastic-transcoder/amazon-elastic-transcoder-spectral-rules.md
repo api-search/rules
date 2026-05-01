@@ -123,7 +123,6 @@ source_yaml: "# Spectral Ruleset for Amazon Elastic Transcoder\n# Enforces API d
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-elastic-transcoder/refs/heads/main/rules/amazon-elastic-transcoder-spectral-rules.yml
 tags:
 - Amazon Web Services
-- AWS
 - Media
 - Transcoding
 - Video

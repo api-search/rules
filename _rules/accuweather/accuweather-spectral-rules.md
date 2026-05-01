@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: accuweather-openapi-original.yml
+  format: yaml
+  label: AccuWeather API
+  slug: accuweather-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/accuweather/refs/heads/main/openapi/accuweather-openapi-original.yml
 categories:
 - delete
 - get

@@ -1,23 +1,29 @@
 ---
 api_specs:
-- filename: red-hat-openshift-cluster-manager-openapi.yml
+- filename: openapi
+  format: yaml
+  label: Red Hat OpenShift API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://api.openshift.com/api/clusters_mgmt/v1/openapi
+- filename: openapi
   format: yaml
   label: Red Hat OpenShift Cluster Manager API
   slug: ''
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/red-hat/refs/heads/main/openapi/red-hat-openshift-cluster-manager-openapi.yml
+  url: https://api.openshift.com/api/clusters_mgmt/v1/openapi
 - filename: red-hat-ansible-automation-platform-openapi.yml
   format: yaml
   label: Red Hat Ansible Automation Platform API
   slug: ''
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/red-hat/refs/heads/main/openapi/red-hat-ansible-automation-platform-openapi.yml
-- filename: red-hat-quay-openapi.yml
+- filename: discovery
   format: yaml
   label: Red Hat Quay API
   slug: ''
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/red-hat/refs/heads/main/openapi/red-hat-quay-openapi.yml
+  url: https://quay.io/api/v1/discovery
 - filename: red-hat-insights-openapi.yml
   format: yaml
   label: Red Hat Insights API
@@ -48,6 +54,12 @@ api_specs:
   slug: ''
   spec_type: AsyncAPI
   url: https://raw.githubusercontent.com/api-evangelist/red-hat/refs/heads/main/asyncapi/red-hat-notifications-webhooks-asyncapi.yml
+- filename: openapi
+  format: yaml
+  label: Red Hat Assisted Installer API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://api.openshift.com/api/assisted-install/v2/openapi
 categories:
 - info
 - 'no'

@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: amazon-deepracer-openapi.yml
+  format: yaml
+  label: AWS DeepRacer API
+  slug: aws-deepracer-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-deepracer/refs/heads/main/openapi/amazon-deepracer-openapi.yml
 categories:
 - arn
 - info
@@ -117,7 +124,6 @@ source_yaml: "rules:\n  info-title-prefix:\n    description: API title must refe
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-deepracer/refs/heads/main/rules/amazon-deepracer-spectral-rules.yml
 tags:
 - Autonomous Vehicles
-- AWS
 - Machine Learning
 - Reinforcement Learning
 - Robotics

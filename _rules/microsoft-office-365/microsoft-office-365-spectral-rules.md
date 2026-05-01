@@ -1,23 +1,53 @@
 ---
 api_specs:
-- filename: microsoft-graph-api-openapi.yml
+- filename: openapi.yaml
   format: yaml
   label: Microsoft Graph API
   slug: ''
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-office-365/refs/heads/main/openapi/microsoft-graph-api-openapi.yml
-- filename: microsoft-graph-api-openapi.yml
+  url: https://raw.githubusercontent.com/microsoftgraph/microsoft-graph-openapi/master/openapi/v1.0/openapi.yaml
+- filename: mail.yaml
   format: yaml
   label: Outlook Mail API
   slug: ''
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-office-365/refs/heads/main/openapi/microsoft-graph-api-openapi.yml
-- filename: microsoft-graph-api-openapi.yml
+  url: https://raw.githubusercontent.com/microsoftgraph/microsoft-graph-openapi/master/openapi/v1.0/mail.yaml
+- filename: calendar.yaml
   format: yaml
   label: Outlook Calendar API
   slug: ''
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-office-365/refs/heads/main/openapi/microsoft-graph-api-openapi.yml
+  url: https://raw.githubusercontent.com/microsoftgraph/microsoft-graph-openapi/master/openapi/v1.0/calendar.yaml
+- filename: files.yaml
+  format: yaml
+  label: OneDrive API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/microsoftgraph/microsoft-graph-openapi/master/openapi/v1.0/files.yaml
+- filename: sites.yaml
+  format: yaml
+  label: SharePoint API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/microsoftgraph/microsoft-graph-openapi/master/openapi/v1.0/sites.yaml
+- filename: teams.yaml
+  format: yaml
+  label: Microsoft Teams API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/microsoftgraph/microsoft-graph-openapi/master/openapi/v1.0/teams.yaml
+- filename: users.yaml
+  format: yaml
+  label: Office 365 Users API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/microsoftgraph/microsoft-graph-openapi/master/openapi/v1.0/users.yaml
+- filename: planner.yaml
+  format: yaml
+  label: Planner API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/microsoftgraph/microsoft-graph-openapi/master/openapi/v1.0/planner.yaml
 - filename: microsoft-graph-api-openapi.yml
   format: yaml
   label: Office 365 Groups API

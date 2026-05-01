@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: apache-couchdb-http-api-openapi.yaml
+  format: yaml
+  label: Apache CouchDB HTTP API
+  slug: apache-couchdb-http-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-couchdb/refs/heads/main/openapi/apache-couchdb-http-api-openapi.yaml
 categories:
 - delete
 - examples

@@ -148,7 +148,6 @@ source_yaml: "# Amazon Well-Architected Tool API Spectral Ruleset\n# Enforces co
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-well-architected-tool/refs/heads/main/rules/amazon-well-architected-tool-spectral-rules.yml
 tags:
 - Architecture
-- AWS
 - Best Practices
 - Cloud Governance
 - Well-Architected

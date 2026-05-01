@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: amazon-keyspaces-openapi.yml
+- filename: openapi.yaml
   format: yaml
   label: Amazon Keyspaces API
   slug: ''
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-keyspaces/refs/heads/main/openapi/amazon-keyspaces-openapi.yml
+  url: https://api.apis.guru/v2/specs/amazonaws.com/keyspaces/2022-02-10/openapi.yaml
 categories:
 - info
 - openapi
@@ -102,7 +102,6 @@ source_yaml: "rules:\n\n  info-title-format:\n    description: API title must st
   \ kebab-case\n    severity: warn\n    given: \"$.paths\"\n    then:\n      function: pattern\n      functionOptions:\n        match: \"^(/[a-zA-Z0-9{}/-]+)+$\"\n\n  schema-description-required:\n    description: Schema components should have descriptions\n    severity: warn\n    given: \"$.components.schemas[*]\"\n    then:\n      field: description\n      function: truthy\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-keyspaces/refs/heads/main/rules/amazon-keyspaces-spectral-rules.yml
 tags:
-- AWS
 - Cassandra
 - Database
 - Managed Database

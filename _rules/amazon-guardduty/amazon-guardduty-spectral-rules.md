@@ -66,7 +66,6 @@ source_yaml: "rules:\n  info-title-format:\n    severity: warn\n    given: \"$.i
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-guardduty/refs/heads/main/rules/amazon-guardduty-spectral-rules.yml
 tags:
 - Anomaly Detection
-- AWS
 - Compliance
 - Machine Learning
 - Monitoring

@@ -137,7 +137,6 @@ source_yaml: "rules:\n  # INFO / METADATA\n  info-title-required:\n    descripti
   \ be empty strings.\n    severity: warn\n    given: \"$..description\"\n    then:\n      function: truthy\n\n  microcks-operation-extension:\n    description: Operations should have x-microcks-operation for mock server compatibility.\n    severity: info\n    given: \"$.paths[*][get,post,put,patch,delete]\"\n    then:\n      field: x-microcks-operation\n      function: truthy\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-comprehend/refs/heads/main/rules/amazon-comprehend-spectral-rules.yml
 tags:
-- AWS
 - Machine Learning
 - Natural Language Processing
 - NLP

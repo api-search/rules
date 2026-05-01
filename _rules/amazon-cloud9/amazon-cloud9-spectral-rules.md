@@ -110,7 +110,6 @@ source_yaml: "rules:\n  info-title-prefix:\n    description: API title must star
   \ info\n    given: \"$.paths[*][get,post,put,patch,delete]\"\n    then:\n      field: x-microcks-operation\n      function: truthy\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-cloud9/refs/heads/main/rules/amazon-cloud9-spectral-rules.yml
 tags:
-- AWS
 - Cloud9
 - IDE
 - Development

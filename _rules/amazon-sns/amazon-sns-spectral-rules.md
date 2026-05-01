@@ -60,7 +60,6 @@ source_yaml: "rules:\n  info-title-required:\n    description: Info title must b
   \ Every response must have a description\n    severity: error\n    given: $.paths[*][get,post,put,patch,delete].responses[*]\n    then: {field: description, function: truthy}\n  no-empty-descriptions:\n    description: Descriptions must not be empty\n    severity: error\n    given: $..description\n    then: {function: truthy}\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-sns/refs/heads/main/rules/amazon-sns-spectral-rules.yml
 tags:
-- AWS
 - Email
 - Messaging
 - Notifications

@@ -1,4 +1,17 @@
 ---
+api_specs:
+- filename: sharepoint-rest-openapi.json
+  format: json
+  label: SharePoint REST API
+  slug: rest-api
+  spec_type: OpenAPI
+  url: https://example.com/sharepoint-rest-openapi.json
+- filename: graph-sharepoint-openapi.json
+  format: json
+  label: Microsoft Graph API (SharePoint)
+  slug: graph-api-sharepoint
+  spec_type: OpenAPI
+  url: https://example.com/graph-sharepoint-openapi.json
 categories:
 - get
 - info

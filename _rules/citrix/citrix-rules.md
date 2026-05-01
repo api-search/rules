@@ -1,23 +1,23 @@
 ---
 api_specs:
-- filename: citrix-daas-openapi.yml
+- filename: openapi
   format: yaml
   label: Citrix Virtual Apps and Desktops REST API
   slug: ''
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/citrix/refs/heads/main/openapi/citrix-daas-openapi.yml
+  url: https://developer.citrix.com/citrix-virtual-apps-and-desktops/citrix-cvad-rest-apis/docs/openapi
 - filename: citrix-adc-nitro-openapi.yml
   format: yaml
   label: Citrix ADC (NetScaler) NITRO API
   slug: ''
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/citrix/refs/heads/main/openapi/citrix-adc-nitro-openapi.yml
-- filename: citrix-daas-openapi.yml
+- filename: openapi
   format: yaml
   label: Citrix DaaS REST API
   slug: ''
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/citrix/refs/heads/main/openapi/citrix-daas-openapi.yml
+  url: https://developer.citrix.com/citrix-daas/citrix-daas-rest-apis/docs/openapi
 - filename: citrix-cloud-openapi.yml
   format: yaml
   label: Citrix Cloud API

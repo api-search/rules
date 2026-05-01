@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: architecture-pattern-api.yaml
+  format: yaml
+  label: Architecture Pattern API
+  slug: architecture-pattern-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/architecture-pattern/refs/heads/main/openapi/architecture-pattern-api.yaml
 categories:
 - ap
 description: Spectral linting rules defining API design standards and conventions for Architecture Pattern.

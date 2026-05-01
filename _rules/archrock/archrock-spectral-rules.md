@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: archrock-investor-relations-api.yaml
+  format: yaml
+  label: Archrock Investor Relations API
+  slug: archrock-investor-relations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/archrock/refs/heads/main/openapi/archrock-investor-relations-api.yaml
 categories:
 - archrock
 description: Spectral linting rules defining API design standards and conventions for Archrock.

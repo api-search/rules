@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: azure-logic-apps-openapi.yaml
+  format: yaml
+  label: Azure Logic Apps
+  slug: azure-logic-apps
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/azure-logic-apps/refs/heads/main/openapi/azure-logic-apps-openapi.yaml
 categories:
 - info
 - openapi

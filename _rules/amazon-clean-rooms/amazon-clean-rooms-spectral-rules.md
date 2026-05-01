@@ -163,7 +163,6 @@ source_yaml: "rules:\n  # INFO / METADATA\n  info-title-prefix:\n    description
   \ anyOf:\n            - required: [\"200\"]\n            - required: [\"204\"]\n\n  # GENERAL QUALITY\n  no-empty-descriptions:\n    description: Descriptions must not be empty strings\n    severity: error\n    given: \"$..description\"\n    then:\n      function: truthy\n\n  microcks-operation-present:\n    description: Operations should have x-microcks-operation extension\n    severity: info\n    given: \"$.paths[*][get,post,put,patch,delete]\"\n    then:\n      field: x-microcks-operation\n      function: truthy\n\n  pagination-uses-next-token:\n    description: List operations should use nextToken for pagination (AWS convention)\n    severity: info\n    given: \"$.paths[*].get.parameters[?(@.name == 'nextToken')]\"\n    then:\n      field: name\n      function: truthy\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-clean-rooms/refs/heads/main/rules/amazon-clean-rooms-spectral-rules.yml
 tags:
-- AWS
 - Clean Rooms
 - Data Collaboration
 - Privacy

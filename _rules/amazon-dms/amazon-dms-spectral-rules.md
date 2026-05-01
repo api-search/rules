@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: amazon-dms-openapi.yaml
+  format: yaml
+  label: Amazon DMS API
+  slug: amazon-dms-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-dms/refs/heads/main/openapi/amazon-dms-openapi.yaml
 categories:
 - external
 - get
@@ -105,7 +112,6 @@ source_yaml: "rules:\n  info-title-prefix:\n    description: API title should in
   \ description\n    severity: error\n    given: $.paths[*][get,post,put,delete,patch].responses[*]\n    then:\n      field: description\n      function: truthy\n\n  schema-description-required:\n    description: Top-level schemas should have descriptions\n    severity: info\n    given: $.components.schemas[*]\n    then:\n      field: description\n      function: truthy\n\n  get-no-request-body:\n    description: GET operations must not have a request body\n    severity: error\n    given: $.paths[*].get\n    then:\n      field: requestBody\n      function: falsy\n\n  no-empty-descriptions:\n    description: Descriptions must not be empty strings\n    severity: error\n    given: $..description\n    then:\n      function: truthy\n\n  external-docs-encouraged:\n    description: API should reference external documentation\n    severity: info\n    given: $\n    then:\n      field: externalDocs\n      function: truthy\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-dms/refs/heads/main/rules/amazon-dms-spectral-rules.yml
 tags:
-- AWS
 - Data Replication
 - Database
 - Database Migration

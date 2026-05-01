@@ -134,7 +134,6 @@ source_yaml: "# Amazon Fraud Detector Spectral Rules\nextends: spectral:oas\nrul
   \ DELETE operations should define 404 response\n    severity: warn\n    given: \"$.paths[*].delete.responses\"\n    then:\n      field: \"404\"\n      function: truthy\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-fraud-detector/refs/heads/main/rules/amazon-fraud-detector-spectral-rules.yml
 tags:
-- AWS
 - Financial Services
 - Fraud Detection
 - Machine Learning

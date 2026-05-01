@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: amazon-deadline-cloud-openapi.yml
+  format: yaml
+  label: Amazon Deadline Cloud API
+  slug: amazon-deadline-cloud-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-deadline-cloud/refs/heads/main/openapi/amazon-deadline-cloud-openapi.yml
 categories:
 - info
 - list
@@ -115,7 +122,6 @@ source_yaml: "rules:\n  info-title-prefix:\n    description: API title must refe
   \      function: truthy\n\n  no-empty-descriptions:\n    description: Descriptions must not be empty strings\n    severity: error\n    given: \"$..description\"\n    then:\n      function: pattern\n      functionOptions:\n        match: \".+\"\n\n  list-has-pagination:\n    description: List operations should return nextToken for pagination\n    severity: info\n    given: \"$.paths[*][get].responses.200.content.application/json.schema.properties\"\n    then:\n      field: nextToken\n      function: truthy\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-deadline-cloud/refs/heads/main/rules/amazon-deadline-cloud-spectral-rules.yml
 tags:
-- AWS
 - Compute
 - Media
 - Rendering

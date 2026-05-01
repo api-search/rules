@@ -1,4 +1,29 @@
 ---
+api_specs:
+- filename: akamai-edgekv-openapi.json
+  format: json
+  label: Akamai EdgeKV API
+  slug: akamai-edgekv-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/akamai/refs/heads/main/openapi/akamai-edgekv-openapi.json
+- filename: akamai-edgeworkers-openapi.json
+  format: json
+  label: Akamai EdgeWorkers API
+  slug: akamai-edgeworkers-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/akamai/refs/heads/main/openapi/akamai-edgeworkers-openapi.json
+- filename: akamai-network-lists-openapi.json
+  format: json
+  label: Akamai Network Lists API
+  slug: akamai-network-lists-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/akamai/refs/heads/main/openapi/akamai-network-lists-openapi.json
+- filename: akamai-papi-openapi.json
+  format: json
+  label: Akamai Property Manager API
+  slug: akamai-property-manager-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/akamai/refs/heads/main/openapi/akamai-papi-openapi.json
 categories:
 - delete
 - get

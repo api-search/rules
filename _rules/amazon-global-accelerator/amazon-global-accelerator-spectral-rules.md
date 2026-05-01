@@ -95,7 +95,6 @@ source_yaml: "rules:\n  info-title-format:\n    description: API title must refe
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-global-accelerator/refs/heads/main/rules/amazon-global-accelerator-spectral-rules.yml
 tags:
 - Availability
-- AWS
 - CDN
 - Global
 - Load Balancing

@@ -190,7 +190,6 @@ source_yaml: "rules:\n\n  # INFO / METADATA\n  info-title-contains-amazon-pinpoi
   \ be empty strings\n    message: Description must not be empty\n    severity: warn\n    given: $..description\n    then:\n      function: truthy\n\n  operation-examples-encouraged:\n    description: Operations should provide examples for responses\n    message: Consider adding examples to operation responses\n    severity: info\n    given: $.paths[*][*].responses[*].content[*]\n    then:\n      field: examples\n      function: truthy\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-pinpoint/refs/heads/main/rules/amazon-pinpoint-spectral-rules.yml
 tags:
-- AWS
 - Campaigns
 - Communications
 - Email

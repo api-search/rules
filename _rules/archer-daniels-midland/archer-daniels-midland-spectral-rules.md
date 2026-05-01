@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: archer-daniels-midland-commodity-data-api-openapi.yml
+  format: yaml
+  label: Archer Daniels Midland Commodity Data API
+  slug: commodity-data-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/archer-daniels-midland/refs/heads/main/openapi/archer-daniels-midland-commodity-data-api-openapi.yml
 categories:
 - get
 - info

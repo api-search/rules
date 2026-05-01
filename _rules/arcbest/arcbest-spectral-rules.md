@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: arcbest-api.yaml
+  format: yaml
+  label: ArcBest API
+  slug: arcbest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/arcbest/refs/heads/main/openapi/arcbest-api.yaml
 categories:
 - delete
 - get

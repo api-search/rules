@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: bindbee-api.yaml
+  format: yaml
+  label: Bindbee API
+  slug: bindbee-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bindbee/refs/heads/main/openapi/bindbee-api.yaml
 categories:
 - bindbee
 description: Spectral linting rules defining API design standards and conventions for Bindbee.

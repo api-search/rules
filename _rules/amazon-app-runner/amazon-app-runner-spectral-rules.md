@@ -40,7 +40,6 @@ source_heading: Spectral Ruleset
 source_yaml: "extends:\n- - spectral:oas\n  - all\nrules:\n  amazon-app-runner-info-title:\n    description: API must have a title.\n    message: Info must include title.\n    severity: error\n    given: $.info\n    then:\n      field: title\n      function: truthy\n  amazon-app-runner-operation-summary:\n    description: Operations must have summaries.\n    message: Operation must include summary.\n    severity: error\n    given: $.paths[*][get,post,put,patch,delete]\n    then:\n      field: summary\n      function: truthy\n  amazon-app-runner-operation-id:\n    description: Operations must have operationIds.\n    message: Operation must include operationId.\n    severity: error\n    given: $.paths[*][get,post,put,patch,delete]\n    then:\n      field: operationId\n      function: truthy\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-app-runner/refs/heads/main/rules/amazon-app-runner-spectral-rules.yml
 tags:
-- AWS
 - CI/CD
 - Containers
 - Deployment

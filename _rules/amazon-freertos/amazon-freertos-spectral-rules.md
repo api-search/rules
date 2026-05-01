@@ -134,7 +134,6 @@ source_yaml: "# Amazon FreeRTOS Spectral Rules\nextends: spectral:oas\nrules:\n 
   \ truthy\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-freertos/refs/heads/main/rules/amazon-freertos-spectral-rules.yml
 tags:
-- AWS
 - Embedded Systems
 - IoT
 - Microcontrollers

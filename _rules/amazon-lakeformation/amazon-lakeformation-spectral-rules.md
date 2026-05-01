@@ -103,7 +103,6 @@ source_yaml: "rules:\n\n  info-title-format:\n    description: API title must st
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-lakeformation/refs/heads/main/rules/amazon-lakeformation-spectral-rules.yml
 tags:
 - Analytics
-- AWS
 - Data Lake
 - Governance
 - Spectral

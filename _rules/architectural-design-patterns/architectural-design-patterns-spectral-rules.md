@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: architectural-design-patterns-api.yaml
+  format: yaml
+  label: Architectural Design Patterns API
+  slug: architectural-design-patterns-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/architectural-design-patterns/refs/heads/main/openapi/architectural-design-patterns-api.yaml
 categories:
 - adp
 description: Spectral linting rules defining API design standards and conventions for Architectural Design Patterns.

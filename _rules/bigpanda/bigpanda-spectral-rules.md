@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: bigpanda-openapi.yml
+  format: yaml
+  label: BigPanda
+  slug: bigpanda
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bigpanda/refs/heads/main/openapi/bigpanda-openapi.yml
 categories:
 - bigpanda
 description: Spectral linting rules defining API design standards and conventions for BigPanda.

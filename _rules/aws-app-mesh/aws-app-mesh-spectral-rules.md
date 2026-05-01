@@ -118,7 +118,6 @@ source_yaml: "rules:\n\n  # INFO / METADATA\n  info-title-prefix:\n    descripti
   \ \".+\"\n\n  deprecation-documented:\n    description: Deprecated operations should have a description\n    severity: warn\n    given: $.paths[*][*][?(@.deprecated == true)]\n    then:\n      field: description\n      function: truthy\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aws-app-mesh/refs/heads/main/rules/aws-app-mesh-spectral-rules.yml
 tags:
-- AWS
 - Deprecated
 - Envoy
 - Microservices

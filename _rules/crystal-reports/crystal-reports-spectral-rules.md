@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: openapi.json
+  format: json
+  label: Crystal Reports REST API
+  slug: rest-api
+  spec_type: OpenAPI
+  url: https://api.sap.com/crystal/openapi.json
 categories:
 - get
 - info

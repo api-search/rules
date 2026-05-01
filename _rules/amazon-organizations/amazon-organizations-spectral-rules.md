@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: amazon-organizations-openapi.yml
+- filename: Welcome.html
   format: yaml
   label: AWS Organizations API
   slug: ''
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-organizations/refs/heads/main/openapi/amazon-organizations-openapi.yml
+  url: https://docs.aws.amazon.com/organizations/latest/APIReference/Welcome.html
 categories:
 - get
 - info
@@ -128,7 +128,6 @@ source_yaml: "extends: [[spectral:oas, recommended]]\n\nrules:\n  # INFO / METAD
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-organizations/refs/heads/main/rules/amazon-organizations-spectral-rules.yml
 tags:
 - Account Management
-- AWS
 - Consolidated Billing
 - Governance
 - Multi-Account

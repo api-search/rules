@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: openapi.yaml
+  format: yaml
+  label: AWS Launch Wizard API
+  slug: aws-launch-wizard-api
+  spec_type: OpenAPI
+  url: https://api.apis.guru/v2/specs/amazonaws.com/launchwizard/2018-05-10/openapi.yaml
 categories:
 - info
 - openapi
@@ -95,7 +102,6 @@ source_yaml: "rules:\n\n  info-title-format:\n    description: API title must st
   \ should use kebab-case\n    severity: warn\n    given: \"$.paths\"\n    then:\n      function: pattern\n      functionOptions:\n        match: \"^(/[a-zA-Z0-9{}/-]+)+$\"\n\n  schema-description-required:\n    description: Schema components should have descriptions\n    severity: warn\n    given: \"$.components.schemas[*]\"\n    then:\n      field: description\n      function: truthy\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-launch-wizard/refs/heads/main/rules/amazon-launch-wizard-spectral-rules.yml
 tags:
-- AWS
 - Deployment
 - Enterprise Applications
 - SAP

@@ -128,7 +128,6 @@ source_yaml: "extends: [[spectral:oas, recommended]]\n\nrules:\n  # INFO / METAD
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-opensearch/refs/heads/main/rules/amazon-opensearch-spectral-rules.yml
 tags:
 - Analytics
-- AWS
 - Elasticsearch
 - Search
 - Spectral

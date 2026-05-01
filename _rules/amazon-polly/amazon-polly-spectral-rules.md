@@ -132,7 +132,6 @@ source_yaml: "rules:\n\n  # INFO / METADATA\n  info-title-contains-amazon-polly:
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-polly/refs/heads/main/rules/amazon-polly-spectral-rules.yml
 tags:
 - AI
-- AWS
 - Machine Learning
 - Speech Synthesis
 - Text-To-Speech

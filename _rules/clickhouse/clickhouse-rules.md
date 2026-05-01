@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: v1
+  format: yaml
+  label: ClickHouse Cloud API
+  slug: clickhouse-cloud-api
+  spec_type: OpenAPI
+  url: https://api.clickhouse.cloud/v1
 categories:
 - clickhouse
 description: Spectral linting rules defining API design standards and conventions for ClickHouse.

@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: akka-management.json
+  format: json
+  label: Akka Management
+  slug: akka-management
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/akka/refs/heads/main/openapi/akka-management.json
 categories:
 - get
 - info

@@ -195,7 +195,6 @@ source_yaml: "rules:\n  # INFO / METADATA\n  info-title-prefix:\n    description
   \ must not be empty strings\n    severity: error\n    given: \"$..description\"\n    then:\n      function: pattern\n      functionOptions:\n        match: \".+\"\n\n  instance-id-path-param:\n    description: Operations using InstanceId path parameter should document it consistently\n    severity: info\n    given: \"$.paths[*][*].parameters[?(@.name == 'InstanceId')]\"\n    then:\n      field: description\n      function: truthy\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-connect/refs/heads/main/rules/amazon-connect-spectral-rules.yml
 tags:
-- AWS
 - Chat
 - Contact Center
 - Customer Service

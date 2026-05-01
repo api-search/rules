@@ -210,7 +210,6 @@ source_yaml: "rules:\n  # INFO / METADATA\n  info-title-prefix:\n    description
   \      function: truthy\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-detective/refs/heads/main/rules/amazon-detective-spectral-rules.yml
 tags:
-- AWS
 - Forensics
 - Investigation
 - Security

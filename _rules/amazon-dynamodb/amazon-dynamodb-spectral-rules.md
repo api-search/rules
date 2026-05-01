@@ -159,7 +159,6 @@ source_yaml: "extends: spectral:oas\n\nrules:\n  # INFO / METADATA\n  info-title
   \      function: falsy\n\n  # GENERAL QUALITY\n  no-empty-descriptions:\n    description: Descriptions should not be empty strings.\n    severity: warn\n    given: \"$..description\"\n    then:\n      function: pattern\n      functionOptions:\n        match: \".+\"\n\n  examples-encouraged:\n    description: Operations should include examples for better documentation.\n    severity: info\n    given: \"$.paths[*][get,post,put,patch,delete]\"\n    then:\n      field: responses\n      function: truthy\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-dynamodb/refs/heads/main/rules/amazon-dynamodb-spectral-rules.yml
 tags:
-- AWS
 - Database
 - Document Store
 - Key-Value

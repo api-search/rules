@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: amazon-systems-manager-openapi.yml
+  format: yaml
+  label: AWS Systems Manager API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-systems-manager/refs/heads/main/openapi/amazon-systems-manager-openapi.yml
 categories:
 - info
 - operation
@@ -58,7 +65,6 @@ source_yaml: "extends: spectral:oas\nrules:\n  info-title-required:\n    descrip
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-systems-manager/refs/heads/main/rules/amazon-systems-manager-spectral-rules.yml
 tags:
 - Automation
-- AWS
 - Management
 - Operations
 - Spectral

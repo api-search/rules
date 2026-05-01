@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: amazon-opensearch-service-openapi.yml
+- filename: Welcome.html
   format: yaml
   label: Amazon OpenSearch Service API
   slug: ''
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-opensearch-service/refs/heads/main/openapi/amazon-opensearch-service-openapi.yml
+  url: https://docs.aws.amazon.com/opensearch-service/latest/APIReference/Welcome.html
 categories:
 - get
 - info
@@ -128,7 +128,6 @@ source_yaml: "extends: [[spectral:oas, recommended]]\n\nrules:\n  # INFO / METAD
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-opensearch-service/refs/heads/main/rules/amazon-opensearch-service-spectral-rules.yml
 tags:
 - Analytics
-- AWS
 - Elasticsearch
 - Full-Text Search
 - Log Analytics

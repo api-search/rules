@@ -116,7 +116,6 @@ source_yaml: "rules:\n\n  # INFO / METADATA\n  info-title-required:\n    descrip
   \ Consider adding examples to operation responses\n    severity: info\n    given: $.paths[*][*].responses[*].content[*]\n    then:\n      field: examples\n      function: truthy\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-private-ca/refs/heads/main/rules/amazon-private-ca-spectral-rules.yml
 tags:
-- AWS
 - Certificate Authority
 - Certificates
 - PKI

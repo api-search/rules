@@ -73,7 +73,6 @@ source_yaml: "rules:\n  info-title-required:\n    description: Info title must b
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-s3/refs/heads/main/rules/amazon-s3-spectral-rules.yml
 tags:
 - Archive
-- AWS
 - Backup
 - Cloud Storage
 - Data Storage

@@ -104,7 +104,6 @@ source_yaml: "# Amazon WorkSpaces API Spectral Ruleset\nrules:\n  info-title-for
   \ pattern\n      functionOptions:\n        match: \".+\"\n  security-schemes-defined:\n    description: Security schemes should be defined in components\n    severity: warn\n    given: $.components\n    then:\n      field: securitySchemes\n      function: truthy\n  components-schemas-exist:\n    description: Components schemas should be defined for reuse\n    severity: info\n    given: $.components\n    then:\n      field: schemas\n      function: truthy\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-workspaces/refs/heads/main/rules/amazon-workspaces-spectral-rules.yml
 tags:
-- AWS
 - Desktop
 - End User Computing
 - Virtual Desktop

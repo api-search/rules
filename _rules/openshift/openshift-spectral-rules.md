@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: swagger.json
+  format: json
+  label: OpenShift REST API
+  slug: openshift-rest-api
+  spec_type: OpenAPI
+  url: https://api.openshift.com/api/swagger.json
 categories:
 - info
 - 'no'

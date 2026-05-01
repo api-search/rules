@@ -160,7 +160,6 @@ source_yaml: "extends: spectral:oas\n\nrules:\n  # INFO / METADATA\n  info-title
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-ecr/refs/heads/main/rules/amazon-ecr-spectral-rules.yml
 tags:
 - Amazon Web Services
-- AWS
 - Container Images
 - Container Registry
 - Containers

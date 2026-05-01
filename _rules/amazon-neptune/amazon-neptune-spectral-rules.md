@@ -193,7 +193,6 @@ source_yaml: "extends: [[spectral:oas, recommended]]\n\nrules:\n  # INFO / METAD
   \ for better developer experience\n    severity: info\n    given: \"$.paths[*][get,post,put,patch,delete].responses[*].content[*]\"\n    then:\n      function: schema\n      functionOptions:\n        schema:\n          anyOf:\n            - required: [\"example\"]\n            - required: [\"examples\"]\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-neptune/refs/heads/main/rules/amazon-neptune-spectral-rules.yml
 tags:
-- AWS
 - Database
 - Graph Database
 - Gremlin

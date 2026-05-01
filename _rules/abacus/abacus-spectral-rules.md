@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: abacus-api-openapi.yaml
+  format: yaml
+  label: Abacus API
+  slug: abacus-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/abacus/refs/heads/main/openapi/abacus-api-openapi.yaml
 categories:
 - delete
 - examples

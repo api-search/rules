@@ -113,7 +113,6 @@ source_yaml: "rules:\n\n  # INFO / METADATA\n  info-title-format:\n    descripti
   \ pattern\n      functionOptions:\n        match: \".+\"\n\n  microcks-operation-extension:\n    description: Operations should have x-microcks-operation for mock support\n    severity: info\n    given: \"$.paths[*][get,post,put,patch,delete]\"\n    then:\n      field: x-microcks-operation\n      function: truthy\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-gamelift/refs/heads/main/rules/amazon-gamelift-spectral-rules.yml
 tags:
-- AWS
 - Cloud Computing
 - Game Servers
 - Gaming

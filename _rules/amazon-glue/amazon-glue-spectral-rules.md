@@ -66,7 +66,6 @@ source_yaml: "rules:\n  info-title-format:\n    description: API title must refe
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-glue/refs/heads/main/rules/amazon-glue-spectral-rules.yml
 tags:
 - Analytics
-- AWS
 - Data Catalog
 - Data Integration
 - Data Pipeline

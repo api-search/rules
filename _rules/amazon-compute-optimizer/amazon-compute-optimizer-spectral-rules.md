@@ -133,7 +133,6 @@ source_yaml: "rules:\n  # INFO / METADATA\n  info-title-required:\n    descripti
   \ for mock server compatibility.\n    severity: info\n    given: \"$.paths[*][get,post,put,patch,delete]\"\n    then:\n      field: x-microcks-operation\n      function: truthy\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-compute-optimizer/refs/heads/main/rules/amazon-compute-optimizer-spectral-rules.yml
 tags:
-- AWS
 - Cost Optimization
 - FinOps
 - Machine Learning

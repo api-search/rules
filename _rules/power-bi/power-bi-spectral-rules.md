@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: power-bi-rest-api-openapi.yml
-  format: yaml
+- filename: powerbi.json
+  format: json
   label: Power BI REST API
   slug: ''
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/power-bi/refs/heads/main/openapi/power-bi-rest-api-openapi.yml
+  url: https://raw.githubusercontent.com/Azure/azure-rest-api-specs/main/specification/powerbi/data-plane/Microsoft.PowerBI/stable/v1.0/powerbi.json
 categories:
 - info
 - 'no'

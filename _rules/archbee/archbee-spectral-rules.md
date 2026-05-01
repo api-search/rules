@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: archbee-api.yaml
+  format: yaml
+  label: Archbee API
+  slug: archbee-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/archbee/refs/heads/main/openapi/archbee-api.yaml
 categories:
 - delete
 - get

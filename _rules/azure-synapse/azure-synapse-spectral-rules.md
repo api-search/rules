@@ -1,4 +1,17 @@
 ---
+api_specs:
+- filename: synapse.json
+  format: json
+  label: Azure Synapse REST API
+  slug: azure-synapse-rest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/Azure/azure-rest-api-specs/main/specification/synapse/resource-manager/Microsoft.Synapse/stable/2021-06-01/synapse.json
+- filename: azure-synapse-openapi.yaml
+  format: yaml
+  label: Azure Synapse Pipeline API
+  slug: azure-synapse-pipeline-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/azure-synapse/refs/heads/main/openapi/azure-synapse-openapi.yaml
 categories:
 - info
 - openapi

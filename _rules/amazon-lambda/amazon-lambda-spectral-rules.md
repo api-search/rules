@@ -102,7 +102,6 @@ source_yaml: "rules:\n\n  info-title-format:\n    description: API title must st
   \    severity: warn\n    given: \"$.paths\"\n    then:\n      function: pattern\n      functionOptions:\n        match: \"^(/[a-zA-Z0-9{}/-]+)+$\"\n\n  schema-description-required:\n    description: Schema components should have descriptions\n    severity: warn\n    given: \"$.components.schemas[*]\"\n    then:\n      field: description\n      function: truthy\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-lambda/refs/heads/main/rules/amazon-lambda-spectral-rules.yml
 tags:
-- AWS
 - Compute
 - Event-Driven
 - FaaS

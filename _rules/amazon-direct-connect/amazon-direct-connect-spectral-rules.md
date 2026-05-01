@@ -113,7 +113,6 @@ source_yaml: "rules:\n  # INFO / METADATA\n  info-title-prefix:\n    description
   \ external documentation\n    severity: info\n    given: $\n    then:\n      field: externalDocs\n      function: truthy\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-direct-connect/refs/heads/main/rules/amazon-direct-connect-spectral-rules.yml
 tags:
-- AWS
 - Dedicated Connection
 - Direct Connect
 - Hybrid Cloud

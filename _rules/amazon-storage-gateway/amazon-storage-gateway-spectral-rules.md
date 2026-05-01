@@ -118,7 +118,6 @@ source_yaml: "rules:\n  # INFO / METADATA\n  info-title-prefix:\n    description
   \    severity: error\n    given: \"$.paths[*].get\"\n    then:\n      field: requestBody\n      function: falsy\n\n  # GENERAL QUALITY\n  no-empty-descriptions:\n    description: Descriptions must not be empty strings\n    severity: error\n    given: \"$..description\"\n    then:\n      function: pattern\n      functionOptions:\n        match: \".+\"\n\n  tags-title-case:\n    description: Tags should use Title Case\n    severity: warn\n    given: \"$.tags[*].name\"\n    then:\n      function: pattern\n      functionOptions:\n        match: \"^[A-Z][a-zA-Z0-9 ]+$\"\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-storage-gateway/refs/heads/main/rules/amazon-storage-gateway-spectral-rules.yml
 tags:
-- AWS
 - Backup
 - File Storage
 - Gateway

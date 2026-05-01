@@ -138,7 +138,6 @@ source_yaml: "# Amazon FSx Spectral Rules\nextends: spectral:oas\nrules:\n  fsx-
   \          type: array\n          contains:\n            const: FileSystemId\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-fsx/refs/heads/main/rules/amazon-fsx-spectral-rules.yml
 tags:
-- AWS
 - File Systems
 - Lustre
 - NetApp

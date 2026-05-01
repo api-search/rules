@@ -1,11 +1,23 @@
 ---
 api_specs:
-- filename: jira-cloud-platform-rest-api-openapi.yml
-  format: yaml
+- filename: swagger-v3.v3.json
+  format: json
   label: Jira Cloud Platform REST API
   slug: ''
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jira/refs/heads/main/openapi/jira-cloud-platform-rest-api-openapi.yml
+  url: https://dac-static.atlassian.com/cloud/jira/platform/swagger-v3.v3.json
+- filename: swagger.v3.json
+  format: json
+  label: Jira Software Cloud REST API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://dac-static.atlassian.com/cloud/jira/software/swagger.v3.json
+- filename: swagger.v3.json
+  format: json
+  label: Jira Service Management REST API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://dac-static.atlassian.com/cloud/jira/service-desk/swagger.v3.json
 categories:
 - info
 - 'no'

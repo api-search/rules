@@ -61,7 +61,6 @@ source_yaml: "rules:\n  healthimaging-operation-summary:\n    description: All o
   \    severity: info\n    given: \"$.components.schemas.*\"\n    then:\n      field: description\n      function: truthy\n  healthimaging-datastore-naming:\n    description: Datastore operations should have consistent naming\n    severity: info\n    given: \"$.paths.*[get,post,put,patch,delete]\"\n    then:\n      field: operationId\n      function: truthy\n  healthimaging-hipaa-security:\n    description: HIPAA-eligible service must document security requirements\n    severity: error\n    given: \"$.components.securitySchemes\"\n    then:\n      function: truthy\n  healthimaging-tag-management:\n    description: Tag operations should follow consistent patterns\n    severity: info\n    given: \"$.paths.*[get,post,put,patch,delete][?(@property == 'tags')]\"\n    then:\n      function: truthy\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-healthimaging/refs/heads/main/rules/amazon-healthimaging-spectral-rules.yml
 tags:
-- AWS
 - Healthcare
 - HIPAA
 - Machine Learning

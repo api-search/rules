@@ -6,12 +6,12 @@ api_specs:
   slug: http-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/convex/refs/heads/main/openapi/convex-http-api-openapi.yml
-- filename: convex-management-api-openapi.yml
-  format: yaml
+- filename: openapi.json
+  format: json
   label: Convex Management API
   slug: management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/convex/refs/heads/main/openapi/convex-management-api-openapi.yml
+  url: https://api.convex.dev/v1/openapi.json
 - filename: convex-deployment-platform-api-openapi.yml
   format: yaml
   label: Convex Deployment Platform API

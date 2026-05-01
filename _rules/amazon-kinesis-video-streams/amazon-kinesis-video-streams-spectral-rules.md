@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: openapi.yaml
+  format: yaml
+  label: Amazon Kinesis Video Streams API
+  slug: amazon-kinesis-video-streams-api
+  spec_type: OpenAPI
+  url: https://api.apis.guru/v2/specs/amazonaws.com/kinesisvideo/2017-09-30/openapi.yaml
 categories:
 - info
 - openapi
@@ -95,7 +102,6 @@ source_yaml: "rules:\n\n  info-title-format:\n    description: API title must st
   \    description: Path segments should use kebab-case\n    severity: warn\n    given: \"$.paths\"\n    then:\n      function: pattern\n      functionOptions:\n        match: \"^(/[a-zA-Z0-9{}/-]+)+$\"\n\n  schema-description-required:\n    description: Schema components should have descriptions\n    severity: warn\n    given: \"$.components.schemas[*]\"\n    then:\n      field: description\n      function: truthy\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-kinesis-video-streams/refs/heads/main/rules/amazon-kinesis-video-streams-spectral-rules.yml
 tags:
-- AWS
 - IoT
 - Machine Learning
 - Media

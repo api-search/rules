@@ -1,4 +1,23 @@
 ---
+api_specs:
+- filename: acronis-account-management-openapi.yaml
+  format: yaml
+  label: Acronis Account Management API
+  slug: account-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/acronis/refs/heads/main/openapi/acronis-account-management-openapi.yaml
+- filename: acronis-agent-management-openapi.yaml
+  format: yaml
+  label: Acronis Agent Management REST API
+  slug: agent-management-rest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/acronis/refs/heads/main/openapi/acronis-agent-management-openapi.yaml
+- filename: acronis-task-manager-openapi.yaml
+  format: yaml
+  label: Acronis Task Manager API
+  slug: task-manager-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/acronis/refs/heads/main/openapi/acronis-task-manager-openapi.yaml
 categories:
 - delete
 - get

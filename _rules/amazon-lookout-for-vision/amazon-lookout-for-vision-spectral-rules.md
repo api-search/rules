@@ -114,7 +114,6 @@ source_yaml: "rules:\n  info-title-required:\n    description: Info title must b
   \n    then:\n      field: description\n      function: truthy\n\n  security-schemes-required:\n    description: Security schemes must be defined\n    severity: error\n    given: \"$.components\"\n    then:\n      field: securitySchemes\n      function: truthy\n\n  http-get-no-body:\n    description: GET operations should not have request bodies\n    severity: error\n    given: \"$.paths[*].get\"\n    then:\n      field: requestBody\n      function: falsy\n\n  no-empty-descriptions:\n    description: Descriptions should not be empty strings\n    severity: warn\n    given: \"$..description\"\n    then:\n      function: pattern\n      functionOptions:\n        match: \".+\"\n\n  examples-encouraged:\n    description: Schema properties should include examples\n    severity: info\n    given: \"$.components.schemas[*].properties[*]\"\n    then:\n      field: example\n      function: truthy\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-lookout-for-vision/refs/heads/main/rules/amazon-lookout-for-vision-spectral-rules.yml
 tags:
-- AWS
 - Computer Vision
 - Machine Learning
 - Manufacturing

@@ -57,7 +57,6 @@ source_yaml: "extends: spectral:oas\nrules:\n  info-title-required:\n    descrip
   \n    then:\n      field: operationId\n      function: truthy\n  operation-tags-required:\n    description: Every operation must have at least one tag.\n    severity: warn\n    given: \"$.paths[*][*]\"\n    then:\n      field: tags\n      function: truthy\n  parameter-description-required:\n    description: Every parameter must have a description.\n    severity: warn\n    given: \"$.paths[*][*].parameters[*]\"\n    then:\n      field: description\n      function: truthy\n  security-schemes-defined:\n    description: Security schemes must be defined.\n    severity: warn\n    given: \"$.components\"\n    then:\n      field: securitySchemes\n      function: truthy\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-trusted-advisor/refs/heads/main/rules/amazon-trusted-advisor-spectral-rules.yml
 tags:
-- AWS
 - Best Practices
 - Cloud Optimization
 - Security

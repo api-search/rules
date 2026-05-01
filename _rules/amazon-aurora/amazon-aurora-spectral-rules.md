@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: amazon-aurora-openapi.yml
+  format: yaml
+  label: Amazon Aurora API
+  slug: amazon-aurora-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-aurora/refs/heads/main/openapi/amazon-aurora-openapi.yml
 categories:
 - aurora
 description: Spectral linting rules defining API design standards and conventions for Amazon Aurora.
@@ -85,7 +92,6 @@ tags:
 - MySQL
 - PostgreSQL
 - Relational Database
-- AWS
 - Spectral
 - Linting
 - API Governance

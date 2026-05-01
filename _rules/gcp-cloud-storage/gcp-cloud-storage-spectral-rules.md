@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: gcp-cloud-storage-json-api-openapi.yml
+- filename: rest
   format: yaml
   label: Google Cloud Storage JSON API
   slug: ''
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gcp-cloud-storage/refs/heads/main/openapi/gcp-cloud-storage-json-api-openapi.yml
+  url: https://storage.googleapis.com/$discovery/rest?version=v1
 categories:
 - info
 - 'no'

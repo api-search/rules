@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: swagger.json
+  format: json
+  label: CloudGuard CNAPP REST API
+  slug: cloudguard-cnapp-api
+  spec_type: OpenAPI
+  url: https://api.dome9.com/v2/swagger.json
 categories:
 - cloudguard
 description: Spectral linting rules defining API design standards and conventions for CloudGuard.

@@ -61,7 +61,6 @@ source_yaml: "rules:\n  healthlake-operation-summary:\n    description: All oper
   \ info\n    given: \"$.components.schemas.*\"\n    then:\n      field: description\n      function: truthy\n  healthlake-fhir-datastore:\n    description: FHIR datastore operations should follow naming conventions\n    severity: info\n    given: \"$.paths.*[get,post,put,patch,delete]\"\n    then:\n      field: operationId\n      function: truthy\n  healthlake-hipaa-security:\n    description: HIPAA-eligible service must document security requirements\n    severity: error\n    given: \"$.components.securitySchemes\"\n    then:\n      function: truthy\n  healthlake-job-operations:\n    description: Job operations should have consistent naming patterns\n    severity: info\n    given: \"$.paths.*[get,post,put,patch,delete][?(@property == 'operationId' && @.match('Job'))]\"\n    then:\n      function: truthy\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-healthlake/refs/heads/main/rules/amazon-healthlake-spectral-rules.yml
 tags:
-- AWS
 - FHIR
 - Health Data
 - Healthcare

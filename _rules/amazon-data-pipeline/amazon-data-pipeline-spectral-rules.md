@@ -133,7 +133,6 @@ source_yaml: "rules:\n  info-title-prefix:\n    description: API title must star
   \      function: truthy\n\n  no-empty-descriptions:\n    description: Descriptions must not be empty strings\n    severity: error\n    given: \"$..description\"\n    then:\n      function: pattern\n      functionOptions:\n        match: \".+\"\n\n  pipeline-id-in-operations:\n    description: Pipeline operations should reference pipelineId in request body\n    severity: info\n    given: \"$.components.schemas[?(@ =~ /Request/)].properties\"\n    then:\n      field: pipelineId\n      function: truthy\n\n  validation-output-has-errored:\n    description: Validation operation responses should include errored field\n    severity: info\n    given: \"$.components.schemas.PutPipelineDefinitionOutput.properties\"\n    then:\n      field: errored\n      function: truthy\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-data-pipeline/refs/heads/main/rules/amazon-data-pipeline-spectral-rules.yml
 tags:
-- AWS
 - Data Processing
 - ETL
 - Workflows

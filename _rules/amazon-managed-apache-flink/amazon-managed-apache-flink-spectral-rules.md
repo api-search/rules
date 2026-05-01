@@ -115,7 +115,6 @@ source_yaml: "rules:\n  info-title-required:\n    description: Info title must b
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-managed-apache-flink/refs/heads/main/rules/amazon-managed-apache-flink-spectral-rules.yml
 tags:
 - Apache Flink
-- AWS
 - Big Data
 - Real-Time Processing
 - Streaming Analytics

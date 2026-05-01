@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: airbyte-openapi.yml
+  format: yaml
+  label: Airbyte
+  slug: airbyte
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/airbyte/refs/heads/main/openapi/airbyte-openapi.yml
 categories:
 - delete
 - get

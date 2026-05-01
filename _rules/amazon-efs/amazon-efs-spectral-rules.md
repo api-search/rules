@@ -160,7 +160,6 @@ source_yaml: "extends: spectral:oas\n\nrules:\n  # INFO / METADATA\n  info-title
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-efs/refs/heads/main/rules/amazon-efs-spectral-rules.yml
 tags:
 - Amazon Web Services
-- AWS
 - EFS
 - Elastic File System
 - File Storage

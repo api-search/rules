@@ -58,7 +58,6 @@ source_yaml: "extends: spectral:oas\nrules:\n  info-title-required:\n    descrip
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-verified-permissions/refs/heads/main/rules/amazon-verified-permissions-spectral-rules.yml
 tags:
 - Authorization
-- AWS
 - Permissions
 - Security
 - Spectral

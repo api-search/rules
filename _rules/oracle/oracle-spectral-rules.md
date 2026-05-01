@@ -1,5 +1,11 @@
 ---
 api_specs:
+- filename: openapi.yaml
+  format: yaml
+  label: Oracle Cloud Infrastructure REST API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://docs.oracle.com/en-us/iaas/api/
 - filename: oci-compute-api-openapi.yml
   format: yaml
   label: OCI Compute API

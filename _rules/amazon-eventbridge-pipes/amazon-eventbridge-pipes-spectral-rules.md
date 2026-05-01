@@ -123,7 +123,6 @@ source_yaml: "# Spectral Ruleset for Amazon EventBridge Pipes\n# Enforces API de
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-eventbridge-pipes/refs/heads/main/rules/amazon-eventbridge-pipes-spectral-rules.yml
 tags:
 - Amazon Web Services
-- AWS
 - Event-Driven
 - Integration
 - Messaging

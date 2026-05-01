@@ -123,7 +123,6 @@ source_yaml: "# Spectral Ruleset for Amazon Elastic Beanstalk\n# Enforces API de
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-elastic-beanstalk/refs/heads/main/rules/amazon-elastic-beanstalk-spectral-rules.yml
 tags:
 - Amazon Web Services
-- AWS
 - Auto Scaling
 - Deployment
 - Elastic Beanstalk

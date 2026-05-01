@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: agent-diff-sandbox-openapi.yml
+  format: yaml
+  label: Agent Diff Sandbox API
+  slug: agent-diff-sandbox-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/agent-diff/refs/heads/main/openapi/agent-diff-sandbox-openapi.yml
 categories:
 - get
 - info

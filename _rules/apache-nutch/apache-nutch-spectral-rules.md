@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: apache-nutch-openapi.yaml
+  format: yaml
+  label: Apache Nutch REST API
+  slug: apache-nutch-rest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-nutch/refs/heads/main/openapi/apache-nutch-openapi.yaml
 categories:
 - delete
 - get

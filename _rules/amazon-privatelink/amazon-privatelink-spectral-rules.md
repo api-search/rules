@@ -102,7 +102,6 @@ source_yaml: "rules:\n\n  info-title-required:\n    description: API must have a
   \  severity: warn\n    given: $\n    then:\n      field: security\n      function: truthy\n\n  no-empty-descriptions:\n    description: Descriptions must not be empty\n    severity: warn\n    given: $..description\n    then:\n      function: truthy\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-privatelink/refs/heads/main/rules/amazon-privatelink-spectral-rules.yml
 tags:
-- AWS
 - Networking
 - Private Connectivity
 - Security

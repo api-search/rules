@@ -128,7 +128,6 @@ source_yaml: "rules:\n  info-title-prefix:\n    description: API title must star
   \    description: Descriptions must not be empty strings\n    severity: error\n    given: \"$..description\"\n    then:\n      function: pattern\n      functionOptions:\n        match: \".+\"\n\n  policy-state-enum:\n    description: Policy State field should use standard enum values\n    severity: info\n    given: \"$.components.schemas.*.properties.State\"\n    then:\n      field: enum\n      function: truthy\n\n  arn-fields-documented:\n    description: ARN fields should have descriptions documenting them as unique identifiers\n    severity: info\n    given: \"$.components.schemas[*].properties[?(@property =~ /Arn/)].description\"\n    then:\n      function: truthy\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-data-lifecycle-manager/refs/heads/main/rules/amazon-data-lifecycle-manager-spectral-rules.yml
 tags:
-- AWS
 - Backup
 - EBS Snapshots
 - Lifecycle Management

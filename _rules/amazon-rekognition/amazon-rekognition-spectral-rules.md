@@ -111,7 +111,6 @@ source_yaml: "rules:\n  info-title-prefix:\n    description: Info title must sta
   \    field: description\n      function: truthy\n  security-schemes-defined:\n    description: Security schemes must be defined in components\n    message: Security schemes should be defined in components/securitySchemes\n    severity: warn\n    given: $\n    then:\n      field: components.securitySchemes\n      function: truthy\n  post-must-use-amz-json:\n    description: POST operations should use AWS JSON content type\n    message: POST operations should use application/x-amz-json-1.1 content type\n    severity: info\n    given: $.paths[*].post.requestBody.content\n    then:\n      function: schema\n      functionOptions:\n        schema:\n          required:\n          - application/x-amz-json-1.1\n  tag-descriptions-required:\n    description: Global tags should have descriptions\n    message: Tag must have a description\n    severity: info\n    given: $.tags[*]\n    then:\n      field: description\n      function: truthy\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-rekognition/refs/heads/main/rules/amazon-rekognition-spectral-rules.yml
 tags:
-- AWS
 - Celebrity Recognition
 - Computer Vision
 - Content Moderation

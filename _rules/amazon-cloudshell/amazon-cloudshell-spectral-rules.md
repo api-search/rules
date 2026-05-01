@@ -110,7 +110,6 @@ source_yaml: "rules:\n  info-title-prefix:\n    description: API title must star
   \ extension\n    severity: info\n    given: \"$.paths[*][get,post,put,patch,delete]\"\n    then:\n      field: x-microcks-operation\n      function: truthy\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-cloudshell/refs/heads/main/rules/amazon-cloudshell-spectral-rules.yml
 tags:
-- AWS
 - CloudShell
 - Terminal
 - CLI

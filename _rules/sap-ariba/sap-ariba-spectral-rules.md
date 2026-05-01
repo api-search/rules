@@ -6,6 +6,36 @@ api_specs:
   slug: ''
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sap-ariba/refs/heads/main/openapi/sap-ariba-procurement-api.yml
+- filename: openapi.json
+  format: json
+  label: SAP Ariba Sourcing API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://developer.ariba.com/api/sourcing/openapi.json
+- filename: openapi.json
+  format: json
+  label: SAP Ariba Supplier Management API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://developer.ariba.com/api/supplier/openapi.json
+- filename: openapi.json
+  format: json
+  label: SAP Ariba Contract Management API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://developer.ariba.com/api/contracts/openapi.json
+- filename: openapi.json
+  format: json
+  label: SAP Ariba Analytical Reporting API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://developer.ariba.com/api/analytics/openapi.json
+- filename: openapi.json
+  format: json
+  label: SAP Ariba Invoice Management API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://developer.ariba.com/api/invoices/openapi.json
 categories:
 - info
 - 'no'

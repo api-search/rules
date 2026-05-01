@@ -95,7 +95,6 @@ source_yaml: "rules:\n  info-title-required:\n    description: Info title must b
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-fleetwise/refs/heads/main/rules/amazon-iot-fleetwise-spectral-rules.yml
 tags:
 - Automotive
-- AWS
 - Connected Vehicles
 - IoT
 - Telematics

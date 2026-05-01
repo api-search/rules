@@ -156,7 +156,6 @@ source_yaml: "rules:\n  info-title-required:\n    description: API must have a t
   \ warn\n    given: $..description\n    then:\n      function: truthy\n  tags-defined:\n    description: Global tags must be defined\n    severity: warn\n    given: $\n    then:\n      field: tags\n      function: truthy\n  tag-description-required:\n    description: Each tag must have a description\n    severity: warn\n    given: $.tags[*]\n    then:\n      field: description\n      function: truthy\n  client-token-in-create:\n    description: Create operations should include clientToken for idempotency\n    severity: info\n    given: $.paths[*][post].requestBody.content\n    then:\n      function: truthy\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-fault-injection-simulator/refs/heads/main/rules/amazon-fis-spectral-rules.yml
 tags:
-- AWS
 - Chaos Engineering
 - DevOps
 - Fault Injection

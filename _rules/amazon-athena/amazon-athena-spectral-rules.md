@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: amazon-athena-openapi.yml
+  format: yaml
+  label: Amazon Athena API
+  slug: amazon-athena-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-athena/refs/heads/main/openapi/amazon-athena-openapi.yml
 categories:
 - athena
 description: Spectral linting rules defining API design standards and conventions for Amazon Athena.
@@ -106,7 +113,6 @@ tags:
 - SQL
 - Analytics
 - Serverless
-- AWS
 - Spectral
 - Linting
 - API Governance

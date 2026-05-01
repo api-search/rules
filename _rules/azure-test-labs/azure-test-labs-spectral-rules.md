@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: DevTestLabs.json
+  format: json
+  label: Azure DevTest Labs API
+  slug: azure-devtest-labs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/Azure/azure-rest-api-specs/main/specification/devtestlabs/resource-manager/Microsoft.DevTestLab/stable/2018-09-15/DevTestLabs.json
 categories:
 - info
 - openapi

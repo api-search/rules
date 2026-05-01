@@ -127,7 +127,6 @@ source_yaml: "extends: [[spectral:oas, recommended]]\n\nrules:\n  # INFO / METAD
   \ examples\n    severity: info\n    given: \"$.paths[*][get,post,put,patch,delete].responses[*].content[*]\"\n    then:\n      function: schema\n      functionOptions:\n        schema:\n          anyOf:\n            - required: [\"example\"]\n            - required: [\"examples\"]\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-network-firewall/refs/heads/main/rules/amazon-network-firewall-spectral-rules.yml
 tags:
-- AWS
 - Firewall
 - Intrusion Detection
 - Network Security

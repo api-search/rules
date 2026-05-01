@@ -146,7 +146,6 @@ source_yaml: "rules:\n  # INFO / METADATA\n  info-title-prefix:\n    description
   \ Tags in the global tags array should use Title Case\n    severity: warn\n    given: \"$.tags[*].name\"\n    then:\n      function: pattern\n      functionOptions:\n        match: \"^[A-Z][a-zA-Z0-9 ]+$\"\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-signer/refs/heads/main/rules/amazon-signer-spectral-rules.yml
 tags:
-- AWS
 - Code Signing
 - IoT
 - Lambda

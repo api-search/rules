@@ -61,7 +61,6 @@ source_yaml: "rules:\n  healthomics-operation-summary:\n    description: All ope
   \ info\n    given: \"$.components.schemas.*\"\n    then:\n      field: description\n      function: truthy\n  healthomics-workflow-operations:\n    description: Workflow operations should follow consistent naming\n    severity: info\n    given: \"$.paths.*[get,post,put,patch,delete]\"\n    then:\n      field: operationId\n      function: truthy\n  healthomics-store-naming:\n    description: Store operations should reference appropriate schemas\n    severity: info\n    given: \"$.paths.*[get,post,put,patch,delete][?(@property == 'operationId' && @.match('Store'))]\"\n    then:\n      function: truthy\n  healthomics-security:\n    description: HealthOmics must document security requirements\n    severity: error\n    given: \"$.components.securitySchemes\"\n    then:\n      function: truthy\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-healthomics/refs/heads/main/rules/amazon-healthomics-spectral-rules.yml
 tags:
-- AWS
 - Bioinformatics
 - Genomics
 - Healthcare

@@ -123,7 +123,6 @@ source_yaml: "# Spectral Ruleset for Amazon ElastiCache\n# Enforces API design c
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-elasticache/refs/heads/main/rules/amazon-elasticache-spectral-rules.yml
 tags:
 - Amazon Web Services
-- AWS
 - Caching
 - Database
 - ElastiCache

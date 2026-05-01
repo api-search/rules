@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: acord-ngds-openapi.yml
+  format: yaml
+  label: ACORD Next-Generation Digital Standards (NGDS) API
+  slug: acord-ngds-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/acord/refs/heads/main/openapi/acord-ngds-openapi.yml
 categories:
 - delete
 - get

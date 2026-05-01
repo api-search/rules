@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: beyondtrust-password-safe-api.yaml
+  format: yaml
+  label: BeyondTrust Password Safe API
+  slug: beyondtrust-password-safe-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/beyondtrust/refs/heads/main/openapi/beyondtrust-password-safe-api.yaml
 categories:
 - credential
 - http

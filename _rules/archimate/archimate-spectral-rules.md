@@ -1,4 +1,17 @@
 ---
+api_specs:
+- filename: archimate-model-exchange-api.yaml
+  format: yaml
+  label: ArchiMate Model Exchange API
+  slug: archimate-model-exchange-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/archimate/refs/heads/main/openapi/archimate-model-exchange-api.yaml
+- filename: archimate-repository-api.yaml
+  format: yaml
+  label: ArchiMate Repository API
+  slug: archimate-repository-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/archimate/refs/heads/main/openapi/archimate-repository-api.yaml
 categories:
 - delete
 - get

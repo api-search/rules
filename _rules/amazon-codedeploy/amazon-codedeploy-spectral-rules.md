@@ -72,7 +72,6 @@ source_yaml: "extends: \"spectral:oas\"\n\nrules:\n\n  info-description-required
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-codedeploy/refs/heads/main/rules/amazon-codedeploy-spectral-rules.yml
 tags:
 - Amazon
-- AWS
 - Deployment
 - DevOps
 - CI/CD

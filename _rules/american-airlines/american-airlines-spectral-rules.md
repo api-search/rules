@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: american-airlines-runway-developer-api-openapi.yml
+  format: yaml
+  label: American Airlines Runway Developer API
+  slug: runway-developer-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/american-airlines/refs/heads/main/openapi/american-airlines-runway-developer-api-openapi.yml
 categories:
 - get
 - info

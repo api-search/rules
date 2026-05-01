@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: apache-oozie-openapi.yaml
+  format: yaml
+  label: Apache Oozie REST API
+  slug: apache-oozie-rest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/apache-oozie/refs/heads/main/openapi/apache-oozie-openapi.yaml
 categories:
 - get
 - info

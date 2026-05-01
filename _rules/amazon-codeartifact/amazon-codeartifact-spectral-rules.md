@@ -136,7 +136,6 @@ source_yaml: "extends: \"spectral:oas\"\n\nrules:\n\n  # INFO / METADATA\n  info
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-codeartifact/refs/heads/main/rules/amazon-codeartifact-spectral-rules.yml
 tags:
 - Amazon
-- AWS
 - Artifact Repository
 - Package Management
 - DevOps

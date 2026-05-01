@@ -146,7 +146,6 @@ source_yaml: "rules:\n  # INFO / METADATA\n  info-title-required:\n    descripti
   \ \"$.paths[*][get,post,put,patch,delete]\"\n    then:\n      field: x-microcks-operation\n      function: truthy\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-codestar/refs/heads/main/rules/amazon-codestar-spectral-rules.yml
 tags:
-- AWS
 - Developer Tools
 - DevOps
 - Project Management

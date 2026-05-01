@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: amazon-augmented-ai-openapi.yml
+  format: yaml
+  label: Amazon Augmented AI API
+  slug: amazon-augmented-ai-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-augmented-ai/refs/heads/main/openapi/amazon-augmented-ai-openapi.yml
 categories:
 - a2i
 description: Spectral linting rules defining API design standards and conventions for Amazon Augmented AI.
@@ -72,7 +79,6 @@ tags:
 - Human In The Loop
 - Machine Learning
 - AI Review
-- AWS
 - Spectral
 - Linting
 - API Governance

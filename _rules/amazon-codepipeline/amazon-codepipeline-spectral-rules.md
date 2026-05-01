@@ -76,7 +76,6 @@ source_yaml: "extends: \"spectral:oas\"\n\nrules:\n\n  info-description-required
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-codepipeline/refs/heads/main/rules/amazon-codepipeline-spectral-rules.yml
 tags:
 - Amazon
-- AWS
 - CI/CD
 - Continuous Delivery
 - DevOps

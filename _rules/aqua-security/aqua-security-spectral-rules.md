@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: aqua-security-api.yaml
+  format: yaml
+  label: Aqua Security
+  slug: aqua-security
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/aqua-security/refs/heads/main/openapi/aqua-security-api.yaml
 categories:
 - delete
 - get

@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: bettercloud-platform-api.yaml
+  format: yaml
+  label: BetterCloud Platform API
+  slug: bettercloud-platform-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/bettercloud/refs/heads/main/openapi/bettercloud-platform-api.yaml
 categories:
 - http
 - info

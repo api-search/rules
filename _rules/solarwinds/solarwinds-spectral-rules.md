@@ -12,6 +12,12 @@ api_specs:
   slug: solarwinds-service-desk-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/solarwinds/refs/heads/main/openapi/solarwinds-service-desk-openapi.yml
+- filename: openapi.json
+  format: json
+  label: SolarWinds Observability API
+  slug: solarwinds-observability-api
+  spec_type: OpenAPI
+  url: https://api.na-01.cloud.solarwinds.com/v1/openapi.json
 - filename: solarwinds-pingdom-openapi.yml
   format: yaml
   label: SolarWinds Pingdom API

@@ -133,7 +133,6 @@ source_yaml: "# Amazon Forecast Spectral Rules\nextends: spectral:oas\nrules:\n 
   \n    then:\n      field: type\n      function: pattern\n      functionOptions:\n        match: \"^array$\"\n  forecast-status-field-documented:\n    description: Resources should document Status field\n    severity: info\n    given: \"$.components.schemas[*].properties.Status\"\n    then:\n      field: type\n      function: truthy\n  forecast-tag-schema-documented:\n    description: Tag schema should be defined\n    severity: warn\n    given: \"$.components.schemas\"\n    then:\n      field: Tag\n      function: truthy\n  forecast-export-job-destination:\n    description: Export job request should require Destination\n    severity: warn\n    given: \"$.components.schemas.CreateForecastExportJobRequest.required\"\n    then:\n      function: schema\n      functionOptions:\n        schema:\n          type: array\n          contains:\n            const: Destination\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-forecast/refs/heads/main/rules/amazon-forecast-spectral-rules.yml
 tags:
-- AWS
 - Forecasting
 - Machine Learning
 - Predictive Analytics

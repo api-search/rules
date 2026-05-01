@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: better-stack-openapi.yml
+  format: yaml
+  label: Better Stack API
+  slug: better-stack
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/better-stack/refs/heads/main/openapi/better-stack-openapi.yml
 categories:
 - examples
 - http

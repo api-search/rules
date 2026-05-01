@@ -100,7 +100,6 @@ source_yaml: "# Amazon X-Ray API Spectral Ruleset\nrules:\n  info-title-format:\
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-xray/refs/heads/main/rules/amazon-xray-spectral-rules.yml
 tags:
 - Application Performance
-- AWS
 - Debugging
 - Distributed Tracing
 - Monitoring

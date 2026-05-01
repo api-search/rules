@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: acquia-cloud-applications.yml
+  format: yaml
+  label: Acquia Cloud API
+  slug: acquia-cloud-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/acquia/refs/heads/main/openapi/acquia-cloud-applications.yml
 categories:
 - actions
 - delete

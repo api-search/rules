@@ -123,7 +123,6 @@ source_yaml: "# Spectral Ruleset for Amazon EventBridge Scheduler\n# Enforces AP
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-eventbridge-scheduler/refs/heads/main/rules/amazon-eventbridge-scheduler-spectral-rules.yml
 tags:
 - Amazon Web Services
-- AWS
 - Cron
 - Event-Driven
 - Scheduling

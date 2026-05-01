@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: openapi.yaml
+  format: yaml
+  label: Amazon Lookout for Equipment API
+  slug: amazon-lookout-for-equipment-api
+  spec_type: OpenAPI
+  url: https://api.apis.guru/v2/specs/amazonaws.com/lookoutequipment/2020-12-15/openapi.yaml
 categories:
 - info
 - openapi
@@ -95,7 +102,6 @@ source_yaml: "rules:\n\n  info-title-format:\n    description: API title must st
   \    description: Path segments should use kebab-case\n    severity: warn\n    given: \"$.paths\"\n    then:\n      function: pattern\n      functionOptions:\n        match: \"^(/[a-zA-Z0-9{}/-]+)+$\"\n\n  schema-description-required:\n    description: Schema components should have descriptions\n    severity: warn\n    given: \"$.components.schemas[*]\"\n    then:\n      field: description\n      function: truthy\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-lookout-for-equipment/refs/heads/main/rules/amazon-lookout-for-equipment-spectral-rules.yml
 tags:
-- AWS
 - Equipment Monitoring
 - Industrial IoT
 - Machine Learning

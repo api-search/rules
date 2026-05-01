@@ -123,7 +123,6 @@ source_yaml: "rules:\n\n  # INFO / METADATA\n  info-title-required:\n    descrip
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-serverless-application-repository/refs/heads/main/rules/amazon-serverless-application-repository-spectral-rules.yml
 tags:
 - Application Repository
-- AWS
 - Lambda
 - SAM
 - Serverless

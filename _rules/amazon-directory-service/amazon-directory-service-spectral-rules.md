@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: amazon-directory-service-openapi.yaml
+  format: yaml
+  label: AWS Directory Service API
+  slug: aws-directory-service-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-directory-service/refs/heads/main/openapi/amazon-directory-service-openapi.yaml
 categories:
 - external
 - get
@@ -107,7 +114,6 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-directo
 tags:
 - Active Directory
 - Authentication
-- AWS
 - Directory Services
 - Identity Management
 - Spectral

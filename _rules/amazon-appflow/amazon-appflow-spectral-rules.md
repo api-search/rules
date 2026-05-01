@@ -184,7 +184,6 @@ source_yaml: "rules:\n\n  # INFO / METADATA\n  info-title-prefix:\n    descripti
   \ DELETE operations should not have a request body\n    severity: warn\n    given: $.paths[*].delete\n    then:\n      field: requestBody\n      function: falsy\n\n  # GENERAL QUALITY\n  operation-examples-encouraged:\n    description: Operations should provide request/response examples for mock server compatibility\n    severity: info\n    given: $.paths[*][post,put,patch].requestBody.content.application/json\n    then:\n      field: examples\n      function: truthy\n\n  operation-microcks-extension:\n    description: Operations should have x-microcks-operation extension for mock server compatibility\n    severity: info\n    given: $.paths[*][get,post,put,patch,delete]\n    then:\n      field: x-microcks-operation\n      function: truthy\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-appflow/refs/heads/main/rules/amazon-appflow-spectral-rules.yml
 tags:
-- AWS
 - Connectors
 - Data Flow
 - Data Integration

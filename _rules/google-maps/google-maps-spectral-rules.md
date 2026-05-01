@@ -1,5 +1,11 @@
 ---
 api_specs:
+- filename: maps-js.yaml
+  format: yaml
+  label: Maps JavaScript API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://api.example.com/openapi/maps-js.yaml
 - filename: google-maps-geocoding-api.yml
   format: yaml
   label: Geocoding API

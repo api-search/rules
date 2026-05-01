@@ -49,7 +49,6 @@ source_yaml: "rules:\n  xray-operation-summary:\n    description: All operations
   \    severity: info\n    given: \"$.paths[*][get,post,put,delete,patch]\"\n    then:\n      field: x-microcks-operation\n      function: truthy\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aws-x-ray/refs/heads/main/rules/aws-x-ray-spectral-rules.yml
 tags:
-- AWS
 - Debugging
 - Distributed Tracing
 - Microservices

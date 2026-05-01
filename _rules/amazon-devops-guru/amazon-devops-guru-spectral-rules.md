@@ -109,7 +109,6 @@ source_yaml: "rules:\n  # INFO / METADATA\n  info-title-prefix:\n    description
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-devops-guru/refs/heads/main/rules/amazon-devops-guru-spectral-rules.yml
 tags:
 - Anomaly Detection
-- AWS
 - DevOps
 - Machine Learning
 - Operational Intelligence

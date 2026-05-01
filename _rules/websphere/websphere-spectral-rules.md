@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: websphere-admin-rest-api.yml
+- filename: 9.0.5
   format: yaml
   label: WebSphere Application Server Admin API
   slug: websphere-admin-rest-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/websphere/refs/heads/main/openapi/websphere-admin-rest-api.yml
+  url: https://www.ibm.com/docs/en/was/9.0.5?topic=api-openapi-specification
 - filename: websphere-liberty-admin-rest-api.yml
   format: yaml
   label: WebSphere Liberty Admin REST API

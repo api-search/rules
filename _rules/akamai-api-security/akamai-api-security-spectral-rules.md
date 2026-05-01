@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: akamai-api-security-openapi.json
+  format: json
+  label: Akamai API Security
+  slug: api-security
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/akamai-api-security/refs/heads/main/openapi/akamai-api-security-openapi.json
 categories:
 - delete
 - get

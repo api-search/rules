@@ -1,4 +1,41 @@
 ---
+api_specs:
+- filename: avaloq-banking-openapi.yml
+  format: yaml
+  label: Avaloq Banking API
+  slug: avaloq-banking-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/avaloq/refs/heads/main/openapi/avaloq-banking-openapi.yml
+- filename: avaloq-wealth-management-openapi.yml
+  format: yaml
+  label: Avaloq Wealth Management API
+  slug: avaloq-wealth-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/avaloq/refs/heads/main/openapi/avaloq-wealth-management-openapi.yml
+- filename: avaloq-payments-openapi.yml
+  format: yaml
+  label: Avaloq Payments API
+  slug: avaloq-payments-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/avaloq/refs/heads/main/openapi/avaloq-payments-openapi.yml
+- filename: avaloq-client-management-openapi.yml
+  format: yaml
+  label: Avaloq Client Management API
+  slug: avaloq-client-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/avaloq/refs/heads/main/openapi/avaloq-client-management-openapi.yml
+- filename: avaloq-trading-openapi.yml
+  format: yaml
+  label: Avaloq Trading API
+  slug: avaloq-trading-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/avaloq/refs/heads/main/openapi/avaloq-trading-openapi.yml
+- filename: avaloq-compliance-openapi.yml
+  format: yaml
+  label: Avaloq Compliance & Risk API
+  slug: avaloq-compliance-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/avaloq/refs/heads/main/openapi/avaloq-compliance-openapi.yml
 categories:
 - avaloq
 description: Spectral linting rules defining API design standards and conventions for Avaloq.

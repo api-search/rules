@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: atsdr-toxic-substance-profiles-openapi.yml
+  format: yaml
+  label: ATSDR Toxic Substance Profiles API
+  slug: atsdr-toxic-substance-profiles-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/agency-for-toxic-substances-and-disease-registry/refs/heads/main/openapi/atsdr-toxic-substance-profiles-openapi.yml
 categories:
 - get
 - info

@@ -67,7 +67,6 @@ source_yaml: "rules:\n  info-title-required:\n    description: Info title must b
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cloudformation/refs/heads/main/rules/cloudformation-spectral-rules.yml
 tags:
 - Automation
-- AWS
 - Cloud Resources
 - IaC
 - Infrastructure As Code

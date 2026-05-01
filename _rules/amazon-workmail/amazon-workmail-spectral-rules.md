@@ -120,7 +120,6 @@ source_yaml: "# Amazon WorkMail API Spectral Ruleset\n\nrules:\n\n  info-title-f
   \n  components-schemas-exist:\n    description: Components schemas should be defined for reuse\n    severity: info\n    given: $.components\n    then:\n      field: schemas\n      function: truthy\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-workmail/refs/heads/main/rules/amazon-workmail-spectral-rules.yml
 tags:
-- AWS
 - Business Communication
 - Calendar
 - Email

@@ -122,7 +122,6 @@ source_yaml: "rules:\n  info-title-prefix:\n    description: API title must star
   \ should have x-microcks-operation extension\n    severity: info\n    given: \"$.paths[*][get,post,put,patch,delete]\"\n    then:\n      field: x-microcks-operation\n      function: truthy\n  pagination-uses-next-token:\n    description: List operations should use NextToken pagination (AWS convention)\n    severity: info\n    given: \"$.paths[*].get.parameters[?(@.name == 'NextToken')]\"\n    then:\n      field: name\n      function: truthy\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-cloud-map/refs/heads/main/rules/amazon-cloud-map-spectral-rules.yml
 tags:
-- AWS
 - Cloud Map
 - Service Discovery
 - Microservices

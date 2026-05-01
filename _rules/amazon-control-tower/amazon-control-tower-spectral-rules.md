@@ -155,7 +155,6 @@ source_yaml: "rules:\n  # INFO / METADATA\n  info-title-prefix:\n    description
   \        match: \".+\"\n\n  operation-examples-encouraged:\n    description: Operations should have examples in request bodies\n    severity: info\n    given: \"$.paths[*][*].requestBody.content[*]\"\n    then:\n      function: schema\n      functionOptions:\n        schema:\n          anyOf:\n            - required: [\"examples\"]\n            - required: [\"example\"]\n\n  arn-as-identifier-convention:\n    description: Control Tower uses ARNs as resource identifiers - document them consistently\n    severity: info\n    given: \"$.paths[*][*].requestBody.content.application/json.schema.properties[?(@ =~ /Identifier|Arn/)].description\"\n    then:\n      function: truthy\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-control-tower/refs/heads/main/rules/amazon-control-tower-spectral-rules.yml
 tags:
-- AWS
 - Compliance
 - Governance
 - Landing Zone

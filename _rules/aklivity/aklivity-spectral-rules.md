@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: asyncapi.yaml
+  format: yaml
+  label: Zilla Gateway
+  slug: zilla-gateway
+  spec_type: AsyncAPI
+  url: https://docs.aklivity.io/zilla/latest/concepts/config/
 categories:
 - get
 - info

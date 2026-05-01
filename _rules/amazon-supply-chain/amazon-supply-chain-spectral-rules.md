@@ -114,7 +114,6 @@ source_yaml: "rules:\n  info-title-prefix:\n    description: API title must star
   \      function: truthy\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-supply-chain/refs/heads/main/rules/amazon-supply-chain-spectral-rules.yml
 tags:
-- AWS
 - ERP Integration
 - Logistics
 - Machine Learning

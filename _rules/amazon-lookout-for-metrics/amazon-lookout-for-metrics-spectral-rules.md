@@ -141,7 +141,6 @@ source_yaml: "rules:\n\n  # INFO / METADATA\n  info-title-required:\n    descrip
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-lookout-for-metrics/refs/heads/main/rules/amazon-lookout-for-metrics-spectral-rules.yml
 tags:
 - Anomaly Detection
-- AWS
 - Business Intelligence
 - Machine Learning
 - Metrics

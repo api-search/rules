@@ -99,7 +99,6 @@ source_yaml: "extends: \"spectral:oas\"\n\nrules:\n\n  info-description-required
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-codecatalyst/refs/heads/main/rules/amazon-codecatalyst-spectral-rules.yml
 tags:
 - Amazon
-- AWS
 - Developer Tools
 - CI/CD
 - Collaboration

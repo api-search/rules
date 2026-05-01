@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: azure-container-apps-openapi.yml
+  format: yaml
+  label: Azure Container Apps
+  slug: azure-container-apps
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/azure-container-apps/refs/heads/main/openapi/azure-container-apps-openapi.yml
 categories:
 - info
 - openapi

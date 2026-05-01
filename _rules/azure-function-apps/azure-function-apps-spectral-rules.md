@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: WebApps.json
+  format: json
+  label: Azure Function Apps REST API
+  slug: azure-function-apps-rest-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/Azure/azure-rest-api-specs/main/specification/web/resource-manager/Microsoft.Web/stable/2022-09-01/WebApps.json
 categories:
 - info
 - openapi

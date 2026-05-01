@@ -172,7 +172,6 @@ source_yaml: "rules:\n  # INFO / METADATA\n  info-title-prefix:\n    description
   \  given: \"$.paths[*][*].requestBody.content[*]\"\n    then:\n      function: schema\n      functionOptions:\n        schema:\n          anyOf:\n            - required: [\"examples\"]\n            - required: [\"example\"]\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-data-exchange/refs/heads/main/rules/amazon-data-exchange-spectral-rules.yml
 tags:
-- AWS
 - Data Exchange
 - Data Marketplace
 - Third-Party Data

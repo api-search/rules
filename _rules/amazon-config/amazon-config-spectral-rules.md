@@ -134,7 +134,6 @@ source_yaml: "rules:\n  # INFO / METADATA\n  info-title-required:\n    descripti
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-config/refs/heads/main/rules/amazon-config-spectral-rules.yml
 tags:
 - Auditing
-- AWS
 - Compliance
 - Configuration Management
 - Governance

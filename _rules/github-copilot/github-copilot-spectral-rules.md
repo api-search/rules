@@ -1,41 +1,41 @@
 ---
 api_specs:
-- filename: github-copilot-openapi.yml
-  format: yaml
+- filename: api.github.com.json
+  format: json
   label: GitHub Copilot API
   slug: ''
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/github-copilot/refs/heads/main/openapi/github-copilot-openapi.yml
-- filename: github-copilot-openapi.yml
-  format: yaml
+  url: https://raw.githubusercontent.com/github/rest-api-description/main/descriptions/api.github.com/api.github.com.json
+- filename: api.github.com.json
+  format: json
   label: GitHub Copilot for Business API
   slug: ''
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/github-copilot/refs/heads/main/openapi/github-copilot-openapi.yml
-- filename: github-copilot-openapi.yml
-  format: yaml
+  url: https://raw.githubusercontent.com/github/rest-api-description/main/descriptions/api.github.com/api.github.com.json
+- filename: api.github.com.json
+  format: json
   label: GitHub Copilot User Management API
   slug: ''
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/github-copilot/refs/heads/main/openapi/github-copilot-openapi.yml
-- filename: github-copilot-openapi.yml
-  format: yaml
+  url: https://raw.githubusercontent.com/github/rest-api-description/main/descriptions/api.github.com/api.github.com.json
+- filename: api.github.com.json
+  format: json
   label: GitHub Copilot Metrics API
   slug: ''
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/github-copilot/refs/heads/main/openapi/github-copilot-openapi.yml
-- filename: github-copilot-openapi.yml
-  format: yaml
+  url: https://raw.githubusercontent.com/github/rest-api-description/main/descriptions/api.github.com/api.github.com.json
+- filename: api.github.com.json
+  format: json
   label: GitHub Copilot Usage Metrics API
   slug: ''
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/github-copilot/refs/heads/main/openapi/github-copilot-openapi.yml
-- filename: github-copilot-openapi.yml
-  format: yaml
+  url: https://raw.githubusercontent.com/github/rest-api-description/main/descriptions/api.github.com/api.github.com.json
+- filename: api.github.com.json
+  format: json
   label: GitHub Copilot Content Exclusion API
   slug: ''
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/github-copilot/refs/heads/main/openapi/github-copilot-openapi.yml
+  url: https://raw.githubusercontent.com/github/rest-api-description/main/descriptions/api.github.com/api.github.com.json
 categories:
 - info
 - 'no'

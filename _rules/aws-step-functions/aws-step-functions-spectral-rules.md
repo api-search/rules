@@ -61,7 +61,6 @@ source_yaml: "rules:\n  sfn-operation-summary:\n    description: All operations 
   \ \"$.paths[*][*].responses[*]\"\n    then:\n      field: description\n      function: truthy\n  sfn-microcks-annotation:\n    description: Operations should have x-microcks-operation annotation\n    severity: info\n    given: \"$.paths[*][get,post,put,delete,patch]\"\n    then:\n      field: x-microcks-operation\n      function: truthy\n  sfn-schema-type:\n    description: Schema components should have a type\n    severity: warn\n    given: \"$.components.schemas[*]\"\n    then:\n      field: type\n      function: truthy\n  sfn-security-defined:\n    description: API security schemes should be defined\n    severity: warn\n    given: \"$\"\n    then:\n      field: components.securitySchemes\n      function: truthy\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aws-step-functions/refs/heads/main/rules/aws-step-functions-spectral-rules.yml
 tags:
-- AWS
 - iPaaS
 - Orchestration
 - Serverless

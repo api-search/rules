@@ -160,7 +160,6 @@ source_yaml: "rules:\n  info-title-required:\n    description: API must have a t
   \ info\n    given: $.paths[*][get,post,put,patch,delete]\n    then:\n      field: x-microcks-operation\n      function: truthy\n  no-empty-descriptions:\n    description: Descriptions must not be empty strings\n    severity: warn\n    given: $..description\n    then:\n      function: truthy\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-fargate/refs/heads/main/rules/amazon-fargate-spectral-rules.yml
 tags:
-- AWS
 - Compute
 - Containers
 - ECS

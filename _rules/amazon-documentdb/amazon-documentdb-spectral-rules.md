@@ -160,7 +160,6 @@ source_yaml: "extends: spectral:oas\n\nrules:\n  # INFO / METADATA\n  info-title
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-documentdb/refs/heads/main/rules/amazon-documentdb-spectral-rules.yml
 tags:
 - Amazon Web Services
-- AWS
 - Database
 - Document Database
 - DocumentDB

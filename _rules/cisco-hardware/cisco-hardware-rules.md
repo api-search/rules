@@ -1,4 +1,17 @@
 ---
+api_specs:
+- filename: openapiSpec
+  format: yaml
+  label: Cisco Meraki Dashboard API
+  slug: meraki-dashboard-api
+  spec_type: OpenAPI
+  url: https://api.meraki.com/api/v1/openapiSpec
+- filename: openapi.yaml
+  format: yaml
+  label: Cisco Intersight API
+  slug: intersight-api
+  spec_type: OpenAPI
+  url: https://intersight.com/apidocs/downloads/
 categories:
 - cisco
 description: Spectral linting rules defining API design standards and conventions for Cisco Hardware.

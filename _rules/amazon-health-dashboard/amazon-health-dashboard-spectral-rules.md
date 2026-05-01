@@ -60,7 +60,6 @@ source_yaml: "rules:\n  info-title-format:\n    severity: warn\n    given: \"$.i
   \  then:\n      function: schema\n      functionOptions:\n        schema:\n          type: object\n          anyOf:\n            - required: [\"200\"]\n            - required: [\"201\"]\n            - required: [\"204\"]\n  microcks-operation-extension:\n    severity: info\n    given: \"$.paths[*][get,post,put,patch,delete]\"\n    then:\n      field: x-microcks-operation\n      function: truthy\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-health-dashboard/refs/heads/main/rules/amazon-health-dashboard-spectral-rules.yml
 tags:
-- AWS
 - Health Monitoring
 - Notifications
 - Operations

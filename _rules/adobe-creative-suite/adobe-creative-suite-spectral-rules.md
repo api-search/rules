@@ -1,17 +1,23 @@
 ---
 api_specs:
-- filename: adobe-creative-suite-photoshop-openapi.yml
-  format: yaml
+- filename: openapi.json
+  format: json
   label: Adobe Photoshop API
   slug: photoshop-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adobe-creative-suite/refs/heads/main/openapi/adobe-creative-suite-photoshop-openapi.yml
-- filename: adobe-creative-suite-stock-openapi.yml
-  format: yaml
+  url: https://developer.adobe.com/photoshop/api/openapi.json
+- filename: openapi.json
+  format: json
+  label: Adobe Lightroom API
+  slug: lightroom-api
+  spec_type: OpenAPI
+  url: https://developer.adobe.com/lightroom/api/openapi.json
+- filename: openapi.json
+  format: json
   label: Adobe Stock API
   slug: stock-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adobe-creative-suite/refs/heads/main/openapi/adobe-creative-suite-stock-openapi.yml
+  url: https://developer.adobe.com/stock/docs/api/openapi.json
 - filename: adobe-creative-suite-firefly-openapi.yml
   format: yaml
   label: Adobe Firefly API

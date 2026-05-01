@@ -148,7 +148,6 @@ source_yaml: "rules:\n  # INFO / METADATA\n  info-title-required:\n    descripti
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-cognito/refs/heads/main/rules/amazon-cognito-spectral-rules.yml
 tags:
 - Authentication
-- AWS
 - Identity
 - OAuth
 - User Management

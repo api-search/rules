@@ -112,7 +112,6 @@ source_yaml: "rules:\n  # INFO / METADATA\n  info-title-required:\n    descripti
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-s3-glacier/refs/heads/main/rules/amazon-s3-glacier-spectral-rules.yml
 tags:
 - Archive
-- AWS
 - Backup
 - Storage
 - Spectral

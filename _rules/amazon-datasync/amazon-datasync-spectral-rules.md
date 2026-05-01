@@ -112,7 +112,6 @@ source_yaml: "rules:\n  info-title-prefix:\n    description: API title must refe
   \n    then:\n      field: description\n      function: truthy\n\n  schema-description-required:\n    description: Top-level schemas should have a description\n    severity: warn\n    given: \"$.components.schemas[*]\"\n    then:\n      field: description\n      function: truthy\n\n  security-schemes-defined:\n    description: Security schemes must be defined\n    severity: error\n    given: \"$.components\"\n    then:\n      field: securitySchemes\n      function: truthy\n\n  arn-fields-documented:\n    description: ARN fields should have descriptions identifying them as unique resource identifiers\n    severity: info\n    given: \"$.components.schemas[*].properties[?(@property =~ /Arn/)].description\"\n    then:\n      function: truthy\n\n  no-empty-descriptions:\n    description: Descriptions must not be empty strings\n    severity: error\n    given: \"$..description\"\n    then:\n      function: pattern\n      functionOptions:\n        match: \".+\"\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-datasync/refs/heads/main/rules/amazon-datasync-spectral-rules.yml
 tags:
-- AWS
 - Data Transfer
 - Migration
 - Storage

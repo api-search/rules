@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: constant-contact-v3-openapi.yml
+- filename: swagger.yaml
   format: yaml
   label: Constant Contact V3 API
   slug: v3
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/constant-contact/refs/heads/main/openapi/constant-contact-v3-openapi.yml
+  url: https://api.cc.email/v3/swagger.yaml
 categories:
 - constant
 description: Spectral linting rules defining API design standards and conventions for Constant Contact.

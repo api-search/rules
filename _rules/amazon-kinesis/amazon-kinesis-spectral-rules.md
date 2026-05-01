@@ -6,6 +6,42 @@ api_specs:
   slug: ''
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-kinesis/refs/heads/main/openapi/amazon-kinesis-data-streams-openapi.yml
+- filename: openapi.yaml
+  format: yaml
+  label: Amazon Data Firehose
+  slug: ''
+  spec_type: OpenAPI
+  url: https://api.apis.guru/v2/specs/amazonaws.com/firehose/2015-08-04/openapi.yaml
+- filename: openapi.yaml
+  format: yaml
+  label: Amazon Managed Service for Apache Flink
+  slug: ''
+  spec_type: OpenAPI
+  url: https://api.apis.guru/v2/specs/amazonaws.com/kinesisanalyticsv2/2018-05-23/openapi.yaml
+- filename: openapi.yaml
+  format: yaml
+  label: Amazon Kinesis Video Streams
+  slug: ''
+  spec_type: OpenAPI
+  url: https://api.apis.guru/v2/specs/amazonaws.com/kinesisvideo/2017-09-30/openapi.yaml
+- filename: openapi.yaml
+  format: yaml
+  label: Amazon Kinesis Video Streams Media
+  slug: ''
+  spec_type: OpenAPI
+  url: https://api.apis.guru/v2/specs/amazonaws.com/kinesis-video-media/2017-09-30/openapi.yaml
+- filename: openapi.yaml
+  format: yaml
+  label: Amazon Kinesis Video Streams Archived Media
+  slug: ''
+  spec_type: OpenAPI
+  url: https://api.apis.guru/v2/specs/amazonaws.com/kinesis-video-archived-media/2017-09-30/openapi.yaml
+- filename: openapi.yaml
+  format: yaml
+  label: Amazon Kinesis Video Signaling Channels
+  slug: ''
+  spec_type: OpenAPI
+  url: https://api.apis.guru/v2/specs/amazonaws.com/kinesis-video-signaling/2019-12-04/openapi.yaml
 categories:
 - info
 - openapi

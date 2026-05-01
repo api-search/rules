@@ -122,7 +122,6 @@ source_yaml: "rules:\n  info-title-required:\n    description: Info title must b
   \n    then:\n      field: description\n      function: truthy\n\n  operation-id-camel-case:\n    description: OperationId should use camelCase.\n    severity: info\n    given: \"$.paths[*][get,post,put,patch,delete].operationId\"\n    then:\n      function: pattern\n      functionOptions:\n        match: \"^[a-z][a-zA-Z0-9]*$\"\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-medialive/refs/heads/main/rules/amazon-medialive-spectral-rules.yml
 tags:
-- AWS
 - Broadcasting
 - Media Processing
 - Media

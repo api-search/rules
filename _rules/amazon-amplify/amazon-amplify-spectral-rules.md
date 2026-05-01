@@ -49,7 +49,6 @@ source_yaml: "extends:\n- - spectral:oas\n  - all\nrules:\n  amazon-info-title-r
   \      function: truthy\n  amazon-schema-description:\n    description: Schemas should have descriptions.\n    message: Schema should include description.\n    severity: info\n    given: $.components.schemas[*]\n    then:\n      field: description\n      function: truthy\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-amplify/refs/heads/main/rules/amazon-amplify-spectral-rules.yml
 tags:
-- AWS
 - Frontend
 - Full Stack
 - Hosting

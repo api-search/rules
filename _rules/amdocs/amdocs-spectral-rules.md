@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: amdocs-connectx-openapi.yml
+  format: yaml
+  label: Amdocs connectX BSS API
+  slug: amdocs-connectx-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amdocs/refs/heads/main/openapi/amdocs-connectx-openapi.yml
 categories:
 - get
 - info

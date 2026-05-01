@@ -113,7 +113,6 @@ source_yaml: "extends: \"spectral:oas\"\n\nrules:\n\n  # INFO / METADATA\n  info
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-codebuild/refs/heads/main/rules/amazon-codebuild-spectral-rules.yml
 tags:
 - Amazon
-- AWS
 - CI/CD
 - Build
 - Continuous Integration

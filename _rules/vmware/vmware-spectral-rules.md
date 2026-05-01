@@ -6,6 +6,36 @@ api_specs:
   slug: vsphere-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/vmware/refs/heads/main/openapi/vmware-vsphere-api-openapi.yml
+- filename: openapi.yaml
+  format: yaml
+  label: vCloud Director API
+  slug: vcloud-director-api
+  spec_type: OpenAPI
+  url: https://developer.vmware.com/apis/vmware-cloud-director/latest/openapi/
+- filename: openapi.yaml
+  format: yaml
+  label: NSX-T Data Center API
+  slug: nsx-t-data-center-api
+  spec_type: OpenAPI
+  url: https://developer.vmware.com/apis/nsx-t/latest/openapi/
+- filename: openapi.yaml
+  format: yaml
+  label: vRealize Automation API
+  slug: vrealize-automation-api
+  spec_type: OpenAPI
+  url: https://developer.vmware.com/apis/vrealize-automation/latest/openapi/
+- filename: openapi.yaml
+  format: yaml
+  label: VMware Cloud on AWS API
+  slug: vmware-cloud-on-aws-api
+  spec_type: OpenAPI
+  url: https://developer.vmware.com/apis/vmc/latest/openapi/
+- filename: openapi.yaml
+  format: yaml
+  label: vRealize Operations API
+  slug: vrealize-operations-api
+  spec_type: OpenAPI
+  url: https://developer.vmware.com/apis/vrealize-operations/latest/openapi/
 categories:
 - info
 - 'no'

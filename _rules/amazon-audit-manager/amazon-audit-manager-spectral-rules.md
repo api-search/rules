@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: amazon-audit-manager-openapi.yml
+  format: yaml
+  label: Amazon Audit Manager API
+  slug: amazon-audit-manager-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-audit-manager/refs/heads/main/openapi/amazon-audit-manager-openapi.yml
 categories:
 - audit
 description: Spectral linting rules defining API design standards and conventions for Amazon Audit Manager.
@@ -89,7 +96,6 @@ tags:
 - Compliance
 - Audit
 - Risk Management
-- AWS
 - Spectral
 - Linting
 - API Governance

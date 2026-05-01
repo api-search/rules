@@ -125,7 +125,6 @@ tags:
 - Amazon Web Services
 - Analytics
 - Apache Spark
-- AWS
 - Big Data
 - Data Processing
 - Hadoop

@@ -6,6 +6,54 @@ api_specs:
   slug: ''
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/microsoft-outlook/refs/heads/main/openapi/microsoft-graph-mail-api-openapi.yml
+- filename: openapi.yaml
+  format: yaml
+  label: Microsoft Graph Calendar API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/microsoftgraph/msgraph-metadata/master/openapi/v1.0/openapi.yaml
+- filename: openapi.yaml
+  format: yaml
+  label: Microsoft Graph Contacts API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/microsoftgraph/msgraph-metadata/master/openapi/v1.0/openapi.yaml
+- filename: openapi.yaml
+  format: yaml
+  label: Microsoft Graph Tasks API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/microsoftgraph/msgraph-metadata/master/openapi/v1.0/openapi.yaml
+- filename: openapi.yaml
+  format: yaml
+  label: Microsoft Graph People API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/microsoftgraph/msgraph-metadata/master/openapi/v1.0/openapi.yaml
+- filename: openapi.yaml
+  format: yaml
+  label: Microsoft Graph Change Notifications API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/microsoftgraph/msgraph-metadata/master/openapi/v1.0/openapi.yaml
+- filename: openapi.yaml
+  format: yaml
+  label: Microsoft Graph Focused Inbox API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/microsoftgraph/msgraph-metadata/master/openapi/v1.0/openapi.yaml
+- filename: openapi.yaml
+  format: yaml
+  label: Microsoft Graph Mail Rules API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/microsoftgraph/msgraph-metadata/master/openapi/v1.0/openapi.yaml
+- filename: openapi.yaml
+  format: yaml
+  label: Microsoft Graph Categories API
+  slug: ''
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/microsoftgraph/msgraph-metadata/master/openapi/v1.0/openapi.yaml
 categories:
 - info
 - 'no'

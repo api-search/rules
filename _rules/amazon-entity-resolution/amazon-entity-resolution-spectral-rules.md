@@ -123,7 +123,6 @@ source_yaml: "# Spectral Ruleset for Amazon Entity Resolution\n# Enforces API de
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-entity-resolution/refs/heads/main/rules/amazon-entity-resolution-spectral-rules.yml
 tags:
 - Amazon Web Services
-- AWS
 - Data Integration
 - Data Matching
 - Entity Resolution
