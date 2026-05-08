@@ -330,6 +330,12 @@ api_specs:
   slug: factset-people-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/people-openapi-original.yml
+- filename: factset-axioma-fixed-income-optimizer-openapi.yml
+  format: yaml
+  label: FactSet Axioma Fixed Income Optimizer
+  slug: factset-axioma-fixed-income-optimizer
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-axioma-fixed-income-optimizer-openapi.yml
 - filename: irn-meetings-openapi-original.yml
   format: yaml
   label: FactSet IRN Meetings API
