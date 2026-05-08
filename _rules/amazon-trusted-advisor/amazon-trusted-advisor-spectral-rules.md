@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: amazon-trusted-advisor-openapi.yml
+  format: yaml
+  label: AWS Trusted Advisor API
+  slug: aws-support-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-trusted-advisor/refs/heads/main/openapi/amazon-trusted-advisor-openapi.yml
 categories:
 - info
 - operation

@@ -1,11 +1,4 @@
 ---
-api_specs:
-- filename: cursor-admin-api-openapi.yml
-  format: yaml
-  label: Cursor Admin API
-  slug: admin-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cursor/refs/heads/main/openapi/cursor-admin-api-openapi.yml
 categories:
 - cursor
 description: Spectral linting rules defining API design standards and conventions for Cursor.
@@ -54,14 +47,11 @@ source_yaml: "extends: spectral:oas\nrules:\n  cursor-admin-info-contact:\n    d
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cursor/refs/heads/main/rules/cursor-admin-api-rules.yml
 tags:
 - AI
-- AI Editor
-- Code Generation
-- Coding Assistant
-- Copilot
 - Developer Tools
-- LLM
-- Productivity
-- VSCode Fork
+- Code Editor
+- Agent
+- IDE
+- Cloud Agents
 - Spectral
 - Linting
 - API Governance

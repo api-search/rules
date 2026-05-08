@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: amazon-parallel-computing-service-openapi.yml
+  format: yaml
+  label: AWS Parallel Computing Service API
+  slug: aws-pcs-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-parallel-computing-service/refs/heads/main/openapi/amazon-parallel-computing-service-openapi.yml
 categories:
 - get
 - info

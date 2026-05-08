@@ -1,35 +1,4 @@
 ---
-api_specs:
-- filename: affirm-direct-api-openapi.yml
-  format: yaml
-  label: Affirm Direct API
-  slug: direct-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/affirm/refs/heads/main/openapi/affirm-direct-api-openapi.yml
-- filename: affirm-checkout-openapi.yml
-  format: yaml
-  label: Affirm Checkout API
-  slug: checkout-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/affirm/refs/heads/main/openapi/affirm-checkout-openapi.yml
-- filename: affirm-transactions-openapi.yml
-  format: yaml
-  label: Affirm Transactions API
-  slug: transactions-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/affirm/refs/heads/main/openapi/affirm-transactions-openapi.yml
-- filename: affirm-promos-openapi.yml
-  format: yaml
-  label: Affirm Promos API
-  slug: promos-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/affirm/refs/heads/main/openapi/affirm-promos-openapi.yml
-- filename: affirm-disputes-openapi.yml
-  format: yaml
-  label: Affirm Disputes API
-  slug: disputes-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/affirm/refs/heads/main/openapi/affirm-disputes-openapi.yml
 categories:
 - delete
 - get
@@ -45,10 +14,10 @@ categories:
 - security
 - servers
 - tag
-description: Spectral linting rules defining API design standards and conventions for affirm.
+description: Spectral linting rules defining API design standards and conventions for Affirm.
 layout: rules
-name: affirm API Rules
-provider_name: affirm
+name: Affirm API Rules
+provider_name: Affirm
 provider_slug: affirm
 rule_count: 35
 rules:
@@ -213,6 +182,11 @@ source_yaml: "rules:\n\n  # INFO / METADATA\n  info-title-required:\n    descrip
   \ info\n    given: \"$.paths[*][get,post,put,patch,delete].responses[*].content.application/json\"\n    then:\n      function: schema\n      functionOptions:\n        schema:\n          type: object\n          anyOf:\n            - required: [\"example\"]\n            - required: [\"examples\"]\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/affirm/refs/heads/main/rules/affirm-spectral-rules.yml
 tags:
+- Fintech
+- BNPL
+- Lending
+- Payments
+- Consumer
 - Spectral
 - Linting
 - API Governance

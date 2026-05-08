@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: clickpost-openapi.yml
+  format: yaml
+  label: ClickPost API
+  slug: clickpost-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/clickpost/refs/heads/main/openapi/clickpost-openapi.yml
 categories:
 - clickpost
 description: Spectral linting rules defining API design standards and conventions for ClickPost.

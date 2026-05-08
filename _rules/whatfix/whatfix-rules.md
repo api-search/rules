@@ -2,8 +2,8 @@
 api_specs:
 - filename: whatfix-openapi.yml
   format: yaml
-  label: Whatfix API
-  slug: whatfix-api
+  label: Whatfix REST API
+  slug: whatfix-rest-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/whatfix/refs/heads/main/openapi/whatfix-openapi.yml
 categories:
@@ -72,11 +72,10 @@ source_yaml: "extends: spectral:oas\nrules:\n\n  whatfix-account-id-in-path:\n  
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/whatfix/refs/heads/main/rules/whatfix-rules.yml
 tags:
 - Digital Adoption
-- SaaS Management
-- User Onboarding
 - In-App Guidance
+- Onboarding
 - Analytics
-- Change Management
+- Self-Help
 - Spectral
 - Linting
 - API Governance

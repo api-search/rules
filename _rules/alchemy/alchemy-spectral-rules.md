@@ -1,23 +1,23 @@
 ---
 api_specs:
-- filename: alchemy-gas-manager-api-openapi.yml
-  format: yaml
-  label: Alchemy Gas Manager API
-  slug: alchemy-gas-manager-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alchemy/refs/heads/main/openapi/alchemy-gas-manager-api-openapi.yml
 - filename: alchemy-token-api-openapi.yml
   format: yaml
   label: Alchemy Token API
-  slug: alchemy-token-api
+  slug: token-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/alchemy/refs/heads/main/openapi/alchemy-token-api-openapi.yml
 - filename: alchemy-transfers-api-openapi.yml
   format: yaml
   label: Alchemy Transfers API
-  slug: alchemy-transfers-api
+  slug: transfers-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/alchemy/refs/heads/main/openapi/alchemy-transfers-api-openapi.yml
+- filename: alchemy-gas-manager-api-openapi.yml
+  format: yaml
+  label: Alchemy Gas Manager API
+  slug: gas-manager
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/alchemy/refs/heads/main/openapi/alchemy-gas-manager-api-openapi.yml
 categories:
 - examples
 - http
@@ -188,11 +188,12 @@ source_yaml: "rules:\n  # INFO / METADATA\n  info-title-pattern:\n    descriptio
   \ operations must not have a request body.\n    severity: error\n    given: \"$.paths[*].get\"\n    then:\n      field: requestBody\n      function: falsy\n\n  http-delete-no-body:\n    description: DELETE operations should not have a request body.\n    severity: warn\n    given: \"$.paths[*].delete\"\n    then:\n      field: requestBody\n      function: falsy\n\n  # GENERAL QUALITY\n  no-empty-descriptions:\n    description: Descriptions must not be empty strings.\n    message: \"Description must not be an empty string.\"\n    severity: error\n    given: \"$..description\"\n    then:\n      function: truthy\n\n  examples-encouraged:\n    description: Operations should include request/response examples.\n    severity: info\n    given: \"$.paths[*][post,get].responses[*].content[*]\"\n    then:\n      field: examples\n      function: defined\n"
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/alchemy/refs/heads/main/rules/alchemy-spectral-rules.yml
 tags:
-- Blockchain
-- Cryptocurrency
 - Web3
+- Blockchain
+- RPC
+- NFT
+- Indexing
 - Account Abstraction
-- Ethereum
 - Spectral
 - Linting
 - API Governance

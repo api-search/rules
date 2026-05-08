@@ -1,11 +1,4 @@
 ---
-api_specs:
-- filename: salesloft-openapi.yml
-  format: yaml
-  label: Salesloft API
-  slug: salesloft-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/salesloft/refs/heads/main/openapi/salesloft-openapi.yml
 categories:
 - salesloft
 description: Spectral linting rules defining API design standards and conventions for Salesloft.
@@ -81,10 +74,10 @@ source_yaml: "extends: spectral:oas\nrules:\n\n  # Salesloft requires all operat
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/salesloft/refs/heads/main/rules/salesloft-rules.yml
 tags:
 - Sales
+- Sales Engagement
+- Cadences
 - CRM
-- Revenue
-- Automation
-- AI
+- Email
 - Spectral
 - Linting
 - API Governance

@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: amazon-transfer-family-openapi.yml
+  format: yaml
+  label: AWS Transfer Family API
+  slug: amazon-transfer-family-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-transfer-family/refs/heads/main/openapi/amazon-transfer-family-openapi.yml
 categories:
 - info
 - operation
