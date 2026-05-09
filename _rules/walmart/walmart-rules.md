@@ -78,6 +78,12 @@ api_specs:
   slug: walmart-dropship-vendor-orders-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/walmart/refs/heads/main/openapi/walmart-dropship-vendor-orders-openapi-original.yml
+- filename: walmart-dropship-vendor-pre-generated-reports-openapi-original.yml
+  format: yaml
+  label: Walmart Dropship Vendor Orders API
+  slug: walmart-dropship-vendor-pre-generated-reports-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/walmart/refs/heads/main/openapi/walmart-dropship-vendor-pre-generated-reports-openapi-original.yml
 - filename: walmart-marketplace-authentication-openapi-original.yml
   format: yaml
   label: Walmart Marketplace Authentication API

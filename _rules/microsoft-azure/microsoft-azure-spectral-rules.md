@@ -84,6 +84,12 @@ api_specs:
   slug: azure-ai-health-insights
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/azure-ai-health-insights-openapi-original.yml
+- filename: azure-alerts-management-service-resource-provider-openapi-original.yml
+  format: yaml
+  label: Microsoft Azure Alerts Management Service Resource Provider
+  slug: azure-alerts-management-service-resource-provider
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/azure-alerts-management-service-resource-provider-openapi-original.yml
 - filename: azureanalysisservices-openapi-original.yml
   format: yaml
   label: Microsoft Azure Analysis Services
@@ -126,12 +132,24 @@ api_specs:
   slug: azure-api-center-data-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/azure-api-center-data-api-openapi-original.yml
+- filename: azure-api-for-managing-scom-managed-instances-and-monitored-resources-openapi-original.yml
+  format: yaml
+  label: Microsoft Azure API for Managing Scom Managed Instances and Monitored Resources
+  slug: azure-api-for-managing-scom-managed-instances-and-monitored-resources
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/azure-api-for-managing-scom-managed-instances-and-monitored-resources-openapi-original.yml
 - filename: apimanagementclient-openapi-original.yml
   format: yaml
   label: Microsoft Azure API Management Client
   slug: apimanagementclient
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/apimanagementclient-openapi-original.yml
+- filename: app-compliance-automation-tool-for-microsoft-365-openapi-original.yml
+  format: yaml
+  label: Microsoft Azure App Compliance Automation Tool for Microsoft 365
+  slug: app-compliance-automation-tool-for-microsoft-365
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/app-compliance-automation-tool-for-microsoft-365-openapi-original.yml
 - filename: azure-app-configuration-openapi-original.yml
   format: yaml
   label: Microsoft Azure App Configuration
@@ -186,6 +204,12 @@ api_specs:
   slug: applicationinsightsclient
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/applicationinsightsclient-openapi-original.yml
+- filename: applicationinsightscomponentlinkedstorageaccountsclient-openapi-original.yml
+  format: yaml
+  label: Microsoft Azure Application Insights Component Linked Storage Accounts Client
+  slug: applicationinsightscomponentlinkedstorageaccountsclient
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/applicationinsightscomponentlinkedstorageaccountsclient-openapi-original.yml
 - filename: application-insights-data-plane-openapi-original.yml
   format: yaml
   label: Microsoft Azure Application Insights Data Plane
@@ -534,6 +558,12 @@ api_specs:
   slug: common-types-for-microsoftbilling
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/common-types-for-microsoftbilling-openapi-original.yml
+- filename: common-types-for-microsoftoperationalinsights-openapi-original.yml
+  format: yaml
+  label: Microsoft Azure Common Types for Operational Insights
+  slug: common-types-for-microsoftoperationalinsights
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/common-types-for-microsoftoperationalinsights-openapi-original.yml
 - filename: communitygalleryserviceclient-openapi-original.yml
   format: yaml
   label: Microsoft Azure Community Gallery Service Client
@@ -666,6 +696,18 @@ api_specs:
   slug: azuredatamanagementclient
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/azuredatamanagementclient-openapi-original.yml
+- filename: microsoft-azure-data-manager-for-agriculture-data-plane-service-openapi-original.yml
+  format: yaml
+  label: Microsoft Azure Data Manager for Agriculture Data Plane Service
+  slug: microsoft-azure-data-manager-for-agriculture-data-plane-service
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azure-data-manager-for-agriculture-data-plane-service-openapi-original.yml
+- filename: azure-data-migration-service-classic-resource-provider-openapi-original.yml
+  format: yaml
+  label: Microsoft Azure Data Migration Service (Classic) Resource Provider
+  slug: azure-data-migration-service-classic-resource-provider
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/azure-data-migration-service-classic-resource-provider-openapi-original.yml
 - filename: dataplaneaccountclient-openapi-original.yml
   format: yaml
   label: Microsoft Azure Data Plane Account Client
@@ -750,6 +792,12 @@ api_specs:
   slug: diskresourceproviderclient
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/diskresourceproviderclient-openapi-original.yml
+- filename: document-intelligence-formerly-form-recognizer-openapi-original.yml
+  format: yaml
+  label: Microsoft Azure Document Intelligence (formerly Form Recognizer)
+  slug: document-intelligence-formerly-form-recognizer
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/document-intelligence-formerly-form-recognizer-openapi-original.yml
 - filename: domainregistrationprovider-api-client-openapi-original.yml
   format: yaml
   label: Microsoft Azure Domain Registration Provider API Client
@@ -1128,6 +1176,48 @@ api_specs:
   slug: microsoft-cognitive-language-service
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-cognitive-language-service-openapi-original.yml
+- filename: microsoft-cognitive-language-service-analyze-conversations-openapi-original.yml
+  format: yaml
+  label: Microsoft Azure Microsoft Cognitive Language Service  Analyze Conversations
+  slug: microsoft-cognitive-language-service-analyze-conversations
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-cognitive-language-service-analyze-conversations-openapi-original.yml
+- filename: microsoft-cognitive-language-service-analyze-conversations-authoring-openapi-original.yml
+  format: yaml
+  label: Microsoft Azure Microsoft Cognitive Language Service  Analyze Conversations Authoring
+  slug: microsoft-cognitive-language-service-analyze-conversations-authoring
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-cognitive-language-service-analyze-conversations-authoring-openapi-original.yml
+- filename: microsoft-cognitive-language-service-analyze-text-authoring-openapi-original.yml
+  format: yaml
+  label: Microsoft Azure Microsoft Cognitive Language Service  Analyze Text Authoring
+  slug: microsoft-cognitive-language-service-analyze-text-authoring
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-cognitive-language-service-analyze-text-authoring-openapi-original.yml
+- filename: microsoft-cognitive-language-service-question-answering-openapi-original.yml
+  format: yaml
+  label: Microsoft Azure Microsoft Cognitive Language Service  Question Answering
+  slug: microsoft-cognitive-language-service-question-answering
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-cognitive-language-service-question-answering-openapi-original.yml
+- filename: microsoft-cognitive-language-service-question-answering-authoring-openapi-original.yml
+  format: yaml
+  label: Microsoft Azure Microsoft Cognitive Language Service  Question Answering  Authoring
+  slug: microsoft-cognitive-language-service-question-answering-authoring
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-cognitive-language-service-question-answering-authoring-openapi-original.yml
+- filename: microsoft-cognitive-language-service-text-analysis-openapi-original.yml
+  format: yaml
+  label: Microsoft Azure Microsoft Cognitive Language Service  Text Analysis
+  slug: microsoft-cognitive-language-service-text-analysis
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-cognitive-language-service-text-analysis-openapi-original.yml
+- filename: microsoft-cognitive-language-service-text-analysis-authoring-openapi-original.yml
+  format: yaml
+  label: Microsoft Azure Microsoft Cognitive Language Service  Text Analysis Authoring
+  slug: microsoft-cognitive-language-service-text-analysis-authoring
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-cognitive-language-service-text-analysis-authoring-openapi-original.yml
 - filename: microsoft-defender-for-cloud-openapi-original.yml
   format: yaml
   label: Microsoft Azure Microsoft Defender for Cloud
@@ -1146,12 +1236,24 @@ api_specs:
   slug: microsoft-insights-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-insights-api-openapi-original.yml
+- filename: microsoft-marketplace-rating-and-reviews-api-openapi-original.yml
+  format: yaml
+  label: Microsoft Azure Microsoft Marketplace Rating and Reviews API
+  slug: microsoft-marketplace-rating-and-reviews-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-marketplace-rating-and-reviews-api-openapi-original.yml
 - filename: microsoft-netapp-openapi-original.yml
   format: yaml
   label: Microsoft Azure Microsoft Net App
   slug: microsoft-netapp
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-netapp-openapi-original.yml
+- filename: microsoft-playwrighttesting-authmanager-service-api-openapi-original.yml
+  format: yaml
+  label: Microsoft Azure Microsoft Playwright Testing Auth Manager Service API
+  slug: microsoft-playwrighttesting-authmanager-service-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-playwrighttesting-authmanager-service-api-openapi-original.yml
 - filename: microsoftscanningclient-openapi-original.yml
   format: yaml
   label: Microsoft Azure Microsoft Scanning Client
@@ -1200,6 +1302,18 @@ api_specs:
   slug: microsoftazureamhwebrolev20200501
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoftazureamhwebrolev20200501-openapi-original.yml
+- filename: microsoftmobilepacketcore-mobile-packet-core-service-openapi-original.yml
+  format: yaml
+  label: Microsoft Azure Microsoftmobile Packet Core Mobile Packet Core Service
+  slug: microsoftmobilepacketcore-mobile-packet-core-service
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoftmobilepacketcore-mobile-packet-core-service-openapi-original.yml
+- filename: microsoftmobilepacketcore-network-function-resource-openapi-original.yml
+  format: yaml
+  label: Microsoft Azure Microsoftmobile Packet Core Network Function Resource
+  slug: microsoftmobilepacketcore-network-function-resource
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoftmobilepacketcore-network-function-resource-openapi-original.yml
 - filename: microsoftnetworkanalytics-openapi-original.yml
   format: yaml
   label: Microsoft Azure Microsoftnetwork Analytics
@@ -1254,6 +1368,24 @@ api_specs:
   slug: monitorclient
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/monitorclient-openapi-original.yml
+- filename: azure-monitor-data-collection-control-plane-api-openapi-original.yml
+  format: yaml
+  label: Microsoft Azure Monitor Data Collection Control Plane API
+  slug: azure-monitor-data-collection-control-plane-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/azure-monitor-data-collection-control-plane-api-openapi-original.yml
+- filename: azure-monitor-data-collection-endpoints-api-openapi-original.yml
+  format: yaml
+  label: Microsoft Azure Monitor Data Collection Endpoints API
+  slug: azure-monitor-data-collection-endpoints-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/azure-monitor-data-collection-endpoints-api-openapi-original.yml
+- filename: azure-monitor-data-collection-rule-associations-api-openapi-original.yml
+  format: yaml
+  label: Microsoft Azure Monitor Data Collection Rule Associations API
+  slug: azure-monitor-data-collection-rule-associations-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/azure-monitor-data-collection-rule-associations-api-openapi-original.yml
 - filename: azure-monitor-data-collection-rules-api-openapi-original.yml
   format: yaml
   label: Microsoft Azure Monitor Data Collection Rules API
@@ -1410,30 +1542,102 @@ api_specs:
   slug: azure-openai-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/azure-openai-api-openapi-original.yml
+- filename: azure-openai-api-version-2022-03-01-preview-openapi-original.yml
+  format: yaml
+  label: Microsoft Azure Open Ai API Version 20220301preview
+  slug: azure-openai-api-version-2022-03-01-preview
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/azure-openai-api-version-2022-03-01-preview-openapi-original.yml
+- filename: azure-openai-api-version-2022-06-01-preview-openapi-original.yml
+  format: yaml
+  label: Microsoft Azure Open Ai API Version 20220601preview
+  slug: azure-openai-api-version-2022-06-01-preview
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/azure-openai-api-version-2022-06-01-preview-openapi-original.yml
 - filename: azure-openai-api-version-2022-12-01-openapi-original.yml
   format: yaml
   label: Microsoft Azure Open Ai API Version 20221201
   slug: azure-openai-api-version-2022-12-01
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/azure-openai-api-version-2022-12-01-openapi-original.yml
+- filename: azure-openai-api-version-2023-03-15-preview-openapi-original.yml
+  format: yaml
+  label: Microsoft Azure Open Ai API Version 20230315preview
+  slug: azure-openai-api-version-2023-03-15-preview
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/azure-openai-api-version-2023-03-15-preview-openapi-original.yml
 - filename: azure-openai-api-version-2023-05-15-openapi-original.yml
   format: yaml
   label: Microsoft Azure Open Ai API Version 20230515
   slug: azure-openai-api-version-2023-05-15
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/azure-openai-api-version-2023-05-15-openapi-original.yml
+- filename: azure-openai-api-version-2023-06-01-preview-openapi-original.yml
+  format: yaml
+  label: Microsoft Azure Open Ai API Version 20230601preview
+  slug: azure-openai-api-version-2023-06-01-preview
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/azure-openai-api-version-2023-06-01-preview-openapi-original.yml
+- filename: azure-openai-api-version-2023-07-01-preview-openapi-original.yml
+  format: yaml
+  label: Microsoft Azure Open Ai API Version 20230701preview
+  slug: azure-openai-api-version-2023-07-01-preview
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/azure-openai-api-version-2023-07-01-preview-openapi-original.yml
+- filename: azure-openai-api-version-2023-08-01-preview-openapi-original.yml
+  format: yaml
+  label: Microsoft Azure Open Ai API Version 20230801preview
+  slug: azure-openai-api-version-2023-08-01-preview
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/azure-openai-api-version-2023-08-01-preview-openapi-original.yml
+- filename: azure-openai-api-version-2023-09-01-preview-openapi-original.yml
+  format: yaml
+  label: Microsoft Azure Open Ai API Version 20230901preview
+  slug: azure-openai-api-version-2023-09-01-preview
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/azure-openai-api-version-2023-09-01-preview-openapi-original.yml
+- filename: azure-openai-api-version-2023-10-01-preview-openapi-original.yml
+  format: yaml
+  label: Microsoft Azure Open Ai API Version 20231001preview
+  slug: azure-openai-api-version-2023-10-01-preview
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/azure-openai-api-version-2023-10-01-preview-openapi-original.yml
+- filename: azure-openai-api-version-2023-12-01-preview-openapi-original.yml
+  format: yaml
+  label: Microsoft Azure Open Ai API Version 20231201preview
+  slug: azure-openai-api-version-2023-12-01-preview
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/azure-openai-api-version-2023-12-01-preview-openapi-original.yml
 - filename: azure-openai-api-version-2024-02-01-openapi-original.yml
   format: yaml
   label: Microsoft Azure Open Ai API Version 20240201
   slug: azure-openai-api-version-2024-02-01
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/azure-openai-api-version-2024-02-01-openapi-original.yml
+- filename: azure-openai-api-version-2024-02-15-preview-openapi-original.yml
+  format: yaml
+  label: Microsoft Azure Open Ai API Version 20240215preview
+  slug: azure-openai-api-version-2024-02-15-preview
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/azure-openai-api-version-2024-02-15-preview-openapi-original.yml
+- filename: azure-openai-api-version-2024-03-01-preview-openapi-original.yml
+  format: yaml
+  label: Microsoft Azure Open Ai API Version 20240301preview
+  slug: azure-openai-api-version-2024-03-01-preview
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/azure-openai-api-version-2024-03-01-preview-openapi-original.yml
 - filename: azure-openai-service-openapi.yml
   format: yaml
   label: Microsoft Azure Open AI Service API
   slug: azure-openai-service-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/azure-openai-service-openapi.yml
+- filename: open-energy-platform-management-service-apis-openapi-original.yml
+  format: yaml
+  label: Microsoft Azure Open Energy Platform Management Service APIs
+  slug: open-energy-platform-management-service-apis
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/open-energy-platform-management-service-apis-openapi-original.yml
 - filename: azure-orbital-openapi-original.yml
   format: yaml
   label: Microsoft Azure Orbital
@@ -1482,6 +1686,12 @@ api_specs:
   slug: personalizer-client-v11-preview3
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/personalizer-client-v11-preview3-openapi-original.yml
+- filename: microsoft-azureplaywrightservice-management-api-openapi-original.yml
+  format: yaml
+  label: Microsoft Azure Playwright Service Management API
+  slug: microsoft-azureplaywrightservice-management-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoft-azureplaywrightservice-management-api-openapi-original.yml
 - filename: policyclient-openapi-original.yml
   format: yaml
   label: Microsoft Azure Policy Client
@@ -1626,18 +1836,36 @@ api_specs:
   slug: purview-devops-policies-rest-api-document
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/purview-devops-policies-rest-api-document-openapi-original.yml
+- filename: purview-distribution-service-rest-api-document-openapi-original.yml
+  format: yaml
+  label: Microsoft Azure Purview Distribution Service  API Document
+  slug: purview-distribution-service-rest-api-document
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/purview-distribution-service-rest-api-document-openapi-original.yml
 - filename: purviewmanagementclient-openapi-original.yml
   format: yaml
   label: Microsoft Azure Purview Management Client
   slug: purviewmanagementclient
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/purviewmanagementclient-openapi-original.yml
+- filename: purview-metadata-policies-service-rest-api-document-openapi-original.yml
+  format: yaml
+  label: Microsoft Azure Purview Metadata Policies Service  API Document
+  slug: purview-metadata-policies-service-rest-api-document
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/purview-metadata-policies-service-rest-api-document-openapi-original.yml
 - filename: purviewpolicyclient-openapi-original.yml
   format: yaml
   label: Microsoft Azure Purview Policy Client
   slug: purviewpolicyclient
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/purviewpolicyclient-openapi-original.yml
+- filename: purview-self-service-policies-rest-api-document-openapi-original.yml
+  format: yaml
+  label: Microsoft Azure Purview Selfservice Policies  API Document
+  slug: purview-self-service-policies-rest-api-document
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/purview-self-service-policies-rest-api-document-openapi-original.yml
 - filename: purview-share-client-openapi-original.yml
   format: yaml
   label: Microsoft Azure Purview Share Client
@@ -2046,6 +2274,18 @@ api_specs:
   slug: azure-sql-database-capabilities
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/azure-sql-database-capabilities-openapi-original.yml
+- filename: azure-sql-database-datamasking-policies-and-rules-openapi-original.yml
+  format: yaml
+  label: Microsoft Azure SQL Database Datamasking Policies and Rules
+  slug: azure-sql-database-datamasking-policies-and-rules
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/azure-sql-database-datamasking-policies-and-rules-openapi-original.yml
+- filename: azure-sql-database-disaster-recovery-configurations-openapi-original.yml
+  format: yaml
+  label: Microsoft Azure SQL Database Disaster Recovery Configurations
+  slug: azure-sql-database-disaster-recovery-configurations
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/azure-sql-database-disaster-recovery-configurations-openapi-original.yml
 - filename: azure-sql-database-importexport-spec-openapi-original.yml
   format: yaml
   label: Microsoft Azure SQL Database Import/export Spec
@@ -2244,6 +2484,12 @@ api_specs:
   slug: azure-tenant-action-groups-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/azure-tenant-action-groups-api-openapi-original.yml
+- filename: tenant-level-activity-log-alert-rules-in-alertsmanagement-resource-provider-openapi-original.yml
+  format: yaml
+  label: Microsoft Azure Tenant Level Activity Log Alert Rules In Alerts Management Resource Provider
+  slug: tenant-level-activity-log-alert-rules-in-alertsmanagement-resource-provider
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/tenant-level-activity-log-alert-rules-in-alertsmanagement-resource-provider-openapi-original.yml
 - filename: test-base-openapi-original.yml
   format: yaml
   label: Microsoft Azure Test Base
@@ -2346,6 +2592,12 @@ api_specs:
   slug: virtualwanasaservicemanagementclient
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/virtualwanasaservicemanagementclient-openapi-original.yml
+- filename: visual-studio-projects-resource-provider-client-openapi-original.yml
+  format: yaml
+  label: Microsoft Azure Visual Studio Projects Resource Provider Client
+  slug: visual-studio-projects-resource-provider-client
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/visual-studio-projects-resource-provider-client-openapi-original.yml
 - filename: visual-studio-resource-provider-client-openapi-original.yml
   format: yaml
   label: Microsoft Azure Visual Studio Resource Provider Client
@@ -2388,6 +2640,12 @@ api_specs:
   slug: microsoftvoiceservicesprovisioning
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoftvoiceservicesprovisioning-openapi-original.yml
+- filename: microsoftvoiceservicesacgprovisioningplatformapi-openapi-original.yml
+  format: yaml
+  label: Microsoft Azure Voice Services Provisioning Platform API
+  slug: microsoftvoiceservicesacgprovisioningplatformapi
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/openapi/microsoftvoiceservicesacgprovisioningplatformapi-openapi-original.yml
 - filename: webapps-api-client-openapi-original.yml
   format: yaml
   label: Microsoft Azure Web Apps API Client
