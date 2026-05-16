@@ -168,12 +168,30 @@ api_specs:
   slug: factset-documents-distributor-callstreet-events
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/documents-distributor-callstreet-events-openapi-original.yml
+- filename: factset-recommendation-list-api-for-digital-portals-openapi.yml
+  format: yaml
+  label: FactSet Recommendation List API for Digital Portals
+  slug: factset-recommendation-list-api-for-digital-portals
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-recommendation-list-api-for-digital-portals-openapi.yml
 - filename: benchmarks-openapi-original.yml
   format: yaml
   label: FactSet Benchmarks API
   slug: factset-benchmarks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/benchmarks-openapi-original.yml
+- filename: factset-bonds-api-for-digital-portals-openapi.yml
+  format: yaml
+  label: FactSet Bonds API for Digital Portals
+  slug: factset-bonds-api-for-digital-portals
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-bonds-api-for-digital-portals-openapi.yml
+- filename: factset-virtual-portfolio-api-for-digital-portals-openapi.yml
+  format: yaml
+  label: FactSet Virtual Portfolio API for Digital Portals
+  slug: factset-virtual-portfolio-api-for-digital-portals
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-virtual-portfolio-api-for-digital-portals-openapi.yml
 - filename: foreign-exchange-rate-openapi-original.yml
   format: yaml
   label: FactSet Foreign Exchange Rate API
@@ -222,12 +240,30 @@ api_specs:
   slug: factset-security-modeling-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/security-modeling-openapi-original.yml
+- filename: factset-stocks-api-for-digital-portals-openapi.yml
+  format: yaml
+  label: FactSet Stocks API for Digital Portals
+  slug: factset-stocks-api-for-digital-portals
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-stocks-api-for-digital-portals-openapi.yml
 - filename: company-logo-api-for-digital-portals-openapi-original.yml
   format: yaml
   label: FactSet Company Logo API for Digital Portals
   slug: factset-company-logo-api-for-digital-portals
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/company-logo-api-for-digital-portals-openapi-original.yml
+- filename: factset-securitized-derivatives-api-for-digital-portals-openapi.yml
+  format: yaml
+  label: FactSet Securitized Derivatives API for Digital Portals
+  slug: factset-securitized-derivatives-api-for-digital-portals
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-securitized-derivatives-api-for-digital-portals-openapi.yml
+- filename: factset-watchlist-api-for-digital-portals-openapi.yml
+  format: yaml
+  label: FactSet Watchlist API for Digital Portals
+  slug: factset-watchlist-api-for-digital-portals
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-watchlist-api-for-digital-portals-openapi.yml
 - filename: quant-factor-library-openapi-original.yml
   format: yaml
   label: FactSet Quant Factor Library API
@@ -288,6 +324,12 @@ api_specs:
   slug: factset-bookbuilder-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/bookbuilder-openapi-original.yml
+- filename: factset-exchange-datafeed-snapshot-api-entire-exchange-openapi.yml
+  format: yaml
+  label: FactSet Exchange DataFeed Snapshot API - Entire Exchange
+  slug: factset-exchange-datafeed-snapshot-api-entire-exchange
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-exchange-datafeed-snapshot-api-entire-exchange-openapi.yml
 - filename: ownership-openapi-original.yml
   format: yaml
   label: FactSet Ownership API
@@ -378,6 +420,12 @@ api_specs:
   slug: factset-investment-banking-office-refresh-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/investment-banking-office-refresh-openapi-original.yml
+- filename: factset-funds-api-for-digital-portals-openapi.yml
+  format: yaml
+  label: FactSet Funds API for Digital Portals
+  slug: factset-funds-api-for-digital-portals
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/openapi/factset-funds-api-for-digital-portals-openapi.yml
 - filename: content-feeds-data-dictionary-openapi-original.yml
   format: yaml
   label: FactSet Content Feeds Data Dictionary

@@ -6,6 +6,12 @@ api_specs:
   slug: traceable-platform-graphql
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/traceable/refs/heads/main/openapi/traceable-platform-openapi.yml
+- filename: traceable-platform-openapi.yml
+  format: yaml
+  label: Traceable API Security Platform
+  slug: traceable-platform
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/traceable/refs/heads/main/openapi/traceable-platform-openapi.yml
 categories:
 - traceable
 description: Spectral linting rules defining API design standards and conventions for Traceable.

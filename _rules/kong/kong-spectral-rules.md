@@ -6,6 +6,18 @@ api_specs:
   slug: kong-admin-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/kong/refs/heads/main/openapi/kong-gateway-admin-api.yml
+- filename: kong-konnect-platform-api.yml
+  format: yaml
+  label: Kong Konnect Platform API
+  slug: kong-konnect-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/kong/refs/heads/main/openapi/kong-konnect-platform-api.yml
+- filename: openapi.yaml
+  format: yaml
+  label: Kong Event Gateway
+  slug: kong-event-gateway
+  spec_type: OpenAPI
+  url: https://developer.konghq.com/api/konnect/event-gateway/v1/
 categories:
 - info
 - 'no'
@@ -61,8 +73,15 @@ source_yaml: "rules:\n  info-title-required:\n    description: Info title must b
 source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kong/refs/heads/main/rules/kong-spectral-rules.yml
 tags:
 - API Gateway
-- Lua
-- NGINX
+- AI Gateway
+- AI Connectivity
+- Agent Gateway
+- Event Gateway
+- MCP Registry
+- Service Mesh
+- LLM
+- Kafka
+- Konnect
 - Open Source
 - Spectral
 - Linting

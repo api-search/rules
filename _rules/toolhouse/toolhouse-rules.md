@@ -73,9 +73,13 @@ source_yaml_url: https://raw.githubusercontent.com/api-evangelist/toolhouse/refs
 tags:
 - Agent Infrastructure
 - AI Agents
+- AI Workers
 - Backend as a Service
 - MCP
+- MCP Discovery
+- RAG
 - Tools
+- Workers API
 - Spectral
 - Linting
 - API Governance

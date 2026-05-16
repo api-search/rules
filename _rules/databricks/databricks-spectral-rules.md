@@ -2,6 +2,12 @@
 api_specs:
 - filename: databricks-openapi.yml
   format: yaml
+  label: Databricks
+  slug: databricks
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/databricks/refs/heads/main/openapi/databricks-openapi.yml
+- filename: databricks-openapi.yml
+  format: yaml
   label: Databricks Clusters API
   slug: clusters-api
   spec_type: OpenAPI
