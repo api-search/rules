@@ -3,25 +3,25 @@ api_specs:
 - filename: openapi.json
   format: json
   label: Workday Extend REST API
-  slug: ''
+  slug: workday-extend-rest-api
   spec_type: OpenAPI
   url: https://api.workday.com/extend/openapi.json
 - filename: workday-extend-orchestration-openapi.yml
   format: yaml
   label: Workday Orchestration API
-  slug: ''
+  slug: workday-orchestration-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/workday-extend/refs/heads/main/openapi/workday-extend-orchestration-openapi.yml
 - filename: workday-extend-custom-objects-openapi.yml
   format: yaml
   label: Workday Custom Objects API
-  slug: ''
+  slug: workday-custom-objects-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/workday-extend/refs/heads/main/openapi/workday-extend-custom-objects-openapi.yml
 - filename: workday-extend-graph-api-openapi.yml
   format: yaml
   label: Workday Graph API
-  slug: ''
+  slug: workday-graph-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/workday-extend/refs/heads/main/openapi/workday-extend-graph-api-openapi.yml
 categories:

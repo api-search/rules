@@ -3,31 +3,31 @@ api_specs:
 - filename: openapi.json
   format: json
   label: TIBCO Cloud Integration API
-  slug: ''
+  slug: tibco-cloud-integration-api
   spec_type: OpenAPI
   url: https://integration.cloud.tibco.com/docs/api/openapi.json
 - filename: io-docs
   format: yaml
   label: TIBCO Mashery API Management
-  slug: ''
+  slug: tibco-mashery-api-management
   spec_type: OpenAPI
   url: https://developer.mashery.com/io-docs
 - filename: tibco-businessevents-openapi.yml
   format: yaml
   label: TIBCO BusinessEvents API
-  slug: ''
+  slug: tibco-businessevents-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/tibco/refs/heads/main/openapi/tibco-businessevents-openapi.yml
 - filename: tibco-messaging-asyncapi.yml
   format: yaml
   label: TIBCO Messaging API
-  slug: ''
+  slug: tibco-messaging-api
   spec_type: AsyncAPI
   url: https://raw.githubusercontent.com/api-evangelist/tibco/refs/heads/main/asyncapi/tibco-messaging-asyncapi.yml
 - filename: tibco-spotfire-openapi.yml
   format: yaml
   label: TIBCO Spotfire Analytics API
-  slug: ''
+  slug: tibco-spotfire-analytics-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/tibco/refs/heads/main/openapi/tibco-spotfire-openapi.yml
 categories:

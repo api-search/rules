@@ -3,7 +3,7 @@ api_specs:
 - filename: openapi.yml
   format: yaml
   label: Amazon Lightsail API
-  slug: ''
+  slug: amazon-lightsail-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-lightsail/refs/heads/main/openapi/openapi.yml
 categories:

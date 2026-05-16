@@ -3,7 +3,7 @@ api_specs:
 - filename: rest
   format: yaml
   label: Google Cloud Storage JSON API
-  slug: ''
+  slug: google-cloud-storage-json-api
   spec_type: OpenAPI
   url: https://storage.googleapis.com/$discovery/rest?version=v1
 categories:

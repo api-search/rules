@@ -3,13 +3,13 @@ api_specs:
 - filename: apple-pay-js-openapi.yml
   format: yaml
   label: Apple Pay JS API
-  slug: ''
+  slug: apple-pay-js-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/apple-pay/refs/heads/main/openapi/apple-pay-js-openapi.yml
 - filename: apple-pay-payment-token-openapi.yml
   format: yaml
   label: Apple Pay Payment Token API
-  slug: ''
+  slug: apple-pay-payment-token-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/apple-pay/refs/heads/main/openapi/apple-pay-payment-token-openapi.yml
 categories:

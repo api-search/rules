@@ -3,7 +3,7 @@ api_specs:
 - filename: kserve-open-inference-protocol-openapi.yml
   format: yaml
   label: KServe Open Inference Protocol API
-  slug: ''
+  slug: kserve-open-inference-protocol-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/scalable-inference-serving/main/openapi/kserve-open-inference-protocol-openapi.yml
 categories:

@@ -3,7 +3,7 @@ api_specs:
 - filename: amazon-systems-manager-openapi.yml
   format: yaml
   label: AWS Systems Manager API
-  slug: ''
+  slug: aws-systems-manager-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-systems-manager/refs/heads/main/openapi/amazon-systems-manager-openapi.yml
 categories:

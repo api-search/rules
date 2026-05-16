@@ -3,13 +3,13 @@ api_specs:
 - filename: keyvault.json
   format: json
   label: Azure Key Vault API
-  slug: ''
+  slug: azure-key-vault-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/Azure/azure-rest-api-specs/main/specification/keyvault/resource-manager/Microsoft.KeyVault/stable/2023-02-01/keyvault.json
 - filename: keyvault.json
   format: json
   label: Azure Key Vault Data Plane API
-  slug: ''
+  slug: azure-key-vault-data-plane-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/Azure/azure-rest-api-specs/main/specification/keyvault/data-plane/Microsoft.KeyVault/stable/7.4/keyvault.json
 categories:

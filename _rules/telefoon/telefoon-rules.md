@@ -3,19 +3,19 @@ api_specs:
 - filename: telefoon-voice-openapi.yml
   format: yaml
   label: Telefoon Voice API
-  slug: ''
+  slug: telefoon-voice-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/telefoon/refs/heads/main/openapi/telefoon-voice-openapi.yml
 - filename: telefoon-sms-openapi.yml
   format: yaml
   label: Telefoon SMS API
-  slug: ''
+  slug: telefoon-sms-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/telefoon/refs/heads/main/openapi/telefoon-sms-openapi.yml
 - filename: telefoon-numbers-openapi.yml
   format: yaml
   label: Telefoon Number Management API
-  slug: ''
+  slug: telefoon-number-management-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/telefoon/refs/heads/main/openapi/telefoon-numbers-openapi.yml
 categories:

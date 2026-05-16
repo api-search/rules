@@ -3,7 +3,7 @@ api_specs:
 - filename: amazon-secrets-manager-openapi.yml
   format: yaml
   label: Amazon Secrets Manager API
-  slug: ''
+  slug: amazon-secrets-manager-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-secrets-manager/refs/heads/main/openapi/amazon-secrets-manager-openapi.yml
 categories:

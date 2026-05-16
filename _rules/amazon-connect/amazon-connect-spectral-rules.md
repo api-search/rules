@@ -3,7 +3,7 @@ api_specs:
 - filename: amazon-connect-openapi.yml
   format: yaml
   label: Amazon Connect Service API
-  slug: ''
+  slug: amazon-connect-service-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-connect/refs/heads/main/openapi/amazon-connect-openapi.yml
 categories:

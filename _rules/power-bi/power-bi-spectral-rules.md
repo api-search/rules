@@ -3,7 +3,7 @@ api_specs:
 - filename: powerbi.json
   format: json
   label: Power BI REST API
-  slug: ''
+  slug: power-bi-rest-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/Azure/azure-rest-api-specs/main/specification/powerbi/data-plane/Microsoft.PowerBI/stable/v1.0/powerbi.json
 categories:

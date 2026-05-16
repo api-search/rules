@@ -3,7 +3,7 @@ api_specs:
 - filename: dead-drop-openapi.yml
   format: yaml
   label: Dead Drop API v1
-  slug: ''
+  slug: dead-drop-api-v1
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/dead-drop/refs/heads/main/openapi/dead-drop-openapi.yml
 categories:

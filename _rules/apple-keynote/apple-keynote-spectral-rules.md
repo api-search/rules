@@ -3,7 +3,7 @@ api_specs:
 - filename: apple-keynote-icloud-openapi.yaml
   format: yaml
   label: Keynote iCloud API
-  slug: ''
+  slug: keynote-icloud-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/apple-keynote/refs/heads/main/openapi/apple-keynote-icloud-openapi.yaml
 categories:

@@ -3,25 +3,25 @@ api_specs:
 - filename: overview
   format: yaml
   label: SAP Analytics Cloud API
-  slug: ''
+  slug: sap-analytics-cloud-api
   spec_type: OpenAPI
   url: https://api.sap.com/api/API_ANALYTICS_CLOUD/overview
 - filename: overview
   format: yaml
   label: SAP BusinessObjects BI Platform REST API
-  slug: ''
+  slug: sap-businessobjects-bi-platform-rest-api
   spec_type: OpenAPI
   url: https://api.sap.com/api/BOBJ_BIPLATFORM/overview
 - filename: sap-bi-bw4hana-odata-openapi.yml
   format: yaml
   label: SAP BW/4HANA OData API
-  slug: ''
+  slug: sap-bw4hana-odata-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sap-bi/refs/heads/main/openapi/sap-bi-bw4hana-odata-openapi.yml
 - filename: overview
   format: yaml
   label: SAP Datasphere API
-  slug: ''
+  slug: sap-datasphere-api
   spec_type: OpenAPI
   url: https://api.sap.com/api/datasphere/overview
 categories:

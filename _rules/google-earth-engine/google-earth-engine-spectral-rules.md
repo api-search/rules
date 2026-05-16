@@ -3,7 +3,7 @@ api_specs:
 - filename: earth-engine.yml
   format: yaml
   label: Google Earth Engine REST API v1
-  slug: ''
+  slug: google-earth-engine-rest-api-v1
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/google-earth-engine/refs/heads/main/openapi/earth-engine.yml
 categories:

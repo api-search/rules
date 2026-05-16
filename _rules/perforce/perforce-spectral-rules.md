@@ -3,13 +3,13 @@ api_specs:
 - filename: openapi.json
   format: json
   label: Perforce Helix Core API
-  slug: ''
+  slug: perforce-helix-core-api
   spec_type: OpenAPI
   url: https://api.perforce.com/helix-core/openapi.json
 - filename: perforce-helix-swarm-openapi.yml
   format: yaml
   label: Perforce Helix Swarm API
-  slug: ''
+  slug: perforce-helix-swarm-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/perforce/refs/heads/main/openapi/perforce-helix-swarm-openapi.yml
 categories:

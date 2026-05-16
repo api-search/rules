@@ -3,13 +3,13 @@ api_specs:
 - filename: oracle-integration-developer-api.yaml
   format: yaml
   label: Oracle Integration Developer API
-  slug: ''
+  slug: oracle-integration-developer-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/oracle-integration/refs/heads/main/openapi/oracle-integration-developer-api.yaml
 - filename: oracle-integration-process-automation-api.yaml
   format: yaml
   label: Oracle Integration Process Automation API
-  slug: ''
+  slug: oracle-integration-process-automation-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/oracle-integration/refs/heads/main/openapi/oracle-integration-process-automation-api.yaml
 categories:

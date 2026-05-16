@@ -3,13 +3,13 @@ api_specs:
 - filename: workday-finance-financial-management-openapi.yml
   format: yaml
   label: Workday Financial Management API
-  slug: ''
+  slug: workday-financial-management-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/workday-finance/refs/heads/main/openapi/workday-finance-financial-management-openapi.yml
 - filename: workday-finance-procurement-openapi.yml
   format: yaml
   label: Workday Resource Management API
-  slug: ''
+  slug: workday-resource-management-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/workday-finance/refs/heads/main/openapi/workday-finance-procurement-openapi.yml
 categories:

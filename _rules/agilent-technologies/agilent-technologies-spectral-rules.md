@@ -3,7 +3,7 @@ api_specs:
 - filename: agilent-ilab-operations-api.yaml
   format: yaml
   label: Agilent iLab Operations API
-  slug: ''
+  slug: agilent-ilab-operations-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/agilent-technologies/refs/heads/main/openapi/agilent-ilab-operations-api.yaml
 categories:

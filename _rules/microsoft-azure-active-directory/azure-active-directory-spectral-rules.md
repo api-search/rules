@@ -3,13 +3,13 @@ api_specs:
 - filename: openapi.yaml
   format: yaml
   label: Microsoft Graph API
-  slug: ''
+  slug: microsoft-graph-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/microsoftgraph/msgraph-metadata/master/openapi/v1.0/openapi.yaml
 - filename: microsoft-graph-identity-api.yml
   format: yaml
   label: Microsoft Graph Identity and Access API
-  slug: ''
+  slug: microsoft-graph-identity-and-access-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-active-directory/refs/heads/main/openapi/microsoft-graph-identity-api.yml
 categories:

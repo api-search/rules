@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: amazon-ses-openapi.yml
+  format: yaml
+  label: Amazon SES OpenAPI
+  slug: amazon-ses-openapi
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-ses/refs/heads/main/openapi/amazon-ses-openapi.yml
 categories:
 - delete
 - get

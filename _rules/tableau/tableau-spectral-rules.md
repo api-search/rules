@@ -3,7 +3,7 @@ api_specs:
 - filename: tableau-rest-api-openapi.yml
   format: yaml
   label: Tableau REST API
-  slug: ''
+  slug: tableau-rest-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/tableau/refs/heads/main/openapi/tableau-rest-api-openapi.yml
 categories:

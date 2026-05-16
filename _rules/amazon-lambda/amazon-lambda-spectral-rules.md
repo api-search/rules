@@ -3,7 +3,7 @@ api_specs:
 - filename: amazon-lambda-openapi.yml
   format: yaml
   label: Amazon Lambda API
-  slug: ''
+  slug: amazon-lambda-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-lambda/refs/heads/main/openapi/amazon-lambda-openapi.yml
 categories:

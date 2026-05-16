@@ -3,55 +3,55 @@ api_specs:
 - filename: microsoft-graph-mail-api-openapi.yml
   format: yaml
   label: Microsoft Graph Mail API
-  slug: ''
+  slug: microsoft-graph-mail-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/microsoft-outlook/refs/heads/main/openapi/microsoft-graph-mail-api-openapi.yml
 - filename: openapi.yaml
   format: yaml
   label: Microsoft Graph Calendar API
-  slug: ''
+  slug: microsoft-graph-calendar-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/microsoftgraph/msgraph-metadata/master/openapi/v1.0/openapi.yaml
 - filename: openapi.yaml
   format: yaml
   label: Microsoft Graph Contacts API
-  slug: ''
+  slug: microsoft-graph-contacts-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/microsoftgraph/msgraph-metadata/master/openapi/v1.0/openapi.yaml
 - filename: openapi.yaml
   format: yaml
   label: Microsoft Graph Tasks API
-  slug: ''
+  slug: microsoft-graph-tasks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/microsoftgraph/msgraph-metadata/master/openapi/v1.0/openapi.yaml
 - filename: openapi.yaml
   format: yaml
   label: Microsoft Graph People API
-  slug: ''
+  slug: microsoft-graph-people-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/microsoftgraph/msgraph-metadata/master/openapi/v1.0/openapi.yaml
 - filename: openapi.yaml
   format: yaml
   label: Microsoft Graph Change Notifications API
-  slug: ''
+  slug: microsoft-graph-change-notifications-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/microsoftgraph/msgraph-metadata/master/openapi/v1.0/openapi.yaml
 - filename: openapi.yaml
   format: yaml
   label: Microsoft Graph Focused Inbox API
-  slug: ''
+  slug: microsoft-graph-focused-inbox-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/microsoftgraph/msgraph-metadata/master/openapi/v1.0/openapi.yaml
 - filename: openapi.yaml
   format: yaml
   label: Microsoft Graph Mail Rules API
-  slug: ''
+  slug: microsoft-graph-mail-rules-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/microsoftgraph/msgraph-metadata/master/openapi/v1.0/openapi.yaml
 - filename: openapi.yaml
   format: yaml
   label: Microsoft Graph Categories API
-  slug: ''
+  slug: microsoft-graph-categories-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/microsoftgraph/msgraph-metadata/master/openapi/v1.0/openapi.yaml
 categories:

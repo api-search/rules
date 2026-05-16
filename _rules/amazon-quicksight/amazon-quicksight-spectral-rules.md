@@ -3,7 +3,7 @@ api_specs:
 - filename: Welcome.html
   format: yaml
   label: Amazon QuickSight API
-  slug: ''
+  slug: amazon-quicksight-api
   spec_type: OpenAPI
   url: https://docs.aws.amazon.com/quicksight/latest/APIReference/Welcome.html
 categories:

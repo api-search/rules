@@ -3,7 +3,7 @@ api_specs:
 - filename: swagger.yaml
   format: yaml
   label: Refinitiv Data Platform APIs
-  slug: ''
+  slug: refinitiv-data-platform-apis
   spec_type: OpenAPI
   url: https://api.refinitiv.com/streaming-pricing/docs/swagger.yaml
 categories:

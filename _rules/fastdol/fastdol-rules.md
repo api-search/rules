@@ -3,7 +3,7 @@ api_specs:
 - filename: fastdol-openapi.yml
   format: yaml
   label: FastDOL API
-  slug: ''
+  slug: fastdol-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/fastdol/main/openapi/fastdol-openapi.yml
 categories:

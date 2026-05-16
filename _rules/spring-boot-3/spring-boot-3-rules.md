@@ -3,7 +3,7 @@ api_specs:
 - filename: spring-boot-3-actuator-openapi.yml
   format: yaml
   label: Spring Boot Actuator API
-  slug: ''
+  slug: spring-boot-actuator-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/spring-boot-3/refs/heads/main/openapi/spring-boot-3-actuator-openapi.yml
 categories:

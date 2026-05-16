@@ -3,19 +3,19 @@ api_specs:
 - filename: openapi.json
   format: json
   label: Microsoft Copilot API
-  slug: ''
+  slug: microsoft-copilot-api
   spec_type: OpenAPI
   url: https://api.copilot.microsoft.com/openapi.json
 - filename: openapi.json
   format: json
   label: Microsoft Graph API (Copilot Integration)
-  slug: ''
+  slug: microsoft-graph-api-copilot-integration
   spec_type: OpenAPI
   url: https://graph.microsoft.com/openapi.json
 - filename: microsoft-copilot-openapi.yml
   format: yaml
   label: Microsoft 365 Copilot APIs
-  slug: ''
+  slug: microsoft-365-copilot-apis
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/microsoft-copilot/refs/heads/main/openapi/microsoft-copilot-openapi.yml
 categories:

@@ -3,7 +3,7 @@ api_specs:
 - filename: agricultural-marketing-service-mars-api.yaml
   format: yaml
   label: USDA AMS MARS API (MyMarketNews)
-  slug: ''
+  slug: usda-ams-mars-api-mymarketnews
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/agricultural-marketing-service/refs/heads/main/openapi/agricultural-marketing-service-mars-api.yaml
 categories:

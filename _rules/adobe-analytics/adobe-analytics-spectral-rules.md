@@ -3,25 +3,25 @@ api_specs:
 - filename: swagger.json
   format: json
   label: Adobe Analytics API
-  slug: ''
+  slug: adobe-analytics-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/AdobeDocs/analytics-2.0-apis/main/docs/swagger.json
 - filename: adobe-analytics-bulk-data-insertion-api-openapi.yml
   format: yaml
   label: Adobe Analytics Bulk Data Insertion API
-  slug: ''
+  slug: adobe-analytics-bulk-data-insertion-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/adobe-analytics/refs/heads/main/openapi/adobe-analytics-bulk-data-insertion-api-openapi.yml
 - filename: adobe-analytics-livestream-asyncapi.yml
   format: yaml
   label: Adobe Analytics Livestream API
-  slug: ''
+  slug: adobe-analytics-livestream-api
   spec_type: AsyncAPI
   url: https://raw.githubusercontent.com/api-evangelist/adobe-analytics/refs/heads/main/asyncapi/adobe-analytics-livestream-asyncapi.yml
 - filename: adobe-analytics-data-repair-api-openapi.yml
   format: yaml
   label: Adobe Analytics Data Repair API
-  slug: ''
+  slug: adobe-analytics-data-repair-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/adobe-analytics/refs/heads/main/openapi/adobe-analytics-data-repair-api-openapi.yml
 categories:

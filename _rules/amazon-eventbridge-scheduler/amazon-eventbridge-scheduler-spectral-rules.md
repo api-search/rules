@@ -3,7 +3,7 @@ api_specs:
 - filename: amazon-eventbridge-scheduler-openapi.yml
   format: yaml
   label: Amazon EventBridge Scheduler API
-  slug: ''
+  slug: amazon-eventbridge-scheduler-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-eventbridge-scheduler/refs/heads/main/openapi/amazon-eventbridge-scheduler-openapi.yml
 categories:

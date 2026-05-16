@@ -3,7 +3,7 @@ api_specs:
 - filename: openapi.yml
   format: yaml
   label: Google Meet API
-  slug: ''
+  slug: google-meet-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/google-meet/refs/heads/main/openapi/openapi.yml
 categories:

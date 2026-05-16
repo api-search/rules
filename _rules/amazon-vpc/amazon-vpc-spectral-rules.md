@@ -3,7 +3,7 @@ api_specs:
 - filename: amazon-vpc-openapi.yml
   format: yaml
   label: Amazon VPC API
-  slug: ''
+  slug: amazon-vpc-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-vpc/refs/heads/main/openapi/amazon-vpc-openapi.yml
 categories:

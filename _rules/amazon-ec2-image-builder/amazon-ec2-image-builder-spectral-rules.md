@@ -3,7 +3,7 @@ api_specs:
 - filename: amazon-ec2-image-builder-openapi.yaml
   format: yaml
   label: Amazon EC2 Image Builder API
-  slug: ''
+  slug: amazon-ec2-image-builder-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-ec2-image-builder/refs/heads/main/openapi/amazon-ec2-image-builder-openapi.yaml
 categories:

@@ -3,37 +3,37 @@ api_specs:
 - filename: openapi.json
   format: json
   label: Hugging Face Inference API
-  slug: ''
+  slug: hugging-face-inference-api
   spec_type: OpenAPI
   url: https://huggingface.co/api-inference/openapi.json
 - filename: openapi.json
   format: json
   label: Hugging Face Hub API
-  slug: ''
+  slug: hugging-face-hub-api
   spec_type: OpenAPI
   url: https://huggingface.co/.well-known/openapi.json
 - filename: hugging-face-inference-endpoints-api.yml
   format: yaml
   label: Hugging Face Inference Endpoints API
-  slug: ''
+  slug: hugging-face-inference-endpoints-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/hugging-face/refs/heads/main/openapi/hugging-face-inference-endpoints-api.yml
 - filename: hugging-face-inference-providers-api.yml
   format: yaml
   label: Hugging Face Inference Providers API
-  slug: ''
+  slug: hugging-face-inference-providers-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/hugging-face/refs/heads/main/openapi/hugging-face-inference-providers-api.yml
 - filename: openapi.json
   format: json
   label: Hugging Face Dataset Viewer API
-  slug: ''
+  slug: hugging-face-dataset-viewer-api
   spec_type: OpenAPI
   url: https://datasets-server.huggingface.co/openapi.json
 - filename: hugging-face-text-generation-inference-api.yml
   format: yaml
   label: Hugging Face Text Generation Inference API
-  slug: ''
+  slug: hugging-face-text-generation-inference-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/hugging-face/refs/heads/main/openapi/hugging-face-text-generation-inference-api.yml
 categories:

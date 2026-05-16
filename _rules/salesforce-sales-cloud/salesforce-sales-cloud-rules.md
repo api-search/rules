@@ -3,67 +3,67 @@ api_specs:
 - filename: salesforce-sales-cloud-rest-api-openapi.yml
   format: yaml
   label: Salesforce REST API
-  slug: ''
+  slug: salesforce-rest-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/salesforce-sales-cloud/refs/heads/main/openapi/salesforce-sales-cloud-rest-api-openapi.yml
 - filename: salesforce-sales-cloud-bulk-api-openapi.yml
   format: yaml
   label: Bulk API 2.0
-  slug: ''
+  slug: bulk-api-20
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/salesforce-sales-cloud/refs/heads/main/openapi/salesforce-sales-cloud-bulk-api-openapi.yml
 - filename: salesforce-sales-cloud-platform-events-api-openapi.yml
   format: yaml
   label: Platform Events API
-  slug: ''
+  slug: platform-events-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/salesforce-sales-cloud/refs/heads/main/openapi/salesforce-sales-cloud-platform-events-api-openapi.yml
 - filename: salesforce-sales-cloud-analytics-api-openapi.yml
   format: yaml
   label: Analytics REST API
-  slug: ''
+  slug: analytics-rest-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/salesforce-sales-cloud/refs/heads/main/openapi/salesforce-sales-cloud-analytics-api-openapi.yml
 - filename: salesforce-sales-cloud-composite-api-openapi.yml
   format: yaml
   label: Salesforce Composite API
-  slug: ''
+  slug: salesforce-composite-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/salesforce-sales-cloud/refs/heads/main/openapi/salesforce-sales-cloud-composite-api-openapi.yml
 - filename: salesforce-sales-cloud-graphql-api-openapi.yml
   format: yaml
   label: Salesforce GraphQL API
-  slug: ''
+  slug: salesforce-graphql-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/salesforce-sales-cloud/refs/heads/main/openapi/salesforce-sales-cloud-graphql-api-openapi.yml
 - filename: salesforce-sales-cloud-tooling-api-openapi.yml
   format: yaml
   label: Salesforce Tooling API
-  slug: ''
+  slug: salesforce-tooling-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/salesforce-sales-cloud/refs/heads/main/openapi/salesforce-sales-cloud-tooling-api-openapi.yml
 - filename: salesforce-sales-cloud-change-data-capture-api-openapi.yml
   format: yaml
   label: Salesforce Change Data Capture API
-  slug: ''
+  slug: salesforce-change-data-capture-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/salesforce-sales-cloud/refs/heads/main/openapi/salesforce-sales-cloud-change-data-capture-api-openapi.yml
 - filename: salesforce-sales-cloud-connect-api-openapi.yml
   format: yaml
   label: Salesforce Connect REST API
-  slug: ''
+  slug: salesforce-connect-rest-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/salesforce-sales-cloud/refs/heads/main/openapi/salesforce-sales-cloud-connect-api-openapi.yml
 - filename: salesforce-sales-cloud-ui-api-openapi.yml
   format: yaml
   label: Salesforce User Interface API
-  slug: ''
+  slug: salesforce-user-interface-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/salesforce-sales-cloud/refs/heads/main/openapi/salesforce-sales-cloud-ui-api-openapi.yml
 - filename: salesforce-sales-cloud-apex-rest-api-openapi.yml
   format: yaml
   label: Salesforce Apex REST API
-  slug: ''
+  slug: salesforce-apex-rest-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/salesforce-sales-cloud/refs/heads/main/openapi/salesforce-sales-cloud-apex-rest-api-openapi.yml
 categories:

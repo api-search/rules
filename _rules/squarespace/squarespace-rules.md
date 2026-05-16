@@ -3,43 +3,43 @@ api_specs:
 - filename: squarespace-commerce-api-openapi.yml
   format: yaml
   label: Squarespace Commerce API
-  slug: ''
+  slug: squarespace-commerce-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/squarespace/refs/heads/main/openapi/squarespace-commerce-api-openapi.yml
 - filename: squarespace-orders-api-openapi.yml
   format: yaml
   label: Squarespace Orders API
-  slug: ''
+  slug: squarespace-orders-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/squarespace/refs/heads/main/openapi/squarespace-orders-api-openapi.yml
 - filename: squarespace-products-api-openapi.yml
   format: yaml
   label: Squarespace Products API
-  slug: ''
+  slug: squarespace-products-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/squarespace/refs/heads/main/openapi/squarespace-products-api-openapi.yml
 - filename: squarespace-inventory-api-openapi.yml
   format: yaml
   label: Squarespace Inventory API
-  slug: ''
+  slug: squarespace-inventory-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/squarespace/refs/heads/main/openapi/squarespace-inventory-api-openapi.yml
 - filename: squarespace-profiles-api-openapi.yml
   format: yaml
   label: Squarespace Profiles API
-  slug: ''
+  slug: squarespace-profiles-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/squarespace/refs/heads/main/openapi/squarespace-profiles-api-openapi.yml
 - filename: squarespace-transactions-api-openapi.yml
   format: yaml
   label: Squarespace Transactions API
-  slug: ''
+  slug: squarespace-transactions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/squarespace/refs/heads/main/openapi/squarespace-transactions-api-openapi.yml
 - filename: squarespace-webhook-subscriptions-api-openapi.yml
   format: yaml
   label: Squarespace Webhook Subscriptions API
-  slug: ''
+  slug: squarespace-webhook-subscriptions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/squarespace/refs/heads/main/openapi/squarespace-webhook-subscriptions-api-openapi.yml
 categories:

@@ -3,7 +3,7 @@ api_specs:
 - filename: unfi-supplier-openapi.yml
   format: yaml
   label: UNFI Harmony Core API
-  slug: ''
+  slug: unfi-harmony-core-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/united-natural-foods/main/openapi/unfi-supplier-openapi.yml
 categories:

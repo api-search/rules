@@ -3,7 +3,7 @@ api_specs:
 - filename: openapi.yml
   format: yaml
   label: Google Merchant API
-  slug: ''
+  slug: google-merchant-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/google-merchant-center/refs/heads/main/openapi/openapi.yml
 categories:

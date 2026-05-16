@@ -3,13 +3,13 @@ api_specs:
 - filename: advance-auto-parts-catalog-api-openapi.yml
   format: yaml
   label: Advance Auto Parts Catalog API
-  slug: ''
+  slug: advance-auto-parts-catalog-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/advance-auto-parts/refs/heads/main/openapi/advance-auto-parts-catalog-api-openapi.yml
 - filename: advance-auto-parts-commerce-api-openapi.yml
   format: yaml
   label: Advance Auto Parts Commerce API
-  slug: ''
+  slug: advance-auto-parts-commerce-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/advance-auto-parts/refs/heads/main/openapi/advance-auto-parts-commerce-api-openapi.yml
 categories:

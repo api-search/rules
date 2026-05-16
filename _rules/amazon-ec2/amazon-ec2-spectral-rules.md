@@ -3,7 +3,7 @@ api_specs:
 - filename: amazon-ec2-openapi.yml
   format: yaml
   label: Amazon EC2 API
-  slug: ''
+  slug: amazon-ec2-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-ec2/refs/heads/main/openapi/amazon-ec2-openapi.yml
 categories:

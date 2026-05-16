@@ -3,13 +3,13 @@ api_specs:
 - filename: amd-developer-cloud-api-openapi.yml
   format: yaml
   label: AMD Developer Cloud API
-  slug: ''
+  slug: amd-developer-cloud-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/advanced-micro-devices/refs/heads/main/openapi/amd-developer-cloud-api-openapi.yml
 - filename: amd-rocm-management-api-openapi.yml
   format: yaml
   label: AMD ROCm API
-  slug: ''
+  slug: amd-rocm-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/advanced-micro-devices/refs/heads/main/openapi/amd-rocm-management-api-openapi.yml
 categories:

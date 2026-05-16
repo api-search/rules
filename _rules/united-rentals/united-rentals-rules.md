@@ -3,7 +3,7 @@ api_specs:
 - filename: united-rentals-total-control-openapi.yml
   format: yaml
   label: United Rentals Total Control Integration API
-  slug: ''
+  slug: united-rentals-total-control-integration-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/united-rentals/main/openapi/united-rentals-total-control-openapi.yml
 categories:

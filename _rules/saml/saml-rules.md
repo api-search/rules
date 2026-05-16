@@ -3,7 +3,7 @@ api_specs:
 - filename: saml-sso-bindings.yml
   format: yaml
   label: SAML 2.0 SSO HTTP Bindings API
-  slug: ''
+  slug: saml-20-sso-http-bindings-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/saml/refs/heads/main/openapi/saml-sso-bindings.yml
 categories:

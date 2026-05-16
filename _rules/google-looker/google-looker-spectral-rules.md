@@ -3,13 +3,13 @@ api_specs:
 - filename: Looker.4.0.oas.json
   format: json
   label: Looker API
-  slug: ''
+  slug: looker-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/looker-open-source/sdk-codegen/main/spec/Looker.4.0.oas.json
 - filename: rest
   format: yaml
   label: Looker (Google Cloud core) API
-  slug: ''
+  slug: looker-google-cloud-core-api
   spec_type: OpenAPI
   url: https://looker.googleapis.com/$discovery/rest?version=v1
 categories:

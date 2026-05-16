@@ -3,7 +3,7 @@ api_specs:
 - filename: fitness.yml
   format: yaml
   label: Google Fit REST API v1
-  slug: ''
+  slug: google-fit-rest-api-v1
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/google-fitness/refs/heads/main/openapi/fitness.yml
 categories:

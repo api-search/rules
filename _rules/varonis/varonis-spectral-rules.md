@@ -3,7 +3,7 @@ api_specs:
 - filename: varonis-datalert-openapi.yml
   format: yaml
   label: Varonis DatAlert API
-  slug: ''
+  slug: varonis-datalert-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/varonis/refs/heads/main/openapi/varonis-datalert-openapi.yml
 categories:

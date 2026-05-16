@@ -3,19 +3,19 @@ api_specs:
 - filename: telefono-validation-openapi.yml
   format: yaml
   label: Telefono Phone Validation API
-  slug: ''
+  slug: telefono-phone-validation-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/telefono/refs/heads/main/openapi/telefono-validation-openapi.yml
 - filename: telefono-carrier-openapi.yml
   format: yaml
   label: Telefono Carrier Lookup API
-  slug: ''
+  slug: telefono-carrier-lookup-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/telefono/refs/heads/main/openapi/telefono-carrier-openapi.yml
 - filename: telefono-format-openapi.yml
   format: yaml
   label: Telefono Number Formatting API
-  slug: ''
+  slug: telefono-number-formatting-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/telefono/refs/heads/main/openapi/telefono-format-openapi.yml
 categories:

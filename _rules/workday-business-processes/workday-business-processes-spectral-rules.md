@@ -3,7 +3,7 @@ api_specs:
 - filename: Business_Process_Service.yaml
   format: yaml
   label: Workday Business Process API
-  slug: ''
+  slug: workday-business-process-api
   spec_type: OpenAPI
   url: https://community.workday.com/sites/default/files/file-hosting/productionapi/Business_Process_Service/v41.1/Business_Process_Service.yaml
 categories:

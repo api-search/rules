@@ -3,19 +3,25 @@ api_specs:
 - filename: overview
   format: yaml
   label: SAP Analytics Cloud API
-  slug: ''
+  slug: sap-analytics-cloud-api
   spec_type: OpenAPI
   url: https://api.sap.com/api/SACOpenAPI/overview
+- filename: sap-analytics-cloud-data-export-api-openapi.yml
+  format: yaml
+  label: SAP Analytics Cloud Data Export API
+  slug: sap-analytics-cloud-data-export-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/sap-bi-tools/refs/heads/main/openapi/sap-analytics-cloud-data-export-api-openapi.yml
 - filename: overview
   format: yaml
   label: SAP HANA Cloud Data Lake Files REST API
-  slug: ''
+  slug: sap-hana-cloud-data-lake-files-rest-api
   spec_type: OpenAPI
   url: https://api.sap.com/api/HanaCloudDataLake/overview
 - filename: overview
   format: yaml
   label: SAP Datasphere API
-  slug: ''
+  slug: sap-datasphere-api
   spec_type: OpenAPI
   url: https://api.sap.com/api/Datasphere/overview
 categories:

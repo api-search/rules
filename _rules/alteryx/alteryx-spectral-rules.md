@@ -3,7 +3,7 @@ api_specs:
 - filename: alteryx-server-api-v3.yml
   format: yaml
   label: Alteryx Server API V3
-  slug: ''
+  slug: alteryx-server-api-v3
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/alteryx/refs/heads/main/openapi/alteryx-server-api-v3.yml
 categories:

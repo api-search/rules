@@ -3,7 +3,7 @@ api_specs:
 - filename: Benefits.json
   format: json
   label: Workday Benefits API
-  slug: ''
+  slug: workday-benefits-api
   spec_type: OpenAPI
   url: https://community.workday.com/sites/default/files/file-hosting/productionapi/Benefits/v40.2/Benefits.json
 categories:

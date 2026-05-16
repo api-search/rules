@@ -3,7 +3,7 @@ api_specs:
 - filename: rest
   format: yaml
   label: Google Slides API
-  slug: ''
+  slug: google-slides-api
   spec_type: OpenAPI
   url: https://slides.googleapis.com/$discovery/rest?version=v1
 categories:

@@ -3,7 +3,7 @@ api_specs:
 - filename: amazon-textract-openapi.yml
   format: yaml
   label: Amazon Textract API
-  slug: ''
+  slug: amazon-textract-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-textract/refs/heads/main/openapi/amazon-textract-openapi.yml
 categories:

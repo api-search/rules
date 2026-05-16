@@ -3,7 +3,7 @@ api_specs:
 - filename: openapi.yml
   format: yaml
   label: Google Knowledge Graph Search API
-  slug: ''
+  slug: google-knowledge-graph-search-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/google-knowledge-graph/refs/heads/main/openapi/openapi.yml
 categories:

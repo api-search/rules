@@ -3,19 +3,19 @@ api_specs:
 - filename: dynamodb-openapi.yml
   format: yaml
   label: Amazon DynamoDB API
-  slug: ''
+  slug: amazon-dynamodb-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/dynamodb/refs/heads/main/openapi/dynamodb-openapi.yml
 - filename: dynamodb-streams-asyncapi.yml
   format: yaml
   label: Amazon DynamoDB Streams API
-  slug: ''
+  slug: amazon-dynamodb-streams-api
   spec_type: AsyncAPI
   url: https://raw.githubusercontent.com/api-evangelist/dynamodb/refs/heads/main/asyncapi/dynamodb-streams-asyncapi.yml
 - filename: openapi.yaml
   format: yaml
   label: Amazon DynamoDB Accelerator (DAX) API
-  slug: ''
+  slug: amazon-dynamodb-accelerator-dax-api
   spec_type: OpenAPI
   url: https://api.apis.guru/v2/specs/amazonaws.com/dax/2017-04-19/openapi.yaml
 categories:

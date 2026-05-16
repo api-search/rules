@@ -3,7 +3,7 @@ api_specs:
 - filename: api.github.com.json
   format: json
   label: GitHub Actions API
-  slug: ''
+  slug: github-actions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/github/rest-api-description/main/descriptions/api.github.com/api.github.com.json
 categories:

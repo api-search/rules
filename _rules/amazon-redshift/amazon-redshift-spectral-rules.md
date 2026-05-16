@@ -3,13 +3,13 @@ api_specs:
 - filename: openapi.yaml
   format: yaml
   label: Amazon Redshift API
-  slug: ''
+  slug: amazon-redshift-api
   spec_type: OpenAPI
   url: https://api.apis.guru/v2/specs/amazonaws.com/redshift/2012-12-01/openapi.yaml
 - filename: amazon-redshift-data-api-openapi.yml
   format: yaml
   label: Amazon Redshift Data API
-  slug: ''
+  slug: amazon-redshift-data-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-redshift/refs/heads/main/openapi/amazon-redshift-data-api-openapi.yml
 categories:

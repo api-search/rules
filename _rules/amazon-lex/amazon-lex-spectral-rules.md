@@ -3,7 +3,7 @@ api_specs:
 - filename: openapi.yml
   format: yaml
   label: Amazon Lex API
-  slug: ''
+  slug: amazon-lex-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-lex/refs/heads/main/openapi/openapi.yml
 categories:

@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: amazon-s3-glacier-api-openapi.yml
+  format: yaml
+  label: Amazon S3 Glacier API
+  slug: amazon-s3-glacier-api
+  spec_type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-s3-glacier/refs/heads/main/openapi/amazon-s3-glacier-api-openapi.yml
 categories:
 - delete
 - get

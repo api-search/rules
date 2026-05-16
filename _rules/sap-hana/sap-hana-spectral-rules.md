@@ -3,7 +3,7 @@ api_specs:
 - filename: sap-hana-cloud-rest-api.yml
   format: yaml
   label: SAP HANA Cloud REST API
-  slug: ''
+  slug: sap-hana-cloud-rest-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sap-hana/refs/heads/main/openapi/sap-hana-cloud-rest-api.yml
 categories:

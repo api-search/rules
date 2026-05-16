@@ -3,13 +3,13 @@ api_specs:
 - filename: rest_api.yaml
   format: yaml
   label: Triton HTTP/REST API
-  slug: ''
+  slug: triton-httprest-api
   spec_type: OpenAPI
   url: https://github.com/triton-inference-server/server/blob/main/docs/protocol/rest_api.yaml
 - filename: triton-metrics-openapi.yml
   format: yaml
   label: Triton Metrics API
-  slug: ''
+  slug: triton-metrics-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/triton/refs/heads/main/openapi/triton-metrics-openapi.yml
 categories:

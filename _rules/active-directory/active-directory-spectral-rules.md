@@ -3,19 +3,19 @@ api_specs:
 - filename: active-directory-users-openapi.yaml
   format: yaml
   label: Microsoft Graph Users API
-  slug: ''
+  slug: microsoft-graph-users-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/active-directory/refs/heads/main/openapi/active-directory-users-openapi.yaml
 - filename: active-directory-groups-openapi.yaml
   format: yaml
   label: Microsoft Graph Groups API
-  slug: ''
+  slug: microsoft-graph-groups-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/active-directory/refs/heads/main/openapi/active-directory-groups-openapi.yaml
 - filename: active-directory-applications-openapi.yaml
   format: yaml
   label: Microsoft Graph Applications and Service Principals API
-  slug: ''
+  slug: microsoft-graph-applications-and-service-principals-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/active-directory/refs/heads/main/openapi/active-directory-applications-openapi.yaml
 categories:

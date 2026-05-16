@@ -3,25 +3,25 @@ api_specs:
 - filename: expense-report.json
   format: json
   label: Concur Expense API
-  slug: ''
+  slug: concur-expense-api
   spec_type: OpenAPI
   url: https://developer.concur.com/api-reference/expense/expense-report/expense-report.json
 - filename: itinerary.json
   format: json
   label: Concur Travel API
-  slug: ''
+  slug: concur-travel-api
   spec_type: OpenAPI
   url: https://developer.concur.com/api-reference/travel/itinerary/itinerary.json
 - filename: v3.invoice.json
   format: json
   label: Concur Invoice API
-  slug: ''
+  slug: concur-invoice-api
   spec_type: OpenAPI
   url: https://developer.concur.com/api-reference/invoice/v3.invoice.json
 - filename: v4.request.json
   format: json
   label: Concur Request API
-  slug: ''
+  slug: concur-request-api
   spec_type: OpenAPI
   url: https://developer.concur.com/api-reference/request/v4.request.json
 categories:

@@ -3,25 +3,25 @@ api_specs:
 - filename: maps-js.yaml
   format: yaml
   label: Maps JavaScript API
-  slug: ''
+  slug: maps-javascript-api
   spec_type: OpenAPI
   url: https://api.example.com/openapi/maps-js.yaml
 - filename: google-maps-geocoding-api.yml
   format: yaml
   label: Geocoding API
-  slug: ''
+  slug: geocoding-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/google-maps/refs/heads/main/openapi/google-maps-geocoding-api.yml
 - filename: google-maps-places-api.yml
   format: yaml
   label: Places API (New)
-  slug: ''
+  slug: places-api-new
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/google-maps/refs/heads/main/openapi/google-maps-places-api.yml
 - filename: google-maps-directions-api.yml
   format: yaml
   label: Directions API
-  slug: ''
+  slug: directions-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/google-maps/refs/heads/main/openapi/google-maps-directions-api.yml
 categories:

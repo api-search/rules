@@ -3,25 +3,25 @@ api_specs:
 - filename: seismic-content-openapi.yml
   format: yaml
   label: Seismic Content API
-  slug: ''
+  slug: seismic-content-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/seismic/refs/heads/main/openapi/seismic-content-openapi.yml
 - filename: seismic-livedocs-openapi.yml
   format: yaml
   label: Seismic LiveDocs API
-  slug: ''
+  slug: seismic-livedocs-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/seismic/refs/heads/main/openapi/seismic-livedocs-openapi.yml
 - filename: seismic-analytics-openapi.yml
   format: yaml
   label: Seismic Analytics API
-  slug: ''
+  slug: seismic-analytics-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/seismic/refs/heads/main/openapi/seismic-analytics-openapi.yml
 - filename: seismic-user-management-openapi.yml
   format: yaml
   label: Seismic User Management API
-  slug: ''
+  slug: seismic-user-management-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/seismic/refs/heads/main/openapi/seismic-user-management-openapi.yml
 categories:

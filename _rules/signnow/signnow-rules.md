@@ -3,7 +3,7 @@ api_specs:
 - filename: signnow-openapi.yml
   format: yaml
   label: SignNow REST API
-  slug: ''
+  slug: signnow-rest-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/signnow/refs/heads/main/openapi/signnow-openapi.yml
 categories:

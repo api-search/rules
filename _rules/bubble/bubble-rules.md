@@ -3,19 +3,19 @@ api_specs:
 - filename: bubble-data-api-openapi.yml
   format: yaml
   label: Bubble Data API
-  slug: ''
+  slug: bubble-data-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/bubble/refs/heads/main/openapi/bubble-data-api-openapi.yml
 - filename: bubble-workflow-api-openapi.yml
   format: yaml
   label: Bubble Workflow API
-  slug: ''
+  slug: bubble-workflow-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/bubble/refs/heads/main/openapi/bubble-workflow-api-openapi.yml
 - filename: bubble-plugin-api-openapi.yml
   format: yaml
   label: Bubble Plugin API
-  slug: ''
+  slug: bubble-plugin-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/bubble/refs/heads/main/openapi/bubble-plugin-api-openapi.yml
 categories:

@@ -3,19 +3,19 @@ api_specs:
 - filename: resources_list.htm
   format: yaml
   label: Salesforce Service Cloud REST API
-  slug: ''
+  slug: salesforce-service-cloud-rest-api
   spec_type: OpenAPI
   url: https://developer.salesforce.com/docs/atlas.en-us.api_rest.meta/api_rest/resources_list.htm
 - filename: salesforce-streaming-api-asyncapi.yml
   format: yaml
   label: Service Cloud Streaming API
-  slug: ''
+  slug: service-cloud-streaming-api
   spec_type: AsyncAPI
   url: https://raw.githubusercontent.com/api-evangelist/salesforce-service-cloud/refs/heads/main/asyncapi/salesforce-streaming-api-asyncapi.yml
 - filename: salesforce-live-agent-openapi.yml
   format: yaml
   label: Live Agent REST API
-  slug: ''
+  slug: live-agent-rest-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/salesforce-service-cloud/refs/heads/main/openapi/salesforce-live-agent-openapi.yml
 categories:

@@ -3,7 +3,7 @@ api_specs:
 - filename: amazon-waf-openapi.yml
   format: yaml
   label: Amazon WAF REST API
-  slug: ''
+  slug: amazon-waf-rest-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-waf/refs/heads/main/openapi/amazon-waf-openapi.yml
 categories:

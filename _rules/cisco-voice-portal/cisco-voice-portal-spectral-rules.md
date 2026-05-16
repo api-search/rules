@@ -3,31 +3,31 @@ api_specs:
 - filename: cisco-voice-portal-call-control-openapi.yml
   format: yaml
   label: Cisco Voice Portal Call Control API
-  slug: ''
+  slug: cisco-voice-portal-call-control-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cisco-voice-portal/refs/heads/main/openapi/cisco-voice-portal-call-control-openapi.yml
 - filename: cisco-voice-portal-reporting-openapi.yml
   format: yaml
   label: Cisco Voice Portal Reporting API
-  slug: ''
+  slug: cisco-voice-portal-reporting-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cisco-voice-portal/refs/heads/main/openapi/cisco-voice-portal-reporting-openapi.yml
 - filename: cisco-voice-portal-administration-openapi.yml
   format: yaml
   label: Cisco Voice Portal Administration API
-  slug: ''
+  slug: cisco-voice-portal-administration-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cisco-voice-portal/refs/heads/main/openapi/cisco-voice-portal-administration-openapi.yml
 - filename: cisco-voice-portal-vxml-services-openapi.yml
   format: yaml
   label: Cisco Voice Portal VXML Services API
-  slug: ''
+  slug: cisco-voice-portal-vxml-services-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cisco-voice-portal/refs/heads/main/openapi/cisco-voice-portal-vxml-services-openapi.yml
 - filename: cisco-voice-portal-call-events-asyncapi.yml
   format: yaml
   label: Cisco Voice Portal Call Events API
-  slug: ''
+  slug: cisco-voice-portal-call-events-api
   spec_type: AsyncAPI
   url: https://raw.githubusercontent.com/api-evangelist/cisco-voice-portal/refs/heads/main/asyncapi/cisco-voice-portal-call-events-asyncapi.yml
 categories:

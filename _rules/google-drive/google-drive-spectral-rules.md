@@ -3,7 +3,7 @@ api_specs:
 - filename: google-drive-openapi.yml
   format: yaml
   label: Google Drive API v3
-  slug: ''
+  slug: google-drive-api-v3
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/google-drive/refs/heads/main/openapi/google-drive-openapi.yml
 categories:

@@ -3,7 +3,7 @@ api_specs:
 - filename: amazon-translate-openapi.yml
   format: yaml
   label: Amazon Translate REST API
-  slug: ''
+  slug: amazon-translate-rest-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-translate/refs/heads/main/openapi/amazon-translate-openapi.yml
 categories:

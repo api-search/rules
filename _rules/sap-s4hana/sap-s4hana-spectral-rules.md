@@ -3,109 +3,109 @@ api_specs:
 - filename: overview
   format: yaml
   label: SAP S/4HANA Business Partner API
-  slug: ''
+  slug: sap-s4hana-business-partner-api
   spec_type: OpenAPI
   url: https://api.sap.com/api/API_BUSINESS_PARTNER/overview
 - filename: sap-s4hana-sales-order-openapi.yml
   format: yaml
   label: SAP S/4HANA Sales Order API
-  slug: ''
+  slug: sap-s4hana-sales-order-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sap-s4hana/refs/heads/main/openapi/sap-s4hana-sales-order-openapi.yml
 - filename: overview
   format: yaml
   label: SAP S/4HANA Purchase Order API
-  slug: ''
+  slug: sap-s4hana-purchase-order-api
   spec_type: OpenAPI
   url: https://api.sap.com/api/API_PURCHASEORDER_PROCESS_SRV/overview
 - filename: overview
   format: yaml
   label: SAP S/4HANA Material Document API
-  slug: ''
+  slug: sap-s4hana-material-document-api
   spec_type: OpenAPI
   url: https://api.sap.com/api/API_MATERIAL_DOCUMENT_SRV/overview
 - filename: overview
   format: yaml
   label: SAP S/4HANA Product Master API
-  slug: ''
+  slug: sap-s4hana-product-master-api
   spec_type: OpenAPI
   url: https://api.sap.com/api/API_PRODUCT_SRV/overview
 - filename: overview
   format: yaml
   label: SAP S/4HANA Journal Entry API
-  slug: ''
+  slug: sap-s4hana-journal-entry-api
   spec_type: OpenAPI
   url: https://api.sap.com/api/API_JOURNALENTRY_SRV/overview
 - filename: overview
   format: yaml
   label: SAP S/4HANA Billing Document API
-  slug: ''
+  slug: sap-s4hana-billing-document-api
   spec_type: OpenAPI
   url: https://api.sap.com/api/API_BILLING_DOCUMENT_SRV/overview
 - filename: overview
   format: yaml
   label: SAP S/4HANA Supplier Invoice API
-  slug: ''
+  slug: sap-s4hana-supplier-invoice-api
   spec_type: OpenAPI
   url: https://api.sap.com/api/API_SUPPLIERINVOICE_PROCESS_SRV/overview
 - filename: overview
   format: yaml
   label: SAP S/4HANA Customer Return API
-  slug: ''
+  slug: sap-s4hana-customer-return-api
   spec_type: OpenAPI
   url: https://api.sap.com/api/API_CUSTOMER_RETURN_SRV/overview
 - filename: overview
   format: yaml
   label: SAP S/4HANA Purchase Requisition API
-  slug: ''
+  slug: sap-s4hana-purchase-requisition-api
   spec_type: OpenAPI
   url: https://api.sap.com/api/API_PURCHASEREQ_PROCESS_SRV/overview
 - filename: overview
   format: yaml
   label: SAP S/4HANA Outbound Delivery API
-  slug: ''
+  slug: sap-s4hana-outbound-delivery-api
   spec_type: OpenAPI
   url: https://api.sap.com/api/API_OUTBOUND_DELIVERY_SRV_0002/overview
 - filename: overview
   format: yaml
   label: SAP S/4HANA Inbound Delivery API
-  slug: ''
+  slug: sap-s4hana-inbound-delivery-api
   spec_type: OpenAPI
   url: https://api.sap.com/api/API_INBOUND_DELIVERY_SRV_0002/overview
 - filename: overview
   format: yaml
   label: SAP S/4HANA Cost Center API
-  slug: ''
+  slug: sap-s4hana-cost-center-api
   spec_type: OpenAPI
   url: https://api.sap.com/api/API_COSTCENTER_SRV/overview
 - filename: overview
   format: yaml
   label: SAP S/4HANA GL Account API
-  slug: ''
+  slug: sap-s4hana-gl-account-api
   spec_type: OpenAPI
   url: https://api.sap.com/api/API_GLACCOUNTINCHARTOFACCOUNTS_SRV/overview
 - filename: overview
   format: yaml
   label: SAP S/4HANA Bank Master API
-  slug: ''
+  slug: sap-s4hana-bank-master-api
   spec_type: OpenAPI
   url: https://api.sap.com/api/API_BANKDETAIL_SRV/overview
 - filename: overview
   format: yaml
   label: SAP S/4HANA Production Order API
-  slug: ''
+  slug: sap-s4hana-production-order-api
   spec_type: OpenAPI
   url: https://api.sap.com/api/API_PRODUCTION_ORDER_2_SRV/overview
 - filename: overview
   format: yaml
   label: SAP S/4HANA Maintenance Order API
-  slug: ''
+  slug: sap-s4hana-maintenance-order-api
   spec_type: OpenAPI
   url: https://api.sap.com/api/API_MAINTENANCEORDER/overview
 - filename: overview
   format: yaml
   label: SAP S/4HANA Workforce Timesheet API
-  slug: ''
+  slug: sap-s4hana-workforce-timesheet-api
   spec_type: OpenAPI
   url: https://api.sap.com/api/API_MANAGE_WORKFORCE_TIMESHEET/overview
 categories:

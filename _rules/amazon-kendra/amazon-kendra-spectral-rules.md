@@ -3,7 +3,7 @@ api_specs:
 - filename: openapi.yaml
   format: yaml
   label: Amazon Kendra API
-  slug: ''
+  slug: amazon-kendra-api
   spec_type: OpenAPI
   url: https://api.apis.guru/v2/specs/amazonaws.com/kendra/2019-02-03/openapi.yaml
 categories:

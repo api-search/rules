@@ -3,7 +3,7 @@ api_specs:
 - filename: salesforce-knowledge-management-rest-api-openapi.yml
   format: yaml
   label: Salesforce Knowledge REST API
-  slug: ''
+  slug: salesforce-knowledge-rest-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/salesforce-knowledge-management/refs/heads/main/openapi/salesforce-knowledge-management-rest-api-openapi.yml
 categories:

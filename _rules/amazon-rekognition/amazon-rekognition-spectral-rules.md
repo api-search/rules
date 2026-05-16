@@ -3,7 +3,7 @@ api_specs:
 - filename: amazon-rekognition-openapi.yml
   format: yaml
   label: Amazon Rekognition
-  slug: ''
+  slug: amazon-rekognition
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-rekognition/refs/heads/main/openapi/amazon-rekognition-openapi.yml
 categories:

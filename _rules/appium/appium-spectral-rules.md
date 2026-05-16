@@ -3,7 +3,7 @@ api_specs:
 - filename: appium-server-openapi.yaml
   format: yaml
   label: Appium Server API
-  slug: ''
+  slug: appium-server-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/appium/refs/heads/main/openapi/appium-server-openapi.yaml
 categories:

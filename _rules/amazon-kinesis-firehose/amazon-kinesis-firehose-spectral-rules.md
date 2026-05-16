@@ -3,7 +3,7 @@ api_specs:
 - filename: amazon-kinesis-firehose-openapi.yml
   format: yaml
   label: Amazon Kinesis Data Firehose API
-  slug: ''
+  slug: amazon-kinesis-data-firehose-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-kinesis-firehose/refs/heads/main/openapi/amazon-kinesis-firehose-openapi.yml
 categories:

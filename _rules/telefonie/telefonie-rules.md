@@ -3,25 +3,25 @@ api_specs:
 - filename: telefonie-voice-openapi.yml
   format: yaml
   label: Telefonie Voice API
-  slug: ''
+  slug: telefonie-voice-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/telefonie/refs/heads/main/openapi/telefonie-voice-openapi.yml
 - filename: telefonie-sms-openapi.yml
   format: yaml
   label: Telefonie SMS API
-  slug: ''
+  slug: telefonie-sms-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/telefonie/refs/heads/main/openapi/telefonie-sms-openapi.yml
 - filename: telefonie-numbers-openapi.yml
   format: yaml
   label: Telefonie Number Management API
-  slug: ''
+  slug: telefonie-number-management-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/telefonie/refs/heads/main/openapi/telefonie-numbers-openapi.yml
 - filename: telefonie-recording-openapi.yml
   format: yaml
   label: Telefonie Call Recording API
-  slug: ''
+  slug: telefonie-call-recording-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/telefonie/refs/heads/main/openapi/telefonie-recording-openapi.yml
 categories:

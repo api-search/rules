@@ -3,7 +3,7 @@ api_specs:
 - filename: google-search-console-api-openapi.yml
   format: yaml
   label: Google Search Console API
-  slug: ''
+  slug: google-search-console-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/google-search-console/refs/heads/main/openapi/google-search-console-api-openapi.yml
 categories:

@@ -3,7 +3,7 @@ api_specs:
 - filename: amazon-sns-api-openapi.yml
   format: yaml
   label: Amazon SNS API
-  slug: ''
+  slug: amazon-sns-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-sns/refs/heads/main/openapi/amazon-sns-api-openapi.yml
 categories:

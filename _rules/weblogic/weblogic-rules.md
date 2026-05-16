@@ -3,19 +3,19 @@ api_specs:
 - filename: weblogic-restful-management-services-openapi.yml
   format: yaml
   label: WebLogic RESTful Management Services API
-  slug: ''
+  slug: weblogic-restful-management-services-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/weblogic/refs/heads/main/openapi/weblogic-restful-management-services-openapi.yml
 - filename: weblogic-monitoring-diagnostics-openapi.yml
   format: yaml
   label: WebLogic Monitoring and Diagnostics API
-  slug: ''
+  slug: weblogic-monitoring-and-diagnostics-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/weblogic/refs/heads/main/openapi/weblogic-monitoring-diagnostics-openapi.yml
 - filename: weblogic-deployment-openapi.yml
   format: yaml
   label: WebLogic Deployment API
-  slug: ''
+  slug: weblogic-deployment-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/weblogic/refs/heads/main/openapi/weblogic-deployment-openapi.yml
 categories:

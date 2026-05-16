@@ -3,13 +3,13 @@ api_specs:
 - filename: openapi.yaml
   format: yaml
   label: NetApp Cloud Manager API
-  slug: ''
+  slug: netapp-cloud-manager-api
   spec_type: OpenAPI
   url: https://docs.netapp.com/us-en/cloud-manager-automation/api/openapi.yaml
 - filename: netapp-ontap-openapi.yml
   format: yaml
   label: NetApp ONTAP REST API
-  slug: ''
+  slug: netapp-ontap-rest-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/netapp/refs/heads/main/openapi/netapp-ontap-openapi.yml
 categories:

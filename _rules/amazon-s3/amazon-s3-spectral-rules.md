@@ -3,19 +3,19 @@ api_specs:
 - filename: amazon-s3-rest-api-openapi.yml
   format: yaml
   label: Amazon S3 REST API
-  slug: ''
+  slug: amazon-s3-rest-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-s3/refs/heads/main/openapi/amazon-s3-rest-api-openapi.yml
 - filename: amazon-s3-control-api-openapi.yml
   format: yaml
   label: Amazon S3 Control API
-  slug: ''
+  slug: amazon-s3-control-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-s3/refs/heads/main/openapi/amazon-s3-control-api-openapi.yml
 - filename: amazon-s3-tables-api-openapi.yml
   format: yaml
   label: Amazon S3 Tables API
-  slug: ''
+  slug: amazon-s3-tables-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-s3/refs/heads/main/openapi/amazon-s3-tables-api-openapi.yml
 categories:

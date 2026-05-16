@@ -3,7 +3,7 @@ api_specs:
 - filename: amazon-polly-openapi.yml
   format: yaml
   label: Amazon Polly API
-  slug: ''
+  slug: amazon-polly-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-polly/refs/heads/main/openapi/amazon-polly-openapi.yml
 categories:

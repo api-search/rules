@@ -3,13 +3,13 @@ api_specs:
 - filename: tufin-securetrack-openapi.yml
   format: yaml
   label: Tufin SecureTrack API
-  slug: ''
+  slug: tufin-securetrack-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/tufin/refs/heads/main/openapi/tufin-securetrack-openapi.yml
 - filename: tufin-securechange-openapi.yml
   format: yaml
   label: Tufin SecureChange API
-  slug: ''
+  slug: tufin-securechange-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/tufin/refs/heads/main/openapi/tufin-securechange-openapi.yml
 categories:

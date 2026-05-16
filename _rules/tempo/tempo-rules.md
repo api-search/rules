@@ -3,7 +3,7 @@ api_specs:
 - filename: tempo-openapi.yml
   format: yaml
   label: Tempo HTTP API
-  slug: ''
+  slug: tempo-http-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/tempo/refs/heads/main/openapi/tempo-openapi.yml
 categories:

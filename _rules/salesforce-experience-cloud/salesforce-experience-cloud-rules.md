@@ -3,55 +3,55 @@ api_specs:
 - filename: salesforce-experience-cloud-sites-openapi.yml
   format: yaml
   label: Experience Cloud Sites API
-  slug: ''
+  slug: experience-cloud-sites-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/salesforce-experience-cloud/refs/heads/main/openapi/salesforce-experience-cloud-sites-openapi.yml
 - filename: salesforce-experience-cloud-connect-communities-openapi.yml
   format: yaml
   label: Connect REST API (Communities)
-  slug: ''
+  slug: connect-rest-api-communities
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/salesforce-experience-cloud/refs/heads/main/openapi/salesforce-experience-cloud-connect-communities-openapi.yml
 - filename: salesforce-experience-cloud-cms-connect-openapi.yml
   format: yaml
   label: CMS Connect API
-  slug: ''
+  slug: cms-connect-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/salesforce-experience-cloud/refs/heads/main/openapi/salesforce-experience-cloud-cms-connect-openapi.yml
 - filename: salesforce-experience-cloud-rest-api-openapi.yml
   format: yaml
   label: Salesforce REST API
-  slug: ''
+  slug: salesforce-rest-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/salesforce-experience-cloud/refs/heads/main/openapi/salesforce-experience-cloud-rest-api-openapi.yml
 - filename: salesforce-experience-cloud-templates-openapi.yml
   format: yaml
   label: Experience Cloud Templates API
-  slug: ''
+  slug: experience-cloud-templates-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/salesforce-experience-cloud/refs/heads/main/openapi/salesforce-experience-cloud-templates-openapi.yml
 - filename: salesforce-experience-cloud-graphql-openapi.yml
   format: yaml
   label: GraphQL API
-  slug: ''
+  slug: graphql-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/salesforce-experience-cloud/refs/heads/main/openapi/salesforce-experience-cloud-graphql-openapi.yml
 - filename: salesforce-experience-cloud-cms-managed-content-openapi.yml
   format: yaml
   label: CMS Managed Content API
-  slug: ''
+  slug: cms-managed-content-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/salesforce-experience-cloud/refs/heads/main/openapi/salesforce-experience-cloud-cms-managed-content-openapi.yml
 - filename: salesforce-experience-cloud-cms-delivery-openapi.yml
   format: yaml
   label: CMS Delivery API
-  slug: ''
+  slug: cms-delivery-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/salesforce-experience-cloud/refs/heads/main/openapi/salesforce-experience-cloud-cms-delivery-openapi.yml
 - filename: salesforce-experience-cloud-user-interface-openapi.yml
   format: yaml
   label: User Interface API
-  slug: ''
+  slug: user-interface-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/salesforce-experience-cloud/refs/heads/main/openapi/salesforce-experience-cloud-user-interface-openapi.yml
 categories:

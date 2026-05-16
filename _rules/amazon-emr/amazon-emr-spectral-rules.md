@@ -3,7 +3,7 @@ api_specs:
 - filename: amazon-emr-openapi.yml
   format: yaml
   label: Amazon EMR API
-  slug: ''
+  slug: amazon-emr-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-emr/refs/heads/main/openapi/amazon-emr-openapi.yml
 categories:

@@ -3,7 +3,7 @@ api_specs:
 - filename: yardi-voyager-api-openapi.yml
   format: yaml
   label: Yardi Voyager API
-  slug: ''
+  slug: yardi-voyager-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/yardi/refs/heads/main/openapi/yardi-voyager-api-openapi.yml
 categories:

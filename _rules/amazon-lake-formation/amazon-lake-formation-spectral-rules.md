@@ -3,7 +3,7 @@ api_specs:
 - filename: openapi.yaml
   format: yaml
   label: Amazon Lake Formation API
-  slug: ''
+  slug: amazon-lake-formation-api
   spec_type: OpenAPI
   url: https://api.apis.guru/v2/specs/amazonaws.com/lakeformation/2017-03-31/openapi.yaml
 categories:

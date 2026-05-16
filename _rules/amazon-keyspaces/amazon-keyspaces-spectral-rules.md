@@ -3,7 +3,7 @@ api_specs:
 - filename: openapi.yaml
   format: yaml
   label: Amazon Keyspaces API
-  slug: ''
+  slug: amazon-keyspaces-api
   spec_type: OpenAPI
   url: https://api.apis.guru/v2/specs/amazonaws.com/keyspaces/2022-02-10/openapi.yaml
 categories:

@@ -3,13 +3,13 @@ api_specs:
 - filename: spring-boot-actuator-openapi.yml
   format: yaml
   label: Spring Boot Actuator API
-  slug: ''
+  slug: spring-boot-actuator-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/spring/refs/heads/main/openapi/spring-boot-actuator-openapi.yml
 - filename: spring-initializr-api-openapi.yml
   format: yaml
   label: Spring Initializr API
-  slug: ''
+  slug: spring-initializr-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/spring/refs/heads/main/openapi/spring-initializr-api-openapi.yml
 categories:

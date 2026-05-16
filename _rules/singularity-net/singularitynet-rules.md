@@ -3,7 +3,7 @@ api_specs:
 - filename: singularitynet-marketplace-openapi.yml
   format: yaml
   label: SingularityNET Daemon API
-  slug: ''
+  slug: singularitynet-daemon-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/singularity-net/refs/heads/main/openapi/singularitynet-marketplace-openapi.yml
 categories:

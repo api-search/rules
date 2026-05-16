@@ -3,37 +3,37 @@ api_specs:
 - filename: api.github.com.json
   format: json
   label: GitHub Copilot API
-  slug: ''
+  slug: github-copilot-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/github/rest-api-description/main/descriptions/api.github.com/api.github.com.json
 - filename: api.github.com.json
   format: json
   label: GitHub Copilot for Business API
-  slug: ''
+  slug: github-copilot-for-business-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/github/rest-api-description/main/descriptions/api.github.com/api.github.com.json
 - filename: api.github.com.json
   format: json
   label: GitHub Copilot User Management API
-  slug: ''
+  slug: github-copilot-user-management-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/github/rest-api-description/main/descriptions/api.github.com/api.github.com.json
 - filename: api.github.com.json
   format: json
   label: GitHub Copilot Metrics API
-  slug: ''
+  slug: github-copilot-metrics-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/github/rest-api-description/main/descriptions/api.github.com/api.github.com.json
 - filename: api.github.com.json
   format: json
   label: GitHub Copilot Usage Metrics API
-  slug: ''
+  slug: github-copilot-usage-metrics-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/github/rest-api-description/main/descriptions/api.github.com/api.github.com.json
 - filename: api.github.com.json
   format: json
   label: GitHub Copilot Content Exclusion API
-  slug: ''
+  slug: github-copilot-content-exclusion-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/github/rest-api-description/main/descriptions/api.github.com/api.github.com.json
 categories:

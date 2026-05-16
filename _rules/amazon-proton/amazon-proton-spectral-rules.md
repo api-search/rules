@@ -3,7 +3,7 @@ api_specs:
 - filename: amazon-proton-openapi-original.yaml
   format: yaml
   label: AWS Proton API
-  slug: ''
+  slug: aws-proton-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/openapi/amazon-proton-openapi-original.yaml
 categories:

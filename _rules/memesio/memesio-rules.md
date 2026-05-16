@@ -3,7 +3,7 @@ api_specs:
 - filename: openapi
   format: yaml
   label: Memesio API
-  slug: ''
+  slug: memesio-api
   spec_type: OpenAPI
   url: https://memesio.com/api/openapi
 categories:

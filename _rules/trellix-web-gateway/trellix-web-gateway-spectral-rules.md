@@ -3,19 +3,19 @@ api_specs:
 - filename: openapi.json
   format: json
   label: Trellix Web Gateway REST API
-  slug: ''
+  slug: trellix-web-gateway-rest-api
   spec_type: OpenAPI
   url: https://docs.trellix.com/api/web-gateway/openapi.json
 - filename: trellix-web-gateway-reporting-openapi.yml
   format: yaml
   label: Trellix Web Gateway Reporting API
-  slug: ''
+  slug: trellix-web-gateway-reporting-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/trellix-web-gateway/refs/heads/main/openapi/trellix-web-gateway-reporting-openapi.yml
 - filename: trellix-web-gateway-policy-openapi.yml
   format: yaml
   label: Trellix Web Gateway Policy API
-  slug: ''
+  slug: trellix-web-gateway-policy-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/trellix-web-gateway/refs/heads/main/openapi/trellix-web-gateway-policy-openapi.yml
 categories:

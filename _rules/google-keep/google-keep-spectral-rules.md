@@ -3,7 +3,7 @@ api_specs:
 - filename: openapi.yml
   format: yaml
   label: Google Keep API
-  slug: ''
+  slug: google-keep-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/google-keep/refs/heads/main/openapi/openapi.yml
 categories:

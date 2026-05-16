@@ -3,7 +3,7 @@ api_specs:
 - filename: spx-graphics-control-api-openapi.yml
   format: yaml
   label: SPX Graphics Control API
-  slug: ''
+  slug: spx-graphics-control-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/spx/refs/heads/main/openapi/spx-graphics-control-api-openapi.yml
 categories:

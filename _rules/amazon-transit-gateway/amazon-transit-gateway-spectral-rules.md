@@ -3,7 +3,7 @@ api_specs:
 - filename: amazon-transit-gateway-openapi.yml
   format: yaml
   label: Amazon Transit Gateway REST API
-  slug: ''
+  slug: amazon-transit-gateway-rest-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-transit-gateway/refs/heads/main/openapi/amazon-transit-gateway-openapi.yml
 categories:

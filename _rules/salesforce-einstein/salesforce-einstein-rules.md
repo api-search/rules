@@ -3,37 +3,37 @@ api_specs:
 - filename: openapi.json
   format: json
   label: Einstein Vision API
-  slug: ''
+  slug: einstein-vision-api
   spec_type: OpenAPI
   url: https://api.einstein.ai/v2/vision/openapi.json
 - filename: openapi.json
   format: json
   label: Einstein Language API
-  slug: ''
+  slug: einstein-language-api
   spec_type: OpenAPI
   url: https://api.einstein.ai/v2/language/openapi.json
 - filename: salesforce-einstein-prediction-builder-openapi.yml
   format: yaml
   label: Einstein Prediction Builder API
-  slug: ''
+  slug: einstein-prediction-builder-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/salesforce-einstein/refs/heads/main/openapi/salesforce-einstein-prediction-builder-openapi.yml
 - filename: salesforce-einstein-discovery-openapi.yml
   format: yaml
   label: Einstein Discovery API
-  slug: ''
+  slug: einstein-discovery-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/salesforce-einstein/refs/heads/main/openapi/salesforce-einstein-discovery-openapi.yml
 - filename: salesforce-einstein-bots-openapi.yml
   format: yaml
   label: Einstein Bots API
-  slug: ''
+  slug: einstein-bots-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/salesforce-einstein/refs/heads/main/openapi/salesforce-einstein-bots-openapi.yml
 - filename: salesforce-einstein-gpt-openapi.yml
   format: yaml
   label: Einstein GPT API
-  slug: ''
+  slug: einstein-gpt-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/salesforce-einstein/refs/heads/main/openapi/salesforce-einstein-gpt-openapi.yml
 categories:

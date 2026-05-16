@@ -3,7 +3,7 @@ api_specs:
 - filename: openapi.yaml
   format: yaml
   label: Canva Connect API
-  slug: ''
+  slug: canva-connect-api
   spec_type: OpenAPI
   url: https://www.canva.com/developers/docs/connect-api/openapi/
 categories:

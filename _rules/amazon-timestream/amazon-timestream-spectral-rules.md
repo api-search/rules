@@ -3,7 +3,7 @@ api_specs:
 - filename: amazon-timestream-openapi.yml
   format: yaml
   label: Amazon Timestream API
-  slug: ''
+  slug: amazon-timestream-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-timestream/refs/heads/main/openapi/amazon-timestream-openapi.yml
 categories:

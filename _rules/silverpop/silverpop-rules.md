@@ -3,7 +3,7 @@ api_specs:
 - filename: silverpop-openapi.yml
   format: yaml
   label: Silverpop Engage XML API
-  slug: ''
+  slug: silverpop-engage-xml-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/silverpop/refs/heads/main/openapi/silverpop-openapi.yml
 categories:

@@ -3,7 +3,7 @@ api_specs:
 - filename: amazon-ecr-openapi.yml
   format: yaml
   label: Amazon ECR API
-  slug: ''
+  slug: amazon-ecr-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-ecr/refs/heads/main/openapi/amazon-ecr-openapi.yml
 categories:

@@ -3,73 +3,73 @@ api_specs:
 - filename: openapi.json
   format: json
   label: Temenos Transact API
-  slug: ''
+  slug: temenos-transact-api
   spec_type: OpenAPI
   url: https://developer.temenos.com/transact/openapi.json
 - filename: openapi.json
   format: json
   label: Temenos Infinity API
-  slug: ''
+  slug: temenos-infinity-api
   spec_type: OpenAPI
   url: https://developer.temenos.com/infinity/openapi.json
 - filename: openapi.json
   format: json
   label: Temenos Payments API
-  slug: ''
+  slug: temenos-payments-api
   spec_type: OpenAPI
   url: https://developer.temenos.com/payments/openapi.json
 - filename: openapi.json
   format: json
   label: Temenos Fund Administration API
-  slug: ''
+  slug: temenos-fund-administration-api
   spec_type: OpenAPI
   url: https://developer.temenos.com/funds/openapi.json
 - filename: openapi.json
   format: json
   label: Temenos Financial Crime Mitigation API
-  slug: ''
+  slug: temenos-financial-crime-mitigation-api
   spec_type: OpenAPI
   url: https://developer.temenos.com/fcm/openapi.json
 - filename: temenos-data-hub-openapi.yml
   format: yaml
   label: Temenos Transact Data Hub API
-  slug: ''
+  slug: temenos-transact-data-hub-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/temenos/refs/heads/main/openapi/temenos-data-hub-openapi.yml
 - filename: temenos-wealth-openapi.yml
   format: yaml
   label: Temenos Wealth API
-  slug: ''
+  slug: temenos-wealth-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/temenos/refs/heads/main/openapi/temenos-wealth-openapi.yml
 - filename: temenos-enterprise-product-pricing-openapi.yml
   format: yaml
   label: Temenos Enterprise Product and Pricing API
-  slug: ''
+  slug: temenos-enterprise-product-and-pricing-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/temenos/refs/heads/main/openapi/temenos-enterprise-product-pricing-openapi.yml
 - filename: temenos-cloud-banking-openapi.yml
   format: yaml
   label: Temenos Cloud Banking (CMB) API
-  slug: ''
+  slug: temenos-cloud-banking-cmb-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/temenos/refs/heads/main/openapi/temenos-cloud-banking-openapi.yml
 - filename: temenos-journey-manager-openapi.yml
   format: yaml
   label: Temenos Journey Manager API
-  slug: ''
+  slug: temenos-journey-manager-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/temenos/refs/heads/main/openapi/temenos-journey-manager-openapi.yml
 - filename: temenos-microservices-openapi.yml
   format: yaml
   label: Temenos Transact Microservices API
-  slug: ''
+  slug: temenos-transact-microservices-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/temenos/refs/heads/main/openapi/temenos-microservices-openapi.yml
 - filename: temenos-bnpl-openapi.yml
   format: yaml
   label: Temenos Buy Now Pay Later API
-  slug: ''
+  slug: temenos-buy-now-pay-later-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/temenos/refs/heads/main/openapi/temenos-bnpl-openapi.yml
 categories:

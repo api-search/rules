@@ -3,7 +3,7 @@ api_specs:
 - filename: amazon-transcribe-openapi.yml
   format: yaml
   label: Amazon Transcribe REST API
-  slug: ''
+  slug: amazon-transcribe-rest-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-transcribe/refs/heads/main/openapi/amazon-transcribe-openapi.yml
 categories:

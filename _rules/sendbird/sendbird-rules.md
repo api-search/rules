@@ -3,7 +3,7 @@ api_specs:
 - filename: sendbird-platform-openapi.yml
   format: yaml
   label: Sendbird Platform API
-  slug: ''
+  slug: sendbird-platform-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sendbird/refs/heads/main/openapi/sendbird-platform-openapi.yml
 categories:

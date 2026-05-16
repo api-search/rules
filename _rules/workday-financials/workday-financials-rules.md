@@ -3,43 +3,43 @@ api_specs:
 - filename: Financial_Management.json
   format: json
   label: Workday Financial Management API
-  slug: ''
+  slug: workday-financial-management-api
   spec_type: OpenAPI
   url: https://community.workday.com/sites/default/files/file-hosting/productionapi/Financial_Management/v38.2/Financial_Management.json
 - filename: Revenue_Management.json
   format: json
   label: Workday Revenue Management API
-  slug: ''
+  slug: workday-revenue-management-api
   spec_type: OpenAPI
   url: https://community.workday.com/sites/default/files/file-hosting/productionapi/Revenue_Management/v38.2/Revenue_Management.json
 - filename: Expenses.json
   format: json
   label: Workday Expenses API
-  slug: ''
+  slug: workday-expenses-api
   spec_type: OpenAPI
   url: https://community.workday.com/sites/default/files/file-hosting/productionapi/Expenses/v38.2/Expenses.json
 - filename: Resource_Management.json
   format: json
   label: Workday Procurement API
-  slug: ''
+  slug: workday-procurement-api
   spec_type: OpenAPI
   url: https://community.workday.com/sites/default/files/file-hosting/productionapi/Resource_Management/v38.2/Resource_Management.json
 - filename: Cash_Management.json
   format: json
   label: Workday Cash Management API
-  slug: ''
+  slug: workday-cash-management-api
   spec_type: OpenAPI
   url: https://community.workday.com/sites/default/files/file-hosting/productionapi/Cash_Management/v38.2/Cash_Management.json
 - filename: Financial_Management.json
   format: json
   label: Workday Financial Accounting API
-  slug: ''
+  slug: workday-financial-accounting-api
   spec_type: OpenAPI
   url: https://community.workday.com/sites/default/files/file-hosting/productionapi/Financial_Management/v38.2/Financial_Management.json
 - filename: Report_as_a_Service.json
   format: json
   label: Workday Reporting API
-  slug: ''
+  slug: workday-reporting-api
   spec_type: OpenAPI
   url: https://community.workday.com/sites/default/files/file-hosting/productionapi/Report_as_a_Service/v38.2/Report_as_a_Service.json
 categories:

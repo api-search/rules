@@ -3,25 +3,25 @@ api_specs:
 - filename: microsoft-planner-openapi.yml
   format: yaml
   label: Microsoft Planner API
-  slug: ''
+  slug: microsoft-planner-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/microsoft-planner/refs/heads/main/openapi/microsoft-planner-openapi.yml
 - filename: microsoft-planner-openapi.yml
   format: yaml
   label: Microsoft Graph Plans API
-  slug: ''
+  slug: microsoft-graph-plans-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/microsoft-planner/refs/heads/main/openapi/microsoft-planner-openapi.yml
 - filename: microsoft-planner-openapi.yml
   format: yaml
   label: Microsoft Graph Tasks API
-  slug: ''
+  slug: microsoft-graph-tasks-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/microsoft-planner/refs/heads/main/openapi/microsoft-planner-openapi.yml
 - filename: microsoft-planner-openapi.yml
   format: yaml
   label: Microsoft Graph Buckets API
-  slug: ''
+  slug: microsoft-graph-buckets-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/microsoft-planner/refs/heads/main/openapi/microsoft-planner-openapi.yml
 categories:

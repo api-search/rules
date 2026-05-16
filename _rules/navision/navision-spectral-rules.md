@@ -3,31 +3,31 @@ api_specs:
 - filename: nav-webservices.yaml
   format: yaml
   label: Dynamics NAV Web Services API
-  slug: ''
+  slug: dynamics-nav-web-services-api
   spec_type: OpenAPI
   url: https://example.com/openapi/nav-webservices.yaml
 - filename: nav-odata.yaml
   format: yaml
   label: Dynamics NAV OData API
-  slug: ''
+  slug: dynamics-nav-odata-api
   spec_type: OpenAPI
   url: https://example.com/openapi/nav-odata.yaml
 - filename: business-central-api-v2.yml
   format: yaml
   label: Business Central API v2.0
-  slug: ''
+  slug: business-central-api-v20
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/navision/refs/heads/main/openapi/business-central-api-v2.yml
 - filename: admin-center-api.yml
   format: yaml
   label: Business Central Administration Center API
-  slug: ''
+  slug: business-central-administration-center-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/navision/refs/heads/main/openapi/admin-center-api.yml
 - filename: automation-api.yml
   format: yaml
   label: Business Central Automation API
-  slug: ''
+  slug: business-central-automation-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/navision/refs/heads/main/openapi/automation-api.yml
 categories:

@@ -3,13 +3,13 @@ api_specs:
 - filename: cloudformation-api.yml
   format: yaml
   label: AWS CloudFormation API
-  slug: ''
+  slug: aws-cloudformation-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cloudformation/refs/heads/main/openapi/cloudformation-api.yml
 - filename: cloud-control-api.yml
   format: yaml
   label: AWS Cloud Control API
-  slug: ''
+  slug: aws-cloud-control-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/cloudformation/refs/heads/main/openapi/cloud-control-api.yml
 categories:

@@ -3,7 +3,7 @@ api_specs:
 - filename: app-store-connect-openapi-specification.zip
   format: yaml
   label: App Store Connect API
-  slug: ''
+  slug: app-store-connect-api
   spec_type: OpenAPI
   url: https://developer.apple.com/sample-code/app-store-connect/app-store-connect-openapi-specification.zip
 categories:

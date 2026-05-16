@@ -3,7 +3,7 @@ api_specs:
 - filename: simscale-openapi.yml
   format: yaml
   label: SimScale REST API
-  slug: ''
+  slug: simscale-rest-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/simscale/refs/heads/main/openapi/simscale-openapi.yml
 categories:

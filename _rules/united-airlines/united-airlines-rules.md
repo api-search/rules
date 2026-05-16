@@ -3,7 +3,7 @@ api_specs:
 - filename: united-airlines-ndc-openapi.yml
   format: yaml
   label: United Airlines NDC API
-  slug: ''
+  slug: united-airlines-ndc-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/united-airlines/main/openapi/united-airlines-ndc-openapi.yml
 categories:

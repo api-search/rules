@@ -3,7 +3,7 @@ api_specs:
 - filename: sendoso-api-openapi.yml
   format: yaml
   label: Sendoso Sending Platform API
-  slug: ''
+  slug: sendoso-sending-platform-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sendoso/main/openapi/sendoso-api-openapi.yml
 categories:

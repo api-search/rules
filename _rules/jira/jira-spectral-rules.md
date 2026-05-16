@@ -3,19 +3,19 @@ api_specs:
 - filename: swagger-v3.v3.json
   format: json
   label: Jira Cloud Platform REST API
-  slug: ''
+  slug: jira-cloud-platform-rest-api
   spec_type: OpenAPI
   url: https://dac-static.atlassian.com/cloud/jira/platform/swagger-v3.v3.json
 - filename: swagger.v3.json
   format: json
   label: Jira Software Cloud REST API
-  slug: ''
+  slug: jira-software-cloud-rest-api
   spec_type: OpenAPI
   url: https://dac-static.atlassian.com/cloud/jira/software/swagger.v3.json
 - filename: swagger.v3.json
   format: json
   label: Jira Service Management REST API
-  slug: ''
+  slug: jira-service-management-rest-api
   spec_type: OpenAPI
   url: https://dac-static.atlassian.com/cloud/jira/service-desk/swagger.v3.json
 categories:

@@ -3,31 +3,31 @@ api_specs:
 - filename: overview
   format: yaml
   label: Commerce Web Services API
-  slug: ''
+  slug: commerce-web-services-api
   spec_type: OpenAPI
   url: https://api.sap.com/api/commerce_web_services/overview
 - filename: sap-commerce-cloud-assisted-service-openapi.yml
   format: yaml
   label: Assisted Service Module API
-  slug: ''
+  slug: assisted-service-module-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sap-commerce-cloud/refs/heads/main/openapi/sap-commerce-cloud-assisted-service-openapi.yml
 - filename: sap-commerce-cloud-integration-openapi.yml
   format: yaml
   label: Integration API
-  slug: ''
+  slug: integration-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sap-commerce-cloud/refs/heads/main/openapi/sap-commerce-cloud-integration-openapi.yml
 - filename: sap-commerce-cloud-admin-openapi.yml
   format: yaml
   label: Admin API
-  slug: ''
+  slug: admin-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sap-commerce-cloud/refs/heads/main/openapi/sap-commerce-cloud-admin-openapi.yml
 - filename: sap-commerce-cloud-product-content-management-openapi.yml
   format: yaml
   label: Product Content Management API
-  slug: ''
+  slug: product-content-management-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sap-commerce-cloud/refs/heads/main/openapi/sap-commerce-cloud-product-content-management-openapi.yml
 categories:

@@ -3,19 +3,19 @@ api_specs:
 - filename: scansource-product-openapi.yml
   format: yaml
   label: ScanSource Product API
-  slug: ''
+  slug: scansource-product-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/scansource/refs/heads/main/openapi/scansource-product-openapi.yml
 - filename: scansource-sales-order-openapi.yml
   format: yaml
   label: ScanSource Sales Order API
-  slug: ''
+  slug: scansource-sales-order-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/scansource/refs/heads/main/openapi/scansource-sales-order-openapi.yml
 - filename: scansource-invoice-openapi.yml
   format: yaml
   label: ScanSource Invoice API
-  slug: ''
+  slug: scansource-invoice-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/scansource/refs/heads/main/openapi/scansource-invoice-openapi.yml
 categories:

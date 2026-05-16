@@ -3,7 +3,7 @@ api_specs:
 - filename: adobe-premiere-creative-cloud-libraries-openapi.yml
   format: yaml
   label: Adobe Creative Cloud Libraries API
-  slug: ''
+  slug: adobe-creative-cloud-libraries-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/adobe-premiere/refs/heads/main/openapi/adobe-premiere-creative-cloud-libraries-openapi.yml
 categories:

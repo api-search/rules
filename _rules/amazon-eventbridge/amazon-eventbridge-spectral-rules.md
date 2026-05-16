@@ -3,7 +3,7 @@ api_specs:
 - filename: amazon-eventbridge-openapi.yml
   format: yaml
   label: Amazon EventBridge API
-  slug: ''
+  slug: amazon-eventbridge-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-eventbridge/refs/heads/main/openapi/amazon-eventbridge-openapi.yml
 categories:

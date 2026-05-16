@@ -3,7 +3,7 @@ api_specs:
 - filename: iis-administration-api.yml
   format: yaml
   label: IIS Administration API
-  slug: ''
+  slug: iis-administration-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/microsoft-windows-server/refs/heads/main/openapi/iis-administration-api.yml
 categories:

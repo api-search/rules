@@ -3,7 +3,7 @@ api_specs:
 - filename: Welcome.html
   format: yaml
   label: AWS Organizations API
-  slug: ''
+  slug: aws-organizations-api
   spec_type: OpenAPI
   url: https://docs.aws.amazon.com/organizations/latest/APIReference/Welcome.html
 categories:

@@ -3,19 +3,19 @@ api_specs:
 - filename: workday-tracking-system-time-tracking-openapi.yml
   format: yaml
   label: Workday Time Tracking API
-  slug: ''
+  slug: workday-time-tracking-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/workday-tracking-system/refs/heads/main/openapi/workday-tracking-system-time-tracking-openapi.yml
 - filename: workday-tracking-system-absence-management-openapi.yml
   format: yaml
   label: Workday Absence Management API
-  slug: ''
+  slug: workday-absence-management-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/workday-tracking-system/refs/heads/main/openapi/workday-tracking-system-absence-management-openapi.yml
 - filename: workday-tracking-system-scheduling-openapi.yml
   format: yaml
   label: Workday Scheduling API
-  slug: ''
+  slug: workday-scheduling-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/workday-tracking-system/refs/heads/main/openapi/workday-tracking-system-scheduling-openapi.yml
 categories:

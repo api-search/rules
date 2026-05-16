@@ -3,7 +3,7 @@ api_specs:
 - filename: openapi.yaml
   format: yaml
   label: Amazon KMS API
-  slug: ''
+  slug: amazon-kms-api
   spec_type: OpenAPI
   url: https://api.apis.guru/v2/specs/amazonaws.com/kms/2014-11-01/openapi.yaml
 categories:

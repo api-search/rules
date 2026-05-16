@@ -3,13 +3,13 @@ api_specs:
 - filename: amazon-q-business.json
   format: json
   label: Amazon Q Business API
-  slug: ''
+  slug: amazon-q-business-api
   spec_type: OpenAPI
   url: https://example.com/openapi/amazon-q-business.json
 - filename: amazon-q-developer.json
   format: json
   label: Amazon Q Developer API
-  slug: ''
+  slug: amazon-q-developer-api
   spec_type: OpenAPI
   url: https://example.com/openapi/amazon-q-developer.json
 categories:

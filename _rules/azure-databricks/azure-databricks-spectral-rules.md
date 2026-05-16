@@ -3,25 +3,25 @@ api_specs:
 - filename: azure-databricks-openapi.yml
   format: yaml
   label: Azure Databricks REST API
-  slug: ''
+  slug: azure-databricks-rest-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/azure-databricks/refs/heads/main/openapi/azure-databricks-openapi.yml
 - filename: azure-databricks-openapi.yml
   format: yaml
   label: Clusters API
-  slug: ''
+  slug: clusters-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/azure-databricks/refs/heads/main/openapi/azure-databricks-openapi.yml
 - filename: azure-databricks-openapi.yml
   format: yaml
   label: Jobs API
-  slug: ''
+  slug: jobs-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/azure-databricks/refs/heads/main/openapi/azure-databricks-openapi.yml
 - filename: azure-databricks-openapi.yml
   format: yaml
   label: Workspace API
-  slug: ''
+  slug: workspace-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/azure-databricks/refs/heads/main/openapi/azure-databricks-openapi.yml
 categories:

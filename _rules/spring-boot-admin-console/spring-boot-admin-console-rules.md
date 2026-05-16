@@ -3,7 +3,7 @@ api_specs:
 - filename: spring-boot-admin-console-openapi.yml
   format: yaml
   label: Spring Boot Admin Server API
-  slug: ''
+  slug: spring-boot-admin-server-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/spring-boot-admin-console/refs/heads/main/openapi/spring-boot-admin-console-openapi.yml
 categories:

@@ -3,7 +3,7 @@ api_specs:
 - filename: salesforce-flow-rest-api-openapi.yml
   format: yaml
   label: Salesforce Flow REST API
-  slug: ''
+  slug: salesforce-flow-rest-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/salesforce-flow/refs/heads/main/openapi/salesforce-flow-rest-api-openapi.yml
 categories:

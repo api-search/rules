@@ -3,7 +3,7 @@ api_specs:
 - filename: spring-batch-openapi.yml
   format: yaml
   label: Spring Batch Core API
-  slug: ''
+  slug: spring-batch-core-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/spring-batch/refs/heads/main/openapi/spring-batch-openapi.yml
 categories:

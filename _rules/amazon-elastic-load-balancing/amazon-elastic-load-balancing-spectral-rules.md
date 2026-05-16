@@ -3,7 +3,7 @@ api_specs:
 - filename: amazon-elastic-load-balancing-openapi.yml
   format: yaml
   label: Elastic Load Balancing v2 API
-  slug: ''
+  slug: elastic-load-balancing-v2-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-elastic-load-balancing/refs/heads/main/openapi/amazon-elastic-load-balancing-openapi.yml
 categories:

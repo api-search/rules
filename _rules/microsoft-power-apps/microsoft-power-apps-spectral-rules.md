@@ -3,13 +3,13 @@ api_specs:
 - filename: openapi.yaml
   format: yaml
   label: Power Apps API
-  slug: ''
+  slug: power-apps-api
   spec_type: OpenAPI
   url: https://docs.microsoft.com/en-us/connectors/powerappsforappmakers/
 - filename: openapi
   format: yaml
   label: Dataverse API (Common Data Service)
-  slug: ''
+  slug: dataverse-api-common-data-service
   spec_type: OpenAPI
   url: https://docs.microsoft.com/en-us/power-apps/developer/data-platform/webapi/openapi
 categories:

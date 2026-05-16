@@ -3,79 +3,79 @@ api_specs:
 - filename: openapi.yaml
   format: yaml
   label: ChatGPT API
-  slug: ''
+  slug: chatgpt-api
   spec_type: OpenAPI
   url: https://github.com/openai/openai-openapi/blob/master/openapi.yaml
 - filename: openapi.yaml
   format: yaml
   label: OpenAI Responses API
-  slug: ''
+  slug: openai-responses-api
   spec_type: OpenAPI
   url: https://github.com/openai/openai-openapi/blob/master/openapi.yaml
 - filename: openapi.yaml
   format: yaml
   label: OpenAI Embeddings API
-  slug: ''
+  slug: openai-embeddings-api
   spec_type: OpenAPI
   url: https://github.com/openai/openai-openapi/blob/master/openapi.yaml
 - filename: openapi.yaml
   format: yaml
   label: OpenAI Images API
-  slug: ''
+  slug: openai-images-api
   spec_type: OpenAPI
   url: https://github.com/openai/openai-openapi/blob/master/openapi.yaml
 - filename: openapi.yaml
   format: yaml
   label: OpenAI Audio API
-  slug: ''
+  slug: openai-audio-api
   spec_type: OpenAPI
   url: https://github.com/openai/openai-openapi/blob/master/openapi.yaml
 - filename: openapi.yaml
   format: yaml
   label: OpenAI Moderations API
-  slug: ''
+  slug: openai-moderations-api
   spec_type: OpenAPI
   url: https://github.com/openai/openai-openapi/blob/master/openapi.yaml
 - filename: openapi.yaml
   format: yaml
   label: OpenAI Fine-Tuning API
-  slug: ''
+  slug: openai-fine-tuning-api
   spec_type: OpenAPI
   url: https://github.com/openai/openai-openapi/blob/master/openapi.yaml
 - filename: openapi.yaml
   format: yaml
   label: OpenAI Files API
-  slug: ''
+  slug: openai-files-api
   spec_type: OpenAPI
   url: https://github.com/openai/openai-openapi/blob/master/openapi.yaml
 - filename: openapi.yaml
   format: yaml
   label: OpenAI Batch API
-  slug: ''
+  slug: openai-batch-api
   spec_type: OpenAPI
   url: https://github.com/openai/openai-openapi/blob/master/openapi.yaml
 - filename: openapi.yaml
   format: yaml
   label: OpenAI Uploads API
-  slug: ''
+  slug: openai-uploads-api
   spec_type: OpenAPI
   url: https://github.com/openai/openai-openapi/blob/master/openapi.yaml
 - filename: openapi.yaml
   format: yaml
   label: OpenAI Vector Stores API
-  slug: ''
+  slug: openai-vector-stores-api
   spec_type: OpenAPI
   url: https://github.com/openai/openai-openapi/blob/master/openapi.yaml
 - filename: openapi.yaml
   format: yaml
   label: OpenAI Realtime API
-  slug: ''
+  slug: openai-realtime-api
   spec_type: OpenAPI
   url: https://github.com/openai/openai-openapi/blob/master/openapi.yaml
 - filename: openapi.yaml
   format: yaml
   label: OpenAI Models API
-  slug: ''
+  slug: openai-models-api
   spec_type: OpenAPI
   url: https://github.com/openai/openai-openapi/blob/master/openapi.yaml
 categories:

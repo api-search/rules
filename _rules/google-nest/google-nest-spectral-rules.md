@@ -3,7 +3,7 @@ api_specs:
 - filename: openapi.yml
   format: yaml
   label: Google Nest Smart Device Management API
-  slug: ''
+  slug: google-nest-smart-device-management-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/google-nest/refs/heads/main/openapi/openapi.yml
 categories:

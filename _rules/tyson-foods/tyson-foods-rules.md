@@ -3,7 +3,7 @@ api_specs:
 - filename: tyson-foods-edi-integration-api-openapi.yml
   format: yaml
   label: Tyson Foods EDI Integration API
-  slug: ''
+  slug: tyson-foods-edi-integration-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/tyson-foods/refs/heads/main/openapi/tyson-foods-edi-integration-api-openapi.yml
 categories:

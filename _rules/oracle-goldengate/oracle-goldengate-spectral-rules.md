@@ -3,37 +3,37 @@ api_specs:
 - filename: oracle-goldengate-rest-api-openapi.yml
   format: yaml
   label: Oracle GoldenGate REST API
-  slug: ''
+  slug: oracle-goldengate-rest-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/oracle-goldengate/refs/heads/main/openapi/oracle-goldengate-rest-api-openapi.yml
 - filename: oracle-goldengate-big-data-rest-api-openapi.yml
   format: yaml
   label: Oracle GoldenGate for Big Data REST API
-  slug: ''
+  slug: oracle-goldengate-for-big-data-rest-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/oracle-goldengate/refs/heads/main/openapi/oracle-goldengate-big-data-rest-api-openapi.yml
 - filename: oracle-goldengate-veridata-rest-api-openapi.yml
   format: yaml
   label: Oracle GoldenGate Veridata REST API
-  slug: ''
+  slug: oracle-goldengate-veridata-rest-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/oracle-goldengate/refs/heads/main/openapi/oracle-goldengate-veridata-rest-api-openapi.yml
 - filename: oracle-goldengate-cloud-service-api-openapi.yml
   format: yaml
   label: Oracle GoldenGate Cloud Service API
-  slug: ''
+  slug: oracle-goldengate-cloud-service-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/oracle-goldengate/refs/heads/main/openapi/oracle-goldengate-cloud-service-api-openapi.yml
 - filename: oracle-goldengate-stream-analytics-rest-api-openapi.yml
   format: yaml
   label: Oracle GoldenGate Stream Analytics REST API
-  slug: ''
+  slug: oracle-goldengate-stream-analytics-rest-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/oracle-goldengate/refs/heads/main/openapi/oracle-goldengate-stream-analytics-rest-api-openapi.yml
 - filename: oracle-goldengate-data-streams-rest-api-openapi.yml
   format: yaml
   label: Oracle GoldenGate Data Streams REST API
-  slug: ''
+  slug: oracle-goldengate-data-streams-rest-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/oracle-goldengate/refs/heads/main/openapi/oracle-goldengate-data-streams-rest-api-openapi.yml
 categories:

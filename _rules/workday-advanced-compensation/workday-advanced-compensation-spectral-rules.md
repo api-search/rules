@@ -3,7 +3,7 @@ api_specs:
 - filename: Compensation.yaml
   format: yaml
   label: Workday Advanced Compensation API
-  slug: ''
+  slug: workday-advanced-compensation-api
   spec_type: OpenAPI
   url: https://community.workday.com/sites/default/files/file-hosting/productionapi/Compensation/v41.1/Compensation.yaml
 categories:

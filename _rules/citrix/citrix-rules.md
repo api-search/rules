@@ -3,43 +3,43 @@ api_specs:
 - filename: openapi
   format: yaml
   label: Citrix Virtual Apps and Desktops REST API
-  slug: ''
+  slug: citrix-virtual-apps-and-desktops-rest-api
   spec_type: OpenAPI
   url: https://developer.citrix.com/citrix-virtual-apps-and-desktops/citrix-cvad-rest-apis/docs/openapi
 - filename: citrix-adc-nitro-openapi.yml
   format: yaml
   label: Citrix ADC (NetScaler) NITRO API
-  slug: ''
+  slug: citrix-adc-netscaler-nitro-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/citrix/refs/heads/main/openapi/citrix-adc-nitro-openapi.yml
 - filename: openapi
   format: yaml
   label: Citrix DaaS REST API
-  slug: ''
+  slug: citrix-daas-rest-api
   spec_type: OpenAPI
   url: https://developer.citrix.com/citrix-daas/citrix-daas-rest-apis/docs/openapi
 - filename: citrix-cloud-openapi.yml
   format: yaml
   label: Citrix Cloud API
-  slug: ''
+  slug: citrix-cloud-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/citrix/refs/heads/main/openapi/citrix-cloud-openapi.yml
 - filename: citrix-storefront-web-openapi.yml
   format: yaml
   label: Citrix StoreFront Web API
-  slug: ''
+  slug: citrix-storefront-web-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/citrix/refs/heads/main/openapi/citrix-storefront-web-openapi.yml
 - filename: citrix-endpoint-management-openapi.yml
   format: yaml
   label: Citrix Endpoint Management REST API
-  slug: ''
+  slug: citrix-endpoint-management-rest-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/citrix/refs/heads/main/openapi/citrix-endpoint-management-openapi.yml
 - filename: citrix-secure-private-access-openapi.yml
   format: yaml
   label: Citrix Secure Private Access API
-  slug: ''
+  slug: citrix-secure-private-access-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/citrix/refs/heads/main/openapi/citrix-secure-private-access-openapi.yml
 categories:

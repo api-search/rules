@@ -3,7 +3,7 @@ api_specs:
 - filename: API_Reference.html
   format: yaml
   label: Amazon Personalize API
-  slug: ''
+  slug: amazon-personalize-api
   spec_type: OpenAPI
   url: https://docs.aws.amazon.com/personalize/latest/dg/API_Reference.html
 categories:

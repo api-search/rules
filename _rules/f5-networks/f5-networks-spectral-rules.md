@@ -3,13 +3,13 @@ api_specs:
 - filename: bigip-icontrol-rest.yml
   format: yaml
   label: F5 BIG-IP iControl REST API
-  slug: ''
+  slug: f5-big-ip-icontrol-rest-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/f5-networks/refs/heads/main/openapi/bigip-icontrol-rest.yml
 - filename: swagger
   format: yaml
   label: F5 Distributed Cloud API
-  slug: ''
+  slug: f5-distributed-cloud-api
   spec_type: OpenAPI
   url: https://docs.cloud.f5.com/docs/api/swagger
 categories:

@@ -3,19 +3,19 @@ api_specs:
 - filename: openapi.json
   format: json
   label: Workday REST API
-  slug: ''
+  slug: workday-rest-api
   spec_type: OpenAPI
   url: https://community.workday.com/sites/default/files/file-hosting/restapi/openapi.json
 - filename: workday-integrations-raas-openapi.yml
   format: yaml
   label: Workday RaaS (Report-as-a-Service)
-  slug: ''
+  slug: workday-raas-report-as-a-service
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/workday-integrations/refs/heads/main/openapi/workday-integrations-raas-openapi.yml
 - filename: workday-integrations-prism-analytics-openapi.yml
   format: yaml
   label: Workday Prism Analytics API
-  slug: ''
+  slug: workday-prism-analytics-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/workday-integrations/refs/heads/main/openapi/workday-integrations-prism-analytics-openapi.yml
 categories:

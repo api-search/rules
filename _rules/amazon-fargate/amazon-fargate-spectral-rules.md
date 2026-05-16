@@ -3,7 +3,7 @@ api_specs:
 - filename: amazon-fargate-openapi.yml
   format: yaml
   label: Amazon Fargate API
-  slug: ''
+  slug: amazon-fargate-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/amazon-fargate/refs/heads/main/openapi/amazon-fargate-openapi.yml
 categories:

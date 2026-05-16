@@ -3,7 +3,7 @@ api_specs:
 - filename: google-tag-manager-api-v2-openapi.yml
   format: yaml
   label: Google Tag Manager API
-  slug: ''
+  slug: google-tag-manager-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/google-tag-manager/refs/heads/main/openapi/google-tag-manager-api-v2-openapi.yml
 categories:

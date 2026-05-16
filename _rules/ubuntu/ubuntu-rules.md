@@ -3,19 +3,19 @@ api_specs:
 - filename: ubuntu-launchpad-openapi.yml
   format: yaml
   label: Launchpad API
-  slug: ''
+  slug: launchpad-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ubuntu/refs/heads/main/openapi/ubuntu-launchpad-openapi.yml
 - filename: ubuntu-snap-store-openapi.yml
   format: yaml
   label: Snap Store API
-  slug: ''
+  slug: snap-store-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ubuntu/refs/heads/main/openapi/ubuntu-snap-store-openapi.yml
 - filename: ubuntu-cve-openapi.yml
   format: yaml
   label: Ubuntu CVE API
-  slug: ''
+  slug: ubuntu-cve-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/ubuntu/refs/heads/main/openapi/ubuntu-cve-openapi.yml
 categories:

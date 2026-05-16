@@ -3,13 +3,13 @@ api_specs:
 - filename: sybase-ase-rest-api-openapi.yml
   format: yaml
   label: Sybase ASE REST API
-  slug: ''
+  slug: sybase-ase-rest-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/sybase/refs/heads/main/openapi/sybase-ase-rest-api-openapi.yml
 - filename: openapi.json
   format: json
   label: Sybase IQ REST API
-  slug: ''
+  slug: sybase-iq-rest-api
   spec_type: OpenAPI
   url: https://api.sybase.example.com/iq/v1/openapi.json
 categories:

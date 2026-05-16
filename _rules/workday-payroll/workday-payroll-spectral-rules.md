@@ -3,25 +3,25 @@ api_specs:
 - filename: workday-payroll-payroll-openapi.yml
   format: yaml
   label: Workday Payroll API
-  slug: ''
+  slug: workday-payroll-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/workday-payroll/refs/heads/main/openapi/workday-payroll-payroll-openapi.yml
 - filename: workday-payroll-payroll-results-openapi.yml
   format: yaml
   label: Workday Payroll Results API
-  slug: ''
+  slug: workday-payroll-results-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/workday-payroll/refs/heads/main/openapi/workday-payroll-payroll-results-openapi.yml
 - filename: workday-payroll-payroll-input-openapi.yml
   format: yaml
   label: Workday Payroll Input API
-  slug: ''
+  slug: workday-payroll-input-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/workday-payroll/refs/heads/main/openapi/workday-payroll-payroll-input-openapi.yml
 - filename: workday-payroll-tax-openapi.yml
   format: yaml
   label: Workday Tax API
-  slug: ''
+  slug: workday-tax-api
   spec_type: OpenAPI
   url: https://raw.githubusercontent.com/api-evangelist/workday-payroll/refs/heads/main/openapi/workday-payroll-tax-openapi.yml
 categories:
